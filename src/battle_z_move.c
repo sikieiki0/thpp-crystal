@@ -209,13 +209,13 @@ void AssignUsableZMoves(u32 battler, u16 *moves)
     for (i = 0; i < MAX_MON_MOVES; i++)
     {
         if (moves[i] != MOVE_NONE && IsViableZMove(battler, moves[i]))
-            gBattleStruct->zmove.possibleZMoves[battler] |= gBitTable[i];
+            gBattleStruct->zmove.possibleZMoves[battler] |= 1u << i;
     }
 }
 
 bool32 TryChangeZTrigger(u32 battler, u32 moveIndex)
 {
-    bool32 viableZMove = (gBattleStruct->zmove.possibleZMoves[battler] & gBitTable[moveIndex]) != 0;
+    bool32 viableZMove = (gBattleStruct->zmove.possibleZMoves[battler] & (1u << moveIndex)) != 0;
 
     if (gBattleStruct->zmove.viable && !viableZMove)
         HideGimmickTriggerSprite();   // Was a viable z move, now is not -> slide out
@@ -415,9 +415,7 @@ static void ZMoveSelectionDisplayPpNumber(u32 battler)
 static void ZMoveSelectionDisplayMoveType(u16 zMove, u32 battler)
 {
     u8 *txtPtr, *end;
-    u8 zMoveType;
-
-    GET_MOVE_TYPE(zMove, zMoveType);
+    u32 zMoveType = GetMoveType(zMove);
 
     txtPtr = StringCopy(gDisplayedStringBattle, gText_MoveInterfaceType);
     *(txtPtr)++ = EXT_CTRL_CODE_BEGIN;

@@ -42,7 +42,7 @@
 // Used to exclude moves learned temporarily by Transform or Mimic
 #define MOVE_IS_PERMANENT(battler, moveSlot)                        \
    (!(gBattleMons[battler].status2 & STATUS2_TRANSFORMED)           \
- && !(gDisableStructs[battler].mimickedMoves & gBitTable[moveSlot]))
+ && !(gDisableStructs[battler].mimickedMoves & (1u << moveSlot)))
 
 // Battle Actions
 // These determine what each battler will do in a turn
@@ -600,12 +600,34 @@ struct LostItem
     u16 stolen:1;
 };
 
-#if HQ_RANDOM == TRUE
 struct BattleVideo {
     u32 battleTypeFlags;
     rng_value_t rngSeed;
 };
-#endif
+
+enum BattleIntroStates
+{
+    BATTLE_INTRO_STATE_GET_MON_DATA,
+    BATTLE_INTRO_STATE_LOOP_BATTLER_DATA,
+    BATTLE_INTRO_STATE_PREPARE_BG_SLIDE,
+    BATTLE_INTRO_STATE_WAIT_FOR_BG_SLIDE,
+    BATTLE_INTRO_STATE_DRAW_SPRITES,
+    BATTLE_INTRO_STATE_DRAW_PARTY_SUMMARY,
+    BATTLE_INTRO_STATE_WAIT_FOR_PARTY_SUMMARY,
+    BATTLE_INTRO_STATE_INTRO_TEXT,
+    BATTLE_INTRO_STATE_WAIT_FOR_INTRO_TEXT,
+    BATTLE_INTRO_STATE_TRAINER_SEND_OUT_TEXT,
+    BATTLE_INTRO_STATE_WAIT_FOR_TRAINER_SEND_OUT_TEXT,
+    BATTLE_INTRO_STATE_TRAINER_1_SEND_OUT_ANIM,
+    BATTLE_INTRO_STATE_TRAINER_2_SEND_OUT_ANIM,
+    BATTLE_INTRO_STATE_WAIT_FOR_TRAINER_2_SEND_OUT_ANIM,
+    BATTLE_INTRO_STATE_WAIT_FOR_WILD_BATTLE_TEXT,
+    BATTLE_INTRO_STATE_PRINT_PLAYER_SEND_OUT_TEXT,
+    BATTLE_INTRO_STATE_WAIT_FOR_PLAYER_SEND_OUT_TEXT,
+    BATTLE_INTRO_STATE_PRINT_PLAYER_1_SEND_OUT_TEXT,
+    BATTLE_INTRO_STATE_PRINT_PLAYER_2_SEND_OUT_TEXT,
+    BATTLE_INTRO_STATE_SET_DEX_AND_BATTLE_VARS
+};
 
 struct BattleStruct
 {
@@ -683,12 +705,7 @@ struct BattleStruct
     u16 lastTakenMoveFrom[MAX_BATTLERS_COUNT][MAX_BATTLERS_COUNT]; // a 2-D array [target][attacker]
     union {
         struct LinkBattlerHeader linkBattlerHeader;
-
-        #if HQ_RANDOM == FALSE
-        u32 battleVideo[2];
-        #else
         struct BattleVideo battleVideo;
-        #endif
     } multiBuffer;
     u8 wishPerishSongState;
     u8 wishPerishSongBattlerId;
@@ -726,7 +743,7 @@ struct BattleStruct
     struct BattleGimmickData gimmick;
     const u8 *trainerSlideMsg;
     bool8 trainerSlideLowHpMsgDone;
-    u8 introState;
+    enum BattleIntroStates introState:8;
     u8 ateBerry[2]; // array id determined by side, each party pokemon as bit
     u8 stolenStats[NUM_BATTLE_STATS]; // hp byte is used for which stats to raise, other inform about by how many stages
     u8 lastMoveFailed; // as bits for each battler, for the sake of Stomping Tantrum
@@ -813,13 +830,6 @@ STATIC_ASSERT(sizeof(((struct BattleStruct *)0)->palaceFlags) * 8 >= MAX_BATTLER
 #define F_DYNAMIC_TYPE_IGNORE_PHYSICALITY  (1 << 6) // If set, the dynamic type's physicality won't be used for certain move effects.
 #define F_DYNAMIC_TYPE_SET                 (1 << 7) // Set for all dynamic types to distinguish a dynamic type of Normal (0) from no dynamic type.
 
-#define GET_MOVE_TYPE(move, typeArg) do {                             \
-    if (gBattleStruct->dynamicMoveType)                               \
-        typeArg = gBattleStruct->dynamicMoveType & DYNAMIC_TYPE_MASK; \
-    else                                                              \
-        typeArg = gMovesInfo[move].type;                              \
-} while(0)
-
 #define IS_MOVE_PHYSICAL(move)(GetBattleMoveCategory(move) == DAMAGE_CATEGORY_PHYSICAL)
 #define IS_MOVE_SPECIAL(move)(GetBattleMoveCategory(move) == DAMAGE_CATEGORY_SPECIAL)
 #define IS_MOVE_STATUS(move)(gMovesInfo[move].category == DAMAGE_CATEGORY_STATUS)
@@ -827,8 +837,8 @@ STATIC_ASSERT(sizeof(((struct BattleStruct *)0)->palaceFlags) * 8 >= MAX_BATTLER
 #define IS_MOVE_RECOIL(move)(gMovesInfo[move].recoil > 0 || gMovesInfo[move].effect == EFFECT_RECOIL_IF_MISS)
 
 #define BATTLER_MAX_HP(battlerId)(gBattleMons[battlerId].hp == gBattleMons[battlerId].maxHP)
-#define TARGET_TURN_DAMAGED ((gSpecialStatuses[gBattlerTarget].physicalDmg != 0 || gSpecialStatuses[gBattlerTarget].specialDmg != 0) || (gBattleStruct->enduredDamage & gBitTable[gBattlerTarget]))
-#define BATTLER_TURN_DAMAGED(battlerId) ((gSpecialStatuses[battlerId].physicalDmg != 0 || gSpecialStatuses[battlerId].specialDmg != 0) || (gBattleStruct->enduredDamage & gBitTable[battler]))
+#define TARGET_TURN_DAMAGED ((gSpecialStatuses[gBattlerTarget].physicalDmg != 0 || gSpecialStatuses[gBattlerTarget].specialDmg != 0) || (gBattleStruct->enduredDamage & (1u << gBattlerTarget)))
+#define BATTLER_TURN_DAMAGED(battlerId) ((gSpecialStatuses[battlerId].physicalDmg != 0 || gSpecialStatuses[battlerId].specialDmg != 0) || (gBattleStruct->enduredDamage & (1u << battler)))
 
 #define IS_BATTLER_OF_TYPE(battlerId, type)((GetBattlerType(battlerId, 0, FALSE) == type || GetBattlerType(battlerId, 1, FALSE) == type || (GetBattlerType(battlerId, 2, FALSE) != TYPE_MYSTERY && GetBattlerType(battlerId, 2, FALSE) == type)))
 #define IS_BATTLER_OF_BASE_TYPE(battlerId, type)((GetBattlerType(battlerId, 0, TRUE) == type || GetBattlerType(battlerId, 1, TRUE) == type || (GetBattlerType(battlerId, 2, TRUE) != TYPE_MYSTERY && GetBattlerType(battlerId, 2, TRUE) == type)))
@@ -1140,6 +1150,13 @@ static inline u32 GetBattlerSide(u32 battler)
     return GetBattlerPosition(battler) & BIT_SIDE;
 }
 
+static inline struct Pokemon* GetBattlerData(u32 battlerId)
+{
+    u32 index = gBattlerPartyIndexes[battlerId];
+
+    return (GetBattlerSide(battlerId) == B_SIDE_OPPONENT) ? &gEnemyParty[index] : &gPlayerParty[index];
+}
+
 static inline struct Pokemon *GetSideParty(u32 side)
 {
     return (side == B_SIDE_PLAYER) ? gPlayerParty : gEnemyParty;
@@ -1148,6 +1165,11 @@ static inline struct Pokemon *GetSideParty(u32 side)
 static inline struct Pokemon *GetBattlerParty(u32 battler)
 {
     return GetSideParty(GetBattlerSide(battler));
+}
+
+static inline bool32 IsDoubleBattle(void)
+{
+    return gBattleTypeFlags & BATTLE_TYPE_DOUBLE;
 }
 
 #endif // GUARD_BATTLE_H

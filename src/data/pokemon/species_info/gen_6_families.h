@@ -876,7 +876,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_FLAME_BODY, ABILITY_NONE, ABILITY_GALE_WINGS },
         .bodyColor = BODY_COLOR_RED,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Flechinder", "Fletchinder"),
+        .speciesName = _("Fletchinder"),
         .cryId = CRY_FLETCHINDER,
         .natDexNum = NATIONAL_DEX_FLETCHINDER,
         .categoryName = _("Ember"),
@@ -5280,6 +5280,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sXerneasLevelUpLearnset,
         .teachableLearnset = sXerneasTeachableLearnset,
         .formSpeciesIdTable = sXerneasFormSpeciesIdTable,
@@ -5340,6 +5341,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sXerneasLevelUpLearnset,
         .teachableLearnset = sXerneasTeachableLearnset,
         .formSpeciesIdTable = sXerneasFormSpeciesIdTable,
@@ -5407,6 +5409,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sYveltalLevelUpLearnset,
         .teachableLearnset = sYveltalTeachableLearnset,
     },
@@ -5468,6 +5471,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZygardeLevelUpLearnset,
         .teachableLearnset = sZygardeTeachableLearnset,
         .formSpeciesIdTable = sZygardeFormSpeciesIdTable,
@@ -5528,6 +5532,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZygardeLevelUpLearnset,
         .teachableLearnset = sZygardeTeachableLearnset,
         .formSpeciesIdTable = sZygardeFormSpeciesIdTable,
@@ -5580,6 +5585,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         FOOTPRINT(Zygarde)
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZygardeLevelUpLearnset,
         .teachableLearnset = sZygardeTeachableLearnset,
         .formSpeciesIdTable = sZygardeFormSpeciesIdTable,
@@ -5633,6 +5639,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         FOOTPRINT(Zygarde)
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZygardeLevelUpLearnset,
         .teachableLearnset = sZygardeTeachableLearnset,
         .formSpeciesIdTable = sZygardeFormSpeciesIdTable,
@@ -5690,6 +5697,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         FOOTPRINT(Zygarde)
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZygardeLevelUpLearnset,
         .teachableLearnset = sZygardeTeachableLearnset,
         .formSpeciesIdTable = sZygardeFormSpeciesIdTable,
@@ -5757,6 +5765,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isMythical = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sDiancieLevelUpLearnset,
         .teachableLearnset = sDiancieTeachableLearnset,
         .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
@@ -5816,6 +5825,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .isMythical = TRUE,
         .isMegaEvolution = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sDiancieLevelUpLearnset,
         .teachableLearnset = sDiancieTeachableLearnset,
         .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
@@ -5884,6 +5894,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isMythical = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sHoopaConfinedLevelUpLearnset,
         .teachableLearnset = sHoopaConfinedTeachableLearnset,
         .formSpeciesIdTable = sHoopaFormSpeciesIdTable,
@@ -5949,6 +5960,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isMythical = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sHoopaUnboundLevelUpLearnset,
         .teachableLearnset = sHoopaUnboundTeachableLearnset,
         .formSpeciesIdTable = sHoopaFormSpeciesIdTable,
@@ -6015,6 +6027,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .isMythical = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sVolcanionLevelUpLearnset,
         .teachableLearnset = sVolcanionTeachableLearnset,
     },

@@ -3328,7 +3328,7 @@ static void AnimSolarBeamSmallOrb(struct Sprite *sprite)
 {
     InitSpritePosToAnimAttacker(sprite, TRUE);
 
-    if ((gBattleTypeFlags & BATTLE_TYPE_DOUBLE) && gAnimMoveIndex == MOVE_CORE_ENFORCER)
+    if (IsDoubleBattle() && gAnimMoveIndex == MOVE_CORE_ENFORCER)
     {
         CoreEnforcerLoadBeamTarget(sprite);
     }

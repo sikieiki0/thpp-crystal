@@ -60,12 +60,6 @@
 #define FLIP    0
 #define NO_FLIP 1
 
-#if POKEMON_NAME_LENGTH >= 12
-#define HANDLE_EXPANDED_SPECIES_NAME(_name, ...) _(DEFAULT(_name, __VA_ARGS__))
-#else
-#define HANDLE_EXPANDED_SPECIES_NAME(_name, ...) _(_name)
-#endif
-
 const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] =
@@ -211,7 +205,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                                 {EVO_ITEM, ITEM_MOOMOO_MILK, SPECIES_NONE}),
         //.formSpeciesIdTable = sNoneFormSpeciesIdTable,
         //.formChangeTable = sNoneFormChangeTable,
-        .allPerfectIVs = TRUE,
+        //.perfectIVCount = NUM_STATS,
     },
     */
 };

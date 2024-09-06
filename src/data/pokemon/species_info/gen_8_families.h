@@ -938,7 +938,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_KEEN_EYE, ABILITY_UNNERVE, ABILITY_BIG_PECKS },
         .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Corvisquir", "Corvisquire"),
+        .speciesName = _("Corvisquire"),
         .cryId = CRY_CORVISQUIRE,
         .natDexNum = NATIONAL_DEX_CORVISQUIRE,
         .categoryName = _("Raven"),
@@ -1000,7 +1000,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_PRESSURE, ABILITY_UNNERVE, ABILITY_MIRROR_ARMOR },
         .bodyColor = BODY_COLOR_PURPLE,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Corviknigh", "Corviknight"),
+        .speciesName = _("Corviknight"),
         .cryId = CRY_CORVIKNIGHT,
         .natDexNum = NATIONAL_DEX_CORVIKNIGHT,
         .categoryName = _("Raven"),
@@ -1063,7 +1063,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_PRESSURE, ABILITY_UNNERVE, ABILITY_MIRROR_ARMOR },
         .bodyColor = BODY_COLOR_PURPLE,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Corviknigh", "Corviknight"),
+        .speciesName = _("Corviknight"),
         .cryId = CRY_CORVIKNIGHT,
         .natDexNum = NATIONAL_DEX_CORVIKNIGHT,
         .categoryName = _("Raven"),
@@ -3133,7 +3133,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .abilities = { ABILITY_SWIFT_SWIM, ABILITY_NONE, ABILITY_PROPELLER_TAIL },
         .bodyColor = BODY_COLOR_BROWN,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Barraskewd", "Barraskewda"),
+        .speciesName = _("Barraskewda"),
         .cryId = CRY_BARRASKEWDA,
         .natDexNum = NATIONAL_DEX_BARRASKEWDA,
         .categoryName = _("Skewer"),
@@ -3558,7 +3558,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
         .abilities = { ABILITY_FLASH_FIRE, ABILITY_WHITE_SMOKE, ABILITY_FLAME_BODY },
         .bodyColor = BODY_COLOR_RED,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Centiskorc", "Centiskorch"),
+        .speciesName = _("Centiskorch"),
         .cryId = CRY_CENTISKORCH,
         .natDexNum = NATIONAL_DEX_CENTISKORCH,
         .categoryName = _("Radiator"),
@@ -3621,7 +3621,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
         .abilities = { ABILITY_FLASH_FIRE, ABILITY_WHITE_SMOKE, ABILITY_FLAME_BODY },
         .bodyColor = BODY_COLOR_RED,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Centiskorc", "Centiskorch"),
+        .speciesName = _("Centiskorch"),
         .cryId = CRY_CENTISKORCH,
         .natDexNum = NATIONAL_DEX_CENTISKORCH,
         .categoryName = _("Radiator"),
@@ -3927,7 +3927,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS),
         .abilities = { ABILITY_WEAK_ARMOR, ABILITY_NONE, ABILITY_CURSED_BODY },
         .bodyColor = BODY_COLOR_PURPLE,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Polteageis", "Polteageist"),
+        .speciesName = _("Polteageist"),
         .cryId = CRY_POLTEAGEIST,
         .natDexNum = NATIONAL_DEX_POLTEAGEIST,
         .categoryName = _("Black Tea"),
@@ -3988,7 +3988,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS),
         .abilities = { ABILITY_WEAK_ARMOR, ABILITY_NONE, ABILITY_CURSED_BODY },
         .bodyColor = BODY_COLOR_PURPLE,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Polteageis", "Polteageist"),
+        .speciesName = _("Polteageist"),
         .cryId = CRY_POLTEAGEIST,
         .natDexNum = NATIONAL_DEX_POLTEAGEIST,
         .categoryName = _("Black Tea"),
@@ -5023,7 +5023,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
         .abilities = { ABILITY_POWER_SPOT, ABILITY_NONE, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GRAY,
-        .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Stonjourne", "Stonjourner"),
+        .speciesName = _("Stonjourner"),
         .cryId = CRY_STONJOURNER,
         .natDexNum = NATIONAL_DEX_STONJOURNER,
         .categoryName = _("Big Rock"),
@@ -6293,6 +6293,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZacianLevelUpLearnset,
         .teachableLearnset = sZacianTeachableLearnset,
         .formSpeciesIdTable = sZacianFormSpeciesIdTable,
@@ -6357,6 +6358,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZacianLevelUpLearnset,
         .teachableLearnset = sZacianTeachableLearnset,
         .formSpeciesIdTable = sZacianFormSpeciesIdTable,
@@ -6423,6 +6425,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZamazentaLevelUpLearnset,
         .teachableLearnset = sZamazentaTeachableLearnset,
         .formSpeciesIdTable = sZamazentaFormSpeciesIdTable,
@@ -6487,6 +6490,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZamazentaLevelUpLearnset,
         .teachableLearnset = sZamazentaTeachableLearnset,
         .formSpeciesIdTable = sZamazentaFormSpeciesIdTable,
@@ -6554,6 +6558,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sEternatusLevelUpLearnset,
         .teachableLearnset = sEternatusTeachableLearnset,
         .formSpeciesIdTable = sEternatusFormSpeciesIdTable,
@@ -6610,6 +6615,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FOOTPRINT(Eternatus)
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sEternatusLevelUpLearnset,
         .teachableLearnset = sEternatusTeachableLearnset,
         .formSpeciesIdTable = sEternatusFormSpeciesIdTable,
@@ -6673,6 +6679,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_Kubfu
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sKubfuLevelUpLearnset,
         .teachableLearnset = sKubfuTeachableLearnset,
         .evolutions = EVOLUTION({EVO_DARK_SCROLL, 0, SPECIES_URSHIFU_SINGLE_STRIKE_STYLE},
@@ -6738,6 +6745,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_Urshifu
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sUrshifuSingleStrikeStyleLevelUpLearnset,
         .teachableLearnset = sUrshifuSingleStrikeStyleTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
@@ -6795,6 +6803,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FOOTPRINT(Urshifu)
         .isLegendary = TRUE,
         .isGigantamax = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sUrshifuSingleStrikeStyleLevelUpLearnset,
         .teachableLearnset = sUrshifuSingleStrikeStyleTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
@@ -6858,6 +6867,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_Urshifu
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sUrshifuRapidStrikeStyleLevelUpLearnset,
         .teachableLearnset = sUrshifuRapidStrikeStyleTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
@@ -6915,6 +6925,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FOOTPRINT(Urshifu)
         .isLegendary = TRUE,
         .isGigantamax = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sUrshifuRapidStrikeStyleLevelUpLearnset,
         .teachableLearnset = sUrshifuRapidStrikeStyleTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
@@ -6982,6 +6993,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .isMythical = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZarudeLevelUpLearnset,
         .teachableLearnset = sZarudeTeachableLearnset,
         .formSpeciesIdTable = sZarudeFormSpeciesIdTable,
@@ -7036,6 +7048,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FOOTPRINT(Zarude)
         .isMythical = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sZarudeLevelUpLearnset,
         .teachableLearnset = sZarudeTeachableLearnset,
         .formSpeciesIdTable = sZarudeFormSpeciesIdTable,
@@ -7101,6 +7114,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_Regieleki
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sRegielekiLevelUpLearnset,
         .teachableLearnset = sRegielekiTeachableLearnset,
     },
@@ -7165,6 +7179,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_Regidrago
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sRegidragoLevelUpLearnset,
         .teachableLearnset = sRegidragoTeachableLearnset,
     },
@@ -7227,6 +7242,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_Glastrier
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sGlastrierLevelUpLearnset,
         .teachableLearnset = sGlastrierTeachableLearnset,
     },
@@ -7290,6 +7306,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_Spectrier
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sSpectrierLevelUpLearnset,
         .teachableLearnset = sSpectrierTeachableLearnset,
     },
@@ -7354,6 +7371,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .isLegendary = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sCalyrexLevelUpLearnset,
         .teachableLearnset = sCalyrexTeachableLearnset,
         .formSpeciesIdTable = sCalyrexFormSpeciesIdTable,
@@ -7419,6 +7437,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .isLegendary = TRUE,
         .cannotBeTraded = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sCalyrexIceRiderLevelUpLearnset,
         .teachableLearnset = sCalyrexIceRiderTeachableLearnset,
         .formSpeciesIdTable = sCalyrexFormSpeciesIdTable,
@@ -7483,6 +7502,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .isLegendary = TRUE,
         .cannotBeTraded = TRUE,
         .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sCalyrexShadowRiderLevelUpLearnset,
         .teachableLearnset = sCalyrexShadowRiderTeachableLearnset,
         .formSpeciesIdTable = sCalyrexFormSpeciesIdTable,
@@ -7549,6 +7569,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_EnamorusIncarnate
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sEnamorusLevelUpLearnset,
         .teachableLearnset = sEnamorusTeachableLearnset,
         .formSpeciesIdTable = sEnamorusFormSpeciesIdTable,
@@ -7611,6 +7632,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             gShinyOverworldPalette_EnamorusTherian
         )
         .isLegendary = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sEnamorusLevelUpLearnset,
         .teachableLearnset = sEnamorusTeachableLearnset,
         .formSpeciesIdTable = sEnamorusFormSpeciesIdTable,

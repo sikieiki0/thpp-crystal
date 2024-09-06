@@ -8,6 +8,13 @@
 #define OW_POISON_DAMAGE                GEN_LATEST // In Gen4, Pokémon no longer faint from Poison in the overworld. In Gen5+, they no longer take damage at all.
 #define OW_DOUBLE_APPROACH_WITH_ONE_MON FALSE      // If enabled, you can be spotted by two trainers at the same time even if you only have one eligible Pokémon in your party.
 #define OW_HIDE_REPEAT_MAP_POPUP        FALSE      // If enabled, map popups will not appear if entering a map with the same Map Section Id as the last.
+#define OW_FRLG_WHITEOUT                FALSE      // If enabled, shows an additional whiteout message and post whiteout event script with healing NPC.
+
+// Item Obtain Description Box
+#define OW_ITEM_DESCRIPTIONS_OFF        0   // never show descriptions
+#define OW_ITEM_DESCRIPTIONS_FIRST_TIME 1   // show first time (** SAVE-BREAKING - see struct SaveBlock3 **)
+#define OW_ITEM_DESCRIPTIONS_ALWAYS     2   // always show description
+#define OW_SHOW_ITEM_DESCRIPTIONS       OW_ITEM_DESCRIPTIONS_OFF    // If enabled, item descriptions/images will be shown when finding items.
 
 // These generational defines only make a distinction for Berries and the OW_PC_MOVE_ORDER
 #define GEN_6_XY GEN_6
@@ -32,6 +39,7 @@
 #define OW_BERRY_GROWTH_RATE           GEN_3      // Presets for how long each Berry plant takes to grow.
 #define OW_BERRY_YIELD_RATE            GEN_3      // Presets for how many Berries each plant can yield.
 #define OW_BERRY_DRAIN_RATE            GEN_6_ORAS // If OW_BERRY_MOISTURE is enabled, this setting changes how fast the soil dries out. GEN_4 uses a Berry-dependent drain rate, GEN_6_XY dries out in 24 hours (4 hours with the relevant Mulch) and GEN_6_ORAS dries out in 4 hours. Other values are illegal.
+#define OW_BERRY_IMMORTAL              FALSE      // If enabled, once a Berry tree has grown a Berry, the tree will not disappear until picked by the player.
 
 // Overworld Pokémon
 #define OW_POKEMON_OBJECT_EVENTS       TRUE       // Adds Object Event fields for every species. Can be used for NPCs using the OBJ_EVENT_GFX_SPECIES macro (eg. OBJ_EVENT_GFX_SPECIES(BULBASAUR))
@@ -65,6 +73,13 @@
 #define OW_TIMES_OF_DAY                 GEN_LATEST // Different generations have the times of day change at different times.
 #define OW_USE_FAKE_RTC                 FALSE      // When TRUE, seconds on the in-game clock will only advance once every 60 playTimeVBlanks (every 60 frames).
 #define OW_ALTERED_TIME_RATIO           GEN_LATEST // In GEN_8_PLA, the time in game moves forward 60 seconds for every second in the RTC. In GEN_9, it is 20 seconds. This has no effect if OW_USE_FAKE_RTC is FALSE.
+
+// Time-based wild Pokemon encounters - Allows you to create additional encounter groups in wild_encounters.json (or in porymap). 
+// The groups are processed by base label's suffix. For example, "gRoute101" (no suffix) contains daytime encounters, and "gRoute101_Night" contains nighttime encounters.
+// Not every group needs to be defined for every map - you could for example omit them inside caves and it would fall back to the unsuffixed daytime encounter group.
+#define OW_TIME_BASED_WILD_ENCOUNTERS           FALSE // Enables the system. If disabled, all suffixes are ignored and the first encounter group found for a map will be used for wild encounters.
+#define OW_ENABLE_MORNING_WILD_ENCOUNTERS       FALSE // If true, allows definition of morning encounter groups such as "gRoute101_Morning". Otherwise, morning is considered to be day for encounters. No effect if OW_TIME_BASED_WILD_ENCOUNTERS is false.
+#define OW_ENABLE_EVENING_WILD_ENCOUNTERS       FALSE // If true, allows definition of evening encounter groups such as "gRoute101_Evening". Otherwise, evening is considered to be night for encounters. No effect if OW_TIME_BASED_WILD_ENCOUNTERS is false.
 
 // Overworld flags
 // To use the following features in scripting, replace the 0s with the flag ID you're assigning it to.
