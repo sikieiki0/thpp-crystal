@@ -4417,9 +4417,99 @@
       "width": 28,
       "height": 22,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleDome",
+      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
       "border_filepath": "data/layouts/NewBarkTown/border.bin",
       "blockdata_filepath": "data/layouts/NewBarkTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_CITY",
+      "name": "CherrygroveCity_Layout",
+      "width": 56,
+      "height": 92,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_CherrygroveCity",
+      "border_filepath": "data/layouts/CherrygroveCity/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY",
+      "name": "VioletCity_Layout",
+      "width": 54,
+      "height": 42,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_AzaleaTown",
+      "border_filepath": "data/layouts/VioletCity/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN",
+      "name": "AzaleaTown_Layout",
+      "width": 54,
+      "height": 42,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/AzaleaTown/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY",
+      "name": "GoldenrodCity_Layout",
+      "width": 76,
+      "height": 54,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_GoldenrodCity",
+      "border_filepath": "data/layouts/GoldenrodCity/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRUTEAK_CITY",
+      "name": "EcruteakCity_Layout",
+      "width": 68,
+      "height": 46,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_AzaleaTown",
+      "border_filepath": "data/layouts/EcruteakCity/border.bin",
+      "blockdata_filepath": "data/layouts/EcruteakCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_CIANWOOD_CITY",
+      "name": "CianwoodCity_Layout",
+      "width": 48,
+      "height": 76,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_CianwoodCity",
+      "border_filepath": "data/layouts/CianwoodCity/border.bin",
+      "blockdata_filepath": "data/layouts/CianwoodCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY",
+      "name": "OlivineCity_Layout",
+      "width": 56,
+      "height": 50,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "border_filepath": "data/layouts/OlivineCity/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAHAGONY_TOWN",
+      "name": "MahagonyTown_Layout",
+      "width": 36,
+      "height": 40,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "border_filepath": "data/layouts/MahagonyTown/border.bin",
+      "blockdata_filepath": "data/layouts/MahagonyTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLACKTHORN_CITY",
+      "name": "BlackthornCity_Layout",
+      "width": 60,
+      "height": 52,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "border_filepath": "data/layouts/BlackthornCity/border.bin",
+      "blockdata_filepath": "data/layouts/BlackthornCity/map.bin"
     }
   ]
 }

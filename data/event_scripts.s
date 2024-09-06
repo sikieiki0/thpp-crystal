@@ -1148,3 +1148,21 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/NewBarkTown/scripts.inc"
+
+	.include "data/maps/CherrygroveCity/scripts.inc"
+
+	.include "data/maps/VioletCity/scripts.inc"
+
+	.include "data/maps/AzaleaTown/scripts.inc"
+
+	.include "data/maps/GoldenrodCity/scripts.inc"
+
+	.include "data/maps/EcruteakCity/scripts.inc"
+
+	.include "data/maps/CianwoodCity/scripts.inc"
+
+	.include "data/maps/OlivineCity/scripts.inc"
+
+	.include "data/maps/MahagonyTown/scripts.inc"
+
+	.include "data/maps/BlackthornCity/scripts.inc"

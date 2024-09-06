@@ -64,6 +64,15 @@
 #define MAP_UNDERWATER_ROUTE105 (55 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
 #define MAP_NEW_BARK_TOWN       (57 | (0 << 8))
+#define MAP_CHERRYGROVE_CITY    (58 | (0 << 8))
+#define MAP_VIOLET_CITY         (59 | (0 << 8))
+#define MAP_AZALEA_TOWN         (60 | (0 << 8))
+#define MAP_GOLDENROD_CITY      (61 | (0 << 8))
+#define MAP_ECRUTEAK_CITY       (62 | (0 << 8))
+#define MAP_CIANWOOD_CITY       (63 | (0 << 8))
+#define MAP_OLIVINE_CITY        (64 | (0 << 8))
+#define MAP_MAHAGONY_TOWN       (65 | (0 << 8))
+#define MAP_BLACKTHORN_CITY     (66 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
