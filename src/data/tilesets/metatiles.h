@@ -226,6 +226,9 @@ const u16 gMetatileAttributes_Crystal_CherrygroveCity[] = INCBIN_U16("data/tiles
 const u16 gMetatiles_Crystal_GoldenrodCity[] = INCBIN_U16("data/tilesets/secondary/crystal_goldenrod_city/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_GoldenrodCity[] = INCBIN_U16("data/tilesets/secondary/crystal_goldenrod_city/metatile_attributes.bin");
 
+const u16 gMetatiles_Crystal_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/crystal_ecruteak_city/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/crystal_ecruteak_city/metatile_attributes.bin");
+
 const u16 gMetatiles_Crystal_CianwoodCity[] = INCBIN_U16("data/tilesets/secondary/crystal_cianwood_city/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_CianwoodCity[] = INCBIN_U16("data/tilesets/secondary/crystal_cianwood_city/metatile_attributes.bin");
 
