@@ -5333,7 +5333,7 @@
       "id": "LAYOUT_AZALEA_TOWN",
       "name": "AzaleaTown_Layout",
       "width": 54,
-      "height": 42,
+      "height": 26,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
