@@ -237,3 +237,6 @@ const u16 gMetatileAttributes_Crystal_OlivineCity[] = INCBIN_U16("data/tilesets/
 
 const u16 gMetatiles_Crystal_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/crystal_blackthorn_city/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/crystal_blackthorn_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_BattleTowerOutside[] = INCBIN_U16("data/tilesets/secondary/crystal_battle_tower_outside/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_BattleTowerOutside[] = INCBIN_U16("data/tilesets/secondary/crystal_battle_tower_outside/metatile_attributes.bin");

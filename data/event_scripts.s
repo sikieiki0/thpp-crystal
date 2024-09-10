@@ -1166,3 +1166,39 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MahagonyTown/scripts.inc"
 
 	.include "data/maps/BlackthornCity/scripts.inc"
+
+	.include "data/maps/Route29/scripts.inc"
+
+	.include "data/maps/Route30/scripts.inc"
+
+	.include "data/maps/Route31/scripts.inc"
+
+	.include "data/maps/Route32/scripts.inc"
+
+	.include "data/maps/Route33/scripts.inc"
+
+	.include "data/maps/Route34/scripts.inc"
+
+	.include "data/maps/Route35/scripts.inc"
+
+	.include "data/maps/Route36/scripts.inc"
+
+	.include "data/maps/Route37/scripts.inc"
+
+	.include "data/maps/Route38/scripts.inc"
+
+	.include "data/maps/Route39/scripts.inc"
+
+	.include "data/maps/Route40/scripts.inc"
+
+	.include "data/maps/Route41/scripts.inc"
+
+	.include "data/maps/Route42/scripts.inc"
+
+	.include "data/maps/Route43/scripts.inc"
+
+	.include "data/maps/Route44/scripts.inc"
+
+	.include "data/maps/Route45/scripts.inc"
+
+	.include "data/maps/Route46/scripts.inc"

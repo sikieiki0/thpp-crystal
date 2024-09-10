@@ -935,3 +935,14 @@ const struct Tileset gTileset_Crystal_BlackthornCity =
     .metatileAttributes = gMetatileAttributes_Crystal_BlackthornCity,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_BattleTowerOutside =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_BattleTowerOutside,
+    .palettes = gTilesetPalettes_Crystal_BattleTowerOutside,
+    .metatiles = gMetatiles_Crystal_BattleTowerOutside,
+    .metatileAttributes = gMetatileAttributes_Crystal_BattleTowerOutside,
+    .callback = NULL,
+};
