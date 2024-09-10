@@ -1843,3 +1843,98 @@ const u16 gTilesetPalettes_Crystal_BattleTowerOutside[][16] =
 };
 
 const u32 gTilesetTiles_Crystal_BattleTowerOutside[] = INCBIN_U32("data/tilesets/secondary/crystal_battle_tower_outside/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_PlayersHouse[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_players_house/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_PlayersHouse[] = INCBIN_U32("data/tilesets/secondary/crystal_players_house/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_ElmsLab[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_elms_lab/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_ElmsLab[] = INCBIN_U32("data/tilesets/secondary/crystal_elms_lab/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_MiscStatues[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_misc_statues/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_MiscStatues[] = INCBIN_U32("data/tilesets/secondary/crystal_misc_statues/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_PokemonCenter[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_pokemon_center/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_PokemonCenter[] = INCBIN_U32("data/tilesets/secondary/crystal_pokemon_center/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_Mart[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_mart/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_Mart[] = INCBIN_U32("data/tilesets/secondary/crystal_mart/tiles.4bpp.lz");

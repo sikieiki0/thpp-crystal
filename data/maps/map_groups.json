@@ -1,6 +1,17 @@
 {
   "group_order": [
     "gMapGroup_TownsAndRoutes",
+    "gMapGroup_TownsAndRoutesCrystal",
+    "gMapGroup_IndoorNewBarkTown",
+    "gMapGroup_IndoorCherrygroveCity",
+    "gMapGroup_IndoorVioletCity",
+    "gMapGroup_IndoorAzaleaTown",
+    "gMapGroup_IndoorGoldenrodCity",
+    "gMapGroup_IndoorEcruteakCity",
+    "gMapGroup_IndoorCianwoodCity",
+    "gMapGroup_IndoorOlivineCity",
+    "gMapGroup_IndoorMahagonyTown",
+    "gMapGroup_IndoorBlackthornCity",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -92,7 +103,9 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
+    "Underwater_Route125"
+  ],
+  "gMapGroup_TownsAndRoutesCrystal": [
     "NewBarkTown",
     "CherrygroveCity",
     "VioletCity",
@@ -120,7 +133,46 @@
     "Route43",
     "Route44",
     "Route45",
-    "Route46"
+    "Route46",
+    "Route29Gate"
+  ],
+  "gMapGroup_IndoorNewBarkTown": [
+    "NewBarkTown_PlayersHouse_1F",
+    "NewBarkTown_PlayersHouse_2F",
+    "NewBarkTown_ElmsHouse",
+    "NewBarkTown_House",
+    "NewBarkTown_ProfessorElmsLab"
+  ],
+  "gMapGroup_IndoorCherrygroveCity": [
+    "CherrgroveCity_PokemonCenter",
+    "CherrygroveCity_Mart",
+    "CherrygroveCity_House1",
+    "CherrygroveCity_GuideGentsHouse",
+    "CherrygroveCity_FishermansHouse"
+  ],
+  "gMapGroup_IndoorVioletCity": [
+
+  ],
+  "gMapGroup_IndoorAzaleaTown": [
+
+  ],
+  "gMapGroup_IndoorGoldenrodCity": [
+
+  ],
+  "gMapGroup_IndoorEcruteakCity": [
+
+  ],
+  "gMapGroup_IndoorCianwoodCity": [
+
+  ],
+  "gMapGroup_IndoorOlivineCity": [
+
+  ],
+  "gMapGroup_IndoorMahagonyTown": [
+
+  ],
+  "gMapGroup_IndoorBlackthornCity": [
+
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

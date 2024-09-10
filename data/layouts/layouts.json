@@ -5628,6 +5628,138 @@
       "secondary_tileset": "gTileset_Crystal_AzaleaTown",
       "border_filepath": "data/layouts/Route46/border.bin",
       "blockdata_filepath": "data/layouts/Route46/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_PLAYERS_HOUSE_1F",
+      "name": "NewBarkTown_PlayersHouse_1F_Layout",
+      "width": 17,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PlayersHouse",
+      "border_filepath": "data/layouts/NewBarkTown_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_PlayersHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_PLAYERS_HOUSE_2F",
+      "name": "NewBarkTown_PlayersHouse_2F_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PlayersHouse",
+      "border_filepath": "data/layouts/NewBarkTown_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_PlayersHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_ELMS_HOUSE",
+      "name": "NewBarkTown_ElmsHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PlayersHouse",
+      "border_filepath": "data/layouts/NewBarkTown_ElmsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_ElmsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_HOUSE",
+      "name": "NewBarkTown_House_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PlayersHouse",
+      "border_filepath": "data/layouts/NewBarkTown_House/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_PROFESSOR_ELMS_LAB",
+      "name": "NewBarkTown_ProfessorElmsLab_Layout",
+      "width": 32,
+      "height": 28,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/NewBarkTown_ProfessorElmsLab/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_ProfessorElmsLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE29GATE",
+      "name": "Route29Gate_Layout",
+      "width": 15,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "border_filepath": "data/layouts/Route29Gate/border.bin",
+      "blockdata_filepath": "data/layouts/Route29Gate/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRGROVE_CITY_POKEMON_CENTER",
+      "name": "CherrgroveCity_PokemonCenter_Layout",
+      "width": 16,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
+      "border_filepath": "data/layouts/CherrgroveCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/CherrgroveCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_CITY_MART",
+      "name": "CherrygroveCity_Mart_Layout",
+      "width": 14,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_Mart",
+      "border_filepath": "data/layouts/CherrygroveCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_CITY_HOUSE1",
+      "name": "CherrygroveCity_House1_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/CherrygroveCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_CITY_GUIDE_GENTS_HOUSE",
+      "name": "CherrygroveCity_GuideGentsHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/CherrygroveCity_GuideGentsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity_GuideGentsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_CITY_FISHERMANS_HOUSE",
+      "name": "CherrygroveCity_FishermansHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/CherrygroveCity_FishermansHouse/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity_FishermansHouse/map.bin"
     }
   ]
 }

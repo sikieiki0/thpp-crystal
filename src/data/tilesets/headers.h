@@ -946,3 +946,58 @@ const struct Tileset gTileset_Crystal_BattleTowerOutside =
     .metatileAttributes = gMetatileAttributes_Crystal_BattleTowerOutside,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_PlayersHouse =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_PlayersHouse,
+    .palettes = gTilesetPalettes_Crystal_PlayersHouse,
+    .metatiles = gMetatiles_Crystal_PlayersHouse,
+    .metatileAttributes = gMetatileAttributes_Crystal_PlayersHouse,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_ElmsLab =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_ElmsLab,
+    .palettes = gTilesetPalettes_Crystal_ElmsLab,
+    .metatiles = gMetatiles_Crystal_ElmsLab,
+    .metatileAttributes = gMetatileAttributes_Crystal_ElmsLab,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_MiscStatues =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_MiscStatues,
+    .palettes = gTilesetPalettes_Crystal_MiscStatues,
+    .metatiles = gMetatiles_Crystal_MiscStatues,
+    .metatileAttributes = gMetatileAttributes_Crystal_MiscStatues,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_PokemonCenter =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_PokemonCenter,
+    .palettes = gTilesetPalettes_Crystal_PokemonCenter,
+    .metatiles = gMetatiles_Crystal_PokemonCenter,
+    .metatileAttributes = gMetatileAttributes_Crystal_PokemonCenter,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_Mart =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_Mart,
+    .palettes = gTilesetPalettes_Crystal_Mart,
+    .metatiles = gMetatiles_Crystal_Mart,
+    .metatileAttributes = gMetatileAttributes_Crystal_Mart,
+    .callback = NULL,
+};

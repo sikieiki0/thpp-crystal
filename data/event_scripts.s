@@ -1202,3 +1202,25 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route45/scripts.inc"
 
 	.include "data/maps/Route46/scripts.inc"
+
+	.include "data/maps/NewBarkTown_PlayersHouse_1F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_PlayersHouse_2F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_ElmsHouse/scripts.inc"
+
+	.include "data/maps/NewBarkTown_House/scripts.inc"
+
+	.include "data/maps/NewBarkTown_ProfessorElmsLab/scripts.inc"
+
+	.include "data/maps/Route29Gate/scripts.inc"
+
+	.include "data/maps/CherrgroveCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/CherrygroveCity_Mart/scripts.inc"
+
+	.include "data/maps/CherrygroveCity_House1/scripts.inc"
+
+	.include "data/maps/CherrygroveCity_GuideGentsHouse/scripts.inc"
+
+	.include "data/maps/CherrygroveCity_FishermansHouse/scripts.inc"
