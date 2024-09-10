@@ -12,7 +12,23 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_ROUTE31",
+      "offset": 22,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE36",
+      "offset": 4,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE32",
+      "offset": 2,
+      "direction": "down"
+    }
+  ],
   "object_events": [
 
   ],
