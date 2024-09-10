@@ -73,6 +73,7 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_RayquazaSpotlight         @ FLDEFF_RAYQUAZA_SPOTLIGHT
 	.4byte gFieldEffectScript_DestroyDeoxysRock         @ FLDEFF_DESTROY_DEOXYS_ROCK
 	.4byte gFieldEffectScript_MoveDeoxysRock            @ FLDEFF_MOVE_DEOXYS_ROCK
+	.4byte gFieldEffectScript_UseHeadbutt               @ FLDEFF_USE_HEADBUTT
 	.4byte gFldEffScript_UseVsSeeker                    @ FLDEFF_USE_VS_SEEKER
 	.4byte gFldEffScript_XIcon                          @ FLDEFF_X_ICON
 	.4byte gFldEffScript_DoubleExclMarkIcon             @ FLDEFF_DOUBLE_EXCL_MARK_ICON
@@ -349,6 +350,10 @@ gFieldEffectScript_DestroyDeoxysRock::
 
 gFieldEffectScript_MoveDeoxysRock::
 	field_eff_callnative FldEff_MoveDeoxysRock
+	field_eff_end
+
+gFieldEffectScript_UseHeadbutt::
+	field_eff_callnative FldEff_UseHeadbutt
 	field_eff_end
 
 gFldEffScript_UseVsSeeker::
