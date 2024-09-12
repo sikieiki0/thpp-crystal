@@ -1,7 +1,7 @@
 {
   "group_order": [
-    "gMapGroup_TownsAndRoutes",
     "gMapGroup_TownsAndRoutesCrystal",
+    "gMapGroup_DungeonsCrystal",
     "gMapGroup_IndoorNewBarkTown",
     "gMapGroup_IndoorCherrygroveCity",
     "gMapGroup_IndoorVioletCity",
@@ -12,6 +12,9 @@
     "gMapGroup_IndoorOlivineCity",
     "gMapGroup_IndoorMahagonyTown",
     "gMapGroup_IndoorBlackthornCity",
+    "gMapGroup_IndoorDynamicCrystal",
+    "gMapGroup_SpecialAreaCrystal",
+    "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -45,6 +48,107 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124"
+  ],
+  "gMapGroup_TownsAndRoutesCrystal": [
+    "NewBarkTown",
+    "CherrygroveCity",
+    "VioletCity",
+    "AzaleaTown",
+    "GoldenrodCity",
+    "EcruteakCity",
+    "CianwoodCity",
+    "OlivineCity",
+    "MahagonyTown",
+    "BlackthornCity",
+    "Route29",
+    "Route30",
+    "Route31",
+    "Route32",
+    "Route33",
+    "Route34",
+    "Route35",
+    "Route36",
+    "Route37",
+    "Route38",
+    "Route39",
+    "Route40",
+    "Route41",
+    "Route42",
+    "Route43",
+    "Route44",
+    "Route45",
+    "Route46",
+    "Route29_Gate",
+    "Route30_BerryExpertsHouse",
+    "Route30_MrPokemonsHouse",
+    "Route31_Gate",
+    "Route32_PokemonCenter",
+    "Route32_Gate"
+  ],
+  "gMapGroup_DungeonsCrystal": [
+    "UnionCave_1F",
+    "UnionCave_2F",
+    "UnionCave_3F",
+    "SlowpokeWell_1F",
+    "SlowpokeWell_2F",
+    "IlexForest"
+  ],
+  "gMapGroup_IndoorNewBarkTown": [
+    "NewBarkTown_PlayersHouse_1F",
+    "NewBarkTown_PlayersHouse_2F",
+    "NewBarkTown_ElmsHouse",
+    "NewBarkTown_House",
+    "NewBarkTown_ProfessorElmsLab"
+  ],
+  "gMapGroup_IndoorCherrygroveCity": [
+    "CherrgroveCity_PokemonCenter",
+    "CherrygroveCity_Mart",
+    "CherrygroveCity_House1",
+    "CherrygroveCity_GuideGentsHouse",
+    "CherrygroveCity_FishermansHouse"
+  ],
+  "gMapGroup_IndoorVioletCity": [
+    "VioletCity_PokeCenter",
+    "VioletCity_House1",
+    "VioletCity_PokemonAcademy",
+    "VioletCity_SproutTower",
+    "VioletCity_SproutTower_2F",
+    "VioletCity_SproutTower_3F",
+    "VioletCity_Gym",
+    "VioletCity_Mart",
+    "VioletCity_House2"
+  ],
+  "gMapGroup_IndoorAzaleaTown": [
+    "AzaleaTown_Mart",
+    "AzaleaTown_House1",
+    "AzaleaTown_PokemonCenter",
+    "AzaleaTown_Gym",
+    "AzaleaTown_KurtsHouse",
+    "AzaleaTown_Gate"
+  ],
+  "gMapGroup_IndoorGoldenrodCity": [
+
+  ],
+  "gMapGroup_IndoorEcruteakCity": [
+
+  ],
+  "gMapGroup_IndoorCianwoodCity": [
+
+  ],
+  "gMapGroup_IndoorOlivineCity": [
+
+  ],
+  "gMapGroup_IndoorMahagonyTown": [
+
+  ],
+  "gMapGroup_IndoorBlackthornCity": [
+
+  ],
+  "gMapGroup_IndoorDynamicCrystal": [
+
+  ],
+  "gMapGroup_SpecialAreaCrystal": [
+
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -104,75 +208,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_TownsAndRoutesCrystal": [
-    "NewBarkTown",
-    "CherrygroveCity",
-    "VioletCity",
-    "AzaleaTown",
-    "GoldenrodCity",
-    "EcruteakCity",
-    "CianwoodCity",
-    "OlivineCity",
-    "MahagonyTown",
-    "BlackthornCity",
-    "Route29",
-    "Route30",
-    "Route31",
-    "Route32",
-    "Route33",
-    "Route34",
-    "Route35",
-    "Route36",
-    "Route37",
-    "Route38",
-    "Route39",
-    "Route40",
-    "Route41",
-    "Route42",
-    "Route43",
-    "Route44",
-    "Route45",
-    "Route46",
-    "Route29Gate"
-  ],
-  "gMapGroup_IndoorNewBarkTown": [
-    "NewBarkTown_PlayersHouse_1F",
-    "NewBarkTown_PlayersHouse_2F",
-    "NewBarkTown_ElmsHouse",
-    "NewBarkTown_House",
-    "NewBarkTown_ProfessorElmsLab"
-  ],
-  "gMapGroup_IndoorCherrygroveCity": [
-    "CherrgroveCity_PokemonCenter",
-    "CherrygroveCity_Mart",
-    "CherrygroveCity_House1",
-    "CherrygroveCity_GuideGentsHouse",
-    "CherrygroveCity_FishermansHouse"
-  ],
-  "gMapGroup_IndoorVioletCity": [
-
-  ],
-  "gMapGroup_IndoorAzaleaTown": [
-
-  ],
-  "gMapGroup_IndoorGoldenrodCity": [
-
-  ],
-  "gMapGroup_IndoorEcruteakCity": [
-
-  ],
-  "gMapGroup_IndoorCianwoodCity": [
-
-  ],
-  "gMapGroup_IndoorOlivineCity": [
-
-  ],
-  "gMapGroup_IndoorMahagonyTown": [
-
-  ],
-  "gMapGroup_IndoorBlackthornCity": [
-
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

@@ -1213,7 +1213,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/NewBarkTown_ProfessorElmsLab/scripts.inc"
 
-	.include "data/maps/Route29Gate/scripts.inc"
+	.include "data/maps/Route29_Gate/scripts.inc"
 
 	.include "data/maps/CherrgroveCity_PokemonCenter/scripts.inc"
 
@@ -1224,3 +1224,55 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CherrygroveCity_GuideGentsHouse/scripts.inc"
 
 	.include "data/maps/CherrygroveCity_FishermansHouse/scripts.inc"
+
+	.include "data/maps/Route30_BerryExpertsHouse/scripts.inc"
+
+	.include "data/maps/Route30_MrPokemonsHouse/scripts.inc"
+
+	.include "data/maps/Route31_Gate/scripts.inc"
+
+	.include "data/maps/VioletCity_PokeCenter/scripts.inc"
+
+	.include "data/maps/VioletCity_House1/scripts.inc"
+
+	.include "data/maps/VioletCity_PokemonAcademy/scripts.inc"
+
+	.include "data/maps/VioletCity_SproutTower/scripts.inc"
+
+	.include "data/maps/VioletCity_SproutTower_2F/scripts.inc"
+
+	.include "data/maps/VioletCity_SproutTower_3F/scripts.inc"
+
+	.include "data/maps/VioletCity_Gym/scripts.inc"
+
+	.include "data/maps/VioletCity_Mart/scripts.inc"
+
+	.include "data/maps/VioletCity_House2/scripts.inc"
+
+	.include "data/maps/Route32_PokemonCenter/scripts.inc"
+
+	.include "data/maps/Route32_Gate/scripts.inc"
+
+	.include "data/maps/UnionCave_1F/scripts.inc"
+
+	.include "data/maps/UnionCave_2F/scripts.inc"
+	
+	.include "data/maps/UnionCave_3F/scripts.inc"
+
+	.include "data/maps/AzaleaTown_Mart/scripts.inc"
+
+	.include "data/maps/AzaleaTown_House1/scripts.inc"
+
+	.include "data/maps/AzaleaTown_PokemonCenter/scripts.inc"
+
+	.include "data/maps/AzaleaTown_Gym/scripts.inc"
+
+	.include "data/maps/AzaleaTown_KurtsHouse/scripts.inc"
+
+	.include "data/maps/SlowpokeWell_1F/scripts.inc"
+
+	.include "data/maps/SlowpokeWell_2F/scripts.inc"
+
+	.include "data/maps/AzaleaTown_Gate/scripts.inc"
+
+	.include "data/maps/IlexForest/scripts.inc"

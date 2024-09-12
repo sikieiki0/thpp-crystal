@@ -1,7 +1,7 @@
 {
-  "id": "MAP_ROUTE29GATE",
-  "name": "Route29Gate",
-  "layout": "LAYOUT_ROUTE29GATE",
+  "id": "MAP_ROUTE32_POKEMON_CENTER",
+  "name": "Route32_PokemonCenter",
+  "layout": "LAYOUT_ROUTE32_POKEMON_CENTER",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

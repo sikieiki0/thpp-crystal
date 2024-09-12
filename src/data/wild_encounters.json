@@ -77,7 +77,11 @@
         {
           "type": "headbutt_mons",
           "encounter_rates": [
-            30, 30, 30, 5, 5
+            30,
+            30,
+            30,
+            5,
+            5
           ]
         }
       ],
