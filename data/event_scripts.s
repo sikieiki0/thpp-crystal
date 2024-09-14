@@ -1346,3 +1346,35 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/GoldenrodCity_Hideout_2F/scripts.inc"
 
 	.include "data/maps/GoldenrodCity_Hideout_1F2B/scripts.inc"
+
+	.include "data/maps/Route35_Gate/scripts.inc"
+
+	.include "data/maps/Route35_House/scripts.inc"
+
+	.include "data/maps/NationalPark/scripts.inc"
+
+	.include "data/maps/Route36_Gate/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Gate/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_North/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_NorthWest/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Underground/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_SouthEast/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_SouthWest/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_HiddenRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Laboratory/scripts.inc"
+
+	.include "data/maps/SinjohRuins/scripts.inc"
+
+	.include "data/maps/SinjohRuins_House/scripts.inc"
+
+	.include "data/maps/SinjohRuins_MystriStage/scripts.inc"

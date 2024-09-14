@@ -2204,3 +2204,41 @@ const u16 gTilesetPalettes_Crystal_BikeShop[][16] =
 };
 
 const u32 gTilesetTiles_Crystal_BikeShop[] = INCBIN_U32("data/tilesets/secondary/crystal_bike_shop/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_SilverCave[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_SilverCave[] = INCBIN_U32("data/tilesets/secondary/crystal_silver_cave/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_HiddenRoomAlph[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_HiddenRoomAlph[] = INCBIN_U32("data/tilesets/secondary/crystal_hidden_room_alph/tiles.4bpp.lz");

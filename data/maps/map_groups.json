@@ -85,7 +85,11 @@
     "Route32_PokemonCenter",
     "Route32_Gate",
     "Route34_Gate",
-    "Route34_Daycare"
+    "Route34_Daycare",
+    "Route35_Gate",
+    "Route35_House",
+    "Route36_Gate",
+    "RuinsOfAlph_Gate"
   ],
   "gMapGroup_DungeonsCrystal": [
     "UnionCave_1F",
@@ -93,7 +97,19 @@
     "UnionCave_3F",
     "SlowpokeWell_1F",
     "SlowpokeWell_2F",
-    "IlexForest"
+    "IlexForest",
+    "NationalPark",
+    "RuinsOfAlph",
+    "RuinsOfAlph_North",
+    "RuinsOfAlph_NorthWest",
+    "RuinsOfAlph_Underground",
+    "RuinsOfAlph_SouthEast",
+    "RuinsOfAlph_SouthWest",
+    "RuinsOfAlph_HiddenRoom",
+    "RuinsOfAlph_Laboratory",
+    "SinjohRuins",
+    "SinjohRuins_House",
+    "SinjohRuins_MystriStage"
   ],
   "gMapGroup_IndoorNewBarkTown": [
     "NewBarkTown_PlayersHouse_1F",

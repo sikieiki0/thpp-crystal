@@ -297,3 +297,9 @@ const u16 gMetatileAttributes_Crystal_UndergroundPath[] = INCBIN_U16("data/tiles
 
 const u16 gMetatiles_Crystal_BikeShop[] = INCBIN_U16("data/tilesets/secondary/crystal_bike_shop/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_BikeShop[] = INCBIN_U16("data/tilesets/secondary/crystal_bike_shop/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_SilverCave[] = INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_SilverCave[] = INCBIN_U16("data/tilesets/secondary/crystal_silver_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_HiddenRoomAlph[] = INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_HiddenRoomAlph[] = INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/metatile_attributes.bin");

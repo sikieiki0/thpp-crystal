@@ -1155,3 +1155,25 @@ const struct Tileset gTileset_Crystal_BikeShop =
     .metatileAttributes = gMetatileAttributes_Crystal_BikeShop,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_SilverCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_SilverCave,
+    .palettes = gTilesetPalettes_Crystal_SilverCave,
+    .metatiles = gMetatiles_Crystal_SilverCave,
+    .metatileAttributes = gMetatileAttributes_Crystal_SilverCave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_HiddenRoomAlph =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_HiddenRoomAlph,
+    .palettes = gTilesetPalettes_Crystal_HiddenRoomAlph,
+    .metatiles = gMetatiles_Crystal_HiddenRoomAlph,
+    .metatileAttributes = gMetatileAttributes_Crystal_HiddenRoomAlph,
+    .callback = NULL,
+};
