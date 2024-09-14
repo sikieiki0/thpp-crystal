@@ -1276,3 +1276,73 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/AzaleaTown_Gate/scripts.inc"
 
 	.include "data/maps/IlexForest/scripts.inc"
+
+	.include "data/maps/Route34_Gate/scripts.inc"
+
+	.include "data/maps/Route34_Daycare/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_PokemonCommunicationCenter_1F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_PokemonCommunicationCenter_2F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_1F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_2F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_3F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_4F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_5F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_6F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_7F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_Elevator/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_ScienceCenter/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_ScienceCenter_Meeting/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_ScienceCenter_RnD/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_ScienceCenter_Testing/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_MagnetTrain/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_House1/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_House2/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_House3/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Gym/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_1F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_2F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_3F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_4F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_5F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_GameCorner/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_UndergroundEntraceNorth/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_UndergroundEntraceSouth/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_UndergroundPath/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_BikeShop/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_HideoutEntrace/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Hideout_1F1B/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Hideout_2F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Hideout_1F2B/scripts.inc"

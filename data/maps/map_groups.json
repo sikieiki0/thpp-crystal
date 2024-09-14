@@ -83,7 +83,9 @@
     "Route30_MrPokemonsHouse",
     "Route31_Gate",
     "Route32_PokemonCenter",
-    "Route32_Gate"
+    "Route32_Gate",
+    "Route34_Gate",
+    "Route34_Daycare"
   ],
   "gMapGroup_DungeonsCrystal": [
     "UnionCave_1F",
@@ -127,7 +129,39 @@
     "AzaleaTown_Gate"
   ],
   "gMapGroup_IndoorGoldenrodCity": [
-
+    "GoldenrodCity_PokemonCommunicationCenter_1F",
+    "GoldenrodCity_PokemonCommunicationCenter_2F",
+    "GoldenrodCity_DepartmentStore_1F",
+    "GoldenrodCity_DepartmentStore_2F",
+    "GoldenrodCity_DepartmentStore_3F",
+    "GoldenrodCity_DepartmentStore_4F",
+    "GoldenrodCity_DepartmentStore_5F",
+    "GoldenrodCity_DepartmentStore_6F",
+    "GoldenrodCity_DepartmentStore_7F",
+    "GoldenrodCity_DepartmentStore_Elevator",
+    "GoldenrodCity_ScienceCenter",
+    "GoldenrodCity_ScienceCenter_Meeting",
+    "GoldenrodCity_ScienceCenter_RnD",
+    "GoldenrodCity_ScienceCenter_Testing",
+    "GoldenrodCity_MagnetTrain",
+    "GoldenrodCity_House1",
+    "GoldenrodCity_House2",
+    "GoldenrodCity_House3",
+    "GoldenrodCity_Gym",
+    "GoldenrodCity_RadioTower_1F",
+    "GoldenrodCity_RadioTower_2F",
+    "GoldenrodCity_RadioTower_3F",
+    "GoldenrodCity_RadioTower_4F",
+    "GoldenrodCity_RadioTower_5F",
+    "GoldenrodCity_GameCorner",
+    "GoldenrodCity_UndergroundEntraceNorth",
+    "GoldenrodCity_UndergroundEntraceSouth",
+    "GoldenrodCity_UndergroundPath",
+    "GoldenrodCity_BikeShop",
+    "GoldenrodCity_HideoutEntrace",
+    "GoldenrodCity_Hideout_1F1B",
+    "GoldenrodCity_Hideout_2F",
+    "GoldenrodCity_Hideout_1F2B"
   ],
   "gMapGroup_IndoorEcruteakCity": [
 

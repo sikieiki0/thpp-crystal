@@ -282,3 +282,18 @@ const u16 gMetatileAttributes_Crystal_SlowpokeWell[] = INCBIN_U16("data/tilesets
 
 const u16 gMetatiles_Crystal_UnionCave[] = INCBIN_U16("data/tilesets/secondary/crystal_union_cave/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_UnionCave[] = INCBIN_U16("data/tilesets/secondary/crystal_union_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/crystal_department_store/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/crystal_department_store/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_Train[] = INCBIN_U16("data/tilesets/secondary/crystal_train/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_Train[] = INCBIN_U16("data/tilesets/secondary/crystal_train/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_GameCorner[] = INCBIN_U16("data/tilesets/secondary/crystal_game_corner/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_GameCorner[] = INCBIN_U16("data/tilesets/secondary/crystal_game_corner/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_UndergroundPath[] = INCBIN_U16("data/tilesets/secondary/crystal_underground_path/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_UndergroundPath[] = INCBIN_U16("data/tilesets/secondary/crystal_underground_path/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_BikeShop[] = INCBIN_U16("data/tilesets/secondary/crystal_bike_shop/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_BikeShop[] = INCBIN_U16("data/tilesets/secondary/crystal_bike_shop/metatile_attributes.bin");

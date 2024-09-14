@@ -40,6 +40,8 @@
 #define MAP_ROUTE31_GATE                (31 | (0 << 8))
 #define MAP_ROUTE32_POKEMON_CENTER      (32 | (0 << 8))
 #define MAP_ROUTE32_GATE                (33 | (0 << 8))
+#define MAP_ROUTE34_GATE                (34 | (0 << 8))
+#define MAP_ROUTE34_DAYCARE             (35 | (0 << 8))
 
 // gMapGroup_DungeonsCrystal
 #define MAP_UNION_CAVE_1F    (0 | (1 << 8))
@@ -83,6 +85,39 @@
 #define MAP_AZALEA_TOWN_GATE           (5 | (5 << 8))
 
 // gMapGroup_IndoorGoldenrodCity
+#define MAP_GOLDENROD_CITY_POKEMON_COMMUNICATION_CENTER_1F (0 | (6 << 8))
+#define MAP_GOLDENROD_CITY_POKEMON_COMMUNICATION_CENTER_2F (1 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_1F             (2 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_2F             (3 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_3F             (4 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_4F             (5 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_5F             (6 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_6F             (7 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_7F             (8 | (6 << 8))
+#define MAP_GOLDENROD_CITY_DEPARTMENT_STORE_ELEVATOR       (9 | (6 << 8))
+#define MAP_GOLDENROD_CITY_SCIENCE_CENTER                  (10 | (6 << 8))
+#define MAP_GOLDENROD_CITY_SCIENCE_CENTER_MEETING          (11 | (6 << 8))
+#define MAP_GOLDENROD_CITY_SCIENCE_CENTER_RN_D             (12 | (6 << 8))
+#define MAP_GOLDENROD_CITY_SCIENCE_CENTER_TESTING          (13 | (6 << 8))
+#define MAP_GOLDENROD_CITY_MAGNET_TRAIN                    (14 | (6 << 8))
+#define MAP_GOLDENROD_CITY_HOUSE1                          (15 | (6 << 8))
+#define MAP_GOLDENROD_CITY_HOUSE2                          (16 | (6 << 8))
+#define MAP_GOLDENROD_CITY_HOUSE3                          (17 | (6 << 8))
+#define MAP_GOLDENROD_CITY_GYM                             (18 | (6 << 8))
+#define MAP_GOLDENROD_CITY_RADIO_TOWER_1F                  (19 | (6 << 8))
+#define MAP_GOLDENROD_CITY_RADIO_TOWER_2F                  (20 | (6 << 8))
+#define MAP_GOLDENROD_CITY_RADIO_TOWER_3F                  (21 | (6 << 8))
+#define MAP_GOLDENROD_CITY_RADIO_TOWER_4F                  (22 | (6 << 8))
+#define MAP_GOLDENROD_CITY_RADIO_TOWER_5F                  (23 | (6 << 8))
+#define MAP_GOLDENROD_CITY_GAME_CORNER                     (24 | (6 << 8))
+#define MAP_GOLDENROD_CITY_UNDERGROUND_ENTRACE_NORTH       (25 | (6 << 8))
+#define MAP_GOLDENROD_CITY_UNDERGROUND_ENTRACE_SOUTH       (26 | (6 << 8))
+#define MAP_GOLDENROD_CITY_UNDERGROUND_PATH                (27 | (6 << 8))
+#define MAP_GOLDENROD_CITY_BIKE_SHOP                       (28 | (6 << 8))
+#define MAP_GOLDENROD_CITY_HIDEOUT_ENTRACE                 (29 | (6 << 8))
+#define MAP_GOLDENROD_CITY_HIDEOUT_1F1B                    (30 | (6 << 8))
+#define MAP_GOLDENROD_CITY_HIDEOUT_2F                      (31 | (6 << 8))
+#define MAP_GOLDENROD_CITY_HIDEOUT_1F2B                    (32 | (6 << 8))
 
 // gMapGroup_IndoorEcruteakCity
 

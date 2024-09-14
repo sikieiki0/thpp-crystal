@@ -1100,3 +1100,58 @@ const struct Tileset gTileset_Crystal_UnionCave =
     .metatileAttributes = gMetatileAttributes_Crystal_UnionCave,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_DepartmentStore =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_DepartmentStore,
+    .palettes = gTilesetPalettes_Crystal_DepartmentStore,
+    .metatiles = gMetatiles_Crystal_DepartmentStore,
+    .metatileAttributes = gMetatileAttributes_Crystal_DepartmentStore,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_Train =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_Train,
+    .palettes = gTilesetPalettes_Crystal_Train,
+    .metatiles = gMetatiles_Crystal_Train,
+    .metatileAttributes = gMetatileAttributes_Crystal_Train,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_GameCorner =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_GameCorner,
+    .palettes = gTilesetPalettes_Crystal_GameCorner,
+    .metatiles = gMetatiles_Crystal_GameCorner,
+    .metatileAttributes = gMetatileAttributes_Crystal_GameCorner,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_UndergroundPath =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_UndergroundPath,
+    .palettes = gTilesetPalettes_Crystal_UndergroundPath,
+    .metatiles = gMetatiles_Crystal_UndergroundPath,
+    .metatileAttributes = gMetatileAttributes_Crystal_UndergroundPath,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_BikeShop =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_BikeShop,
+    .palettes = gTilesetPalettes_Crystal_BikeShop,
+    .metatiles = gMetatiles_Crystal_BikeShop,
+    .metatileAttributes = gMetatileAttributes_Crystal_BikeShop,
+    .callback = NULL,
+};
