@@ -85,6 +85,10 @@
 #define MAP_LAKE_OF_RAGE                     (31 | (1 << 8))
 #define MAP_LAKE_OF_RAGE_FISHING_GURUS_HOUSE (32 | (1 << 8))
 #define MAP_LAKE_OF_RAGE_HOUSE               (33 | (1 << 8))
+#define MAP_MT_MORTAR_1F1B                   (34 | (1 << 8))
+#define MAP_MT_MORTAR_1F2B                   (35 | (1 << 8))
+#define MAP_MT_MORTAR_2F                     (36 | (1 << 8))
+#define MAP_MT_MORTAR_3F                     (37 | (1 << 8))
 
 // gMapGroup_IndoorNewBarkTown
 #define MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_1F   (0 | (2 << 8))
@@ -185,6 +189,14 @@
 #define MAP_OLIVINE_CITY_LIGHTHOUSE     (8 | (9 << 8))
 
 // gMapGroup_IndoorMahagonyTown
+#define MAP_MAHAGONY_TOWN_LAKE_OF_RAGE_GATE     (0 | (10 << 8))
+#define MAP_MAHAGONY_TOWN_HOUSE                 (1 | (10 << 8))
+#define MAP_MAHAGONY_TOWN_GYM                   (2 | (10 << 8))
+#define MAP_MAHAGONY_TOWN_POKEMON_CENTER        (3 | (10 << 8))
+#define MAP_MAHAGONY_TOWN_HIDEOUT_SOUVENIR_SHOP (4 | (10 << 8))
+#define MAP_MAHAGONY_TOWN_HIDEOUT_1F            (5 | (10 << 8))
+#define MAP_MAHAGONY_TOWN_HIDEOUT_2F            (6 | (10 << 8))
+#define MAP_MAHAGONY_TOWN_HIDEOUT_3F            (7 | (10 << 8))
 
 // gMapGroup_IndoorBlackthornCity
 

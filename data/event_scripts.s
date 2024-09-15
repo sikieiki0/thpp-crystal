@@ -1464,3 +1464,27 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LakeOfRage_FishingGurusHouse/scripts.inc"
 
 	.include "data/maps/LakeOfRage_House/scripts.inc"
+
+	.include "data/maps/MtMortar_1F1B/scripts.inc"
+
+	.include "data/maps/MtMortar_1F2B/scripts.inc"
+
+	.include "data/maps/MtMortar_2F/scripts.inc"
+
+	.include "data/maps/MtMortar_3F/scripts.inc"
+
+	.include "data/maps/MahagonyTown_LakeOfRageGate/scripts.inc"
+
+	.include "data/maps/MahagonyTown_House/scripts.inc"
+
+	.include "data/maps/MahagonyTown_Gym/scripts.inc"
+
+	.include "data/maps/MahagonyTown_PokemonCenter/scripts.inc"
+
+	.include "data/maps/MahagonyTown_Hideout_SouvenirShop/scripts.inc"
+
+	.include "data/maps/MahagonyTown_Hideout_1F/scripts.inc"
+
+	.include "data/maps/MahagonyTown_Hideout_2F/scripts.inc"
+
+	.include "data/maps/MahagonyTown_Hideout_3F/scripts.inc"

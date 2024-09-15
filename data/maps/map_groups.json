@@ -128,7 +128,11 @@
     "BattleTower",
     "LakeOfRage",
     "LakeOfRage_FishingGurusHouse",
-    "LakeOfRage_House"
+    "LakeOfRage_House",
+    "MtMortar_1F1B",
+    "MtMortar_1F2B",
+    "MtMortar_2F",
+    "MtMortar_3F"
   ],
   "gMapGroup_IndoorNewBarkTown": [
     "NewBarkTown_PlayersHouse_1F",
@@ -229,7 +233,14 @@
     "OlivineCity_Lighthouse"
   ],
   "gMapGroup_IndoorMahagonyTown": [
-
+    "MahagonyTown_LakeOfRageGate",
+    "MahagonyTown_House",
+    "MahagonyTown_Gym",
+    "MahagonyTown_PokemonCenter",
+    "MahagonyTown_Hideout_SouvenirShop",
+    "MahagonyTown_Hideout_1F",
+    "MahagonyTown_Hideout_2F",
+    "MahagonyTown_Hideout_3F"
   ],
   "gMapGroup_IndoorBlackthornCity": [
 
