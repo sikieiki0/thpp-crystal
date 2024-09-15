@@ -1378,3 +1378,43 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SinjohRuins_House/scripts.inc"
 
 	.include "data/maps/SinjohRuins_MystriStage/scripts.inc"
+
+	.include "data/maps/EcruteakCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House1/scripts.inc"
+
+	.include "data/maps/EcruteakCity_Gym/scripts.inc"
+
+	.include "data/maps/EcruteakCity_Mart/scripts.inc"
+
+	.include "data/maps/EcruteakCity_DanceTheater/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House2/scripts.inc"
+
+	.include "data/maps/BrassTower_1F/scripts.inc"
+
+	.include "data/maps/BrassTower_2F/scripts.inc"
+
+	.include "data/maps/TinTower_1F/scripts.inc"
+
+	.include "data/maps/TinTower_2F/scripts.inc"
+
+	.include "data/maps/TinTower_3F/scripts.inc"
+
+	.include "data/maps/TinTower_4F/scripts.inc"
+
+	.include "data/maps/TinTower_5F/scripts.inc"
+
+	.include "data/maps/TinTower_6F/scripts.inc"
+
+	.include "data/maps/TinTower_7F/scripts.inc"
+
+	.include "data/maps/TinTower_8F/scripts.inc"
+
+	.include "data/maps/TinTower_9F/scripts.inc"
+
+	.include "data/maps/TinTower_Roof/scripts.inc"
+
+	.include "data/maps/EcruteakCity_BarrierStation_1F1B/scripts.inc"
+
+	.include "data/maps/EcruteakCity_BarrierStation_1F2B/scripts.inc"

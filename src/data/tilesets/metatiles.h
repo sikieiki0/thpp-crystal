@@ -303,3 +303,6 @@ const u16 gMetatileAttributes_Crystal_SilverCave[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_Crystal_HiddenRoomAlph[] = INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_HiddenRoomAlph[] = INCBIN_U16("data/tilesets/secondary/crystal_hidden_room_alph/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_DanceTheater[] = INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_DanceTheater[] = INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/metatile_attributes.bin");

@@ -1177,3 +1177,14 @@ const struct Tileset gTileset_Crystal_HiddenRoomAlph =
     .metatileAttributes = gMetatileAttributes_Crystal_HiddenRoomAlph,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_DanceTheater =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_DanceTheater,
+    .palettes = gTilesetPalettes_Crystal_DanceTheater,
+    .metatiles = gMetatiles_Crystal_DanceTheater,
+    .metatileAttributes = gMetatileAttributes_Crystal_DanceTheater,
+    .callback = NULL,
+};

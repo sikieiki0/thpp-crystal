@@ -2242,3 +2242,22 @@ const u16 gTilesetPalettes_Crystal_HiddenRoomAlph[][16] =
 };
 
 const u32 gTilesetTiles_Crystal_HiddenRoomAlph[] = INCBIN_U32("data/tilesets/secondary/crystal_hidden_room_alph/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_DanceTheater[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_DanceTheater[] = INCBIN_U32("data/tilesets/secondary/crystal_dance_theater/tiles.4bpp.lz");

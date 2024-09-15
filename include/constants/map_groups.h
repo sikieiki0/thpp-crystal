@@ -66,6 +66,18 @@
 #define MAP_SINJOH_RUINS              (15 | (1 << 8))
 #define MAP_SINJOH_RUINS_HOUSE        (16 | (1 << 8))
 #define MAP_SINJOH_RUINS_MYSTRI_STAGE (17 | (1 << 8))
+#define MAP_BRASS_TOWER_1F            (18 | (1 << 8))
+#define MAP_BRASS_TOWER_2F            (19 | (1 << 8))
+#define MAP_TIN_TOWER_1F              (20 | (1 << 8))
+#define MAP_TIN_TOWER_2F              (21 | (1 << 8))
+#define MAP_TIN_TOWER_3F              (22 | (1 << 8))
+#define MAP_TIN_TOWER_4F              (23 | (1 << 8))
+#define MAP_TIN_TOWER_5F              (24 | (1 << 8))
+#define MAP_TIN_TOWER_6F              (25 | (1 << 8))
+#define MAP_TIN_TOWER_7F              (26 | (1 << 8))
+#define MAP_TIN_TOWER_8F              (27 | (1 << 8))
+#define MAP_TIN_TOWER_9F              (28 | (1 << 8))
+#define MAP_TIN_TOWER_ROOF            (29 | (1 << 8))
 
 // gMapGroup_IndoorNewBarkTown
 #define MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_1F   (0 | (2 << 8))
@@ -136,6 +148,14 @@
 #define MAP_GOLDENROD_CITY_HIDEOUT_1F2B                    (32 | (6 << 8))
 
 // gMapGroup_IndoorEcruteakCity
+#define MAP_ECRUTEAK_CITY_POKEMON_CENTER       (0 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_HOUSE1               (1 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_GYM                  (2 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_MART                 (3 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_DANCE_THEATER        (4 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_HOUSE2               (5 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_BARRIER_STATION_1F1B (6 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_BARRIER_STATION_1F2B (7 | (7 << 8))
 
 // gMapGroup_IndoorCianwoodCity
 

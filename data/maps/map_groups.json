@@ -109,7 +109,19 @@
     "RuinsOfAlph_Laboratory",
     "SinjohRuins",
     "SinjohRuins_House",
-    "SinjohRuins_MystriStage"
+    "SinjohRuins_MystriStage",
+    "BrassTower_1F",
+    "BrassTower_2F",
+    "TinTower_1F",
+    "TinTower_2F",
+    "TinTower_3F",
+    "TinTower_4F",
+    "TinTower_5F",
+    "TinTower_6F",
+    "TinTower_7F",
+    "TinTower_8F",
+    "TinTower_9F",
+    "TinTower_Roof"
   ],
   "gMapGroup_IndoorNewBarkTown": [
     "NewBarkTown_PlayersHouse_1F",
@@ -180,7 +192,14 @@
     "GoldenrodCity_Hideout_1F2B"
   ],
   "gMapGroup_IndoorEcruteakCity": [
-
+    "EcruteakCity_PokemonCenter",
+    "EcruteakCity_House1",
+    "EcruteakCity_Gym",
+    "EcruteakCity_Mart",
+    "EcruteakCity_DanceTheater",
+    "EcruteakCity_House2",
+    "EcruteakCity_BarrierStation_1F1B",
+    "EcruteakCity_BarrierStation_1F2B"
   ],
   "gMapGroup_IndoorCianwoodCity": [
 
