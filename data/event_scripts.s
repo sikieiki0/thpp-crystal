@@ -1440,3 +1440,27 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/OlivineCity_Port/scripts.inc"
 
 	.include "data/maps/OlivineCity_Lighthouse/scripts.inc"
+
+	.include "data/maps/Route40_BattleTowerGate/scripts.inc"
+
+	.include "data/maps/BattleTower/scripts.inc"
+
+	.include "data/maps/CianwoodCity_PokeSeerHouse/scripts.inc"
+
+	.include "data/maps/CianwoodCity_PhotoStudio/scripts.inc"
+
+	.include "data/maps/CianwoodCity_House1/scripts.inc"
+
+	.include "data/maps/CianwoodCity_House2/scripts.inc"
+
+	.include "data/maps/CianwoodCity_Gym/scripts.inc"
+
+	.include "data/maps/CianwoodCity_Pharmacy/scripts.inc"
+
+	.include "data/maps/CianwoodCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/LakeOfRage/scripts.inc"
+
+	.include "data/maps/LakeOfRage_FishingGurusHouse/scripts.inc"
+
+	.include "data/maps/LakeOfRage_House/scripts.inc"

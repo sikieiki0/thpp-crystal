@@ -91,7 +91,8 @@
     "Route36_Gate",
     "RuinsOfAlph_Gate",
     "Route39_MoomooFarmHouse",
-    "Route39_MoomooFarmStable"
+    "Route39_MoomooFarmStable",
+    "Route40_BattleTowerGate"
   ],
   "gMapGroup_DungeonsCrystal": [
     "UnionCave_1F",
@@ -123,7 +124,11 @@
     "TinTower_7F",
     "TinTower_8F",
     "TinTower_9F",
-    "TinTower_Roof"
+    "TinTower_Roof",
+    "BattleTower",
+    "LakeOfRage",
+    "LakeOfRage_FishingGurusHouse",
+    "LakeOfRage_House"
   ],
   "gMapGroup_IndoorNewBarkTown": [
     "NewBarkTown_PlayersHouse_1F",
@@ -204,7 +209,13 @@
     "EcruteakCity_BarrierStation_1F2B"
   ],
   "gMapGroup_IndoorCianwoodCity": [
-
+    "CianwoodCity_PokeSeerHouse",
+    "CianwoodCity_PhotoStudio",
+    "CianwoodCity_House1",
+    "CianwoodCity_House2",
+    "CianwoodCity_Gym",
+    "CianwoodCity_Pharmacy",
+    "CianwoodCity_PokemonCenter"
   ],
   "gMapGroup_IndoorOlivineCity": [
     "OlivineCity_Gym",

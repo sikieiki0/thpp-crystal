@@ -1,27 +1,22 @@
 {
-  "id": "MAP_ROUTE43",
-  "name": "Route43",
-  "layout": "LAYOUT_ROUTE43",
+  "id": "MAP_LAKE_OF_RAGE",
+  "name": "LakeOfRage",
+  "layout": "LAYOUT_LAKE_OF_RAGE",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
-  "allow_cycling": true,
+  "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": true,
+  "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_MAHAGONY_TOWN",
-      "offset": 1,
+      "map": "MAP_ROUTE43",
+      "offset": 26,
       "direction": "down"
-    },
-    {
-      "map": "MAP_LAKE_OF_RAGE",
-      "offset": -26,
-      "direction": "up"
     }
   ],
   "object_events": [
