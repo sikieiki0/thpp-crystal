@@ -1188,3 +1188,47 @@ const struct Tileset gTileset_Crystal_DanceTheater =
     .metatileAttributes = gMetatileAttributes_Crystal_DanceTheater,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_Cafe =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_Cafe,
+    .palettes = gTilesetPalettes_Crystal_Cafe,
+    .metatiles = gMetatiles_Crystal_Cafe,
+    .metatileAttributes = gMetatileAttributes_Crystal_Cafe,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_IndoorCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_IndoorCave,
+    .palettes = gTilesetPalettes_Crystal_IndoorCave,
+    .metatiles = gMetatiles_Crystal_IndoorCave,
+    .metatileAttributes = gMetatileAttributes_Crystal_IndoorCave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_Port =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_Port,
+    .palettes = gTilesetPalettes_Crystal_Port,
+    .metatiles = gMetatiles_Crystal_Port,
+    .metatileAttributes = gMetatileAttributes_Crystal_Port,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_Lighthouse =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_Lighthouse,
+    .palettes = gTilesetPalettes_Crystal_Lighthouse,
+    .metatiles = gMetatiles_Crystal_Lighthouse,
+    .metatileAttributes = gMetatileAttributes_Crystal_Lighthouse,
+    .callback = NULL,
+};

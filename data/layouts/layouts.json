@@ -6924,6 +6924,138 @@
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
       "border_filepath": "data/layouts/EcruteakCity_BarrierStation_1F2B/border.bin",
       "blockdata_filepath": "data/layouts/EcruteakCity_BarrierStation_1F2B/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE39_MOOMOO_FARM_HOUSE",
+      "name": "Route39_MoomooFarmHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/Route39_MoomooFarmHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route39_MoomooFarmHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE39_MOOMOO_FARM_STABLE",
+      "name": "Route39_MoomooFarmStable_Layout",
+      "width": 8,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PowerPlant",
+      "border_filepath": "data/layouts/Route39_MoomooFarmStable/border.bin",
+      "blockdata_filepath": "data/layouts/Route39_MoomooFarmStable/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_GYM",
+      "name": "OlivineCity_Gym_Layout",
+      "width": 12,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "border_filepath": "data/layouts/OlivineCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_HOUSE1",
+      "name": "OlivineCity_House1_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/OlivineCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_MART",
+      "name": "OlivineCity_Mart_Layout",
+      "width": 14,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_Mart",
+      "border_filepath": "data/layouts/OlivineCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_POKEMON_CENTER",
+      "name": "OlivineCity_PokemonCenter_Layout",
+      "width": 30,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
+      "border_filepath": "data/layouts/OlivineCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_CAFE",
+      "name": "OlivineCity_Cafe_Layout",
+      "width": 8,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_Cafe",
+      "border_filepath": "data/layouts/OlivineCity_Cafe/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_Cafe/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_HOUSE2",
+      "name": "OlivineCity_House2_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/OlivineCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_HOUSE3",
+      "name": "OlivineCity_House3_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "border_filepath": "data/layouts/OlivineCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_PORT",
+      "name": "OlivineCity_Port_Layout",
+      "width": 56,
+      "height": 56,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_Port",
+      "border_filepath": "data/layouts/OlivineCity_Port/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_Port/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY_LIGHTHOUSE",
+      "name": "OlivineCity_Lighthouse_Layout",
+      "width": 155,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_Lighthouse",
+      "border_filepath": "data/layouts/OlivineCity_Lighthouse/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity_Lighthouse/map.bin"
     }
   ]
 }

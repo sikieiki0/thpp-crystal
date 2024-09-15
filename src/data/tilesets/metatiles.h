@@ -306,3 +306,15 @@ const u16 gMetatileAttributes_Crystal_HiddenRoomAlph[] = INCBIN_U16("data/tilese
 
 const u16 gMetatiles_Crystal_DanceTheater[] = INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_DanceTheater[] = INCBIN_U16("data/tilesets/secondary/crystal_dance_theater/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_Cafe[] = INCBIN_U16("data/tilesets/secondary/crystal_cafe/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_Cafe[] = INCBIN_U16("data/tilesets/secondary/crystal_cafe/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_IndoorCave[] = INCBIN_U16("data/tilesets/secondary/crystal_indoor_cave/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_IndoorCave[] = INCBIN_U16("data/tilesets/secondary/crystal_indoor_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_Port[] = INCBIN_U16("data/tilesets/secondary/crystal_port/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_Port[] = INCBIN_U16("data/tilesets/secondary/crystal_port/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_Lighthouse[] = INCBIN_U16("data/tilesets/secondary/crystal_lighthouse/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_Lighthouse[] = INCBIN_U16("data/tilesets/secondary/crystal_lighthouse/metatile_attributes.bin");

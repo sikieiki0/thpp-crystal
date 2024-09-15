@@ -46,6 +46,8 @@
 #define MAP_ROUTE35_HOUSE               (37 | (0 << 8))
 #define MAP_ROUTE36_GATE                (38 | (0 << 8))
 #define MAP_RUINS_OF_ALPH_GATE          (39 | (0 << 8))
+#define MAP_ROUTE39_MOOMOO_FARM_HOUSE   (40 | (0 << 8))
+#define MAP_ROUTE39_MOOMOO_FARM_STABLE  (41 | (0 << 8))
 
 // gMapGroup_DungeonsCrystal
 #define MAP_UNION_CAVE_1F             (0 | (1 << 8))
@@ -160,6 +162,15 @@
 // gMapGroup_IndoorCianwoodCity
 
 // gMapGroup_IndoorOlivineCity
+#define MAP_OLIVINE_CITY_GYM            (0 | (9 << 8))
+#define MAP_OLIVINE_CITY_HOUSE1         (1 | (9 << 8))
+#define MAP_OLIVINE_CITY_MART           (2 | (9 << 8))
+#define MAP_OLIVINE_CITY_POKEMON_CENTER (3 | (9 << 8))
+#define MAP_OLIVINE_CITY_CAFE           (4 | (9 << 8))
+#define MAP_OLIVINE_CITY_HOUSE2         (5 | (9 << 8))
+#define MAP_OLIVINE_CITY_HOUSE3         (6 | (9 << 8))
+#define MAP_OLIVINE_CITY_PORT           (7 | (9 << 8))
+#define MAP_OLIVINE_CITY_LIGHTHOUSE     (8 | (9 << 8))
 
 // gMapGroup_IndoorMahagonyTown
 

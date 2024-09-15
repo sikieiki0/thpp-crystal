@@ -89,7 +89,9 @@
     "Route35_Gate",
     "Route35_House",
     "Route36_Gate",
-    "RuinsOfAlph_Gate"
+    "RuinsOfAlph_Gate",
+    "Route39_MoomooFarmHouse",
+    "Route39_MoomooFarmStable"
   ],
   "gMapGroup_DungeonsCrystal": [
     "UnionCave_1F",
@@ -205,7 +207,15 @@
 
   ],
   "gMapGroup_IndoorOlivineCity": [
-
+    "OlivineCity_Gym",
+    "OlivineCity_House1",
+    "OlivineCity_Mart",
+    "OlivineCity_PokemonCenter",
+    "OlivineCity_Cafe",
+    "OlivineCity_House2",
+    "OlivineCity_House3",
+    "OlivineCity_Port",
+    "OlivineCity_Lighthouse"
   ],
   "gMapGroup_IndoorMahagonyTown": [
 

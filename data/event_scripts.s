@@ -1418,3 +1418,25 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/EcruteakCity_BarrierStation_1F1B/scripts.inc"
 
 	.include "data/maps/EcruteakCity_BarrierStation_1F2B/scripts.inc"
+
+	.include "data/maps/Route39_MoomooFarmHouse/scripts.inc"
+
+	.include "data/maps/Route39_MoomooFarmStable/scripts.inc"
+
+	.include "data/maps/OlivineCity_Gym/scripts.inc"
+
+	.include "data/maps/OlivineCity_House1/scripts.inc"
+
+	.include "data/maps/OlivineCity_Mart/scripts.inc"
+
+	.include "data/maps/OlivineCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/OlivineCity_Cafe/scripts.inc"
+
+	.include "data/maps/OlivineCity_House2/scripts.inc"
+
+	.include "data/maps/OlivineCity_House3/scripts.inc"
+
+	.include "data/maps/OlivineCity_Port/scripts.inc"
+
+	.include "data/maps/OlivineCity_Lighthouse/scripts.inc"
