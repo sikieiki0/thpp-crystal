@@ -132,7 +132,16 @@
     "MtMortar_1F1B",
     "MtMortar_1F2B",
     "MtMortar_2F",
-    "MtMortar_3F"
+    "MtMortar_3F",
+    "IcePath_1F",
+    "IcePath_2F",
+    "IcePath_3F",
+    "IcePath_4F",
+    "IcePath_5F",
+    "DragonsDen_1F",
+    "DragonsDen_2F",
+    "DragonsDen_Shrine"
+    
   ],
   "gMapGroup_IndoorNewBarkTown": [
     "NewBarkTown_PlayersHouse_1F",
@@ -243,7 +252,13 @@
     "MahagonyTown_Hideout_3F"
   ],
   "gMapGroup_IndoorBlackthornCity": [
-
+    "BlackthornCity_Gym",
+    "BlackthornCity_Gym_2F",
+    "BlackthornCity_Mart",
+    "BlackthornCity_PokemonCenter",
+    "BlackthornCity_House1",
+    "BlackthornCity_House2",
+    "BlackthornCity_House3"
   ],
   "gMapGroup_IndoorDynamicCrystal": [
 

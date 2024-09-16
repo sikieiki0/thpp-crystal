@@ -318,3 +318,9 @@ const u16 gMetatileAttributes_Crystal_Port[] = INCBIN_U16("data/tilesets/seconda
 
 const u16 gMetatiles_Crystal_Lighthouse[] = INCBIN_U16("data/tilesets/secondary/crystal_lighthouse/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_Lighthouse[] = INCBIN_U16("data/tilesets/secondary/crystal_lighthouse/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_IcePath[] = INCBIN_U16("data/tilesets/secondary/crystal_ice_path/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_IcePath[] = INCBIN_U16("data/tilesets/secondary/crystal_ice_path/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/crystal_lake_of_rage/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/crystal_lake_of_rage/metatile_attributes.bin");

@@ -89,6 +89,14 @@
 #define MAP_MT_MORTAR_1F2B                   (35 | (1 << 8))
 #define MAP_MT_MORTAR_2F                     (36 | (1 << 8))
 #define MAP_MT_MORTAR_3F                     (37 | (1 << 8))
+#define MAP_ICE_PATH_1F                      (38 | (1 << 8))
+#define MAP_ICE_PATH_2F                      (39 | (1 << 8))
+#define MAP_ICE_PATH_3F                      (40 | (1 << 8))
+#define MAP_ICE_PATH_4F                      (41 | (1 << 8))
+#define MAP_ICE_PATH_5F                      (42 | (1 << 8))
+#define MAP_DRAGONS_DEN_1F                   (43 | (1 << 8))
+#define MAP_DRAGONS_DEN_2F                   (44 | (1 << 8))
+#define MAP_DRAGONS_DEN_SHRINE               (45 | (1 << 8))
 
 // gMapGroup_IndoorNewBarkTown
 #define MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_1F   (0 | (2 << 8))
@@ -199,6 +207,13 @@
 #define MAP_MAHAGONY_TOWN_HIDEOUT_3F            (7 | (10 << 8))
 
 // gMapGroup_IndoorBlackthornCity
+#define MAP_BLACKTHORN_CITY_GYM            (0 | (11 << 8))
+#define MAP_BLACKTHORN_CITY_GYM_2F         (1 | (11 << 8))
+#define MAP_BLACKTHORN_CITY_MART           (2 | (11 << 8))
+#define MAP_BLACKTHORN_CITY_POKEMON_CENTER (3 | (11 << 8))
+#define MAP_BLACKTHORN_CITY_HOUSE1         (4 | (11 << 8))
+#define MAP_BLACKTHORN_CITY_HOUSE2         (5 | (11 << 8))
+#define MAP_BLACKTHORN_CITY_HOUSE3         (6 | (11 << 8))
 
 // gMapGroup_IndoorDynamicCrystal
 

@@ -1232,3 +1232,25 @@ const struct Tileset gTileset_Crystal_Lighthouse =
     .metatileAttributes = gMetatileAttributes_Crystal_Lighthouse,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_IcePath =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_IcePath,
+    .palettes = gTilesetPalettes_Crystal_IcePath,
+    .metatiles = gMetatiles_Crystal_IcePath,
+    .metatileAttributes = gMetatileAttributes_Crystal_IcePath,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_LakeOfRage =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_LakeOfRage,
+    .palettes = gTilesetPalettes_Crystal_LakeOfRage,
+    .metatiles = gMetatiles_Crystal_LakeOfRage,
+    .metatileAttributes = gMetatileAttributes_Crystal_LakeOfRage,
+    .callback = NULL,
+};

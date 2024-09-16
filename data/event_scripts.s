@@ -1488,3 +1488,33 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MahagonyTown_Hideout_2F/scripts.inc"
 
 	.include "data/maps/MahagonyTown_Hideout_3F/scripts.inc"
+
+	.include "data/maps/IcePath_1F/scripts.inc"
+
+	.include "data/maps/IcePath_2F/scripts.inc"
+
+	.include "data/maps/IcePath_3F/scripts.inc"
+
+	.include "data/maps/IcePath_4F/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Gym/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Mart/scripts.inc"
+
+	.include "data/maps/BlackthornCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House1/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House2/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House3/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Gym_2F/scripts.inc"
+
+	.include "data/maps/DragonsDen_1F/scripts.inc"
+
+	.include "data/maps/DragonsDen_2F/scripts.inc"
+
+	.include "data/maps/DragonsDen_Shrine/scripts.inc"
+
+	.include "data/maps/IcePath_5F/scripts.inc"
