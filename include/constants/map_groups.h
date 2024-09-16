@@ -55,6 +55,12 @@
 #define MAP_ROUTE27                       (46 | (0 << 8))
 #define MAP_ROUTE27_HOUSE                 (47 | (0 << 8))
 #define MAP_ROUTE26                       (48 | (0 << 8))
+#define MAP_POKEMON_LEAGUE_RECEPTION_GATE (49 | (0 << 8))
+#define MAP_ROUTE23                       (50 | (0 << 8))
+#define MAP_INDIGO_PLATEAU                (51 | (0 << 8))
+#define MAP_INDIGO_LEAGUE_RECEPTION       (52 | (0 << 8))
+#define MAP_ROUTE28                       (53 | (0 << 8))
+#define MAP_SILVER_CAVE_ENTRACE           (54 | (0 << 8))
 
 // gMapGroup_DungeonsCrystal
 #define MAP_UNION_CAVE_1F                    (0 | (1 << 8))
@@ -110,6 +116,9 @@
 #define MAP_MYSTIC_ISLE                      (50 | (1 << 8))
 #define MAP_TOHJO_FALLS                      (51 | (1 << 8))
 #define MAP_HIDDEN_FOREST                    (52 | (1 << 8))
+#define MAP_VICTORY_ROAD_INDIGO_1F           (53 | (1 << 8))
+#define MAP_VICTORY_ROAD_INDIGO_2F           (54 | (1 << 8))
+#define MAP_VICTORY_ROAD_INDIGO_3F           (55 | (1 << 8))
 
 // gMapGroup_IndoorNewBarkTown
 #define MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_1F   (0 | (2 << 8))

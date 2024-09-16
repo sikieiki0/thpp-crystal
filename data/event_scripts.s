@@ -1544,3 +1544,21 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/TohjoFalls/scripts.inc"
 
 	.include "data/maps/Route26/scripts.inc"
+
+	.include "data/maps/PokemonLeagueReceptionGate/scripts.inc"
+
+	.include "data/maps/VictoryRoadIndigo_1F/scripts.inc"
+
+	.include "data/maps/VictoryRoadIndigo_2F/scripts.inc"
+
+	.include "data/maps/VictoryRoadIndigo_3F/scripts.inc"
+
+	.include "data/maps/Route23/scripts.inc"
+
+	.include "data/maps/IndigoPlateau/scripts.inc"
+
+	.include "data/maps/IndigoLeague_Reception/scripts.inc"
+
+	.include "data/maps/Route28/scripts.inc"
+
+	.include "data/maps/SilverCave_Entrace/scripts.inc"

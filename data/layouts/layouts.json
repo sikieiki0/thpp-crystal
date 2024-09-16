@@ -7680,6 +7680,114 @@
       "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
       "border_filepath": "data/layouts/Route26/border.bin",
       "blockdata_filepath": "data/layouts/Route26/map.bin"
+    },
+    {
+      "id": "LAYOUT_POKEMON_LEAGUE_RECEPTION_GATE",
+      "name": "PokemonLeagueReceptionGate_Layout",
+      "width": 22,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
+      "border_filepath": "data/layouts/PokemonLeagueReceptionGate/border.bin",
+      "blockdata_filepath": "data/layouts/PokemonLeagueReceptionGate/map.bin"
+    },
+    {
+      "id": "LAYOUT_VICTORY_ROAD_INDIGO_1F",
+      "name": "VictoryRoadIndigo_1F_Layout",
+      "width": 46,
+      "height": 38,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "border_filepath": "data/layouts/VictoryRoadIndigo_1F/border.bin",
+      "blockdata_filepath": "data/layouts/VictoryRoadIndigo_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VICTORY_ROAD_INDIGO_2F",
+      "name": "VictoryRoadIndigo_2F_Layout",
+      "width": 46,
+      "height": 38,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "border_filepath": "data/layouts/VictoryRoadIndigo_2F/border.bin",
+      "blockdata_filepath": "data/layouts/VictoryRoadIndigo_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VICTORY_ROAD_INDIGO_3F",
+      "name": "VictoryRoadIndigo_3F_Layout",
+      "width": 46,
+      "height": 38,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "border_filepath": "data/layouts/VictoryRoadIndigo_3F/border.bin",
+      "blockdata_filepath": "data/layouts/VictoryRoadIndigo_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE23",
+      "name": "Route23_Layout",
+      "width": 24,
+      "height": 160,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_Route23",
+      "border_filepath": "data/layouts/Route23/border.bin",
+      "blockdata_filepath": "data/layouts/Route23/map.bin"
+    },
+    {
+      "id": "LAYOUT_INDIGO_PLATEAU",
+      "name": "IndigoPlateau_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_Route23",
+      "border_filepath": "data/layouts/IndigoPlateau/border.bin",
+      "blockdata_filepath": "data/layouts/IndigoPlateau/map.bin"
+    },
+    {
+      "id": "LAYOUT_INDIGO_LEAGUE_RECEPTION",
+      "name": "IndigoLeague_Reception_Layout",
+      "width": 25,
+      "height": 18,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
+      "border_filepath": "data/layouts/IndigoLeague_Reception/border.bin",
+      "blockdata_filepath": "data/layouts/IndigoLeague_Reception/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE28",
+      "name": "Route28_Layout",
+      "width": 58,
+      "height": 32,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "border_filepath": "data/layouts/Route28/border.bin",
+      "blockdata_filepath": "data/layouts/Route28/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_CAVE_ENTRACE",
+      "name": "SilverCave_Entrace_Layout",
+      "width": 44,
+      "height": 48,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "border_filepath": "data/layouts/SilverCave_Entrace/border.bin",
+      "blockdata_filepath": "data/layouts/SilverCave_Entrace/map.bin"
     }
   ]
 }

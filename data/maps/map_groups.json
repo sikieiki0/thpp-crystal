@@ -98,7 +98,13 @@
     "Route40_BattleTowerGate",
     "Route27",
     "Route27_House",
-    "Route26"
+    "Route26",
+    "PokemonLeagueReceptionGate",
+    "Route23",
+    "IndigoPlateau",
+    "IndigoLeague_Reception",
+    "Route28",
+    "SilverCave_Entrace"
   ],
   "gMapGroup_DungeonsCrystal": [
     "UnionCave_1F",
@@ -153,7 +159,10 @@
     "DarkCave_4F",
     "MysticIsle",
     "TohjoFalls",
-    "HiddenForest"
+    "HiddenForest",
+    "VictoryRoadIndigo_1F",
+    "VictoryRoadIndigo_2F",
+    "VictoryRoadIndigo_3F"
   ],
   "gMapGroup_IndoorNewBarkTown": [
     "NewBarkTown_PlayersHouse_1F",

@@ -1265,3 +1265,14 @@ const struct Tileset gTileset_Crystal_IndigoPlateau =
     .metatileAttributes = gMetatileAttributes_Crystal_IndigoPlateau,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_Route23 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_Route23,
+    .palettes = gTilesetPalettes_Crystal_Route23,
+    .metatiles = gMetatiles_Crystal_Route23,
+    .metatileAttributes = gMetatileAttributes_Crystal_Route23,
+    .callback = NULL,
+};
