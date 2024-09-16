@@ -1518,3 +1518,29 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/DragonsDen_Shrine/scripts.inc"
 
 	.include "data/maps/IcePath_5F/scripts.inc"
+
+	.include "data/maps/DarkCave_1F/scripts.inc"
+
+	.include "data/maps/DarkCave_2F/scripts.inc"
+
+	.include "data/maps/DarkCave_3F/scripts.inc"
+
+	.include "data/maps/DarkCave_4F/scripts.inc"
+
+	.include "data/maps/MysticIsle/scripts.inc"
+
+	.include "data/maps/Route34_Backside/scripts.inc"
+
+	.include "data/maps/Route32_East/scripts.inc"
+
+	.include "data/maps/Route32_HiddenForestEntrace/scripts.inc"
+
+	.include "data/maps/HiddenForest/scripts.inc"
+
+	.include "data/maps/Route27/scripts.inc"
+
+	.include "data/maps/Route27_House/scripts.inc"
+
+	.include "data/maps/TohjoFalls/scripts.inc"
+
+	.include "data/maps/Route26/scripts.inc"

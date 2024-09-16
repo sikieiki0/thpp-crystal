@@ -1,0 +1,44 @@
+{
+  "id": "MAP_ROUTE32_EAST",
+  "name": "Route32_East",
+  "layout": "LAYOUT_ROUTE32_EAST",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE32",
+      "offset": -15,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE34_BACKSIDE",
+      "offset": 105,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_CHERRYGROVE_CITY",
+      "offset": 47,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

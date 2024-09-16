@@ -12,7 +12,23 @@
   "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_MYSTIC_ISLE",
+      "offset": -36,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE40",
+      "offset": -29,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_OLIVINE_CITY",
+      "offset": 0,
+      "direction": "up"
+    }
+  ],
   "object_events": [
 
   ],

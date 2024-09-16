@@ -17,6 +17,16 @@
       "map": "MAP_GOLDENROD_CITY",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_MYSTIC_ISLE",
+      "offset": -54,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE34_BACKSIDE",
+      "offset": 83,
+      "direction": "right"
     }
   ],
   "object_events": [

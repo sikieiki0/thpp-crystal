@@ -324,3 +324,6 @@ const u16 gMetatileAttributes_Crystal_IcePath[] = INCBIN_U16("data/tilesets/seco
 
 const u16 gMetatiles_Crystal_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/crystal_lake_of_rage/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/crystal_lake_of_rage/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_IndigoPlateau[] = INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_IndigoPlateau[] = INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/metatile_attributes.bin");

@@ -2375,3 +2375,22 @@ const u16 gTilesetPalettes_Crystal_LakeOfRage[][16] =
 };
 
 const u32 gTilesetTiles_Crystal_LakeOfRage[] = INCBIN_U32("data/tilesets/secondary/crystal_lake_of_rage/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_IndigoPlateau[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_IndigoPlateau[] = INCBIN_U32("data/tilesets/secondary/crystal_indigo_plateau/tiles.4bpp.lz");

@@ -84,15 +84,21 @@
     "Route31_Gate",
     "Route32_PokemonCenter",
     "Route32_Gate",
+    "Route32_East",
+    "Route32_HiddenForestEntrace",
     "Route34_Gate",
     "Route34_Daycare",
+    "Route34_Backside",
     "Route35_Gate",
     "Route35_House",
     "Route36_Gate",
     "RuinsOfAlph_Gate",
     "Route39_MoomooFarmHouse",
     "Route39_MoomooFarmStable",
-    "Route40_BattleTowerGate"
+    "Route40_BattleTowerGate",
+    "Route27",
+    "Route27_House",
+    "Route26"
   ],
   "gMapGroup_DungeonsCrystal": [
     "UnionCave_1F",
@@ -140,8 +146,14 @@
     "IcePath_5F",
     "DragonsDen_1F",
     "DragonsDen_2F",
-    "DragonsDen_Shrine"
-    
+    "DragonsDen_Shrine",
+    "DarkCave_1F",
+    "DarkCave_2F",
+    "DarkCave_3F",
+    "DarkCave_4F",
+    "MysticIsle",
+    "TohjoFalls",
+    "HiddenForest"
   ],
   "gMapGroup_IndoorNewBarkTown": [
     "NewBarkTown_PlayersHouse_1F",

@@ -22,6 +22,16 @@
       "map": "MAP_ROUTE40",
       "offset": 20,
       "direction": "left"
+    },
+    {
+      "map": "MAP_MYSTIC_ISLE",
+      "offset": 14,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_OLIVINE_CITY_PORT",
+      "offset": 0,
+      "direction": "down"
     }
   ],
   "object_events": [
