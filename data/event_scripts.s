@@ -1562,3 +1562,37 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route28/scripts.inc"
 
 	.include "data/maps/SilverCave_Entrace/scripts.inc"
+
+	.include "data/maps/IndigoLeague_Room1/scripts.inc"
+
+	.include "data/maps/IndigoLeague_Room2/scripts.inc"
+
+	.include "data/maps/IndigoLeague_Room3/scripts.inc"
+
+	.include "data/maps/IndigoLeague_Room4/scripts.inc"
+
+	.include "data/maps/IndigoLeague_ChampionsRoom/scripts.inc"
+
+	.include "data/maps/IndigoLeague_HallOfFame/scripts.inc"
+
+	.include "data/maps/SilverCave_PokemonCenter/scripts.inc"
+
+	.include "data/maps/SilverCave_1F/scripts.inc"
+
+	.include "data/maps/SilverCave_2F/scripts.inc"
+
+	.include "data/maps/SilverCave_3F/scripts.inc"
+
+	.include "data/maps/SeasideCave_1F/scripts.inc"
+
+	.include "data/maps/SeasideCave_2F/scripts.inc"
+
+	.include "data/maps/SeasideCave_3F/scripts.inc"
+
+	.include "data/maps/SeasideCave_SecretGarden/scripts.inc"
+
+	.include "data/maps/WhirlIslands_1F1B/scripts.inc"
+
+	.include "data/maps/WhirlIslands_1F2B/scripts.inc"
+
+	.include "data/maps/WhirlIslands_1F3B/scripts.inc"

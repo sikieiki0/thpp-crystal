@@ -22,6 +22,11 @@
       "map": "MAP_OLIVINE_CITY",
       "offset": -16,
       "direction": "down"
+    },
+    {
+      "map": "MAP_SEASIDE_CAVE_SECRET_GARDEN",
+      "offset": 0,
+      "direction": "left"
     }
   ],
   "object_events": [

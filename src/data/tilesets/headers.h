@@ -1276,3 +1276,25 @@ const struct Tileset gTileset_Crystal_Route23 =
     .metatileAttributes = gMetatileAttributes_Crystal_Route23,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_League =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_League,
+    .palettes = gTilesetPalettes_Crystal_League,
+    .metatiles = gMetatiles_Crystal_League,
+    .metatileAttributes = gMetatileAttributes_Crystal_League,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_HallOfFame =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_HallOfFame,
+    .palettes = gTilesetPalettes_Crystal_HallOfFame,
+    .metatiles = gMetatiles_Crystal_HallOfFame,
+    .metatileAttributes = gMetatileAttributes_Crystal_HallOfFame,
+    .callback = NULL,
+};
