@@ -14,16 +14,29 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_GOLDENROD_CITY",
-      "offset": -19,
-      "direction": "down"
+      "map": "MAP_ROUTE36",
+      "offset": 20,
+      "direction": "up"
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 12,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE35_GATE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_NATIONAL_PARK",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

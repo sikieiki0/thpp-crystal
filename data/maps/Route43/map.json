@@ -28,7 +28,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 17,
+      "y": 68,
+      "elevation": 0,
+      "dest_map": "MAP_MAHAGONY_TOWN_LAKE_OF_RAGE_GATE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

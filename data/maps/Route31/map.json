@@ -28,7 +28,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 41,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE31",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE31_GATE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

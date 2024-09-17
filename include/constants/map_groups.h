@@ -214,6 +214,8 @@
 #define MAP_ECRUTEAK_CITY_HOUSE2               (5 | (7 << 8))
 #define MAP_ECRUTEAK_CITY_BARRIER_STATION_1F1B (6 | (7 << 8))
 #define MAP_ECRUTEAK_CITY_BARRIER_STATION_1F2B (7 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_GATE_WEST            (8 | (7 << 8))
+#define MAP_ECRUTEAK_CITY_GATE_EAST            (9 | (7 << 8))
 
 // gMapGroup_IndoorCianwoodCity
 #define MAP_CIANWOOD_CITY_POKE_SEER_HOUSE (0 | (8 << 8))

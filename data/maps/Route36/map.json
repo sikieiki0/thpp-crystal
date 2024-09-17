@@ -22,13 +22,31 @@
       "map": "MAP_ROUTE37",
       "offset": 10,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE35",
+      "offset": -20,
+      "direction": "down"
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 48,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_GATE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE36_GATE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

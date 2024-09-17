@@ -1596,3 +1596,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/WhirlIslands_1F2B/scripts.inc"
 
 	.include "data/maps/WhirlIslands_1F3B/scripts.inc"
+
+	.include "data/maps/EcruteakCity_GateWest/scripts.inc"
+
+	.include "data/maps/EcruteakCity_GateEast/scripts.inc"

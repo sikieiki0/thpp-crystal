@@ -23,7 +23,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 8,
+      "y": 153,
+      "elevation": 0,
+      "dest_map": "MAP_POKEMON_LEAGUE_RECEPTION_GATE",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 5,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE23",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE23",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

@@ -19,11 +19,6 @@
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE35",
-      "offset": 19,
-      "direction": "up"
-    },
-    {
       "map": "MAP_MYSTIC_ISLE",
       "offset": 0,
       "direction": "left"
@@ -33,7 +28,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 31,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE35_GATE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

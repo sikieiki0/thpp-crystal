@@ -257,7 +257,9 @@
     "EcruteakCity_DanceTheater",
     "EcruteakCity_House2",
     "EcruteakCity_BarrierStation_1F1B",
-    "EcruteakCity_BarrierStation_1F2B"
+    "EcruteakCity_BarrierStation_1F2B",
+    "EcruteakCity_GateWest",
+    "EcruteakCity_GateEast"
   ],
   "gMapGroup_IndoorCianwoodCity": [
     "CianwoodCity_PokeSeerHouse",

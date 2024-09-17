@@ -33,7 +33,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 4,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_GATE_WEST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 65,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_GATE_EAST",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

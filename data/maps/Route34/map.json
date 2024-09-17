@@ -33,7 +33,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 37,
+      "y": 49,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE34_GATE",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

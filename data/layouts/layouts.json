@@ -7992,6 +7992,30 @@
       "secondary_tileset": "gTileset_Crystal_UnionCave",
       "border_filepath": "data/layouts/WhirlIslands_1F3B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F3B/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRUTEAK_CITY_GATE_WEST",
+      "name": "EcruteakCity_GateWest_Layout",
+      "width": 27,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "border_filepath": "data/layouts/EcruteakCity_GateWest/border.bin",
+      "blockdata_filepath": "data/layouts/EcruteakCity_GateWest/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRUTEAK_CITY_GATE_EAST",
+      "name": "EcruteakCity_GateEast_Layout",
+      "width": 27,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "border_filepath": "data/layouts/EcruteakCity_GateEast/border.bin",
+      "blockdata_filepath": "data/layouts/EcruteakCity_GateEast/map.bin"
     }
   ]
 }
