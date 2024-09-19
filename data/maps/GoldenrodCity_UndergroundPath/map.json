@@ -17,7 +17,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY_UNDERGROUND_ENTRACE_NORTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY_UNDERGROUND_ENTRACE_SOUTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY_HIDEOUT_ENTRACE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

@@ -46,6 +46,62 @@
       "elevation": 0,
       "dest_map": "MAP_ECRUTEAK_CITY_GATE_EAST",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 37,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_GYM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 47,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 37,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_DANCE_THEATER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_BARRIER_STATION_1F1B",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_BRASS_TOWER_1F",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

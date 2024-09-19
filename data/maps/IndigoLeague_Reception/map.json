@@ -17,7 +17,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_INDIGO_PLATEAU",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_INDIGO_LEAGUE_ROOM1",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

@@ -17,7 +17,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_UNION_CAVE_2F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 5,
+      "y": 87,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE34_BACKSIDE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 95,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE34_BACKSIDE",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

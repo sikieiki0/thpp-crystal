@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_BRASS_TOWER_1F",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

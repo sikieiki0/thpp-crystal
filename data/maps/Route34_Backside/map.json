@@ -37,15 +37,15 @@
       "x": 12,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE34_BACKSIDE",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_UNION_CAVE_3F",
+      "dest_warp_id": "1"
     },
     {
       "x": 20,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE34_BACKSIDE",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_UNION_CAVE_3F",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [

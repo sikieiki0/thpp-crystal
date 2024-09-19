@@ -17,7 +17,55 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_7F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 6,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_8F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_8F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_8F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_8F",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_8F",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_ROOF",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

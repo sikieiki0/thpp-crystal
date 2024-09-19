@@ -5702,16 +5702,16 @@
       "blockdata_filepath": "data/layouts/Route29_Gate/map.bin"
     },
     {
-      "id": "LAYOUT_CHERRGROVE_CITY_POKEMON_CENTER",
-      "name": "CherrgroveCity_PokemonCenter_Layout",
+      "id": "LAYOUT_CHERRYGROVE_CITY_POKEMON_CENTER",
+      "name": "CherrygroveCity_PokemonCenter_Layout",
       "width": 16,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/CherrgroveCity_PokemonCenter/border.bin",
-      "blockdata_filepath": "data/layouts/CherrgroveCity_PokemonCenter/map.bin"
+      "border_filepath": "data/layouts/CherrygroveCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity_PokemonCenter/map.bin"
     },
     {
       "id": "LAYOUT_CHERRYGROVE_CITY_MART",
@@ -6784,7 +6784,7 @@
     {
       "id": "LAYOUT_TIN_TOWER_1F",
       "name": "TinTower_1F_Layout",
-      "width": 21,
+      "width": 17,
       "height": 17,
       "border_width": 2,
       "border_height": 2,
@@ -6796,7 +6796,7 @@
     {
       "id": "LAYOUT_TIN_TOWER_2F",
       "name": "TinTower_2F_Layout",
-      "width": 21,
+      "width": 17,
       "height": 17,
       "border_width": 2,
       "border_height": 2,
@@ -6808,7 +6808,7 @@
     {
       "id": "LAYOUT_TIN_TOWER_3F",
       "name": "TinTower_3F_Layout",
-      "width": 21,
+      "width": 17,
       "height": 17,
       "border_width": 2,
       "border_height": 2,
@@ -6818,81 +6818,9 @@
       "blockdata_filepath": "data/layouts/TinTower_3F/map.bin"
     },
     {
-      "id": "LAYOUT_TIN_TOWER_4F",
-      "name": "TinTower_4F_Layout",
-      "width": 21,
-      "height": 17,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/TinTower_4F/border.bin",
-      "blockdata_filepath": "data/layouts/TinTower_4F/map.bin"
-    },
-    {
-      "id": "LAYOUT_TIN_TOWER_5F",
-      "name": "TinTower_5F_Layout",
-      "width": 21,
-      "height": 17,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/TinTower_5F/border.bin",
-      "blockdata_filepath": "data/layouts/TinTower_5F/map.bin"
-    },
-    {
-      "id": "LAYOUT_TIN_TOWER_6F",
-      "name": "TinTower_6F_Layout",
-      "width": 21,
-      "height": 17,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/TinTower_6F/border.bin",
-      "blockdata_filepath": "data/layouts/TinTower_6F/map.bin"
-    },
-    {
-      "id": "LAYOUT_TIN_TOWER_7F",
-      "name": "TinTower_7F_Layout",
-      "width": 21,
-      "height": 17,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/TinTower_7F/border.bin",
-      "blockdata_filepath": "data/layouts/TinTower_7F/map.bin"
-    },
-    {
-      "id": "LAYOUT_TIN_TOWER_8F",
-      "name": "TinTower_8F_Layout",
-      "width": 21,
-      "height": 17,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/TinTower_8F/border.bin",
-      "blockdata_filepath": "data/layouts/TinTower_8F/map.bin"
-    },
-    {
-      "id": "LAYOUT_TIN_TOWER_9F",
-      "name": "TinTower_9F_Layout",
-      "width": 21,
-      "height": 17,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/TinTower_9F/border.bin",
-      "blockdata_filepath": "data/layouts/TinTower_9F/map.bin"
-    },
-    {
       "id": "LAYOUT_TIN_TOWER_ROOF",
       "name": "TinTower_Roof_Layout",
-      "width": 19,
+      "width": 18,
       "height": 21,
       "border_width": 2,
       "border_height": 2,
@@ -7641,7 +7569,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleDome",
+      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
       "border_filepath": "data/layouts/Route27/border.bin",
       "blockdata_filepath": "data/layouts/Route27/map.bin"
     },
@@ -7828,8 +7756,8 @@
     {
       "id": "LAYOUT_INDIGO_LEAGUE_ROOM4",
       "name": "IndigoLeague_Room4_Layout",
-      "width": 28,
-      "height": 34,
+      "width": 13,
+      "height": 13,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
@@ -8016,6 +7944,102 @@
       "secondary_tileset": "gTileset_Crystal_MiscStatues",
       "border_filepath": "data/layouts/EcruteakCity_GateEast/border.bin",
       "blockdata_filepath": "data/layouts/EcruteakCity_GateEast/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_NAME_RATER",
+      "name": "GoldenrodCity_NameRater_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PlayersHouse",
+      "border_filepath": "data/layouts/GoldenrodCity_NameRater/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_NameRater/map.bin"
+    },
+    {
+      "id": "LAYOUT_TIN_TOWER_4F",
+      "name": "TinTower_4F_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PowerPlant",
+      "border_filepath": "data/layouts/TinTower_4F/border.bin",
+      "blockdata_filepath": "data/layouts/TinTower_4F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TIN_TOWER_5F",
+      "name": "TinTower_5F_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PowerPlant",
+      "border_filepath": "data/layouts/TinTower_5F/border.bin",
+      "blockdata_filepath": "data/layouts/TinTower_5F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TIN_TOWER_6F",
+      "name": "TinTower_6F_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PowerPlant",
+      "border_filepath": "data/layouts/TinTower_6F/border.bin",
+      "blockdata_filepath": "data/layouts/TinTower_6F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TIN_TOWER_7F",
+      "name": "TinTower_7F_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PowerPlant",
+      "border_filepath": "data/layouts/TinTower_7F/border.bin",
+      "blockdata_filepath": "data/layouts/TinTower_7F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TIN_TOWER_8F",
+      "name": "TinTower_8F_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PowerPlant",
+      "border_filepath": "data/layouts/TinTower_8F/border.bin",
+      "blockdata_filepath": "data/layouts/TinTower_8F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TIN_TOWER_9F",
+      "name": "TinTower_9F_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_PowerPlant",
+      "border_filepath": "data/layouts/TinTower_9F/border.bin",
+      "blockdata_filepath": "data/layouts/TinTower_9F/map.bin"
+    },
+    {
+      "id": "LAYOUT_BELLCHIME_TRAIL",
+      "name": "BellchimeTrail_Layout",
+      "width": 38,
+      "height": 24,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "border_filepath": "data/layouts/BellchimeTrail/border.bin",
+      "blockdata_filepath": "data/layouts/BellchimeTrail/map.bin"
     }
   ]
 }

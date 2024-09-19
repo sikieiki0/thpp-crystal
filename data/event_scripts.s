@@ -1215,7 +1215,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route29_Gate/scripts.inc"
 
-	.include "data/maps/CherrgroveCity_PokemonCenter/scripts.inc"
+	.include "data/maps/CherrygroveCity_PokemonCenter/scripts.inc"
 
 	.include "data/maps/CherrygroveCity_Mart/scripts.inc"
 
@@ -1400,18 +1400,6 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/TinTower_2F/scripts.inc"
 
 	.include "data/maps/TinTower_3F/scripts.inc"
-
-	.include "data/maps/TinTower_4F/scripts.inc"
-
-	.include "data/maps/TinTower_5F/scripts.inc"
-
-	.include "data/maps/TinTower_6F/scripts.inc"
-
-	.include "data/maps/TinTower_7F/scripts.inc"
-
-	.include "data/maps/TinTower_8F/scripts.inc"
-
-	.include "data/maps/TinTower_9F/scripts.inc"
 
 	.include "data/maps/TinTower_Roof/scripts.inc"
 
@@ -1600,3 +1588,19 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/EcruteakCity_GateWest/scripts.inc"
 
 	.include "data/maps/EcruteakCity_GateEast/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_NameRater/scripts.inc"
+
+	.include "data/maps/TinTower_4F/scripts.inc"
+
+	.include "data/maps/TinTower_5F/scripts.inc"
+
+	.include "data/maps/TinTower_6F/scripts.inc"
+
+	.include "data/maps/TinTower_7F/scripts.inc"
+
+	.include "data/maps/TinTower_8F/scripts.inc"
+
+	.include "data/maps/TinTower_9F/scripts.inc"
+
+	.include "data/maps/BellchimeTrail/scripts.inc"

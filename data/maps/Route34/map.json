@@ -39,6 +39,20 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE34_GATE",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 35,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE34_DAYCARE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 37,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE34_DAYCARE",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

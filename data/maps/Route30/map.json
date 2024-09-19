@@ -28,7 +28,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 15,
+      "y": 43,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE30_BERRY_EXPERTS_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 28,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE30_MR_POKEMONS_HOUSE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

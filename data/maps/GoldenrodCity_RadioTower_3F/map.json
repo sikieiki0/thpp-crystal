@@ -17,7 +17,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 9,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY_RADIO_TOWER_2F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY_RADIO_TOWER_4F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY_RADIO_TOWER_4F",
+      "dest_warp_id": "2"
+    }
   ],
   "coord_events": [
 
