@@ -5704,7 +5704,7 @@
     {
       "id": "LAYOUT_CHERRYGROVE_CITY_POKEMON_CENTER",
       "name": "CherrygroveCity_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -5800,7 +5800,7 @@
     {
       "id": "LAYOUT_VIOLET_CITY_POKE_CENTER",
       "name": "VioletCity_PokeCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -5908,7 +5908,7 @@
     {
       "id": "LAYOUT_ROUTE32_POKEMON_CENTER",
       "name": "Route32_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -5992,7 +5992,7 @@
     {
       "id": "LAYOUT_AZALEA_TOWN_POKEMON_CENTER",
       "name": "AzaleaTown_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -6100,8 +6100,8 @@
     {
       "id": "LAYOUT_GOLDENROD_CITY_POKEMON_COMMUNICATION_CENTER_1F",
       "name": "GoldenrodCity_PokemonCommunicationCenter_1F_Layout",
-      "width": 35,
-      "height": 20,
+      "width": 26,
+      "height": 17,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
@@ -6688,7 +6688,7 @@
     {
       "id": "LAYOUT_ECRUTEAK_CITY_POKEMON_CENTER",
       "name": "EcruteakCity_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -6916,8 +6916,8 @@
     {
       "id": "LAYOUT_OLIVINE_CITY_POKEMON_CENTER",
       "name": "OlivineCity_PokemonCenter_Layout",
-      "width": 30,
-      "height": 11,
+      "width": 15,
+      "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
@@ -7084,7 +7084,7 @@
     {
       "id": "LAYOUT_CIANWOOD_CITY_POKEMON_CENTER",
       "name": "CianwoodCity_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -7216,7 +7216,7 @@
     {
       "id": "LAYOUT_MAHAGONY_TOWN_POKEMON_CENTER",
       "name": "MahagonyTown_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -7348,7 +7348,7 @@
     {
       "id": "LAYOUT_BLACKTHORN_CITY_POKEMON_CENTER",
       "name": "BlackthornCity_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
@@ -7792,7 +7792,7 @@
     {
       "id": "LAYOUT_SILVER_CAVE_POKEMON_CENTER",
       "name": "SilverCave_PokemonCenter_Layout",
-      "width": 16,
+      "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
