@@ -220,6 +220,12 @@ const u32 gTrainerPalette_Brendan[] = INCBIN_U32("graphics/trainers/palettes/bre
 const u32 gTrainerFrontPic_May[] = INCBIN_U32("graphics/trainers/front_pics/may.4bpp.lz");
 const u32 gTrainerPalette_May[] = INCBIN_U32("graphics/trainers/palettes/may.gbapal.lz");
 
+const u32 gTrainerFrontPic_Renko[] = INCBIN_U32("graphics/trainers/front_pics/renko.4bpp.lz");
+const u32 gTrainerPalette_Renko[] = INCBIN_U32("graphics/trainers/palettes/renko.gbapal.lz");
+
+const u32 gTrainerFrontPic_Mary[] = INCBIN_U32("graphics/trainers/front_pics/mary.4bpp.lz");
+const u32 gTrainerPalette_Mary[] = INCBIN_U32("graphics/trainers/palettes/mary.gbapal.lz");
+
 const u32 gTrainerFrontPic_BugCatcher[] = INCBIN_U32("graphics/trainers/front_pics/bug_catcher.4bpp.lz");
 const u32 gTrainerPalette_BugCatcher[] = INCBIN_U32("graphics/trainers/front_pics/bug_catcher.gbapal.lz");
 
@@ -282,6 +288,10 @@ const u32 gTrainerPalette_RubySapphireMay[] = INCBIN_U32("graphics/trainers/pale
 
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
+
+const u8 gTrainerBackPic_Renko[] = INCBIN_U8("graphics/trainers/back_pics/renko.4bpp");
+const u8 gTrainerBackPic_Mary[] = INCBIN_U8("graphics/trainers/back_pics/mary.4bpp");
+
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red.4bpp");
 const u8 gTrainerBackPic_Leaf[] = INCBIN_U8("graphics/trainers/back_pics/leaf.4bpp");
 const u8 gTrainerBackPic_RubySapphireBrendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan_rs.4bpp");
@@ -523,6 +533,24 @@ const struct SpriteFrameImage gTrainerBackPicTable_Steven[] =
     {gTrainerBackPic_Steven + TRAINER_PIC_SIZE * 3, TRAINER_PIC_SIZE},
 };
 
+const struct SpriteFrameImage gTrainerBackPicTable_Renko[] =
+{
+    {gTrainerBackPic_Renko + TRAINER_PIC_SIZE * 0, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Renko + TRAINER_PIC_SIZE * 1, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Renko + TRAINER_PIC_SIZE * 2, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Renko + TRAINER_PIC_SIZE * 3, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Renko + TRAINER_PIC_SIZE * 4, TRAINER_PIC_SIZE},
+};
+
+const struct SpriteFrameImage gTrainerBackPicTable_Mary[] =
+{
+    {gTrainerBackPic_Mary + TRAINER_PIC_SIZE * 0, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Mary + TRAINER_PIC_SIZE * 1, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Mary + TRAINER_PIC_SIZE * 2, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Mary + TRAINER_PIC_SIZE * 3, TRAINER_PIC_SIZE},
+    {gTrainerBackPic_Mary + TRAINER_PIC_SIZE * 4, TRAINER_PIC_SIZE},
+};
+
 // .backPic goes functionally unused, since none of these pics are compressed
 // and the place they would get extracted to gets overwritten later anyway
 // the casts are so they'll play nice with the strict struct definition
@@ -545,4 +573,6 @@ const struct TrainerBacksprite gTrainerBacksprites[] =
     TRAINER_BACK_SPRITE(RUBY_SAPPHIRE_MAY, 4, RubySapphireMay, Palette_RubySapphireMay, Hoenn),
     TRAINER_BACK_SPRITE(WALLY, 4, Wally, Palette_Wally, Hoenn),
     TRAINER_BACK_SPRITE(STEVEN, 4, Steven, Palette_Steven, Hoenn),
+    TRAINER_BACK_SPRITE(RENKO, 5, Renko, Palette_Renko, Kanto),
+    TRAINER_BACK_SPRITE(MARY, 5, Mary, Palette_Mary, Kanto),
 };
