@@ -390,7 +390,7 @@ struct SpeciesInfo /*0xC4*/
  /* 0x38 */ u16 trainerScale;
  /* 0x3A */ u16 trainerOffset;
  /* 0x3C */ const u8 *description;
- /* 0x40 */ u8 bodyColor:7;
+ /* 0x40 */ u8 sourceGame:7;
             // Graphical Data
             u8 noFlip:1;
  /* 0x41 */ u8 frontAnimDelay;

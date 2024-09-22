@@ -9,15 +9,40 @@
 // so Pikachu depends on the Gen 1 setting despite Pichu being the lowest member of the evolution tree.
 // Eg: If P_GEN_2_POKEMON is set to FALSE, all members of the Sneasel Family will be disabled
 // (Sneasel + Hisuian, Weavile and Sneasler).
-#define P_GEN_1_POKEMON                  TRUE // Generation 1 Pokémon (RGBY)
-#define P_GEN_2_POKEMON                  TRUE // Generation 2 Pokémon (GSC)
-#define P_GEN_3_POKEMON                  TRUE // Generation 3 Pokémon (RSE, FRLG)
+#define P_GEN_1_POKEMON                  FALSE // Generation 1 Pokémon (RGBY)
+#define P_GEN_2_POKEMON                  FALSE // Generation 2 Pokémon (GSC)
+#define P_GEN_3_POKEMON                  FALSE // Generation 3 Pokémon (RSE, FRLG)
 #define P_GEN_4_POKEMON                  FALSE // Generation 4 Pokémon (DPPt, HGSS)
 #define P_GEN_5_POKEMON                  FALSE // Generation 5 Pokémon (BW, B2W2)
 #define P_GEN_6_POKEMON                  FALSE // Generation 6 Pokémon (XY, ORAS)
 #define P_GEN_7_POKEMON                  FALSE // Generation 7 Pokémon (SM, USUM, LGPE)
 #define P_GEN_8_POKEMON                  FALSE // Generation 8 Pokémon (SwSh, BDSP, LA)
 #define P_GEN_9_POKEMON                  FALSE // Generation 9 Pokémon (SV)
+
+//Touhou Games 
+#define P_TOUHOU1_PUPPETS                TRUE  // TH01 - Highly Responsive to Prayers
+#define P_TOUHOU2_PUPPETS                TRUE  // TH02 - Story of Eastern Wonderland
+#define P_TOUHOU3_PUPPETS                TRUE  // TH03 - Phantasmagoria of Dim.Dream
+#define P_TOUHOU4_PUPPETS                TRUE  // TH04 - Lotus Land Story
+#define P_TOUHOU5_PUPPETS                TRUE  // TH05 - Mystic Square
+#define P_TOUHOU6_PUPPETS                TRUE  // TH06 - Embodiment of Scarlet Devil
+#define P_TOUHOU7_PUPPETS                TRUE  // TH07 - Perfect Cherry Blossom
+#define P_TOUHOU8_PUPPETS                TRUE  // TH08 - Imperishable Night
+#define P_TOUHOU9_PUPPETS                TRUE  // TH09 - Phantasmagoria of Flower View
+#define P_TOUHOU10_PUPPETS               TRUE  // TH10 - Mountain of Faith
+#define P_TOUHOU11_PUPPETS               TRUE  // TH11 - Subterranean Animism
+#define P_TOUHOU12_PUPPETS               TRUE  // TH12 - Undefined Fantastic Object
+#define P_TOUHOU13_PUPPETS               TRUE  // TH13 - Ten Desires
+#define P_TOUHOU14_PUPPETS               TRUE  // TH14 - Double Dealing Character
+#define P_TOUHOU15_PUPPETS               TRUE  // TH15 - Legacy of Lunatic Kingdom
+#define P_TOUHOU16_PUPPETS               TRUE  // TH16 - Hidden Star in Four Seasons
+#define P_TOUHOU17_PUPPETS               TRUE  // TH17 - Wily Beast and Weakest Creature
+#define P_TOUHOU18_PUPPETS               TRUE  // TH18 - Unconnected Marketeers
+#define P_TOUHOU19_PUPPETS               TRUE  // TH19 - Unfinished Dream of All Living Ghost
+//misc Puppets
+#define P_TOUHOU_PRINT_PUPPETS           TRUE  // Mangas, Comics etc.
+#define P_TOUHOU_SPINOFF_PUPPETS         TRUE  // Spinoff games
+#define P_TOUHOU_OTHER_PUPPETS           TRUE  // Other sources
 
 // Setting this to TRUE will add the new evolutions to the Regional Dex.
 #define P_NEW_EVOS_IN_REGIONAL_DEX       TRUE

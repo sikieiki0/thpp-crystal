@@ -54,7 +54,7 @@ enum
 enum
 {
     SEARCH_NAME,
-    SEARCH_COLOR,
+    SEARCH_SOURCE,
     SEARCH_TYPE_LEFT,
     SEARCH_TYPE_RIGHT,
     SEARCH_ORDER,
@@ -1062,9 +1062,9 @@ static const struct SearchMenuItem sSearchMenuItems[SEARCH_COUNT] =
         .selectionBgY = 2,
         .selectionBgWidth = 12,
     },
-    [SEARCH_COLOR] =
+    [SEARCH_SOURCE] =
     {
-        .description = gText_ListByBodyColor,
+        .description = gText_ListBySourceGame,
         .titleBgX = 0,
         .titleBgY = 4,
         .titleBgWidth = 5,
@@ -1132,9 +1132,9 @@ static const u8 sSearchMovementMap_SearchNatDex[SEARCH_COUNT][4] =
         0xFF,
         0xFF,
         0xFF,
-        SEARCH_COLOR
+        SEARCH_SOURCE
     },
-    [SEARCH_COLOR] =
+    [SEARCH_SOURCE] =
     {
         0xFF,
         0xFF,
@@ -1145,13 +1145,13 @@ static const u8 sSearchMovementMap_SearchNatDex[SEARCH_COUNT][4] =
     {
         0xFF,
         SEARCH_TYPE_RIGHT,
-        SEARCH_COLOR,
+        SEARCH_SOURCE,
         SEARCH_ORDER
     },
     [SEARCH_TYPE_RIGHT] =
     {   SEARCH_TYPE_LEFT,
         0xFF,
-        SEARCH_COLOR,
+        SEARCH_SOURCE,
         SEARCH_ORDER
     },
     [SEARCH_ORDER] =
@@ -1187,7 +1187,7 @@ static const u8 sSearchMovementMap_ShiftNatDex[SEARCH_COUNT][4] =
         0xFF,
         0xFF
     },
-    [SEARCH_COLOR] =
+    [SEARCH_SOURCE] =
     {
         0xFF,
         0xFF,
@@ -1239,9 +1239,9 @@ static const u8 sSearchMovementMap_SearchHoennDex[SEARCH_COUNT][4] =
         0xFF,
         0xFF,
         0xFF,
-        SEARCH_COLOR
+        SEARCH_SOURCE
     },
-    [SEARCH_COLOR] =
+    [SEARCH_SOURCE] =
     {
         0xFF,
         0xFF,
@@ -1252,13 +1252,13 @@ static const u8 sSearchMovementMap_SearchHoennDex[SEARCH_COUNT][4] =
     {
         0xFF,
         SEARCH_TYPE_RIGHT,
-        SEARCH_COLOR,
+        SEARCH_SOURCE,
         SEARCH_ORDER
     },
     [SEARCH_TYPE_RIGHT] =
     {   SEARCH_TYPE_LEFT,
         0xFF,
-        SEARCH_COLOR,
+        SEARCH_SOURCE,
         SEARCH_ORDER
     },
     [SEARCH_ORDER] =
@@ -1294,7 +1294,7 @@ static const u8 sSearchMovementMap_ShiftHoennDex[SEARCH_COUNT][4] =
         0xFF,
         0xFF
     },
-    [SEARCH_COLOR] =
+    [SEARCH_SOURCE] =
     {
         0xFF,
         0xFF,
@@ -1371,43 +1371,54 @@ static const struct SearchOptionText sDexSearchNameOptions[] =
     {},
 };
 
-static const struct SearchOptionText sDexSearchColorOptions[] =
+static const struct SearchOptionText sDexSearchSourceOptions[] =
 {
     {gText_DexEmptyString, gText_DexSearchDontSpecify},
-    [BODY_COLOR_RED + 1]    = {gText_DexEmptyString, gText_DexSearchColorRed},
-    [BODY_COLOR_BLUE + 1]   = {gText_DexEmptyString, gText_DexSearchColorBlue},
-    [BODY_COLOR_YELLOW + 1] = {gText_DexEmptyString, gText_DexSearchColorYellow},
-    [BODY_COLOR_GREEN + 1]  = {gText_DexEmptyString, gText_DexSearchColorGreen},
-    [BODY_COLOR_BLACK + 1]  = {gText_DexEmptyString, gText_DexSearchColorBlack},
-    [BODY_COLOR_BROWN + 1]  = {gText_DexEmptyString, gText_DexSearchColorBrown},
-    [BODY_COLOR_PURPLE + 1] = {gText_DexEmptyString, gText_DexSearchColorPurple},
-    [BODY_COLOR_GRAY + 1]   = {gText_DexEmptyString, gText_DexSearchColorGray},
-    [BODY_COLOR_WHITE + 1]  = {gText_DexEmptyString, gText_DexSearchColorWhite},
-    [BODY_COLOR_PINK + 1]   = {gText_DexEmptyString, gText_DexSearchColorPink},
+    [SOURCE_HRTP   + 1]  = {gText_DexHRTPDescription   , gText_DexSearchSourceHRTP},
+    [SOURCE_SOEW   + 1]  = {gText_DexSOEWDescription   , gText_DexSearchSourceSOEW},
+    [SOURCE_PODD   + 1]  = {gText_DexPODDDescription   , gText_DexSearchSourcePODD},
+    [SOURCE_LLS    + 1]  = {gText_DexLLSDescription    , gText_DexSearchSourceLLS},
+    [SOURCE_MS     + 1]  = {gText_DexMSDescription     , gText_DexSearchSourceMS},
+    [SOURCE_EOSD   + 1]  = {gText_DexEOSDDescription   , gText_DexSearchSourceEOSD},
+    [SOURCE_PCB    + 1]  = {gText_DexPCBDescription    , gText_DexSearchSourcePCB},
+    [SOURCE_IN     + 1]  = {gText_DexINDescription     , gText_DexSearchSourceIN},
+    [SOURCE_POFV   + 1]  = {gText_DexPOFVDescription   , gText_DexSearchSourcePOFV},
+    [SOURCE_MOF    + 1]  = {gText_DexMOFDescription    , gText_DexSearchSourceMOF},
+    [SOURCE_SA     + 1]  = {gText_DexSADescription     , gText_DexSearchSourceSA},
+    [SOURCE_UFO    + 1]  = {gText_DexUFODescription    , gText_DexSearchSourceUFO},
+    [SOURCE_TD     + 1]  = {gText_DexTDDescription     , gText_DexSearchSourceTD},
+    [SOURCE_DDC    + 1]  = {gText_DexDDCDescription    , gText_DexSearchSourceDDC},
+    [SOURCE_LOLK   + 1]  = {gText_DexLOLKDescription   , gText_DexSearchSourceLOLK},
+    [SOURCE_HSIFS  + 1]  = {gText_DexHSIFSDescription  , gText_DexSearchSourceHSIFS},
+    [SOURCE_WBAWC  + 1]  = {gText_DexWBAWCDescription  , gText_DexSearchSourceWBAWC},
+    [SOURCE_UM     + 1]  = {gText_DexUMDescription     , gText_DexSearchSourceUM},
+    [SOURCE_UDOALG + 1]  = {gText_DexUDOALGDescription , gText_DexSearchSourceUDOALG},
+    [SOURCE_SPINOFF+ 1]  = {gText_DexSpinoffDescription, gText_DexSearchSourceSPINOFF},
+    [SOURCE_PRINT  + 1]  = {gText_DexPrintWDescription , gText_DexSearchSourcePRINT},
+	[SOURCE_OTHER  + 1]  = {gText_DexOtherDescription  , gText_DexSearchSourceOTHER},
     {},
 };
 
 static const struct SearchOptionText sDexSearchTypeOptions[] =
 {
-    {gText_DexEmptyString, gTypesInfo[TYPE_NONE].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_NORMAL].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_DREAM].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_FIGHTING].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_FLYING].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_POISON].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_GROUND].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_ROCK].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_BUG].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_GHOST].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_MIASMA].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_EARTH].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_PRIMAL].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_SPIRIT].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_NETHER].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_STEEL].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_FIRE].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_WATER].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_GRASS].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_NATURE].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_ELECTRIC].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_PSYCHIC].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_ICE].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_DRAGON].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_HOLY].name},
     {gText_DexEmptyString, gTypesInfo[TYPE_DARK].name},
-    {gText_DexEmptyString, gTypesInfo[TYPE_FAIRY].name},
+    {gText_DexEmptyString, gTypesInfo[TYPE_ILLUSION].name},
     {},
 };
 
@@ -1425,24 +1436,24 @@ static const u8 sOrderOptions[] =
 static const u8 sDexSearchTypeIds[NUMBER_OF_MON_TYPES] =
 {
     TYPE_NONE,
-    TYPE_NORMAL,
+    TYPE_DREAM,
     TYPE_FIGHTING,
     TYPE_FLYING,
-    TYPE_POISON,
-    TYPE_GROUND,
-    TYPE_ROCK,
-    TYPE_BUG,
-    TYPE_GHOST,
+    TYPE_MIASMA,
+    TYPE_EARTH,
+    TYPE_PRIMAL,
+    TYPE_SPIRIT,
+    TYPE_NETHER,
     TYPE_STEEL,
     TYPE_FIRE,
     TYPE_WATER,
-    TYPE_GRASS,
+    TYPE_NATURE,
     TYPE_ELECTRIC,
     TYPE_PSYCHIC,
     TYPE_ICE,
-    TYPE_DRAGON,
+    TYPE_HOLY,
     TYPE_DARK,
-    TYPE_FAIRY,
+    TYPE_ILLUSION,
 };
 
 // Number pairs are the task data for tracking the cursor pos and scroll offset of each option list
@@ -1450,7 +1461,7 @@ static const u8 sDexSearchTypeIds[NUMBER_OF_MON_TYPES] =
 static const struct SearchOption sSearchOptions[] =
 {
     [SEARCH_NAME]       = {sDexSearchNameOptions,  6,  7, ARRAY_COUNT(sDexSearchNameOptions) - 1},
-    [SEARCH_COLOR]      = {sDexSearchColorOptions, 8,  9, ARRAY_COUNT(sDexSearchColorOptions) - 1},
+    [SEARCH_SOURCE]     = {sDexSearchSourceOptions, 8,  9, ARRAY_COUNT(sDexSearchSourceOptions) - 1},
     [SEARCH_TYPE_LEFT]  = {sDexSearchTypeOptions, 10, 11, ARRAY_COUNT(sDexSearchTypeOptions) - 1},
     [SEARCH_TYPE_RIGHT] = {sDexSearchTypeOptions, 12, 13, ARRAY_COUNT(sDexSearchTypeOptions) - 1},
     [SEARCH_ORDER]      = {sDexOrderOptions,       4,  5, ARRAY_COUNT(sDexOrderOptions) - 1},
@@ -4889,7 +4900,7 @@ static u16 CreateSizeScreenTrainerPic(u16 species, s16 x, s16 y, s8 paletteSlot)
     return CreateTrainerPicSprite(species, TRUE, x, y, paletteSlot, TAG_NONE);
 }
 
-static int DoPokedexSearch(u8 dexMode, u8 order, u8 abcGroup, u8 bodyColor, u8 type1, u8 type2)
+static int DoPokedexSearch(u8 dexMode, u8 order, u8 abcGroup, u8 sourceGame, u8 type1, u8 type2)
 {
     u16 species;
     u16 i;
@@ -4926,14 +4937,14 @@ static int DoPokedexSearch(u8 dexMode, u8 order, u8 abcGroup, u8 bodyColor, u8 t
         sPokedexView->pokemonListCount = resultsCount;
     }
 
-    // Search by body color
-    if (bodyColor != 0xFF)
+    // Search by source material
+    if (sourceGame != 0xFF)
     {
         for (i = 0, resultsCount = 0; i < sPokedexView->pokemonListCount; i++)
         {
             species = NationalPokedexNumToSpecies(sPokedexView->pokedexList[i].dexNum);
 
-            if (bodyColor == gSpeciesInfo[species].bodyColor)
+            if (sourceGame == gSpeciesInfo[species].sourceGame)
             {
                 sPokedexView->pokedexList[resultsCount] = sPokedexView->pokedexList[i];
                 resultsCount++;
@@ -4943,15 +4954,15 @@ static int DoPokedexSearch(u8 dexMode, u8 order, u8 abcGroup, u8 bodyColor, u8 t
     }
 
     // Search by type
-    if (type1 != TYPE_NONE || type2 != TYPE_NONE)
+    if (type1 != TYPE_DREAM || type2 != TYPE_DREAM)
     {
-        if (type1 == TYPE_NONE)
+        if (type1 == TYPE_DREAM)
         {
             type1 = type2;
-            type2 = TYPE_NONE;
+            type2 = TYPE_DREAM;
         }
 
-        if (type2 == TYPE_NONE)
+        if (type2 == TYPE_DREAM)
         {
             for (i = 0, resultsCount = 0; i < sPokedexView->pokemonListCount; i++)
             {
@@ -5300,11 +5311,11 @@ static void Task_StartPokedexSearch(u8 taskId)
     u8 dexMode = GetSearchModeSelection(taskId, SEARCH_MODE);
     u8 order = GetSearchModeSelection(taskId, SEARCH_ORDER);
     u8 abcGroup = GetSearchModeSelection(taskId, SEARCH_NAME);
-    u8 bodyColor = GetSearchModeSelection(taskId, SEARCH_COLOR);
+    u8 sourceGame = GetSearchModeSelection(taskId, SEARCH_SOURCE);
     u8 type1 = GetSearchModeSelection(taskId, SEARCH_TYPE_LEFT);
     u8 type2 = GetSearchModeSelection(taskId, SEARCH_TYPE_RIGHT);
 
-    DoPokedexSearch(dexMode, order, abcGroup, bodyColor, type1, type2);
+    DoPokedexSearch(dexMode, order, abcGroup, sourceGame, type1, type2);
     gTasks[taskId].func = Task_WaitAndCompleteSearch;
 }
 
@@ -5498,7 +5509,7 @@ void SetSearchRectHighlight(u8 flags, u8 x, u8 y, u8 width)
 #define SEARCH_BG_SHIFT                 SEARCH_TOPBAR_SHIFT
 #define SEARCH_BG_CANCEL                SEARCH_TOPBAR_CANCEL
 #define SEARCH_BG_NAME                  (SEARCH_NAME + SEARCH_TOPBAR_COUNT)
-#define SEARCH_BG_COLOR                 (SEARCH_COLOR + SEARCH_TOPBAR_COUNT)
+#define SEARCH_BG_SOURCE                 (SEARCH_SOURCE + SEARCH_TOPBAR_COUNT)
 #define SEARCH_BG_TYPE_SELECTION_LEFT   (SEARCH_TYPE_LEFT + SEARCH_TOPBAR_COUNT)
 #define SEARCH_BG_TYPE_SELECTION_RIGHT  (SEARCH_TYPE_RIGHT + SEARCH_TOPBAR_COUNT)
 #define SEARCH_BG_ORDER                 (SEARCH_ORDER + SEARCH_TOPBAR_COUNT)
@@ -5518,7 +5529,7 @@ static void DrawSearchMenuItemBgHighlight(u8 searchBg, bool8 unselected, bool8 d
         SetSearchRectHighlight(highlightFlags, sSearchMenuTopBarItems[searchBg].highlightX, sSearchMenuTopBarItems[searchBg].highlightY, sSearchMenuTopBarItems[searchBg].highlightWidth);
         break;
     case SEARCH_BG_NAME:
-    case SEARCH_BG_COLOR:
+    case SEARCH_BG_SOURCE:
     case SEARCH_BG_ORDER:
     case SEARCH_BG_MODE:
         SetSearchRectHighlight(highlightFlags, sSearchMenuItems[searchBg - SEARCH_TOPBAR_COUNT].titleBgX, sSearchMenuItems[searchBg - SEARCH_TOPBAR_COUNT].titleBgY, sSearchMenuItems[searchBg - SEARCH_TOPBAR_COUNT].titleBgWidth);
@@ -5548,7 +5559,7 @@ static void SetInitialSearchMenuBgHighlights(u8 topBarItem)
         DrawSearchMenuItemBgHighlight(SEARCH_BG_SHIFT, TRUE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_CANCEL, TRUE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_NAME, TRUE, FALSE);
-        DrawSearchMenuItemBgHighlight(SEARCH_BG_COLOR, TRUE, FALSE);
+        DrawSearchMenuItemBgHighlight(SEARCH_BG_SOURCE, TRUE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_TITLE, TRUE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_SELECTION_LEFT, TRUE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_SELECTION_RIGHT, TRUE, FALSE);
@@ -5561,7 +5572,7 @@ static void SetInitialSearchMenuBgHighlights(u8 topBarItem)
         DrawSearchMenuItemBgHighlight(SEARCH_BG_SHIFT, FALSE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_CANCEL, TRUE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_NAME, TRUE, TRUE);
-        DrawSearchMenuItemBgHighlight(SEARCH_BG_COLOR, TRUE, TRUE);
+        DrawSearchMenuItemBgHighlight(SEARCH_BG_SOURCE, TRUE, TRUE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_TITLE, TRUE, TRUE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_SELECTION_LEFT, TRUE, TRUE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_SELECTION_RIGHT, TRUE, TRUE);
@@ -5574,7 +5585,7 @@ static void SetInitialSearchMenuBgHighlights(u8 topBarItem)
         DrawSearchMenuItemBgHighlight(SEARCH_BG_SHIFT, TRUE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_CANCEL, FALSE, FALSE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_NAME, TRUE, TRUE);
-        DrawSearchMenuItemBgHighlight(SEARCH_BG_COLOR, TRUE, TRUE);
+        DrawSearchMenuItemBgHighlight(SEARCH_BG_SOURCE, TRUE, TRUE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_TITLE, TRUE, TRUE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_SELECTION_LEFT, TRUE, TRUE);
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_SELECTION_RIGHT, TRUE, TRUE);
@@ -5599,8 +5610,8 @@ static void HighlightSelectedSearchMenuItem(u8 topBarItem, u8 menuItem)
     case SEARCH_NAME:
         DrawSearchMenuItemBgHighlight(SEARCH_BG_NAME, FALSE, FALSE);
         break;
-    case SEARCH_COLOR:
-        DrawSearchMenuItemBgHighlight(SEARCH_BG_COLOR, FALSE, FALSE);
+    case SEARCH_SOURCE:
+        DrawSearchMenuItemBgHighlight(SEARCH_BG_SOURCE, FALSE, FALSE);
         break;
     case SEARCH_TYPE_LEFT:
         DrawSearchMenuItemBgHighlight(SEARCH_BG_TYPE_TITLE, FALSE, FALSE);
@@ -5634,7 +5645,7 @@ static void PrintSelectedSearchParameters(u8 taskId)
     PrintSearchText(sDexSearchNameOptions[searchParamId].title, 0x2D, 0x11);
 
     searchParamId = gTasks[taskId].tCursorPos_Color + gTasks[taskId].tScrollOffset_Color;
-    PrintSearchText(sDexSearchColorOptions[searchParamId].title, 0x2D, 0x21);
+    PrintSearchText(sDexSearchSourceOptions[searchParamId].title, 0x2D, 0x21);
 
     searchParamId = gTasks[taskId].tCursorPos_TypeLeft + gTasks[taskId].tScrollOffset_TypeLeft;
     PrintSearchTextToFit(sDexSearchTypeOptions[searchParamId].title, 0x2D, 0x31, 38);
@@ -5722,7 +5733,7 @@ static u8 GetSearchModeSelection(u8 taskId, u8 option)
             return 0xFF;
         else
             return id;
-    case SEARCH_COLOR:
+    case SEARCH_SOURCE:
         if (id == 0)
             return 0xFF;
         else
