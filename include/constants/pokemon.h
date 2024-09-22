@@ -24,6 +24,16 @@
 #define TYPE_FAIRY            19
 #define TYPE_STELLAR          20
 #define NUMBER_OF_MON_TYPES   21
+// Puppet type redefines
+#define TYPE_DREAM            TYPE_NORMAL
+#define TYPE_MIASMA           TYPE_POISON
+#define TYPE_EARTH            TYPE_GROUND
+#define TYPE_PRIMAL           TYPE_ROCK
+#define TYPE_SPIRIT           TYPE_BUG
+#define TYPE_NETHER           TYPE_GHOST
+#define TYPE_NATURE           TYPE_GRASS
+#define TYPE_HOLY             TYPE_DRAGON
+#define TYPE_ILLUSION         TYPE_FAIRY
 
 // Pokémon egg groups
 #define EGG_GROUP_NONE                0
