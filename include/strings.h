@@ -511,6 +511,8 @@ extern const u8 gText_HealthboxNickname[];
 extern const u8 gText_HealthboxGender_None[];
 extern const u8 gText_HealthboxGender_Male[];
 extern const u8 gText_HealthboxGender_Female[];
+extern const u8 gText_HealthboxGender_Yin[];
+extern const u8 gText_HealthboxGender_Yang[];
 
 extern const u8 gText_99TimesPlus[];
 extern const u8 gText_1MinutePlus[];
@@ -1869,6 +1871,8 @@ extern const u8 gText_Time[];
 // daycare
 extern const u8 gText_MaleSymbol4[];
 extern const u8 gText_FemaleSymbol4[];
+extern const u8 gText_YinSymbol4[];
+extern const u8 gText_YangSymbol4[];
 extern const u8 gText_GenderlessSymbol[];
 extern const u8 gText_NewLine2[];
 extern const u8 gText_Exit4[];

@@ -6124,8 +6124,8 @@ static u8 GetMonNicknameLanguage(u8 *nickname)
                 || *nickname == CHAR_COMMA
                 || *nickname == CHAR_EXCL_MARK
                 || *nickname == CHAR_QUESTION_MARK
-                || *nickname == CHAR_MALE
-                || *nickname == CHAR_FEMALE
+                || *nickname == CHAR_YANG
+                || *nickname == CHAR_YIN
                 || *nickname == CHAR_SLASH
                 || *nickname == CHAR_HYPHEN
                 || *nickname == CHAR_ELLIPSIS

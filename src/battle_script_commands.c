@@ -8325,13 +8325,13 @@ static void DrawLevelUpBannerText(void)
         {
             txtPtr = WriteColorChangeControlCode(txtPtr, 0, TEXT_DYNAMIC_COLOR_3);
             txtPtr = WriteColorChangeControlCode(txtPtr, 1, TEXT_DYNAMIC_COLOR_4);
-            *(txtPtr++) = CHAR_MALE;
+            *(txtPtr++) = CHAR_YANG;
         }
         else
         {
             txtPtr = WriteColorChangeControlCode(txtPtr, 0, TEXT_DYNAMIC_COLOR_5);
             txtPtr = WriteColorChangeControlCode(txtPtr, 1, TEXT_DYNAMIC_COLOR_6);
-            *(txtPtr++) = CHAR_FEMALE;
+            *(txtPtr++) = CHAR_YIN;
         }
         *(txtPtr++) = EOS;
     }

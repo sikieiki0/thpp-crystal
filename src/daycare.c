@@ -1363,9 +1363,9 @@ bool8 NameHasGenderSymbol(const u8 *name, u8 genderRatio)
 
     for (i = 0; name[i] != EOS; i++)
     {
-        if (name[i] == CHAR_MALE)
+        if (name[i] == CHAR_YANG)
             symbolsCount[MALE]++;
-        if (name[i] == CHAR_FEMALE)
+        if (name[i] == CHAR_YIN)
             symbolsCount[FEMALE]++;
     }
 
@@ -1382,12 +1382,12 @@ static u8 *AppendGenderSymbol(u8 *name, u8 gender)
     if (gender == MON_MALE)
     {
         if (!NameHasGenderSymbol(name, MON_MALE))
-            return StringAppend(name, gText_MaleSymbol4);
+            return StringAppend(name, gText_YangSymbol4);
     }
     else if (gender == MON_FEMALE)
     {
         if (!NameHasGenderSymbol(name, MON_FEMALE))
-            return StringAppend(name, gText_FemaleSymbol4);
+            return StringAppend(name, gText_YinSymbol4);
     }
 
     return StringAppend(name, gText_GenderlessSymbol);

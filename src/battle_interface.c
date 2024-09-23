@@ -1736,10 +1736,10 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
         StringCopy(ptr, gText_HealthboxGender_None);
         break;
     case MON_MALE:
-        StringCopy(ptr, gText_HealthboxGender_Male);
+        StringCopy(ptr, gText_HealthboxGender_Yang);
         break;
     case MON_FEMALE:
-        StringCopy(ptr, gText_HealthboxGender_Female);
+        StringCopy(ptr, gText_HealthboxGender_Yin);
         break;
     }
 

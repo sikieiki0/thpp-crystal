@@ -1781,12 +1781,12 @@ static void DrawGenderIcon(void)
     u8 text[2];
     bool8 isFemale = FALSE;
 
-    StringCopy(text, gText_MaleSymbol);
+    StringCopy(text, gText_YangSymbol);
     if (sNamingScreen->monGender != MON_GENDERLESS)
     {
         if (sNamingScreen->monGender == MON_FEMALE)
         {
-            StringCopy(text, gText_FemaleSymbol);
+            StringCopy(text, gText_YinSymbol);
             isFemale = TRUE;
         }
         AddTextPrinterParameterized3(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, (POKEMON_NAME_LENGTH * 4) + 64, 1, sGenderColors[isFemale], TEXT_SKIP_DRAW, text);
