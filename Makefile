@@ -34,7 +34,7 @@ else
 EXE :=
 endif
 
-TITLE        := POKEMON EMER
+TITLE        := THPP CRYSTAL
 GAME_CODE    := BPEE
 MAKER_CODE   := 01
 REVISION     := 0
@@ -53,7 +53,7 @@ endif
 
 CPP := $(PREFIX)cpp
 
-ROM_NAME := pokeemerald.gba
+ROM_NAME := thpp_crystal.gba
 ELF_NAME := $(ROM_NAME:.gba=.elf)
 MAP_NAME := $(ROM_NAME:.gba=.map)
 OBJ_DIR_NAME := build/modern
