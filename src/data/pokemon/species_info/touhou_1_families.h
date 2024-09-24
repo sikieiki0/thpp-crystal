@@ -1,3 +1,8 @@
+#ifdef __INTELLISENSE__
+const struct SpeciesInfo gSpeciesInfoTouhou1[] =
+{
+#endif 
+
     [SPECIES_CHAKUREI] =
     {
         .speciesName = _("Hakurei{CHIBI}"),
@@ -8,7 +13,7 @@
         .baseSpeed     = 75,
         .baseSpAttack  = 80,
         .baseSpDefense = 55,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_FIGHTING),
+        .types = MON_TYPES(TYPE_HOLY, TYPE_FIGHTING),
         .catchRate = 45,
         .expYield = 150,
         .evYield_HP        = 0,
@@ -68,7 +73,7 @@
         .baseSpeed     = 100,
         .baseSpAttack  = 105,
         .baseSpDefense = 80,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_FIGHTING),
+        .types = MON_TYPES(TYPE_HOLY, TYPE_FIGHTING),
         .catchRate = 45,
         .expYield = 230,
         .evYield_HP        = 0,
@@ -119,6 +124,8 @@
         .levelUpLearnset = sHakureiLevelUpLearnset,
         .teachableLearnset = sHakureiTeachableLearnset,
     },
+
+    #if P_TOUHOU1_PUPPETS  
 
     [SPECIES_CSHINGYOKU] =
     {
@@ -1157,3 +1164,10 @@
         .levelUpLearnset = sKonngaraLevelUpLearnset,
         .teachableLearnset = sKonngaraTeachableLearnset,
     },
+
+    #endif //P_TOUHOU1_PUPPETS
+
+
+#ifdef __INTELLISENSE__
+};
+#endif

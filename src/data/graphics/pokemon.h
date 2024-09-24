@@ -22041,3 +22041,46 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+
+    //Puppets
+    const u32 gMonFrontPic_CHakurei[] = INCBIN_U32("graphics/puppets/chakurei/front.4bpp.lz");
+    const u32 gMonPalette_CHakurei[] = INCBIN_U32("graphics/puppets/chakurei/normal.gbapal.lz");
+    const u32 gMonBackPic_CHakurei[] = INCBIN_U32("graphics/puppets/chakurei/back.4bpp.lz");
+    const u32 gMonShinyPalette_CHakurei[] = INCBIN_U32("graphics/puppets/chakurei/shiny.gbapal.lz");
+    const u8 gMonIcon_CHakurei[] = INCBIN_U8("graphics/puppets/chakurei/icon.4bpp");
+    const u8 gMonFootprint_CHakurei[] = INCBIN_U8("graphics/puppets/chakurei/footprint.1bpp");
+
+    const u32 gMonFrontPic_Hakurei[] = INCBIN_U32("graphics/puppets/hakurei/front.4bpp.lz");
+    const u32 gMonPalette_Hakurei[] = INCBIN_U32("graphics/puppets/hakurei/normal.gbapal.lz");
+    const u32 gMonBackPic_Hakurei[] = INCBIN_U32("graphics/puppets/hakurei/back.4bpp.lz");
+    const u32 gMonShinyPalette_Hakurei[] = INCBIN_U32("graphics/puppets/hakurei/shiny.gbapal.lz");
+    const u8 gMonIcon_Hakurei[] = INCBIN_U8("graphics/puppets/hakurei/icon.4bpp");
+    const u8 gMonFootprint_Hakurei[] = INCBIN_U8("graphics/puppets/hakurei/footprint.1bpp");
+
+    const u32 gMonFrontPic_CKirisame[] = INCBIN_U32("graphics/puppets/ckirisame/front.4bpp.lz");
+    const u32 gMonPalette_CKirisame[] = INCBIN_U32("graphics/puppets/ckirisame/normal.gbapal.lz");
+    const u32 gMonBackPic_CKirisame[] = INCBIN_U32("graphics/puppets/ckirisame/back.4bpp.lz");
+    const u32 gMonShinyPalette_CKirisame[] = INCBIN_U32("graphics/puppets/ckirisame/shiny.gbapal.lz");
+    const u8 gMonIcon_CKirisame[] = INCBIN_U8("graphics/puppets/ckirisame/icon.4bpp");
+    const u8 gMonFootprint_CKirisame[] = INCBIN_U8("graphics/puppets/ckirisame/footprint.1bpp");
+
+    const u32 gMonFrontPic_Kirisame[] = INCBIN_U32("graphics/puppets/kirisame/front.4bpp.lz");
+    const u32 gMonPalette_Kirisame[] = INCBIN_U32("graphics/puppets/kirisame/normal.gbapal.lz");
+    const u32 gMonBackPic_Kirisame[] = INCBIN_U32("graphics/puppets/kirisame/back.4bpp.lz");
+    const u32 gMonShinyPalette_Kirisame[] = INCBIN_U32("graphics/puppets/kirisame/shiny.gbapal.lz");
+    const u8 gMonIcon_Kirisame[] = INCBIN_U8("graphics/puppets/kirisame/icon.4bpp");
+    const u8 gMonFootprint_Kirisame[] = INCBIN_U8("graphics/puppets/kirisame/footprint.1bpp");
+
+    const u32 gMonFrontPic_CArisu[] = INCBIN_U32("graphics/puppets/carisu/front.4bpp.lz");
+    const u32 gMonPalette_CArisu[] = INCBIN_U32("graphics/puppets/carisu/normal.gbapal.lz");
+    const u32 gMonBackPic_CArisu[] = INCBIN_U32("graphics/puppets/carisu/back.4bpp.lz");
+    const u32 gMonShinyPalette_CArisu[] = INCBIN_U32("graphics/puppets/carisu/shiny.gbapal.lz");
+    const u8 gMonIcon_CArisu[] = INCBIN_U8("graphics/puppets/carisu/icon.4bpp");
+    const u8 gMonFootprint_CArisu[] = INCBIN_U8("graphics/puppets/carisu/footprint.1bpp");
+
+    const u32 gMonFrontPic_Arisu[] = INCBIN_U32("graphics/puppets/arisu/front.4bpp.lz");
+    const u32 gMonPalette_Arisu[] = INCBIN_U32("graphics/puppets/arisu/normal.gbapal.lz");
+    const u32 gMonBackPic_Arisu[] = INCBIN_U32("graphics/puppets/arisu/back.4bpp.lz");
+    const u32 gMonShinyPalette_Arisu[] = INCBIN_U32("graphics/puppets/arisu/shiny.gbapal.lz");
+    const u8 gMonIcon_Arisu[] = INCBIN_U8("graphics/puppets/arisu/icon.4bpp");
+    const u8 gMonFootprint_Arisu[] = INCBIN_U8("graphics/puppets/arisu/footprint.1bpp");

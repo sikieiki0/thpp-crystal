@@ -2,12 +2,12 @@
 #define GUARD_CONSTANTS_SPECIES_H
 
 #define SPECIES_NONE                                    0
-#define SPECIES_BULBASAUR                               1
-#define SPECIES_IVYSAUR                                 2
-#define SPECIES_VENUSAUR                                3
-#define SPECIES_CHARMANDER                              4
-#define SPECIES_CHARMELEON                              5
-#define SPECIES_CHARIZARD                               6
+#define SPECIES_CHAKUREI                                1
+#define SPECIES_HAKUREI                                 2
+#define SPECIES_CKIRISAME                               3
+#define SPECIES_KIRISAME                                4
+#define SPECIES_CARISU                                  5
+#define SPECIES_ARISU                                   6
 #define SPECIES_SQUIRTLE                                7
 #define SPECIES_WARTORTLE                               8
 #define SPECIES_BLASTOISE                               9
@@ -1773,5 +1773,13 @@
 #define SPECIES_ZIGZAGOON_GALAR                         SPECIES_ZIGZAGOON_GALARIAN
 #define SPECIES_ZOROARK_HISUI                           SPECIES_ZOROARK_HISUIAN
 #define SPECIES_ZORUA_HISUI                             SPECIES_ZORUA_HISUIAN
+
+// Puppet-Pokemon redefines
+#define SPECIES_BULBASAUR                               SPECIES_CHAKUREI
+#define SPECIES_IVYSAUR                                 SPECIES_HAKUREI
+#define SPECIES_VENUSAUR                                SPECIES_CKIRISAME
+#define SPECIES_CHARMANDER                              SPECIES_KIRISAME
+#define SPECIES_CHARMELEON                              SPECIES_CARISU
+#define SPECIES_CHARIZARD                               SPECIES_ARISU
 
 #endif  // GUARD_CONSTANTS_SPECIES_H
