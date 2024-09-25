@@ -3,37 +3,38 @@
 
 // Pokémon types
 #define TYPE_NONE             0
-#define TYPE_NORMAL           1
+#define TYPE_DREAM            1
 #define TYPE_FIGHTING         2
 #define TYPE_FLYING           3
-#define TYPE_POISON           4
-#define TYPE_GROUND           5
-#define TYPE_ROCK             6
-#define TYPE_BUG              7
-#define TYPE_GHOST            8
+#define TYPE_MIASMA           4
+#define TYPE_EARTH            5
+#define TYPE_PRIMAL           6
+#define TYPE_SPIRIT           7
+#define TYPE_NETHER           8
 #define TYPE_STEEL            9
 #define TYPE_MYSTERY          10
 #define TYPE_FIRE             11
 #define TYPE_WATER            12
-#define TYPE_GRASS            13
+#define TYPE_NATURE           13
 #define TYPE_ELECTRIC         14
-#define TYPE_PSYCHIC          15
+#define TYPE_REASON           15
 #define TYPE_ICE              16
-#define TYPE_DRAGON           17
+#define TYPE_HOLY             17
 #define TYPE_DARK             18
-#define TYPE_FAIRY            19
+#define TYPE_ILLUSION         19
 #define TYPE_STELLAR          20
 #define NUMBER_OF_MON_TYPES   21
-// Puppet type redefines
-#define TYPE_DREAM            TYPE_NORMAL
-#define TYPE_MIASMA           TYPE_POISON
-#define TYPE_EARTH            TYPE_GROUND
-#define TYPE_PRIMAL           TYPE_ROCK
-#define TYPE_SPIRIT           TYPE_BUG
-#define TYPE_NETHER           TYPE_GHOST
-#define TYPE_NATURE           TYPE_GRASS
-#define TYPE_HOLY             TYPE_DRAGON
-#define TYPE_ILLUSION         TYPE_FAIRY
+// Puppet-Pokemon type redefines
+#define TYPE_NORMAL           TYPE_DREAM
+#define TYPE_POISON           TYPE_MIASMA
+#define TYPE_GROUND           TYPE_EARTH
+#define TYPE_ROCK             TYPE_PRIMAL
+#define TYPE_BUG              TYPE_SPIRIT
+#define TYPE_GHOST            TYPE_NETHER
+#define TYPE_GRASS            TYPE_NATURE
+#define TYPE_PSYCHIC          TYPE_REASON
+#define TYPE_DRAGON           TYPE_HOLY
+#define TYPE_FAIRY            TYPE_ILLUSION
 
 // Pokémon egg groups
 #define EGG_GROUP_NONE                0
