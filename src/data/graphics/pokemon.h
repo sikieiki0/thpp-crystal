@@ -22084,3 +22084,73 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonShinyPalette_Arisu[] = INCBIN_U32("graphics/puppets/arisu/shiny.gbapal.lz");
     const u8 gMonIcon_Arisu[] = INCBIN_U8("graphics/puppets/arisu/icon.4bpp");
     const u8 gMonFootprint_Arisu[] = INCBIN_U8("graphics/puppets/arisu/footprint.1bpp");
+
+    const u32 gMonFrontPic_CNazrin[] = INCBIN_U32("graphics/puppets/cnazrin/front.4bpp.lz");
+    const u32 gMonPalette_CNazrin[] = INCBIN_U32("graphics/puppets/cnazrin/normal.gbapal.lz");
+    const u32 gMonBackPic_CNazrin[] = INCBIN_U32("graphics/puppets/cnazrin/back.4bpp.lz");
+    const u32 gMonShinyPalette_CNazrin[] = INCBIN_U32("graphics/puppets/cnazrin/shiny.gbapal.lz");
+    const u8 gMonIcon_CNazrin[] = INCBIN_U8("graphics/puppets/cnazrin/icon.4bpp");
+    const u8 gMonFootprint_CNazrin[] = INCBIN_U8("graphics/puppets/cnazrin/footprint.1bpp");
+
+    const u32 gMonFrontPic_Nazrin[] = INCBIN_U32("graphics/puppets/nazrin/front.4bpp.lz");
+    const u32 gMonPalette_Nazrin[] = INCBIN_U32("graphics/puppets/nazrin/normal.gbapal.lz");
+    const u32 gMonBackPic_Nazrin[] = INCBIN_U32("graphics/puppets/nazrin/back.4bpp.lz");
+    const u32 gMonShinyPalette_Nazrin[] = INCBIN_U32("graphics/puppets/nazrin/shiny.gbapal.lz");
+    const u8 gMonIcon_Nazrin[] = INCBIN_U8("graphics/puppets/nazrin/icon.4bpp");
+    const u8 gMonFootprint_Nazrin[] = INCBIN_U8("graphics/puppets/nazrin/footprint.1bpp");
+
+    const u32 gMonFrontPic_CTokiko[] = INCBIN_U32("graphics/puppets/ctokiko/front.4bpp.lz");
+    const u32 gMonPalette_CTokiko[] = INCBIN_U32("graphics/puppets/ctokiko/normal.gbapal.lz");
+    const u32 gMonBackPic_CTokiko[] = INCBIN_U32("graphics/puppets/ctokiko/back.4bpp.lz");
+    const u32 gMonShinyPalette_CTokiko[] = INCBIN_U32("graphics/puppets/ctokiko/shiny.gbapal.lz");
+    const u8 gMonIcon_CTokiko[] = INCBIN_U8("graphics/puppets/ctokiko/icon.4bpp");
+    const u8 gMonFootprint_CTokiko[] = INCBIN_U8("graphics/puppets/ctokiko/footprint.1bpp");
+
+    const u32 gMonFrontPic_Tokiko[] = INCBIN_U32("graphics/puppets/tokiko/front.4bpp.lz");
+    const u32 gMonPalette_Tokiko[] = INCBIN_U32("graphics/puppets/tokiko/normal.gbapal.lz");
+    const u32 gMonBackPic_Tokiko[] = INCBIN_U32("graphics/puppets/tokiko/back.4bpp.lz");
+    const u32 gMonShinyPalette_Tokiko[] = INCBIN_U32("graphics/puppets/tokiko/shiny.gbapal.lz");
+    const u8 gMonIcon_Tokiko[] = INCBIN_U8("graphics/puppets/tokiko/icon.4bpp");
+    const u8 gMonFootprint_Tokiko[] = INCBIN_U8("graphics/puppets/tokiko/footprint.1bpp");
+
+    const u32 gMonFrontPic_CDaiyousei[] = INCBIN_U32("graphics/puppets/cdaiyousei/front.4bpp.lz");
+    const u32 gMonPalette_CDaiyousei[] = INCBIN_U32("graphics/puppets/cdaiyousei/normal.gbapal.lz");
+    const u32 gMonBackPic_CDaiyousei[] = INCBIN_U32("graphics/puppets/cdaiyousei/back.4bpp.lz");
+    const u32 gMonShinyPalette_CDaiyousei[] = INCBIN_U32("graphics/puppets/cdaiyousei/shiny.gbapal.lz");
+    const u8 gMonIcon_CDaiyousei[] = INCBIN_U8("graphics/puppets/cdaiyousei/icon.4bpp");
+    const u8 gMonFootprint_CDaiyousei[] = INCBIN_U8("graphics/puppets/cdaiyousei/footprint.1bpp");
+
+    const u32 gMonFrontPic_Daiyousei[] = INCBIN_U32("graphics/puppets/daiyousei/front.4bpp.lz");
+    const u32 gMonPalette_Daiyousei[] = INCBIN_U32("graphics/puppets/daiyousei/normal.gbapal.lz");
+    const u32 gMonBackPic_Daiyousei[] = INCBIN_U32("graphics/puppets/daiyousei/back.4bpp.lz");
+    const u32 gMonShinyPalette_Daiyousei[] = INCBIN_U32("graphics/puppets/daiyousei/shiny.gbapal.lz");
+    const u8 gMonIcon_Daiyousei[] = INCBIN_U8("graphics/puppets/daiyousei/icon.4bpp");
+    const u8 gMonFootprint_Daiyousei[] = INCBIN_U8("graphics/puppets/daiyousei/footprint.1bpp");
+
+    const u32 gMonFrontPic_CChen[] = INCBIN_U32("graphics/puppets/cchen/front.4bpp.lz");
+    const u32 gMonPalette_CChen[] = INCBIN_U32("graphics/puppets/cchen/normal.gbapal.lz");
+    const u32 gMonBackPic_CChen[] = INCBIN_U32("graphics/puppets/cchen/back.4bpp.lz");
+    const u32 gMonShinyPalette_CChen[] = INCBIN_U32("graphics/puppets/cchen/shiny.gbapal.lz");
+    const u8 gMonIcon_CChen[] = INCBIN_U8("graphics/puppets/cchen/icon.4bpp");
+    const u8 gMonFootprint_CChen[] = INCBIN_U8("graphics/puppets/cchen/footprint.1bpp");
+
+    const u32 gMonFrontPic_Chen[] = INCBIN_U32("graphics/puppets/chen/front.4bpp.lz");
+    const u32 gMonPalette_Chen[] = INCBIN_U32("graphics/puppets/chen/normal.gbapal.lz");
+    const u32 gMonBackPic_Chen[] = INCBIN_U32("graphics/puppets/chen/back.4bpp.lz");
+    const u32 gMonShinyPalette_Chen[] = INCBIN_U32("graphics/puppets/chen/shiny.gbapal.lz");
+    const u8 gMonIcon_Chen[] = INCBIN_U8("graphics/puppets/chen/icon.4bpp");
+    const u8 gMonFootprint_Chen[] = INCBIN_U8("graphics/puppets/chen/footprint.1bpp");
+
+    const u32 gMonFrontPic_CSeiran[] = INCBIN_U32("graphics/puppets/cseiran/front.4bpp.lz");
+    const u32 gMonPalette_CSeiran[] = INCBIN_U32("graphics/puppets/cseiran/normal.gbapal.lz");
+    const u32 gMonBackPic_CSeiran[] = INCBIN_U32("graphics/puppets/cseiran/back.4bpp.lz");
+    const u32 gMonShinyPalette_CSeiran[] = INCBIN_U32("graphics/puppets/cseiran/shiny.gbapal.lz");
+    const u8 gMonIcon_CSeiran[] = INCBIN_U8("graphics/puppets/cseiran/icon.4bpp");
+    const u8 gMonFootprint_CSeiran[] = INCBIN_U8("graphics/puppets/cseiran/footprint.1bpp");
+
+    const u32 gMonFrontPic_Seiran[] = INCBIN_U32("graphics/puppets/seiran/front.4bpp.lz");
+    const u32 gMonPalette_Seiran[] = INCBIN_U32("graphics/puppets/seiran/normal.gbapal.lz");
+    const u32 gMonBackPic_Seiran[] = INCBIN_U32("graphics/puppets/seiran/back.4bpp.lz");
+    const u32 gMonShinyPalette_Seiran[] = INCBIN_U32("graphics/puppets/seiran/shiny.gbapal.lz");
+    const u8 gMonIcon_Seiran[] = INCBIN_U8("graphics/puppets/seiran/icon.4bpp");
+    const u8 gMonFootprint_Seiran[] = INCBIN_U8("graphics/puppets/seiran/footprint.1bpp");

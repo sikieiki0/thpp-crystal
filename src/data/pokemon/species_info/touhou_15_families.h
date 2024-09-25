@@ -3,19 +3,17 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
 {
 #endif
 
-
-    #if P_TOUHOU15_PUPPETS  
-
     [SPECIES_CSEIRAN] =
     {
         .speciesName = _("Seiran{CHIBI}"), ///// MISSING DATA
-        .baseHP        = 100,
-        .baseAttack    = 100,
-        .baseDefense   = 100,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_SEIRAN}),
+        .baseHP        = 55,
+        .baseAttack    = 75,
+        .baseDefense   = 40,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 40,
+        .baseSpDefense = 40,
+        .types = MON_TYPES(TYPE_PRIMAL,TYPE_PRIMAL),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -31,18 +29,18 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_MOODY, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CSEIRAN,
         .sourceGame = SOURCE_LOLK,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Moon Rabbit"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "A cheerful moon rabbit with a hammer. \n"
+        "Though small, she uses her weapon with\n"
+        "surprising strength, eager to prove herself."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -63,7 +61,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
         .iconSprite = gMonIcon_CSeiran,
         .iconPalIndex = 0,
         FOOTPRINT(CSeiran)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCSeiranLevelUpLearnset,
+        .levelUpLearnset = sCSeiranLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sCSeiranTeachableLearnset,
     },
 
@@ -76,7 +74,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_PRIMAL,TYPE_FIGHTING),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -92,18 +90,18 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_MOODY, ABILITY_RUN_AWAY},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_SEIRAN,
         .sourceGame = SOURCE_LOLK,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Moon Rabbit"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "An outcast moon rabbit once part\n"
+        "of a dangerous Earth recon unit.\n"
+        "Now, she sells dango in Gensokyo."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -124,9 +122,11 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
         .iconSprite = gMonIcon_Seiran,
         .iconPalIndex = 0,
         FOOTPRINT(Seiran)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sSeiranLevelUpLearnset,
+        .levelUpLearnset = sSeiranLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sSeiranTeachableLearnset,
     },
+
+    #if P_TOUHOU15_PUPPETS  
 
     [SPECIES_CRINGO] =
     {

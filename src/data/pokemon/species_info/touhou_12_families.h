@@ -3,9 +3,6 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
 {
 #endif
 
-
-    #if P_TOUHOU12_PUPPETS  
-
     [SPECIES_CNAZRIN] =
     {
         .speciesName = _("Nazrin{CHIBI}"),
@@ -93,7 +90,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_COLLECTOR, ABILITY_SAND_VEIL},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_NAZRIN,
@@ -128,6 +125,8 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .levelUpLearnset = sNazrinLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,
     },
+
+    #if P_TOUHOU12_PUPPETS  
 
     [SPECIES_TNAZRIN] =
     {
@@ -1239,7 +1238,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .baseSpeed     = 65,
         .baseSpAttack  = 95,
         .baseSpDefense = 45,
-        .types = MON_TYPES(TYPE_PSYCHIC, TYPE_HOLY),
+        .types = MON_TYPES(TYPE_REASON, TYPE_HOLY),
         .catchRate = 45,
         .expYield = 150,
         .evYield_HP        = 0,
@@ -1300,7 +1299,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .baseSpeed     = 80,
         .baseSpAttack  = 120,
         .baseSpDefense = 70,
-        .types = MON_TYPES(TYPE_PSYCHIC, TYPE_HOLY),
+        .types = MON_TYPES(TYPE_REASON, TYPE_HOLY),
         .catchRate = 45,
         .expYield = 220,
         .evYield_HP        = 0,
@@ -1361,7 +1360,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .baseSpeed     = 65,
         .baseSpAttack  = 80,
         .baseSpDefense = 90,
-        .types = MON_TYPES(TYPE_PSYCHIC,TYPE_PSYCHIC),
+        .types = MON_TYPES(TYPE_REASON,TYPE_REASON),
         .catchRate = 45,
         .expYield = 220,
         .evYield_HP        = 3,
@@ -1422,7 +1421,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .baseSpeed     = 90,
         .baseSpAttack  = 75,
         .baseSpDefense = 115,
-        .types = MON_TYPES(TYPE_PSYCHIC,TYPE_HOLY),
+        .types = MON_TYPES(TYPE_REASON,TYPE_HOLY),
         .catchRate = 45,
         .expYield = 220,
         .evYield_HP        = 0,
