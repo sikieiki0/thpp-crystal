@@ -22316,8 +22316,9 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 
 //Puppets
 static const struct LevelUpMove sCHakureiLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_SEAL_NEEDLE),
-    LEVEL_UP_MOVE( 5, MOVE_IMPRISON),
+    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 5, MOVE_GROWL),
+    LEVEL_UP_MOVE( 8, MOVE_SEAL_NEEDLE),
     LEVEL_UP_MOVE(10, MOVE_DOUBLE_KICK),
     LEVEL_UP_MOVE(16, MOVE_DOUBLE_TEAM),
     LEVEL_UP_MOVE(21, MOVE_SMELLING_SALTS),
@@ -22350,8 +22351,9 @@ static const struct LevelUpMove sHakureiLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sCKirisameLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_PSYSHOT),
-    LEVEL_UP_MOVE(5, MOVE_MIMIC),
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_MOVE(5, MOVE_LEER),
+    LEVEL_UP_MOVE(8, MOVE_MIMIC),
     LEVEL_UP_MOVE(10, MOVE_THIEF),
     LEVEL_UP_MOVE(15, MOVE_THUNDER_WAVE),
     LEVEL_UP_MOVE(20, MOVE_SWIFT),
@@ -22385,8 +22387,9 @@ static const struct LevelUpMove sKirisameLevelUpLearnset[] = {
 
 static const struct LevelUpMove sCArisuLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_POUND),
-    LEVEL_UP_MOVE(5, MOVE_TELEPORT),
+    LEVEL_UP_MOVE(5, MOVE_GROWL),
     LEVEL_UP_MOVE(9, MOVE_PSYSHOT),
+    LEVEL_UP_MOVE(11, MOVE_TELEPORT),
     LEVEL_UP_MOVE(14, MOVE_PSYWAVE),
     LEVEL_UP_MOVE(18, MOVE_CHARGE_BEAM),
     LEVEL_UP_MOVE(23, MOVE_PSYBEAM),
