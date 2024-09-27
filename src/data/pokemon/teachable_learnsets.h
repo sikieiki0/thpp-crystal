@@ -35845,7 +35845,7 @@ static const u16 sCHakureiTeachableLearnset[] = {
     MOVE_CALM_MIND,
     MOVE_ROAR,
     MOVE_TOXIC,
-    MOVE_MULTI_PULSE,
+    MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_DETECT,
     MOVE_SAFEGUARD,
@@ -35887,7 +35887,7 @@ static const u16 sHakureiTeachableLearnset[] = {
     MOVE_CALM_MIND,
     MOVE_ROAR,
     MOVE_TOXIC,
-    MOVE_MULTI_PULSE,
+    MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_DETECT,
     MOVE_STEEL_FIST,
@@ -35928,7 +35928,7 @@ static const u16 sHakureiTeachableLearnset[] = {
 
 static const u16 sCKirisameTeachableLearnset[] = {
     MOVE_TOXIC,
-    MOVE_MULTI_PULSE,
+    MOVE_HIDDEN_POWER,
     MOVE_TAUNT,
     MOVE_DETECT,
     MOVE_SIGNAL_BEAM,
@@ -35965,7 +35965,7 @@ static const u16 sCKirisameTeachableLearnset[] = {
 
 static const u16 sKirisameTeachableLearnset[] = {
     MOVE_TOXIC,
-    MOVE_MULTI_PULSE,
+    MOVE_HIDDEN_POWER,
     MOVE_TAUNT,
     MOVE_DETECT,
     MOVE_SIGNAL_BEAM,
@@ -36004,7 +36004,7 @@ static const u16 sKirisameTeachableLearnset[] = {
 static const u16 sCMargatroidTeachableLearnset[] = {
     MOVE_WATER_PULSE,
     MOVE_TOXIC,
-    MOVE_MULTI_PULSE,
+    MOVE_HIDDEN_POWER,
     MOVE_TAUNT,
     MOVE_ICE_BEAM,
     MOVE_DETECT,
@@ -36038,7 +36038,7 @@ static const u16 sCMargatroidTeachableLearnset[] = {
 static const u16 sMargatroidTeachableLearnset[] = {
     MOVE_WATER_PULSE,
     MOVE_TOXIC,
-    MOVE_MULTI_PULSE,
+    MOVE_HIDDEN_POWER,
     MOVE_TAUNT,
     MOVE_ICE_BEAM,
     MOVE_DETECT,

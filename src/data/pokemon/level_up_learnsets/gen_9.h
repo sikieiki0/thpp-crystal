@@ -22501,7 +22501,7 @@ static const struct LevelUpMove sCDaiyouseiLevelUpLearnset[] = {
 static const struct LevelUpMove sDaiyouseiLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_SELF_DESTRUCT),
     LEVEL_UP_MOVE(1, MOVE_CHARM),
-    LEVEL_UP_MOVE(1, MOVE_MYSTIC_WATER),
+    LEVEL_UP_MOVE(1, MOVE_AQUA_RING),
     LEVEL_UP_MOVE(1, MOVE_POUND),
     LEVEL_UP_MOVE(5, MOVE_GUST),
     LEVEL_UP_MOVE(8, MOVE_ATTRACT),
