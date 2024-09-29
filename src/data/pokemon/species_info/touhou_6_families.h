@@ -679,7 +679,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou6[] =
 
     [SPECIES_EXMARISA] =
     {
-        .speciesName = _("{EXTRA} Marisa"),
+        .speciesName = _("Ex Marisa"),
         .baseHP        = 20,
         .baseAttack    = 160,
         .baseDefense   = 65,
