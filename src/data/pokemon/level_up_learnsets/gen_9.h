@@ -22315,7 +22315,7 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 #endif //P_FAMILY_PECHARUNT
 
 //Puppets
-static const struct LevelUpMove sCHakureiLevelUpLearnset[] = {
+static const struct LevelUpMove sCReimu98LevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),
     LEVEL_UP_MOVE( 8, MOVE_SEAL_NEEDLE),
@@ -22328,7 +22328,7 @@ static const struct LevelUpMove sCHakureiLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sHakureiLevelUpLearnset[] = {
+static const struct LevelUpMove sReimu98LevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_ICE_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_PUNCH),
@@ -22350,7 +22350,7 @@ static const struct LevelUpMove sHakureiLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sCKirisameLevelUpLearnset[] = {
+static const struct LevelUpMove sCMarisa98LevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_POUND),
     LEVEL_UP_MOVE(5, MOVE_LEER),
     LEVEL_UP_MOVE(8, MOVE_MIMIC),
@@ -22363,7 +22363,7 @@ static const struct LevelUpMove sCKirisameLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sKirisameLevelUpLearnset[] = {
+static const struct LevelUpMove sMarisa98LevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_FEINT),
     LEVEL_UP_MOVE(1, MOVE_ENDURE),
     LEVEL_UP_MOVE(1, MOVE_MIRROR_COAT),
@@ -22385,7 +22385,7 @@ static const struct LevelUpMove sKirisameLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sCArisuLevelUpLearnset[] = {
+static const struct LevelUpMove sCAlice98LevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_POUND),
     LEVEL_UP_MOVE(5, MOVE_GROWL),
     LEVEL_UP_MOVE(9, MOVE_PSYSHOT),
@@ -22398,7 +22398,7 @@ static const struct LevelUpMove sCArisuLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sArisuLevelUpLearnset[] = {
+static const struct LevelUpMove sAlice98LevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_RAGE),
     LEVEL_UP_MOVE(1, MOVE_SUBSTITUTE),
     LEVEL_UP_MOVE(1, MOVE_ICY_WIND),

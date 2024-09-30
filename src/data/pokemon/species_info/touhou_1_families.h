@@ -3,10 +3,10 @@ const struct SpeciesInfo gSpeciesInfoTouhou1[] =
 {
 #endif 
 
-    [SPECIES_CHAKUREI] =
+    [SPECIES_CREIMU98] =
     {
-        .speciesName = _("Hakurei{CHIBI}"),
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_HAKUREI}),
+        .speciesName = _("Reimu98{CHIBI}"),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_REIMU98}),
         .baseHP        = 55,
         .baseAttack    = 80,
         .baseDefense   = 55,
@@ -32,7 +32,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou1[] =
         .abilities = {ABILITY_HAKUREI_MIKO, ABILITY_NONE},
         .safariZoneFleeRate = 20,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_CHAKUREI,
+        .natDexNum = NATIONAL_DEX_CREIMU98,
         .sourceGame = SOURCE_HRTP,
         .categoryName = _("Miko"),
         .height = 15,
@@ -44,29 +44,29 @@ const struct SpeciesInfo gSpeciesInfoTouhou1[] =
         .pokemonOffset = 6,
         .trainerScale = 318,
         .trainerOffset = 4,
-        .frontPic = gMonFrontPic_CHakurei,
+        .frontPic = gMonFrontPic_CReimu98,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_CHakurei,
+        .frontAnimFrames = sAnims_CReimu98,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_CHakurei,
+        .backPic = gMonBackPic_CReimu98,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_CHakurei,
-        .shinyPalette = gMonShinyPalette_CHakurei,
-        .iconSprite = gMonIcon_CHakurei,
+        .palette = gMonPalette_CReimu98,
+        .shinyPalette = gMonShinyPalette_CReimu98,
+        .iconSprite = gMonIcon_CReimu98,
         .iconPalIndex = 1,
-        FOOTPRINT(CHakurei)
-        .levelUpLearnset = sCHakureiLevelUpLearnset,
-        .teachableLearnset = sCHakureiTeachableLearnset,
+        FOOTPRINT(CReimu98)
+        .levelUpLearnset = sCReimu98LevelUpLearnset,
+        .teachableLearnset = sCReimu98TeachableLearnset,
     },
 
-    [SPECIES_HAKUREI] =
+    [SPECIES_REIMU98] =
     {
-        .speciesName = _("Hakurei"),
+        .speciesName = _("Reimu98"),
         .baseHP        = 80,
         .baseAttack    = 105,
         .baseDefense   = 80,
@@ -92,7 +92,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou1[] =
         .abilities = {ABILITY_HAKUREI_MIKO, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_HAKUREI,
+        .natDexNum = NATIONAL_DEX_REIMU98,
         .sourceGame = SOURCE_HRTP,
         .categoryName = _("Miko"),
         .height = 6,
@@ -105,24 +105,24 @@ const struct SpeciesInfo gSpeciesInfoTouhou1[] =
         .pokemonOffset = 18,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Hakurei,
+        .frontPic = gMonFrontPic_Reimu98,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_Hakurei,
+        .frontAnimFrames = sAnims_Reimu98,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_Hakurei,
+        .backPic = gMonBackPic_Reimu98,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_Hakurei,
-        .shinyPalette = gMonShinyPalette_Hakurei,
-        .iconSprite = gMonIcon_Hakurei,
+        .palette = gMonPalette_Reimu98,
+        .shinyPalette = gMonShinyPalette_Reimu98,
+        .iconSprite = gMonIcon_Reimu98,
         .iconPalIndex = 1,
-        FOOTPRINT(Hakurei)
-        .levelUpLearnset = sHakureiLevelUpLearnset,
-        .teachableLearnset = sHakureiTeachableLearnset,
+        FOOTPRINT(Reimu98)
+        .levelUpLearnset = sReimu98LevelUpLearnset,
+        .teachableLearnset = sReimu98TeachableLearnset,
     },
 
     #if P_TOUHOU1_PUPPETS  

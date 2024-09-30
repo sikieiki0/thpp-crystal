@@ -2,12 +2,12 @@
 #define GUARD_CONSTANTS_SPECIES_H
 
 #define SPECIES_NONE                                    0
-#define SPECIES_CHAKUREI                                1
-#define SPECIES_HAKUREI                                 2
-#define SPECIES_CKIRISAME                               3
-#define SPECIES_KIRISAME                                4
-#define SPECIES_CARISU                                  5
-#define SPECIES_ARISU                                   6
+#define SPECIES_CREIMU98                                1
+#define SPECIES_REIMU98                                 2
+#define SPECIES_CMARISA98                               3
+#define SPECIES_MARISA98                                4
+#define SPECIES_CALICE98                                5
+#define SPECIES_ALICE98                                 6
 #define SPECIES_CNAZRIN                                 7
 #define SPECIES_NAZRIN                                  8
 #define SPECIES_CTOKIKO                                 9
@@ -1775,12 +1775,12 @@
 #define SPECIES_ZORUA_HISUI                             SPECIES_ZORUA_HISUIAN
 
 // Puppet-Pokemon redefines
-#define SPECIES_BULBASAUR                               SPECIES_CHAKUREI
-#define SPECIES_IVYSAUR                                 SPECIES_HAKUREI
-#define SPECIES_VENUSAUR                                SPECIES_CKIRISAME
-#define SPECIES_CHARMANDER                              SPECIES_KIRISAME
-#define SPECIES_CHARMELEON                              SPECIES_CARISU
-#define SPECIES_CHARIZARD                               SPECIES_ARISU
+#define SPECIES_BULBASAUR                               SPECIES_CREIMU98
+#define SPECIES_IVYSAUR                                 SPECIES_REIMU98
+#define SPECIES_VENUSAUR                                SPECIES_CMARISA98
+#define SPECIES_CHARMANDER                              SPECIES_MARISA98
+#define SPECIES_CHARMELEON                              SPECIES_CALICE98
+#define SPECIES_CHARIZARD                               SPECIES_ALICE98
 #define SPECIES_SQUIRTLE                                SPECIES_CNAZRIN
 #define SPECIES_WARTORTLE                               SPECIES_NAZRIN
 #define SPECIES_BLASTOISE                               SPECIES_CTOKIKO

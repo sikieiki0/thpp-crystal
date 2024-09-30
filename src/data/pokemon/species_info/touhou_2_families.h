@@ -3,10 +3,10 @@ const struct SpeciesInfo gSpeciesInfoTouhou2[] =
 {
 #endif 
 
-    [SPECIES_CKIRISAME] =
+    [SPECIES_CMARISA98] =
     {
-        .speciesName = _("Kirisame{CHIBI}"),
-        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_KIRISAME}),
+        .speciesName = _("Marisa98{CHIBI}"),
+        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_CMARISA98}),
         .baseHP        = 55,
         .baseAttack    = 50,
         .baseDefense   = 40,
@@ -32,7 +32,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou2[] =
         .abilities = {ABILITY_VITAL_SPIRIT, ABILITY_FLASH_FIRE},
         .safariZoneFleeRate = 20,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_CKIRISAME,
+        .natDexNum = NATIONAL_DEX_CMARISA98,
         .sourceGame = SOURCE_SOEW,
         .categoryName = _("Witch"),
         .height = 8,
@@ -44,29 +44,29 @@ const struct SpeciesInfo gSpeciesInfoTouhou2[] =
         .pokemonOffset = 15,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_CKirisame,
+        .frontPic = gMonFrontPic_CMarisa98,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_CKirisame,
+        .frontAnimFrames = sAnims_CMarisa98,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_CKirisame,
+        .backPic = gMonBackPic_CMarisa98,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_CKirisame,
-        .shinyPalette = gMonShinyPalette_CKirisame,
-        .iconSprite = gMonIcon_CKirisame,
+        .palette = gMonPalette_CMarisa98,
+        .shinyPalette = gMonShinyPalette_CMarisa98,
+        .iconSprite = gMonIcon_CMarisa98,
         .iconPalIndex = 1,
-        FOOTPRINT(CKirisame)
-        .levelUpLearnset = sCKirisameLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKirisameTeachableLearnset,
+        FOOTPRINT(CMarisa98)
+        .levelUpLearnset = sCMarisa98LevelUpLearnset,
+        .teachableLearnset = sNoneTeachableLearnset,//sCMarisa98TeachableLearnset,
     },
 
-    [SPECIES_KIRISAME] =
+    [SPECIES_MARISA98] =
     {
-        .speciesName = _("Kirisame"),
+        .speciesName = _("Marisa98"),
         .baseHP        = 80,
         .baseAttack    = 75,
         .baseDefense   = 65,
@@ -92,7 +92,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou2[] =
         .abilities = {ABILITY_VITAL_SPIRIT, ABILITY_FLASH_FIRE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_KIRISAME,
+        .natDexNum = NATIONAL_DEX_MARISA98,
         .sourceGame = SOURCE_SOEW,
         .categoryName = _("Witch"),
         .height = 14,
@@ -105,24 +105,24 @@ const struct SpeciesInfo gSpeciesInfoTouhou2[] =
         .pokemonOffset = 4,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Kirisame,
+        .frontPic = gMonFrontPic_Marisa98,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_Kirisame,
+        .frontAnimFrames = sAnims_Marisa98,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_Kirisame,
+        .backPic = gMonBackPic_Marisa98,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_Kirisame,
-        .shinyPalette = gMonShinyPalette_Kirisame,
-        .iconSprite = gMonIcon_Kirisame,
+        .palette = gMonPalette_Marisa98,
+        .shinyPalette = gMonShinyPalette_Marisa98,
+        .iconSprite = gMonIcon_Marisa98,
         .iconPalIndex = 1,
-        FOOTPRINT(Kirisame)
-        .levelUpLearnset = sKirisameLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKirisameTeachableLearnset,
+        FOOTPRINT(Marisa98)
+        .levelUpLearnset = sMarisa98LevelUpLearnset,
+        .teachableLearnset = sNoneTeachableLearnset,//sMarisa98TeachableLearnset,
     },
 
     #if P_TOUHOU2_PUPPETS  

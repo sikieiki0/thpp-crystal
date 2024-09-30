@@ -3,10 +3,10 @@ const struct SpeciesInfo gSpeciesInfoTouhou5[] =
 {
 #endif
 
-    [SPECIES_CARISU] =
+    [SPECIES_CALICE98] =
     {
-        .speciesName = _("Arisu{CHIBI}"), // CAlice is taken so JP name 
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_ARISU}),
+        .speciesName = _("Alice98{CHIBI}"),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_CALICE98}),
         .baseHP        = 30,
         .baseAttack    = 40,
         .baseDefense   = 95,
@@ -32,7 +32,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou5[] =
         .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
         .safariZoneFleeRate = 20,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_CARISU,
+        .natDexNum = NATIONAL_DEX_CALICE98,
         .sourceGame = SOURCE_MS,
         .categoryName = _("Wonderland"),
         .height = 3,
@@ -45,29 +45,29 @@ const struct SpeciesInfo gSpeciesInfoTouhou5[] =
         .pokemonOffset = -1,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_CArisu,
+        .frontPic = gMonFrontPic_CAlice98,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_CArisu,
+        .frontAnimFrames = sAnims_CAlice98,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_CArisu,
+        .backPic = gMonBackPic_CAlice98,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_CArisu,
-        .shinyPalette = gMonShinyPalette_CArisu,
-        .iconSprite = gMonIcon_CArisu,
+        .palette = gMonPalette_CAlice98,
+        .shinyPalette = gMonShinyPalette_CAlice98,
+        .iconSprite = gMonIcon_CAlice98,
         .iconPalIndex = 1,
-        FOOTPRINT(CArisu)
-        .levelUpLearnset = sCArisuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCArisuTeachableLearnset,
+        FOOTPRINT(CAlice98)
+        .levelUpLearnset = sCAlice98LevelUpLearnset,
+        .teachableLearnset = sNoneTeachableLearnset,//sCAlice98TeachableLearnset,
     },
 
-    [SPECIES_ARISU] =
+    [SPECIES_ALICE98] =
     {
-        .speciesName = _("Arisu"),   // Alice is taken so JP name 
+        .speciesName = _("Alice98"),   // Alice is taken so JP name 
         .baseHP        = 55,
         .baseAttack    = 65,
         .baseDefense   = 120,
@@ -93,7 +93,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou5[] =
         .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_ARISU,
+        .natDexNum = NATIONAL_DEX_ALICE98,
         .sourceGame = SOURCE_MS,
         .categoryName = _("Wonderland"),
         .height = 3,
@@ -106,24 +106,24 @@ const struct SpeciesInfo gSpeciesInfoTouhou5[] =
         .pokemonOffset = 23,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Arisu,
+        .frontPic = gMonFrontPic_Alice98,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_Arisu,
+        .frontAnimFrames = sAnims_Alice98,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_Arisu,
+        .backPic = gMonBackPic_Alice98,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_Arisu,
-        .shinyPalette = gMonShinyPalette_Arisu,
-        .iconSprite = gMonIcon_Arisu,
+        .palette = gMonPalette_Alice98,
+        .shinyPalette = gMonShinyPalette_Alice98,
+        .iconSprite = gMonIcon_Alice98,
         .iconPalIndex = 1,
-        FOOTPRINT(Arisu)
-        .levelUpLearnset = sArisuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sArisuTeachableLearnset,
+        FOOTPRINT(Alice98)
+        .levelUpLearnset = sAlice98LevelUpLearnset,
+        .teachableLearnset = sNoneTeachableLearnset,//sAlice98TeachableLearnset,
     },
 
     #if P_TOUHOU5_PUPPETS  

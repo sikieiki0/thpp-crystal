@@ -35840,7 +35840,7 @@ static const u16 sPecharuntTeachableLearnset[] = {
 #endif //P_FAMILY_PECHARUNT
 
 //Puppets
-static const u16 sCHakureiTeachableLearnset[] = {
+static const u16 sCReimu98TeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_CALM_MIND,
     MOVE_ROAR,
@@ -35882,7 +35882,7 @@ static const u16 sCHakureiTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sHakureiTeachableLearnset[] = {
+static const u16 sReimu98TeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_CALM_MIND,
     MOVE_ROAR,
@@ -35926,7 +35926,7 @@ static const u16 sHakureiTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sCKirisameTeachableLearnset[] = {
+static const u16 sCMarisa98TeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_HIDDEN_POWER,
     MOVE_TAUNT,
@@ -35963,7 +35963,7 @@ static const u16 sCKirisameTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sKirisameTeachableLearnset[] = {
+static const u16 sMarisa98TeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_HIDDEN_POWER,
     MOVE_TAUNT,
