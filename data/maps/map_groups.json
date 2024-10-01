@@ -10,8 +10,8 @@
     "gMapGroup_IndoorAzaleaTown",
     "gMapGroup_IndoorGoldenrodCity",
     "gMapGroup_IndoorEcruteakCity",
-    "gMapGroup_IndoorCianwoodCity",
     "gMapGroup_IndoorOlivineCity",
+    "gMapGroup_IndoorCianwoodCity",
     "gMapGroup_IndoorMahagonyTown",
     "gMapGroup_IndoorBlackthornCity",
     "gMapGroup_IndoorDynamicCrystal",
@@ -135,8 +135,8 @@
     "AzaleaTown",
     "GoldenrodCity",
     "EcruteakCity",
-    "CianwoodCity",
     "OlivineCity",
+    "CianwoodCity",
     "MahagonyTown",
     "BlackthornCity",
     "Route23",
@@ -269,15 +269,6 @@
     "EcruteakCity_GateWest",
     "EcruteakCity_GateEast"
   ],
-  "gMapGroup_IndoorCianwoodCity": [
-    "CianwoodCity_PokeSeerHouse",
-    "CianwoodCity_PhotoStudio",
-    "CianwoodCity_House1",
-    "CianwoodCity_House2",
-    "CianwoodCity_Gym",
-    "CianwoodCity_Pharmacy",
-    "CianwoodCity_PokemonCenter"
-  ],
   "gMapGroup_IndoorOlivineCity": [
     "OlivineCity_Gym",
     "OlivineCity_House1",
@@ -288,6 +279,15 @@
     "OlivineCity_House3",
     "OlivineCity_Port",
     "OlivineCity_Lighthouse"
+  ],
+  "gMapGroup_IndoorCianwoodCity": [
+    "CianwoodCity_PokeSeerHouse",
+    "CianwoodCity_PhotoStudio",
+    "CianwoodCity_House1",
+    "CianwoodCity_House2",
+    "CianwoodCity_Gym",
+    "CianwoodCity_Pharmacy",
+    "CianwoodCity_PokemonCenter"
   ],
   "gMapGroup_IndoorMahagonyTown": [
     "MahagonyTown_LakeOfRageGate",

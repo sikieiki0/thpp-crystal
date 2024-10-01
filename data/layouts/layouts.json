@@ -5366,18 +5366,6 @@
       "blockdata_filepath": "data/layouts/EcruteakCity/map.bin"
     },
     {
-      "id": "LAYOUT_CIANWOOD_CITY",
-      "name": "CianwoodCity_Layout",
-      "width": 48,
-      "height": 76,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_CianwoodCity",
-      "border_filepath": "data/layouts/CianwoodCity/border.bin",
-      "blockdata_filepath": "data/layouts/CianwoodCity/map.bin"
-    },
-    {
       "id": "LAYOUT_OLIVINE_CITY",
       "name": "OlivineCity_Layout",
       "width": 56,
@@ -5388,6 +5376,18 @@
       "secondary_tileset": "gTileset_Crystal_OlivineCity",
       "border_filepath": "data/layouts/OlivineCity/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_CIANWOOD_CITY",
+      "name": "CianwoodCity_Layout",
+      "width": 48,
+      "height": 76,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_CianwoodCity",
+      "border_filepath": "data/layouts/CianwoodCity/border.bin",
+      "blockdata_filepath": "data/layouts/CianwoodCity/map.bin"
     },
     {
       "id": "LAYOUT_MAHAGONY_TOWN",
