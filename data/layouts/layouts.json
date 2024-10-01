@@ -5313,7 +5313,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_CherrygroveCity",
+      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
       "border_filepath": "data/layouts/CherrygroveCity/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin"
     },
@@ -5397,7 +5397,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
       "border_filepath": "data/layouts/MahagonyTown/border.bin",
       "blockdata_filepath": "data/layouts/MahagonyTown/map.bin"
     },
@@ -5433,7 +5433,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_CherrygroveCity",
+      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
       "border_filepath": "data/layouts/Route30/border.bin",
       "blockdata_filepath": "data/layouts/Route30/map.bin"
     },
@@ -5565,7 +5565,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_CianwoodCity",
       "border_filepath": "data/layouts/Route41/border.bin",
       "blockdata_filepath": "data/layouts/Route41/map.bin"
     },
@@ -5589,7 +5589,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_CherrygroveCity",
+      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
       "border_filepath": "data/layouts/Route43/border.bin",
       "blockdata_filepath": "data/layouts/Route43/map.bin"
     },
@@ -5716,7 +5716,7 @@
     {
       "id": "LAYOUT_CHERRYGROVE_CITY_MART",
       "name": "CherrygroveCity_Mart_Layout",
-      "width": 14,
+      "width": 11,
       "height": 9,
       "border_width": 2,
       "border_height": 2,
@@ -5769,7 +5769,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_CherrygroveCity",
+      "secondary_tileset": "gTileset_Crystal_ElmsLab",
       "border_filepath": "data/layouts/Route30_BerryExpertsHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route30_BerryExpertsHouse/map.bin"
     },
@@ -5884,7 +5884,7 @@
     {
       "id": "LAYOUT_VIOLET_CITY_MART",
       "name": "VioletCity_Mart_Layout",
-      "width": 14,
+      "width": 11,
       "height": 9,
       "border_width": 2,
       "border_height": 2,
@@ -5968,7 +5968,7 @@
     {
       "id": "LAYOUT_AZALEA_TOWN_MART",
       "name": "AzaleaTown_Mart_Layout",
-      "width": 14,
+      "width": 11,
       "height": 9,
       "border_width": 2,
       "border_height": 2,
@@ -6656,7 +6656,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_SilverCave",
       "border_filepath": "data/layouts/SinjohRuins/border.bin",
       "blockdata_filepath": "data/layouts/SinjohRuins/map.bin"
@@ -6680,8 +6680,8 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Crystal_BugsyGym",
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
       "border_filepath": "data/layouts/SinjohRuins_MystriStage/border.bin",
       "blockdata_filepath": "data/layouts/SinjohRuins_MystriStage/map.bin"
     },
@@ -6724,7 +6724,7 @@
     {
       "id": "LAYOUT_ECRUTEAK_CITY_MART",
       "name": "EcruteakCity_Mart_Layout",
-      "width": 14,
+      "width": 11,
       "height": 9,
       "border_width": 2,
       "border_height": 2,
@@ -6904,7 +6904,7 @@
     {
       "id": "LAYOUT_OLIVINE_CITY_MART",
       "name": "OlivineCity_Mart_Layout",
-      "width": 14,
+      "width": 11,
       "height": 9,
       "border_width": 2,
       "border_height": 2,
@@ -7101,7 +7101,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_LakeOfRage",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/LakeOfRage/border.bin",
       "blockdata_filepath": "data/layouts/LakeOfRage/map.bin"
     },
@@ -7336,7 +7336,7 @@
     {
       "id": "LAYOUT_BLACKTHORN_CITY_MART",
       "name": "BlackthornCity_Mart_Layout",
-      "width": 14,
+      "width": 11,
       "height": 9,
       "border_width": 2,
       "border_height": 2,

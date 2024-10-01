@@ -870,17 +870,6 @@ const struct Tileset gTileset_Crystal_AzaleaTown =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_CherrygroveCity =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_CherrygroveCity,
-    .palettes = gTilesetPalettes_Crystal_CherrygroveCity,
-    .metatiles = gMetatiles_Crystal_CherrygroveCity,
-    .metatileAttributes = gMetatileAttributes_Crystal_CherrygroveCity,
-    .callback = NULL,
-};
-
 const struct Tileset gTileset_Crystal_GoldenrodCity =
 {
     .isCompressed = TRUE,
@@ -1244,14 +1233,14 @@ const struct Tileset gTileset_Crystal_IcePath =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_LakeOfRage =
+const struct Tileset gTileset_Crystal_CeruleanCity =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_LakeOfRage,
-    .palettes = gTilesetPalettes_Crystal_LakeOfRage,
-    .metatiles = gMetatiles_Crystal_LakeOfRage,
-    .metatileAttributes = gMetatileAttributes_Crystal_LakeOfRage,
+    .tiles = gTilesetTiles_Crystal_CeruleanCity,
+    .palettes = gTilesetPalettes_Crystal_CeruleanCity,
+    .metatiles = gMetatiles_Crystal_CeruleanCity,
+    .metatileAttributes = gMetatileAttributes_Crystal_CeruleanCity,
     .callback = NULL,
 };
 
