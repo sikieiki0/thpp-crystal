@@ -892,17 +892,6 @@ const struct Tileset gTileset_Crystal_EcruteakCity =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_CianwoodCity =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_CianwoodCity,
-    .palettes = gTilesetPalettes_Crystal_CianwoodCity,
-    .metatiles = gMetatiles_Crystal_CianwoodCity,
-    .metatileAttributes = gMetatileAttributes_Crystal_CianwoodCity,
-    .callback = NULL,
-};
-
 const struct Tileset gTileset_Crystal_OlivineCity =
 {
     .isCompressed = TRUE,

@@ -5385,7 +5385,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_CianwoodCity",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/CianwoodCity/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity/map.bin"
     },
@@ -5565,7 +5565,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_CianwoodCity",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/Route41/border.bin",
       "blockdata_filepath": "data/layouts/Route41/map.bin"
     },
