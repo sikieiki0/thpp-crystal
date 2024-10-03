@@ -40,7 +40,7 @@
   "warp_events": [
     {
       "x": 41,
-      "y": 4,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_CHERRYGROVE_CITY_POKEMON_CENTER",
       "dest_warp_id": "0"
