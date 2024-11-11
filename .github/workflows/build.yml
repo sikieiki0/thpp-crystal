@@ -35,6 +35,7 @@ jobs:
         run: make -j${nproc} -O all
 
       - name: Test
+        if: ${{ github.event.inputs.run_tests == 'true' || env.RUN_TESTS == 'true' }}
         env:
           TEST: 1
         run: |
