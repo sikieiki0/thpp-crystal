@@ -537,8 +537,6 @@ struct SimulatedDamage AI_CalcDamage(u32 move, u32 battlerAtk, u32 battlerDef, u
         break;
     }
 
-    gBattleStruct->dynamicMoveType = 0;
-
     SetTypeBeforeUsingMove(move, battlerAtk);
     moveType = GetMoveType(move);
     effectivenessMultiplier = CalcTypeEffectivenessMultiplier(move, moveType, battlerAtk, battlerDef, aiData->abilities[battlerDef], FALSE);
@@ -710,6 +708,7 @@ struct SimulatedDamage AI_CalcDamage(u32 move, u32 battlerAtk, u32 battlerDef, u
     *typeEffectiveness = AI_GetEffectiveness(effectivenessMultiplier);
 
     // Undo temporary settings
+    gBattleStruct->dynamicMoveType = 0;
     gBattleStruct->swapDamageCategory = FALSE;
     gBattleStruct->zmove.baseMoves[battlerAtk] = MOVE_NONE;
     if (toggledGimmick)
