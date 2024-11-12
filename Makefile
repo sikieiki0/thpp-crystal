@@ -67,10 +67,8 @@ OBJ_DIR_NAME_DEBUG := $(BUILD_DIR)/modern-debug
 
 ELF_NAME := $(ROM_NAME:.gba=.elf)
 MAP_NAME := $(ROM_NAME:.gba=.map)
-MODERN_ELF_NAME := $(MODERN_ROM_NAME:.gba=.elf)
-MODERN_MAP_NAME := $(MODERN_ROM_NAME:.gba=.map)
-TESTELF = $(MODERN_ROM_NAME:.gba=-test.elf)
-HEADLESSELF = $(MODERN_ROM_NAME:.gba=-test-headless.elf)
+TESTELF = $(ROM_NAME:.gba=-test.elf)
+HEADLESSELF = $(ROM_NAME:.gba=-test-headless.elf)
 
 # Pick our active variables
 ROM := $(ROM_NAME)

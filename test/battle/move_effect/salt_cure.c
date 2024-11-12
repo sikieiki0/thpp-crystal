@@ -113,7 +113,7 @@ SINGLE_BATTLE_TEST("Salt Cure residual damage does not inflict any damage agains
         NONE_OF {
             ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_SALT_CURE_DAMAGE, opponent);
             HP_BAR(opponent);
-            MESSAGE("Foe Clefable is hurt by Salt Cure!");
+            MESSAGE("The opposing Clefable is hurt by Salt Cure!");
         }
     }
 }
