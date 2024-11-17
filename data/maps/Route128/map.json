@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -36,6 +37,7 @@
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
       "x": 35,
       "y": 33,
@@ -49,6 +51,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
       "x": 78,
       "y": 24,
@@ -62,6 +65,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_STEVEN",
       "x": 40,
       "y": 22,
@@ -75,6 +79,7 @@
       "flag": "FLAG_HIDE_ROUTE_128_STEVEN"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
       "x": 37,
       "y": 22,
@@ -88,6 +93,7 @@
       "flag": "FLAG_HIDE_ROUTE_128_ARCHIE"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAXIE",
       "x": 38,
       "y": 21,
@@ -101,6 +107,7 @@
       "flag": "FLAG_HIDE_ROUTE_128_MAXIE"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
       "x": 63,
       "y": 28,
@@ -114,6 +121,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
       "x": 47,
       "y": 9,
@@ -127,6 +135,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 24,
       "y": 8,
@@ -140,6 +149,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
       "x": 101,
       "y": 29,
@@ -153,6 +163,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
       "x": 101,
       "y": 22,
@@ -179,7 +190,9 @@
       "y": 9,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_1"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_1",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -187,7 +200,9 @@
       "y": 21,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_2"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_2",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -195,7 +210,9 @@
       "y": 33,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_3"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_3",
+      "quantity": 0,
+      "underfoot": false
     }
   ]
 }

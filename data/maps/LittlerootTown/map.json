@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -21,6 +22,7 @@
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
       "x": 16,
       "y": 10,
@@ -34,6 +36,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
       "x": 12,
       "y": 13,
@@ -47,6 +50,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
       "x": 14,
       "y": 17,
@@ -60,6 +64,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MOM",
       "x": 5,
       "y": 8,
@@ -73,6 +78,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_TRUCK",
       "x": 2,
       "y": 10,
@@ -86,6 +92,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_TRUCK",
       "x": 11,
       "y": 10,
@@ -99,6 +106,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 13,
       "y": 10,
@@ -112,6 +120,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_RIVAL"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
       "x": 14,
       "y": 10,

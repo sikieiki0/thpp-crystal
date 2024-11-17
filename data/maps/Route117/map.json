@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -26,6 +27,7 @@
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
       "x": 13,
       "y": 13,
@@ -39,6 +41,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 25,
       "y": 5,
@@ -52,6 +55,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
       "x": 47,
       "y": 4,
@@ -65,6 +69,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ZIGZAGOON_2",
       "x": 33,
       "y": 3,
@@ -78,6 +83,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
       "x": 39,
       "y": 4,
@@ -91,6 +97,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AZUMARILL",
       "x": 42,
       "y": 2,
@@ -104,6 +111,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PIKACHU",
       "x": 51,
       "y": 1,
@@ -117,6 +125,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_M",
       "x": 38,
       "y": 16,
@@ -130,6 +139,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 8,
       "y": 10,
@@ -143,6 +153,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_4",
       "x": 33,
       "y": 11,
@@ -156,6 +167,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 41,
       "y": 13,
@@ -169,6 +181,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 42,
       "y": 13,
@@ -182,6 +195,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 43,
       "y": 13,
@@ -195,6 +209,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 16,
       "y": 18,
@@ -208,6 +223,7 @@
       "flag": "FLAG_ITEM_ROUTE_117_GREAT_BALL"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
       "x": 15,
       "y": 2,
@@ -221,6 +237,7 @@
       "flag": "FLAG_TEMP_11"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 9,
       "y": 1,
@@ -234,6 +251,7 @@
       "flag": "FLAG_ITEM_ROUTE_117_REVIVE"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
       "x": 26,
       "y": 13,
@@ -247,6 +265,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
       "x": 17,
       "y": 12,
@@ -260,6 +279,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 43,
       "y": 6,
@@ -273,6 +293,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 42,
       "y": 6,
@@ -286,6 +307,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
       "x": 48,
       "y": 10,
@@ -299,6 +321,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 15,
       "y": 4,
@@ -312,6 +335,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
       "x": 21,
       "y": 4,
@@ -325,6 +349,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
       "x": 16,
       "y": 4,
@@ -338,6 +363,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 47,
       "y": 2,
@@ -351,6 +377,7 @@
       "flag": "FLAG_TEMP_1"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_1",
       "x": 49,
       "y": 2,
@@ -407,7 +434,9 @@
       "y": 18,
       "elevation": 3,
       "item": "ITEM_REPEL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_117_REPEL"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_117_REPEL",
+      "quantity": 0,
+      "underfoot": false
     }
   ]
 }

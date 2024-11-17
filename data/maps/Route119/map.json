@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -26,6 +27,7 @@
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 24,
       "y": 5,
@@ -39,6 +41,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 25,
       "y": 5,
@@ -52,6 +55,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 26,
       "y": 5,
@@ -65,6 +69,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 12,
       "y": 123,
@@ -78,6 +83,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
       "x": 26,
       "y": 123,
@@ -91,6 +97,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
       "x": 5,
       "y": 125,
@@ -104,6 +111,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 7,
       "y": 74,
@@ -117,6 +125,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
       "x": 28,
       "y": 116,
@@ -130,6 +139,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 35,
       "y": 83,
@@ -143,6 +153,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 34,
       "y": 122,
@@ -156,6 +167,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 17,
       "y": 128,
@@ -169,6 +181,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
       "x": 28,
       "y": 14,
@@ -182,6 +195,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
       "x": 19,
       "y": 49,
@@ -195,6 +209,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
       "x": 10,
       "y": 50,
@@ -208,6 +223,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
       "x": 8,
       "y": 63,
@@ -221,6 +237,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 25,
       "y": 32,
@@ -234,6 +251,7 @@
       "flag": "FLAG_HIDE_ROUTE_119_RIVAL"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 12,
       "y": 121,
@@ -247,6 +265,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_SUPER_REPEL"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 4,
       "y": 96,
@@ -260,6 +279,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_ZINC"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 29,
       "y": 53,
@@ -273,6 +293,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_ELIXIR_1"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 25,
       "y": 76,
@@ -286,6 +307,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_LEAF_STONE"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 8,
       "y": 18,
@@ -299,6 +321,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_RARE_CANDY"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 33,
       "y": 117,
@@ -312,6 +335,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_HYPER_POTION_1"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 13,
       "y": 33,
@@ -325,6 +349,7 @@
       "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 13,
       "y": 34,
@@ -338,6 +363,7 @@
       "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_3",
       "x": 17,
       "y": 33,
@@ -351,6 +377,7 @@
       "flag": "FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_3",
       "x": 31,
       "y": 109,
@@ -364,6 +391,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 8,
       "y": 23,
@@ -377,6 +405,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 9,
       "y": 23,
@@ -390,6 +419,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 29,
       "y": 90,
@@ -403,6 +433,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 30,
       "y": 90,
@@ -416,6 +447,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
       "x": 19,
       "y": 133,
@@ -429,6 +461,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 3,
       "y": 56,
@@ -442,6 +475,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_HYPER_POTION_2"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
       "x": 35,
       "y": 93,
@@ -455,6 +489,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
       "x": 29,
       "y": 6,
@@ -468,6 +503,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
       "x": 31,
       "y": 6,
@@ -481,6 +517,7 @@
       "flag": "FLAG_HIDE_ROUTE_119_KECLEON_1"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
       "x": 25,
       "y": 15,
@@ -494,6 +531,7 @@
       "flag": "FLAG_HIDE_ROUTE_119_KECLEON_2"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
       "x": 13,
       "y": 104,
@@ -507,6 +545,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 8,
       "y": 68,
@@ -520,6 +559,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
       "x": 16,
       "y": 52,
@@ -533,6 +573,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
       "x": 32,
       "y": 15,
@@ -546,6 +587,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 19,
       "y": 5,
@@ -559,6 +601,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_NUGGET"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 24,
       "y": 42,
@@ -572,6 +615,7 @@
       "flag": "FLAG_ITEM_ROUTE_119_ELIXIR_2"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SCOTT",
       "x": 28,
       "y": 25,
@@ -847,7 +891,9 @@
       "y": 82,
       "elevation": 3,
       "item": "ITEM_CALCIUM",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -855,7 +901,9 @@
       "y": 63,
       "elevation": 3,
       "item": "ITEM_ULTRA_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_ULTRA_BALL"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_ULTRA_BALL",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "secret_base",
@@ -898,7 +946,9 @@
       "y": 120,
       "elevation": 3,
       "item": "ITEM_FULL_HEAL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_FULL_HEAL"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_FULL_HEAL",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -906,7 +956,9 @@
       "y": 29,
       "elevation": 3,
       "item": "ITEM_MAX_ETHER",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_MAX_ETHER"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_MAX_ETHER",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "sign",

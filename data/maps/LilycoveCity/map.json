@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -26,6 +27,7 @@
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
       "x": 32,
       "y": 20,
@@ -39,6 +41,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
       "x": 15,
       "y": 18,
@@ -52,6 +55,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_1",
       "x": 28,
       "y": 28,
@@ -65,6 +69,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
       "x": 21,
       "y": 15,
@@ -78,6 +83,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
       "x": 16,
       "y": 9,
@@ -91,6 +97,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 35,
       "y": 27,
@@ -104,6 +111,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
       "x": 35,
       "y": 37,
@@ -117,6 +125,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
       "x": 34,
       "y": 37,
@@ -130,6 +139,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
       "x": 57,
       "y": 17,
@@ -143,6 +153,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 73,
       "y": 15,
@@ -156,6 +167,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 61,
       "y": 36,
@@ -169,6 +181,7 @@
       "flag": "FLAG_ITEM_LILYCOVE_CITY_MAX_REPEL"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 43,
       "y": 18,
@@ -182,6 +195,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 46,
       "y": 12,
@@ -195,6 +209,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 45,
       "y": 12,
@@ -208,6 +223,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 38,
       "y": 9,
@@ -221,6 +237,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
       "x": 50,
       "y": 7,
@@ -234,6 +251,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 27,
       "y": 7,
@@ -247,6 +265,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_CITY_RIVAL"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
       "x": 16,
       "y": 23,
@@ -260,6 +279,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
       "x": 41,
       "y": 25,
@@ -273,6 +293,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
       "x": 40,
       "y": 25,
@@ -286,6 +307,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
       "x": 16,
       "y": 34,
@@ -299,6 +321,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
       "x": 16,
       "y": 35,
@@ -502,7 +525,9 @@
       "y": 31,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_LILYCOVE_CITY_HEART_SCALE"
+      "flag": "FLAG_HIDDEN_ITEM_LILYCOVE_CITY_HEART_SCALE",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -510,7 +535,9 @@
       "y": 7,
       "elevation": 0,
       "item": "ITEM_PP_UP",
-      "flag": "FLAG_HIDDEN_ITEM_LILYCOVE_CITY_PP_UP"
+      "flag": "FLAG_HIDDEN_ITEM_LILYCOVE_CITY_PP_UP",
+      "quantity": 0,
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -518,7 +545,9 @@
       "y": 31,
       "elevation": 0,
       "item": "ITEM_POKE_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_LILYCOVE_CITY_POKE_BALL"
+      "flag": "FLAG_HIDDEN_ITEM_LILYCOVE_CITY_POKE_BALL",
+      "quantity": 0,
+      "underfoot": false
     }
   ]
 }
