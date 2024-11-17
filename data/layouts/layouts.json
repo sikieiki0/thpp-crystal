@@ -5493,7 +5493,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
       "border_filepath": "data/layouts/Route35/border.bin",
       "blockdata_filepath": "data/layouts/Route35/map.bin"
     },
@@ -5541,7 +5541,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_OlivineCity",
       "border_filepath": "data/layouts/Route39/border.bin",
       "blockdata_filepath": "data/layouts/Route39/map.bin"
     },
@@ -6777,7 +6777,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_UnionCave",
+      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
       "border_filepath": "data/layouts/BrassTower_2F/border.bin",
       "blockdata_filepath": "data/layouts/BrassTower_2F/map.bin"
     },
@@ -7881,7 +7881,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_IlexForest",
       "border_filepath": "data/layouts/SeasideCave_SecretGarden/border.bin",
       "blockdata_filepath": "data/layouts/SeasideCave_SecretGarden/map.bin"
     },
