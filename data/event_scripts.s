@@ -1255,7 +1255,6 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/VioletCity_House2/scripts.inc"
 
 	.include "data/maps/Route32_PokemonCenter/scripts.inc"
-
 	.include "data/maps/Route32_Gate/scripts.inc"
 
 	.include "data/maps/UnionCave_1F/scripts.inc"

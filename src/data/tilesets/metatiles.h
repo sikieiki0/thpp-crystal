@@ -274,9 +274,6 @@ const u16 gMetatileAttributes_Crystal_BugsyGym[] = INCBIN_U16("data/tilesets/sec
 const u16 gMetatiles_Crystal_SlowpokeWell[] = INCBIN_U16("data/tilesets/secondary/crystal_slowpoke_well/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_SlowpokeWell[] = INCBIN_U16("data/tilesets/secondary/crystal_slowpoke_well/metatile_attributes.bin");
 
-const u16 gMetatiles_Crystal_UnionCave[] = INCBIN_U16("data/tilesets/secondary/crystal_union_cave/metatiles.bin");
-const u16 gMetatileAttributes_Crystal_UnionCave[] = INCBIN_U16("data/tilesets/secondary/crystal_union_cave/metatile_attributes.bin");
-
 const u16 gMetatiles_Crystal_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/crystal_department_store/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/crystal_department_store/metatile_attributes.bin");
 

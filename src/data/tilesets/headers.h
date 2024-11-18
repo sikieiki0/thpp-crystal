@@ -1068,17 +1068,6 @@ const struct Tileset gTileset_Crystal_SlowpokeWell =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_UnionCave =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_UnionCave,
-    .palettes = gTilesetPalettes_Crystal_UnionCave,
-    .metatiles = gMetatiles_Crystal_UnionCave,
-    .metatileAttributes = gMetatileAttributes_Crystal_UnionCave,
-    .callback = NULL,
-};
-
 const struct Tileset gTileset_Crystal_DepartmentStore =
 {
     .isCompressed = TRUE,
