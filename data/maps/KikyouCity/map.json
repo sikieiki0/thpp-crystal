@@ -1,5 +1,5 @@
 {
-  "id": "MAP_KIKYOUCITY_CITY",
+  "id": "MAP_KIKYOU_CITY",
   "name": "KikyouCity",
   "layout": "LAYOUT_VIOLET_CITY",
   "music": "MUS_DUMMY",
@@ -28,6 +28,21 @@
       "map": "MAP_ROUTE32",
       "offset": 2,
       "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE32",
+      "offset": 2,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE31",
+      "offset": 22,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE36",
+      "offset": 4,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -45,49 +60,49 @@
       "x": 43,
       "y": 31,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_POKE_CENTER",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "0"
     },
     {
       "x": 30,
       "y": 35,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_HOUSE1",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "0"
     },
     {
       "x": 39,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_POKEMON_ACADEMY",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "0"
     },
     {
       "x": 33,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_SPROUT_TOWER",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "0"
     },
     {
       "x": 27,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_GYM",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "0"
     },
     {
       "x": 15,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_MART",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "0"
     },
     {
       "x": 4,
       "y": 20,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_HOUSE2",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "0"
     }
   ],

@@ -15,11 +15,6 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_KIKYOUCITY_CITY",
-      "offset": -2,
-      "direction": "up"
-    },
-    {
       "map": "MAP_ROUTE34_BACKSIDE",
       "offset": -28,
       "direction": "down"
@@ -28,6 +23,11 @@
       "map": "MAP_ROUTE32_EAST",
       "offset": 15,
       "direction": "right"
+    },
+    {
+      "map": "MAP_KIKYOU_CITY",
+      "offset": -2,
+      "direction": "up"
     }
   ],
   "object_events": [
