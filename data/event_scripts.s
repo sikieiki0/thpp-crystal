@@ -1152,25 +1152,25 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 
-	.include "data/maps/NewBarkTown/scripts.inc"
+	.include "data/maps/WakabaTown/scripts.inc"
 
-	.include "data/maps/CherrygroveCity/scripts.inc"
+	.include "data/maps/YoshinoCity/scripts.inc"
 
-	.include "data/maps/VioletCity/scripts.inc"
+	.include "data/maps/KikyouCity/scripts.inc"
 
-	.include "data/maps/AzaleaTown/scripts.inc"
+	.include "data/maps/HiwadaTown/scripts.inc"
 
-	.include "data/maps/GoldenrodCity/scripts.inc"
+	.include "data/maps/KoganeCity/scripts.inc"
 
-	.include "data/maps/EcruteakCity/scripts.inc"
+	.include "data/maps/EnjuCity/scripts.inc"
 
-	.include "data/maps/CianwoodCity/scripts.inc"
+	.include "data/maps/TanbaCity/scripts.inc"
 
-	.include "data/maps/OlivineCity/scripts.inc"
+	.include "data/maps/AsagiCity/scripts.inc"
 
-	.include "data/maps/MahagonyTown/scripts.inc"
+	.include "data/maps/ChoujiTown/scripts.inc"
 
-	.include "data/maps/BlackthornCity/scripts.inc"
+	.include "data/maps/FusubeCity/scripts.inc"
 
 	.include "data/maps/Route29/scripts.inc"
 
@@ -1208,27 +1208,27 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route46/scripts.inc"
 
-	.include "data/maps/NewBarkTown_PlayersHouse_1F/scripts.inc"
+	.include "data/maps/WakabaTown_PlayersHouse_1F/scripts.inc"
 
-	.include "data/maps/NewBarkTown_PlayersHouse_2F/scripts.inc"
+	.include "data/maps/WakabaTown_PlayersHouse_2F/scripts.inc"
 
-	.include "data/maps/NewBarkTown_ElmsHouse/scripts.inc"
+	.include "data/maps/WakabaTown_ElmsHouse/scripts.inc"
 
-	.include "data/maps/NewBarkTown_House/scripts.inc"
+	.include "data/maps/WakabaTown_House/scripts.inc"
 
-	.include "data/maps/NewBarkTown_ProfessorElmsLab/scripts.inc"
+	.include "data/maps/WakabaTown_ProfessorElmsLab/scripts.inc"
 
 	.include "data/maps/Route29_Gate/scripts.inc"
 
-	.include "data/maps/CherrygroveCity_PokemonCenter/scripts.inc"
+	.include "data/maps/YoshinoCity_PokemonCenter/scripts.inc"
 
-	.include "data/maps/CherrygroveCity_Mart/scripts.inc"
+	.include "data/maps/YoshinoCity_Mart/scripts.inc"
 
-	.include "data/maps/CherrygroveCity_House1/scripts.inc"
+	.include "data/maps/YoshinoCity_House1/scripts.inc"
 
-	.include "data/maps/CherrygroveCity_GuideGentsHouse/scripts.inc"
+	.include "data/maps/YoshinoCity_GuideGentsHouse/scripts.inc"
 
-	.include "data/maps/CherrygroveCity_FishermansHouse/scripts.inc"
+	.include "data/maps/YoshinoCity_FishermansHouse/scripts.inc"
 
 	.include "data/maps/Route30_BerryExpertsHouse/scripts.inc"
 
@@ -1236,23 +1236,23 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route31_Gate/scripts.inc"
 
-	.include "data/maps/VioletCity_PokeCenter/scripts.inc"
+	.include "data/maps/KikyouCity_PokeCenter/scripts.inc"
 
-	.include "data/maps/VioletCity_House1/scripts.inc"
+	.include "data/maps/KikyouCity_House1/scripts.inc"
 
-	.include "data/maps/VioletCity_PokemonAcademy/scripts.inc"
+	.include "data/maps/KikyouCity_PokemonAcademy/scripts.inc"
 
-	.include "data/maps/VioletCity_SproutTower/scripts.inc"
+	.include "data/maps/KikyouCity_SproutTower/scripts.inc"
 
-	.include "data/maps/VioletCity_SproutTower_2F/scripts.inc"
+	.include "data/maps/KikyouCity_SproutTower_2F/scripts.inc"
 
-	.include "data/maps/VioletCity_SproutTower_3F/scripts.inc"
+	.include "data/maps/KikyouCity_SproutTower_3F/scripts.inc"
 
-	.include "data/maps/VioletCity_Gym/scripts.inc"
+	.include "data/maps/KikyouCity_Gym/scripts.inc"
 
-	.include "data/maps/VioletCity_Mart/scripts.inc"
+	.include "data/maps/KikyouCity_Mart/scripts.inc"
 
-	.include "data/maps/VioletCity_House2/scripts.inc"
+	.include "data/maps/KikyouCity_House2/scripts.inc"
 
 	.include "data/maps/Route32_PokemonCenter/scripts.inc"
 	.include "data/maps/Route32_Gate/scripts.inc"
@@ -1263,21 +1263,21 @@ EventScript_VsSeekerChargingDone::
 	
 	.include "data/maps/UnionCave_3F/scripts.inc"
 
-	.include "data/maps/AzaleaTown_Mart/scripts.inc"
+	.include "data/maps/HiwadaTown_Mart/scripts.inc"
 
-	.include "data/maps/AzaleaTown_House1/scripts.inc"
+	.include "data/maps/HiwadaTown_House1/scripts.inc"
 
-	.include "data/maps/AzaleaTown_PokemonCenter/scripts.inc"
+	.include "data/maps/HiwadaTown_PokemonCenter/scripts.inc"
 
-	.include "data/maps/AzaleaTown_Gym/scripts.inc"
+	.include "data/maps/HiwadaTown_Gym/scripts.inc"
 
-	.include "data/maps/AzaleaTown_KurtsHouse/scripts.inc"
+	.include "data/maps/HiwadaTown_KurtsHouse/scripts.inc"
 
 	.include "data/maps/SlowpokeWell_1F/scripts.inc"
 
 	.include "data/maps/SlowpokeWell_2F/scripts.inc"
 
-	.include "data/maps/AzaleaTown_Gate/scripts.inc"
+	.include "data/maps/HiwadaTown_Gate/scripts.inc"
 
 	.include "data/maps/IlexForest/scripts.inc"
 
@@ -1285,71 +1285,71 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route34_Daycare/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_PokemonCommunicationCenter_1F/scripts.inc"
+	.include "data/maps/KoganeCity_PokemonCommunicationCenter_1F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_PokemonCommunicationCenter_2F/scripts.inc"
+	.include "data/maps/KoganeCity_PokemonCommunicationCenter_2F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_1F/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_1F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_2F/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_2F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_3F/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_3F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_4F/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_4F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_5F/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_5F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_6F/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_6F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_7F/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_7F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_DepartmentStore_Elevator/scripts.inc"
+	.include "data/maps/KoganeCity_DepartmentStore_Elevator/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_ScienceCenter/scripts.inc"
+	.include "data/maps/KoganeCity_ScienceCenter/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_ScienceCenter_Meeting/scripts.inc"
+	.include "data/maps/KoganeCity_ScienceCenter_Meeting/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_ScienceCenter_RnD/scripts.inc"
+	.include "data/maps/KoganeCity_ScienceCenter_RnD/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_ScienceCenter_Testing/scripts.inc"
+	.include "data/maps/KoganeCity_ScienceCenter_Testing/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_MagnetTrain/scripts.inc"
+	.include "data/maps/KoganeCity_MagnetTrain/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_House1/scripts.inc"
+	.include "data/maps/KoganeCity_House1/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_House2/scripts.inc"
+	.include "data/maps/KoganeCity_House2/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_House3/scripts.inc"
+	.include "data/maps/KoganeCity_House3/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_Gym/scripts.inc"
+	.include "data/maps/KoganeCity_Gym/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_RadioTower_1F/scripts.inc"
+	.include "data/maps/KoganeCity_RadioTower_1F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_RadioTower_2F/scripts.inc"
+	.include "data/maps/KoganeCity_RadioTower_2F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_RadioTower_3F/scripts.inc"
+	.include "data/maps/KoganeCity_RadioTower_3F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_RadioTower_4F/scripts.inc"
+	.include "data/maps/KoganeCity_RadioTower_4F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_RadioTower_5F/scripts.inc"
+	.include "data/maps/KoganeCity_RadioTower_5F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_GameCorner/scripts.inc"
+	.include "data/maps/KoganeCity_GameCorner/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_UndergroundEntraceNorth/scripts.inc"
+	.include "data/maps/KoganeCity_UndergroundEntraceNorth/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_UndergroundEntraceSouth/scripts.inc"
+	.include "data/maps/KoganeCity_UndergroundEntraceSouth/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_UndergroundPath/scripts.inc"
+	.include "data/maps/KoganeCity_UndergroundPath/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_BikeShop/scripts.inc"
+	.include "data/maps/KoganeCity_BikeShop/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_HideoutEntrace/scripts.inc"
+	.include "data/maps/KoganeCity_HideoutEntrace/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_Hideout_1F1B/scripts.inc"
+	.include "data/maps/KoganeCity_Hideout_1F1B/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_Hideout_2F/scripts.inc"
+	.include "data/maps/KoganeCity_Hideout_2F/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_Hideout_1F2B/scripts.inc"
+	.include "data/maps/KoganeCity_Hideout_1F2B/scripts.inc"
 
 	.include "data/maps/Route35_Gate/scripts.inc"
 
@@ -1383,17 +1383,17 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/SinjohRuins_MystriStage/scripts.inc"
 
-	.include "data/maps/EcruteakCity_PokemonCenter/scripts.inc"
+	.include "data/maps/EnjuCity_PokemonCenter/scripts.inc"
 
-	.include "data/maps/EcruteakCity_House1/scripts.inc"
+	.include "data/maps/EnjuCity_House1/scripts.inc"
 
-	.include "data/maps/EcruteakCity_Gym/scripts.inc"
+	.include "data/maps/EnjuCity_Gym/scripts.inc"
 
-	.include "data/maps/EcruteakCity_Mart/scripts.inc"
+	.include "data/maps/EnjuCity_Mart/scripts.inc"
 
-	.include "data/maps/EcruteakCity_DanceTheater/scripts.inc"
+	.include "data/maps/EnjuCity_DanceTheater/scripts.inc"
 
-	.include "data/maps/EcruteakCity_House2/scripts.inc"
+	.include "data/maps/EnjuCity_House2/scripts.inc"
 
 	.include "data/maps/BrassTower_1F/scripts.inc"
 
@@ -1407,49 +1407,49 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/TinTower_Roof/scripts.inc"
 
-	.include "data/maps/EcruteakCity_BarrierStation_1F1B/scripts.inc"
+	.include "data/maps/EnjuCity_BarrierStation_1F1B/scripts.inc"
 
-	.include "data/maps/EcruteakCity_BarrierStation_1F2B/scripts.inc"
+	.include "data/maps/EnjuCity_BarrierStation_1F2B/scripts.inc"
 
 	.include "data/maps/Route39_MoomooFarmHouse/scripts.inc"
 
 	.include "data/maps/Route39_MoomooFarmStable/scripts.inc"
 
-	.include "data/maps/OlivineCity_Gym/scripts.inc"
+	.include "data/maps/AsagiCity_Gym/scripts.inc"
 
-	.include "data/maps/OlivineCity_House1/scripts.inc"
+	.include "data/maps/AsagiCity_House1/scripts.inc"
 
-	.include "data/maps/OlivineCity_Mart/scripts.inc"
+	.include "data/maps/AsagiCity_Mart/scripts.inc"
 
-	.include "data/maps/OlivineCity_PokemonCenter/scripts.inc"
+	.include "data/maps/AsagiCity_PokemonCenter/scripts.inc"
 
-	.include "data/maps/OlivineCity_Cafe/scripts.inc"
+	.include "data/maps/AsagiCity_Cafe/scripts.inc"
 
-	.include "data/maps/OlivineCity_House2/scripts.inc"
+	.include "data/maps/AsagiCity_House2/scripts.inc"
 
-	.include "data/maps/OlivineCity_House3/scripts.inc"
+	.include "data/maps/AsagiCity_House3/scripts.inc"
 
-	.include "data/maps/OlivineCity_Port/scripts.inc"
+	.include "data/maps/AsagiCity_Port/scripts.inc"
 
-	.include "data/maps/OlivineCity_Lighthouse/scripts.inc"
+	.include "data/maps/AsagiCity_Lighthouse/scripts.inc"
 
 	.include "data/maps/Route40_BattleTowerGate/scripts.inc"
 
 	.include "data/maps/BattleTower/scripts.inc"
 
-	.include "data/maps/CianwoodCity_PokeSeerHouse/scripts.inc"
+	.include "data/maps/TanbaCity_PokeSeerHouse/scripts.inc"
 
-	.include "data/maps/CianwoodCity_PhotoStudio/scripts.inc"
+	.include "data/maps/TanbaCity_PhotoStudio/scripts.inc"
 
-	.include "data/maps/CianwoodCity_House1/scripts.inc"
+	.include "data/maps/TanbaCity_House1/scripts.inc"
 
-	.include "data/maps/CianwoodCity_House2/scripts.inc"
+	.include "data/maps/TanbaCity_House2/scripts.inc"
 
-	.include "data/maps/CianwoodCity_Gym/scripts.inc"
+	.include "data/maps/TanbaCity_Gym/scripts.inc"
 
-	.include "data/maps/CianwoodCity_Pharmacy/scripts.inc"
+	.include "data/maps/TanbaCity_Pharmacy/scripts.inc"
 
-	.include "data/maps/CianwoodCity_PokemonCenter/scripts.inc"
+	.include "data/maps/TanbaCity_PokemonCenter/scripts.inc"
 
 	.include "data/maps/LakeOfRage/scripts.inc"
 
@@ -1465,21 +1465,21 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/MtMortar_3F/scripts.inc"
 
-	.include "data/maps/MahagonyTown_LakeOfRageGate/scripts.inc"
+	.include "data/maps/ChoujiTown_LakeOfRageGate/scripts.inc"
 
-	.include "data/maps/MahagonyTown_House/scripts.inc"
+	.include "data/maps/ChoujiTown_House/scripts.inc"
 
-	.include "data/maps/MahagonyTown_Gym/scripts.inc"
+	.include "data/maps/ChoujiTown_Gym/scripts.inc"
 
-	.include "data/maps/MahagonyTown_PokemonCenter/scripts.inc"
+	.include "data/maps/ChoujiTown_PokemonCenter/scripts.inc"
 
-	.include "data/maps/MahagonyTown_Hideout_SouvenirShop/scripts.inc"
+	.include "data/maps/ChoujiTown_Hideout_SouvenirShop/scripts.inc"
 
-	.include "data/maps/MahagonyTown_Hideout_1F/scripts.inc"
+	.include "data/maps/ChoujiTown_Hideout_1F/scripts.inc"
 
-	.include "data/maps/MahagonyTown_Hideout_2F/scripts.inc"
+	.include "data/maps/ChoujiTown_Hideout_2F/scripts.inc"
 
-	.include "data/maps/MahagonyTown_Hideout_3F/scripts.inc"
+	.include "data/maps/ChoujiTown_Hideout_3F/scripts.inc"
 
 	.include "data/maps/IcePath_1F/scripts.inc"
 
@@ -1489,19 +1489,19 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/IcePath_4F/scripts.inc"
 
-	.include "data/maps/BlackthornCity_Gym/scripts.inc"
+	.include "data/maps/FusubeCity_Gym/scripts.inc"
 
-	.include "data/maps/BlackthornCity_Mart/scripts.inc"
+	.include "data/maps/FusubeCity_Mart/scripts.inc"
 
-	.include "data/maps/BlackthornCity_PokemonCenter/scripts.inc"
+	.include "data/maps/FusubeCity_PokemonCenter/scripts.inc"
 
-	.include "data/maps/BlackthornCity_House1/scripts.inc"
+	.include "data/maps/FusubeCity_House1/scripts.inc"
 
-	.include "data/maps/BlackthornCity_House2/scripts.inc"
+	.include "data/maps/FusubeCity_House2/scripts.inc"
 
-	.include "data/maps/BlackthornCity_House3/scripts.inc"
+	.include "data/maps/FusubeCity_House3/scripts.inc"
 
-	.include "data/maps/BlackthornCity_Gym_2F/scripts.inc"
+	.include "data/maps/FusubeCity_Gym_2F/scripts.inc"
 
 	.include "data/maps/DragonsDen_1F/scripts.inc"
 
@@ -1589,11 +1589,11 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/WhirlIslands_1F3B/scripts.inc"
 
-	.include "data/maps/EcruteakCity_GateWest/scripts.inc"
+	.include "data/maps/EnjuCity_GateWest/scripts.inc"
 
-	.include "data/maps/EcruteakCity_GateEast/scripts.inc"
+	.include "data/maps/EnjuCity_GateEast/scripts.inc"
 
-	.include "data/maps/GoldenrodCity_NameRater/scripts.inc"
+	.include "data/maps/KoganeCity_NameRater/scripts.inc"
 
 	.include "data/maps/TinTower_4F/scripts.inc"
 

@@ -15,7 +15,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_NEW_BARK_TOWN",
+      "map": "MAP_WAKABA_TOWN",
       "offset": 2,
       "direction": "left"
     },

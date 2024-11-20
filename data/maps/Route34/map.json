@@ -15,7 +15,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_GOLDENROD_CITY",
+      "map": "MAP_KOGANE_CITY",
       "offset": 0,
       "direction": "up"
     },

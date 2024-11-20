@@ -15,7 +15,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_OLIVINE_CITY",
+      "map": "MAP_ASAGI_CITY",
       "offset": -20,
       "direction": "right"
     },
@@ -25,7 +25,7 @@
       "direction": "down"
     },
     {
-      "map": "MAP_OLIVINE_CITY_PORT",
+      "map": "MAP_ASAGI_CITY_PORT",
       "offset": 29,
       "direction": "right"
     }

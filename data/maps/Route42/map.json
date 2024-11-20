@@ -15,12 +15,12 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ECRUTEAK_CITY",
+      "map": "MAP_ENJU_CITY",
       "offset": -20,
       "direction": "left"
     },
     {
-      "map": "MAP_MAHAGONY_TOWN",
+      "map": "MAP_CHOUJI_TOWN",
       "offset": 0,
       "direction": "right"
     }
@@ -33,7 +33,7 @@
       "x": 4,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_CITY_GATE_EAST",
+      "dest_map": "MAP_ENJU_CITY_GATE_EAST",
       "dest_warp_id": "1"
     },
     {

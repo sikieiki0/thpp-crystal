@@ -1,0 +1,51 @@
+{
+  "id": "MAP_ASAGI_CITY_PORT",
+  "name": "AsagiCity_Port",
+  "layout": "LAYOUT_OLIVINE_CITY_PORT",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_MYSTIC_ISLE",
+      "offset": -36,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE40",
+      "offset": -29,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ASAGI_CITY",
+      "offset": 0,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 28,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ASAGI_CITY",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

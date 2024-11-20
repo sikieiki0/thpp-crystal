@@ -15,7 +15,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ECRUTEAK_CITY",
+      "map": "MAP_ENJU_CITY",
       "offset": -14,
       "direction": "right"
     },
@@ -33,7 +33,7 @@
       "x": 49,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_CITY_GATE_WEST",
+      "dest_map": "MAP_ENJU_CITY_GATE_WEST",
       "dest_warp_id": "1"
     }
   ],

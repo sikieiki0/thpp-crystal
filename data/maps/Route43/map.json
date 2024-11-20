@@ -15,7 +15,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_MAHAGONY_TOWN",
+      "map": "MAP_CHOUJI_TOWN",
       "offset": 1,
       "direction": "down"
     },
@@ -33,7 +33,7 @@
       "x": 17,
       "y": 68,
       "elevation": 0,
-      "dest_map": "MAP_MAHAGONY_TOWN_LAKE_OF_RAGE_GATE",
+      "dest_map": "MAP_CHOUJI_TOWN_LAKE_OF_RAGE_GATE",
       "dest_warp_id": "1"
     },
     {
