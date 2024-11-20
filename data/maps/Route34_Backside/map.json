@@ -20,11 +20,6 @@
       "direction": "up"
     },
     {
-      "map": "MAP_ROUTE32_EAST",
-      "offset": -105,
-      "direction": "right"
-    },
-    {
       "map": "MAP_ROUTE34",
       "offset": -83,
       "direction": "left"

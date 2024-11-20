@@ -18,11 +18,6 @@
       "map": "MAP_ROUTE34",
       "offset": 0,
       "direction": "down"
-    },
-    {
-      "map": "MAP_MYSTIC_ISLE",
-      "offset": 0,
-      "direction": "left"
     }
   ],
   "object_events": [

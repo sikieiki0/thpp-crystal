@@ -327,6 +327,5 @@ const u16 gMetatileAttributes_Crystal_League[] = INCBIN_U16("data/tilesets/secon
 
 const u16 gMetatiles_Crystal_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/crystal_hall_of_fame/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/crystal_hall_of_fame/metatile_attributes.bin");
-
 const u16 gMetatiles_Crystal_Route44[] = INCBIN_U16("data/tilesets/secondary/crystal_route_44/metatiles.bin");
-const u32 gMetatileAttributes_Crystal_Route44[] = INCBIN_U32("data/tilesets/secondary/crystal_route_44/metatile_attributes.bin");
+const u16 gMetatileAttributes_Crystal_Route44[] = INCBIN_U16("data/tilesets/secondary/crystal_route_44/metatile_attributes.bin");

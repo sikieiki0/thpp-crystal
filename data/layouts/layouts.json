@@ -7502,18 +7502,6 @@
       "blockdata_filepath": "data/layouts/DarkCave_4F/map.bin"
     },
     {
-      "id": "LAYOUT_MYSTIC_ISLE",
-      "name": "MysticIsle_Layout",
-      "width": 60,
-      "height": 120,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
-      "border_filepath": "data/layouts/MysticIsle/border.bin",
-      "blockdata_filepath": "data/layouts/MysticIsle/map.bin"
-    },
-    {
       "id": "LAYOUT_ROUTE34_BACKSIDE",
       "name": "Route34_Backside_Layout",
       "width": 66,

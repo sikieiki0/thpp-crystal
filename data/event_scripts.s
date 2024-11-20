@@ -1519,8 +1519,6 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/DarkCave_4F/scripts.inc"
 
-	.include "data/maps/MysticIsle/scripts.inc"
-
 	.include "data/maps/Route34_Backside/scripts.inc"
 
 	.include "data/maps/Route32_East/scripts.inc"

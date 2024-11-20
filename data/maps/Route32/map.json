@@ -20,11 +20,6 @@
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE32_EAST",
-      "offset": 15,
-      "direction": "right"
-    },
-    {
       "map": "MAP_KIKYOU_CITY",
       "offset": -2,
       "direction": "up"

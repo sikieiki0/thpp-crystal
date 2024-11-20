@@ -2394,7 +2394,6 @@ const u16 gTilesetPalettes_Crystal_HallOfFame[][16] =
 };
 
 const u32 gTilesetTiles_Crystal_HallOfFame[] = INCBIN_U32("data/tilesets/secondary/crystal_hall_of_fame/tiles.4bpp.lz");
-
 const u16 gTilesetPalettes_Crystal_Route44[][16] =
 {
     INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/00.gbapal"),
