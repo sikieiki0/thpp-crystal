@@ -9649,8 +9649,13 @@ void ObjectEventUpdateElevation(struct ObjectEvent *objEvent, struct Sprite *spr
     u8 prevElevation = MapGridGetElevationAt(objEvent->previousCoords.x, objEvent->previousCoords.y);
 
     if (curElevation == MAX_ELEVATION_LEVEL || prevElevation == MAX_ELEVATION_LEVEL)
-        return;
-    }
+    {
+        // Ignore subsprite priorities under bridges
+        // so all subsprites will display below it
+        if (OW_LARGE_OW_SUPPORT)
+            sprite->subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
+            return;
+        }
 
     objEvent->currentElevation = curElevation;
 
