@@ -1,5 +1,5 @@
 {
-  "id": "MAP_KIKYOUCITY_CITY_SPROUT_TOWER",
+  "id": "MAP_KIKYOU_CITY_SPROUT_TOWER",
   "name": "KikyouCity_SproutTower",
   "layout": "LAYOUT_VIOLET_CITY_SPROUT_TOWER",
   "music": "MUS_DUMMY",
@@ -18,34 +18,6 @@
 
   ],
   "warp_events": [
-    {
-      "x": 9,
-      "y": 14,
-      "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY",
-      "dest_warp_id": "4"
-    },
-    {
-      "x": 17,
-      "y": 3,
-      "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_SPROUT_TOWER_2F",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 5,
-      "y": 4,
-      "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_SPROUT_TOWER_2F",
-      "dest_warp_id": "1"
-    },
-    {
-      "x": 1,
-      "y": 5,
-      "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_SPROUT_TOWER_2F",
-      "dest_warp_id": "2"
-    }
   ],
   "coord_events": [
 

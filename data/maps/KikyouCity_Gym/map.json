@@ -1,5 +1,5 @@
 {
-  "id": "MAP_KIKYOUCITY_CITY_GYM",
+  "id": "MAP_KIKYOU_CITY_GYM",
   "name": "KikyouCity_Gym",
   "layout": "LAYOUT_VIOLET_CITY_GYM",
   "music": "MUS_DUMMY",
@@ -22,7 +22,7 @@
       "x": 6,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY",
+      "dest_map": "MAP_KIKYOU_CITY",
       "dest_warp_id": "5"
     }
   ],

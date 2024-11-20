@@ -1,5 +1,5 @@
 {
-  "id": "MAP_KIKYOUCITY_CITY_POKEMON_ACADEMY",
+  "id": "MAP_KIKYOU_CITY_POKEMON_ACADEMY",
   "name": "KikyouCity_PokemonAcademy",
   "layout": "LAYOUT_VIOLET_CITY_POKEMON_ACADEMY",
   "music": "MUS_DUMMY",
@@ -22,7 +22,7 @@
       "x": 4,
       "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY",
+      "dest_map": "MAP_KIKYOU_CITY",
       "dest_warp_id": "3"
     }
   ],

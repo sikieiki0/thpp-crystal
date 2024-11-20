@@ -1,5 +1,5 @@
 {
-  "id": "MAP_KIKYOUCITY_CITY_POKE_CENTER",
+  "id": "MAP_KIKYOU_CITY_POKE_CENTER",
   "name": "KikyouCity_PokeCenter",
   "layout": "LAYOUT_VIOLET_CITY_POKE_CENTER",
   "music": "MUS_DUMMY",
@@ -22,7 +22,7 @@
       "x": 7,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY",
+      "dest_map": "MAP_KIKYOU_CITY",
       "dest_warp_id": "01"
     }
   ],

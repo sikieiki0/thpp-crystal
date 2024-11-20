@@ -2394,3 +2394,22 @@ const u16 gTilesetPalettes_Crystal_HallOfFame[][16] =
 };
 
 const u32 gTilesetTiles_Crystal_HallOfFame[] = INCBIN_U32("data/tilesets/secondary/crystal_hall_of_fame/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Crystal_Route44[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_route_44/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Crystal_Route44[] = INCBIN_U32("data/tilesets/secondary/crystal_route_44/tiles.4bpp.lz");

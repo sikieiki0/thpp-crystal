@@ -1,5 +1,5 @@
 {
-  "id": "MAP_KIKYOUCITY_CITY_HOUSE1",
+  "id": "MAP_KIKYOU_CITY_HOUSE1",
   "name": "KikyouCity_House1",
   "layout": "LAYOUT_VIOLET_CITY_HOUSE1",
   "music": "MUS_DUMMY",
@@ -22,7 +22,7 @@
       "x": 4,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY",
+      "dest_map": "MAP_KIKYOU_CITY",
       "dest_warp_id": "2"
     }
   ],

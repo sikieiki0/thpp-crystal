@@ -1,5 +1,5 @@
 {
-  "id": "MAP_KIKYOUCITY_CITY_SPROUT_TOWER_3F",
+  "id": "MAP_KIKYOU_CITY_SPROUT_TOWER_3F",
   "name": "KikyouCity_SproutTower_3F",
   "layout": "LAYOUT_VIOLET_CITY_SPROUT_TOWER_3F",
   "music": "MUS_DUMMY",
@@ -17,13 +17,6 @@
 
   ],
   "warp_events": [
-    {
-      "x": 10,
-      "y": 14,
-      "elevation": 0,
-      "dest_map": "MAP_KIKYOUCITY_CITY_SPROUT_TOWER_2F",
-      "dest_warp_id": "3"
-    }
   ],
   "coord_events": [
 
