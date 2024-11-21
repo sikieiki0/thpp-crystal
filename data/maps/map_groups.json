@@ -1,8 +1,7 @@
 {
   "group_order": [
-    "gMapGroup_DungeonsCrystal",
-    "gMapGroup_SpecialAreaCrystal",
     "gMapGroup_TownsAndRoutesCrystal",
+    "gMapGroup_DungeonsCrystal",
     "gMapGroup_IndoorRoutes",
     "gMapGroup_IndoorWakabaTown",
     "gMapGroup_IndoorYoshinoCity",
@@ -15,6 +14,7 @@
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_IndoorDynamicCrystal",
+    "gMapGroup_SpecialAreaCrystal",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -49,6 +49,40 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124"
+  ],
+  "gMapGroup_TownsAndRoutesCrystal": [
+    "WakabaTown",
+    "YoshinoCity",
+    "KikyouCity",
+    "HiwadaTown",
+    "KoganeCity",
+    "EnjuCity",
+    "AsagiCity",
+    "TanbaCity",
+    "ChoujiTown",
+    "FusubeCity",
+    "Route23",
+    "Route26",
+    "Route27",
+    "Route28",
+    "Route29",
+    "Route30",
+    "Route31",
+    "Route32",
+    "Route33",
+    "Route34",
+    "Route35",
+    "Route36",
+    "Route37",
+    "Route38",
+    "Route39",
+    "Route40",
+    "Route41",
+    "Route42",
+    "Route43",
+    "Route44",
+    "Route45",
+    "Route46"
   ],
   "gMapGroup_DungeonsCrystal": [
     "DarkCave_1F",
@@ -123,43 +157,6 @@
     "SilverCave_1F",
     "SilverCave_2F",
     "SilverCave_3F"
-  ],
-  "gMapGroup_SpecialAreaCrystal": [
-
-  ],
-  "gMapGroup_TownsAndRoutesCrystal": [
-    "WakabaTown",
-    "YoshinoCity",
-    "KikyouCity",
-    "HiwadaTown",
-    "KoganeCity",
-    "EnjuCity",
-    "AsagiCity",
-    "TanbaCity",
-    "ChoujiTown",
-    "FusubeCity",
-    "Route23",
-    "Route26",
-    "Route27",
-    "Route28",
-    "Route29",
-    "Route30",
-    "Route31",
-    "Route32",
-    "Route33",
-    "Route34",
-    "Route35",
-    "Route36",
-    "Route37",
-    "Route38",
-    "Route39",
-    "Route40",
-    "Route41",
-    "Route42",
-    "Route43",
-    "Route44",
-    "Route45",
-    "Route46"
   ],
   "gMapGroup_IndoorRoutes": [
     "Route27_House",
@@ -307,6 +304,9 @@
     "FusubeCity_House3"
   ],
   "gMapGroup_IndoorDynamicCrystal": [
+
+  ],
+  "gMapGroup_SpecialAreaCrystal": [
 
   ],
   "gMapGroup_TownsAndRoutes": [
