@@ -23,11 +23,6 @@
       "map": "MAP_ROUTE30",
       "offset": 10,
       "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE32_HIDDEN_FOREST_ENTRACE",
-      "offset": 58,
-      "direction": "right"
     }
   ],
   "object_events": [

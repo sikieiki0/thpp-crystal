@@ -5308,7 +5308,7 @@
     {
       "id": "LAYOUT_CHERRYGROVE_CITY",
       "name": "CherrygroveCity_Layout",
-      "width": 56,
+      "width": 60,
       "height": 92,
       "border_width": 2,
       "border_height": 2,
@@ -7524,18 +7524,6 @@
       "secondary_tileset": "gTileset_Crystal_IlexForest",
       "border_filepath": "data/layouts/Route32_East/border.bin",
       "blockdata_filepath": "data/layouts/Route32_East/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE32_HIDDEN_FOREST_ENTRACE",
-      "name": "Route32_HiddenForestEntrace_Layout",
-      "width": 104,
-      "height": 34,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
-      "border_filepath": "data/layouts/Route32_HiddenForestEntrace/border.bin",
-      "blockdata_filepath": "data/layouts/Route32_HiddenForestEntrace/map.bin"
     },
     {
       "id": "LAYOUT_HIDDEN_FOREST",

@@ -1523,8 +1523,6 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route32_East/scripts.inc"
 
-	.include "data/maps/Route32_HiddenForestEntrace/scripts.inc"
-
 	.include "data/maps/HiddenForest/scripts.inc"
 
 	.include "data/maps/Route27/scripts.inc"
