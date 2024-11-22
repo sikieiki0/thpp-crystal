@@ -139,6 +139,18 @@
 #define METATILE_Contest_FloorShadow         0x861
 #define METATILE_Contest_WallShadow          0x821
 
+// gTileset_Crystal_General
+#define METATILE_Crystal_General_Door                    0x03D
+#define METATILE_Crystal_General_Headbutt_Tree           0x005
+#define METATILE_Crystal_General_Plain_Grass             0x00D
+#define METATILE_Crystal_General_Plain_Mowed             0x001
+#define METATILE_Crystal_General_SlidingSingleDoor       0x062
+#define METATILE_Crystal_General_ThinTreeTop_Grass       0x00A
+#define METATILE_Crystal_General_WideTreeTopLeft_Grass   0x00B
+#define METATILE_Crystal_General_WideTreeTopLeft_Mowed   0x00E
+#define METATILE_Crystal_General_WideTreeTopRight_Grass  0x00C
+#define METATILE_Crystal_General_WideTreeTopRight_Mowed  0x00F
+
 // gTileset_Dewford
 #define METATILE_Dewford_Door              0x825
 #define METATILE_Dewford_Door_BattleTower  0x85D

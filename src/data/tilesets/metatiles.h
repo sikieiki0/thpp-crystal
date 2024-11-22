@@ -329,3 +329,12 @@ const u16 gMetatiles_Crystal_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/
 const u16 gMetatileAttributes_Crystal_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/crystal_hall_of_fame/metatile_attributes.bin");
 const u16 gMetatiles_Crystal_Route44[] = INCBIN_U16("data/tilesets/secondary/crystal_route_44/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_Route44[] = INCBIN_U16("data/tilesets/secondary/crystal_route_44/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_DiglettsCave[] = INCBIN_U16("data/tilesets/secondary/crystal_digletts_cave/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_DiglettsCave[] = INCBIN_U16("data/tilesets/secondary/crystal_digletts_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_MtEmber[] = INCBIN_U16("data/tilesets/secondary/crystal_mt_ember/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_MtEmber[] = INCBIN_U16("data/tilesets/secondary/crystal_mt_ember/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/crystal_cerulean_cave/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/crystal_cerulean_cave/metatile_attributes.bin");

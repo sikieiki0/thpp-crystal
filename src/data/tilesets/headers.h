@@ -1276,3 +1276,36 @@ const struct Tileset gTileset_Crystal_Route44 =
     .metatileAttributes = gMetatileAttributes_Crystal_Route44,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Crystal_DiglettsCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_DiglettsCave,
+    .palettes = gTilesetPalettes_Crystal_DiglettsCave,
+    .metatiles = gMetatiles_Crystal_DiglettsCave,
+    .metatileAttributes = gMetatileAttributes_Crystal_DiglettsCave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_MtEmber =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_MtEmber,
+    .palettes = gTilesetPalettes_Crystal_MtEmber,
+    .metatiles = gMetatiles_Crystal_MtEmber,
+    .metatileAttributes = gMetatileAttributes_Crystal_MtEmber,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_CeruleanCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_CeruleanCave,
+    .palettes = gTilesetPalettes_Crystal_CeruleanCave,
+    .metatiles = gMetatiles_Crystal_CeruleanCave,
+    .metatileAttributes = gMetatileAttributes_Crystal_CeruleanCave,
+    .callback = NULL,
+};
