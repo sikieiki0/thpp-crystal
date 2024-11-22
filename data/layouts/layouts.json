@@ -6033,7 +6033,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
       "border_filepath": "data/layouts/SlowpokeWell_1F/border.bin",
       "blockdata_filepath": "data/layouts/SlowpokeWell_1F/map.bin"
     },
@@ -6045,7 +6045,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
       "border_filepath": "data/layouts/SlowpokeWell_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlowpokeWell_2F/map.bin"
     },
