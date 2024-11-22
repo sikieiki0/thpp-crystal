@@ -5337,7 +5337,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_AzaleaTown",
+      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
       "border_filepath": "data/layouts/AzaleaTown/border.bin",
       "blockdata_filepath": "data/layouts/AzaleaTown/map.bin"
     },
@@ -5625,7 +5625,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_AzaleaTown",
+      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
       "border_filepath": "data/layouts/Route46/border.bin",
       "blockdata_filepath": "data/layouts/Route46/map.bin"
     },
@@ -5937,7 +5937,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/UnionCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/UnionCave_1F/map.bin"
     },
@@ -5949,7 +5949,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/UnionCave_2F/border.bin",
       "blockdata_filepath": "data/layouts/UnionCave_2F/map.bin"
     },
@@ -5961,7 +5961,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/UnionCave_3F/border.bin",
       "blockdata_filepath": "data/layouts/UnionCave_3F/map.bin"
     },
@@ -6033,7 +6033,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/SlowpokeWell_1F/border.bin",
       "blockdata_filepath": "data/layouts/SlowpokeWell_1F/map.bin"
     },
@@ -6045,7 +6045,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/SlowpokeWell_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlowpokeWell_2F/map.bin"
     },
@@ -6885,7 +6885,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/OlivineCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity_Gym/map.bin"
     },
@@ -7137,7 +7137,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/MtMortar_1F1B/border.bin",
       "blockdata_filepath": "data/layouts/MtMortar_1F1B/map.bin"
     },
@@ -7149,7 +7149,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/MtMortar_1F2B/border.bin",
       "blockdata_filepath": "data/layouts/MtMortar_1F2B/map.bin"
     },
@@ -7161,7 +7161,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/MtMortar_2F/border.bin",
       "blockdata_filepath": "data/layouts/MtMortar_2F/map.bin"
     },
@@ -7173,7 +7173,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/MtMortar_3F/border.bin",
       "blockdata_filepath": "data/layouts/MtMortar_3F/map.bin"
     },
@@ -7413,7 +7413,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/DragonsDen_1F/border.bin",
       "blockdata_filepath": "data/layouts/DragonsDen_1F/map.bin"
     },
@@ -7425,7 +7425,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/DragonsDen_2F/border.bin",
       "blockdata_filepath": "data/layouts/DragonsDen_2F/map.bin"
     },
@@ -7449,7 +7449,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/IcePath_5F/border.bin",
       "blockdata_filepath": "data/layouts/IcePath_5F/map.bin"
     },
@@ -7461,7 +7461,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/DarkCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/DarkCave_1F/map.bin"
     },
@@ -7473,7 +7473,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/DarkCave_2F/border.bin",
       "blockdata_filepath": "data/layouts/DarkCave_2F/map.bin"
     },
@@ -7485,7 +7485,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/DarkCave_3F/border.bin",
       "blockdata_filepath": "data/layouts/DarkCave_3F/map.bin"
     },
@@ -7497,7 +7497,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/DarkCave_4F/border.bin",
       "blockdata_filepath": "data/layouts/DarkCave_4F/map.bin"
     },
@@ -7569,7 +7569,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/TohjoFalls/border.bin",
       "blockdata_filepath": "data/layouts/TohjoFalls/map.bin"
     },
@@ -7605,7 +7605,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/VictoryRoadIndigo_1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoadIndigo_1F/map.bin"
     },
@@ -7617,7 +7617,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/VictoryRoadIndigo_2F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoadIndigo_2F/map.bin"
     },
@@ -7629,7 +7629,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/VictoryRoadIndigo_3F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoadIndigo_3F/map.bin"
     },
@@ -7785,7 +7785,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/SilverCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/SilverCave_1F/map.bin"
     },
@@ -7797,7 +7797,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/SilverCave_2F/border.bin",
       "blockdata_filepath": "data/layouts/SilverCave_2F/map.bin"
     },
@@ -7809,7 +7809,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
       "border_filepath": "data/layouts/SilverCave_3F/border.bin",
       "blockdata_filepath": "data/layouts/SilverCave_3F/map.bin"
     },
@@ -7821,7 +7821,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/SeasideCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/SeasideCave_1F/map.bin"
     },
@@ -7833,7 +7833,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/SeasideCave_2F/border.bin",
       "blockdata_filepath": "data/layouts/SeasideCave_2F/map.bin"
     },
@@ -7845,7 +7845,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/SeasideCave_3F/border.bin",
       "blockdata_filepath": "data/layouts/SeasideCave_3F/map.bin"
     },
@@ -7869,7 +7869,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/WhirlIslands_1F1B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F1B/map.bin"
     },
@@ -7881,7 +7881,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/WhirlIslands_1F2B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F2B/map.bin"
     },
@@ -7893,7 +7893,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndoorCave",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/WhirlIslands_1F3B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F3B/map.bin"
     },

@@ -859,14 +859,14 @@ const struct Tileset gTileset_Crystal_NewBarkTown =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_AzaleaTown =
+const struct Tileset gTileset_Crystal_SlowpokeWell =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_AzaleaTown,
-    .palettes = gTilesetPalettes_Crystal_AzaleaTown,
-    .metatiles = gMetatiles_Crystal_AzaleaTown,
-    .metatileAttributes = gMetatileAttributes_Crystal_AzaleaTown,
+    .tiles = gTilesetTiles_Crystal_SlowpokeWell,
+    .palettes = gTilesetPalettes_Crystal_SlowpokeWell,
+    .metatiles = gMetatiles_Crystal_SlowpokeWell,
+    .metatileAttributes = gMetatileAttributes_Crystal_SlowpokeWell,
     .callback = NULL,
 };
 
@@ -1057,14 +1057,14 @@ const struct Tileset gTileset_Crystal_BugsyGym =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_SlowpokeWell =
+const struct Tileset gTileset_Crystal_MtSilver =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_SlowpokeWell,
-    .palettes = gTilesetPalettes_Crystal_SlowpokeWell,
-    .metatiles = gMetatiles_Crystal_SlowpokeWell,
-    .metatileAttributes = gMetatileAttributes_Crystal_SlowpokeWell,
+    .tiles = gTilesetTiles_Crystal_MtSilver,
+    .palettes = gTilesetPalettes_Crystal_MtSilver,
+    .metatiles = gMetatiles_Crystal_MtSilver,
+    .metatileAttributes = gMetatileAttributes_Crystal_MtSilver,
     .callback = NULL,
 };
 
@@ -1167,14 +1167,14 @@ const struct Tileset gTileset_Crystal_Cafe =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_IndoorCave =
+const struct Tileset gTileset_Crystal_DarkCave =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_IndoorCave,
-    .palettes = gTilesetPalettes_Crystal_IndoorCave,
-    .metatiles = gMetatiles_Crystal_IndoorCave,
-    .metatileAttributes = gMetatileAttributes_Crystal_IndoorCave,
+    .tiles = gTilesetTiles_Crystal_DarkCave,
+    .palettes = gTilesetPalettes_Crystal_DarkCave,
+    .metatiles = gMetatiles_Crystal_DarkCave,
+    .metatileAttributes = gMetatileAttributes_Crystal_DarkCave,
     .callback = NULL,
 };
 
