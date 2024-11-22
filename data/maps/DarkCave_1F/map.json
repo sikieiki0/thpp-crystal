@@ -19,22 +19,22 @@
   ],
   "warp_events": [
     {
-      "x": 6,
-      "y": 20,
+      "x": 5,
+      "y": 22,
       "elevation": 0,
       "dest_map": "MAP_ROUTE31",
       "dest_warp_id": "0"
     },
     {
       "x": 49,
-      "y": 43,
+      "y": 25,
       "elevation": 0,
       "dest_map": "MAP_ROUTE46",
       "dest_warp_id": "0"
     },
     {
-      "x": 23,
-      "y": 3,
+      "x": 26,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_DARK_CAVE_2F",
       "dest_warp_id": "0"
