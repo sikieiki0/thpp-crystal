@@ -7478,42 +7478,6 @@
       "blockdata_filepath": "data/layouts/DarkCave_2F/map.bin"
     },
     {
-      "id": "LAYOUT_DARK_CAVE_3F",
-      "name": "DarkCave_3F_Layout",
-      "width": 48,
-      "height": 40,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_DarkCave",
-      "border_filepath": "data/layouts/DarkCave_3F/border.bin",
-      "blockdata_filepath": "data/layouts/DarkCave_3F/map.bin"
-    },
-    {
-      "id": "LAYOUT_DARK_CAVE_4F",
-      "name": "DarkCave_4F_Layout",
-      "width": 20,
-      "height": 40,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_DarkCave",
-      "border_filepath": "data/layouts/DarkCave_4F/border.bin",
-      "blockdata_filepath": "data/layouts/DarkCave_4F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE34_BACKSIDE",
-      "name": "Route34_Backside_Layout",
-      "width": 66,
-      "height": 36,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
-      "border_filepath": "data/layouts/Route34_Backside/border.bin",
-      "blockdata_filepath": "data/layouts/Route34_Backside/map.bin"
-    },
-    {
       "id": "LAYOUT_ROUTE32_EAST",
       "name": "Route32_East_Layout",
       "width": 28,

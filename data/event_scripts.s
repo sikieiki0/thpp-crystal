@@ -1305,14 +1305,6 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/KoganeCity_DepartmentStore_Elevator/scripts.inc"
 
-	.include "data/maps/KoganeCity_ScienceCenter/scripts.inc"
-
-	.include "data/maps/KoganeCity_ScienceCenter_Meeting/scripts.inc"
-
-	.include "data/maps/KoganeCity_ScienceCenter_RnD/scripts.inc"
-
-	.include "data/maps/KoganeCity_ScienceCenter_Testing/scripts.inc"
-
 	.include "data/maps/KoganeCity_MagnetTrain/scripts.inc"
 
 	.include "data/maps/KoganeCity_House1/scripts.inc"
@@ -1514,12 +1506,6 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/DarkCave_1F/scripts.inc"
 
 	.include "data/maps/DarkCave_2F/scripts.inc"
-
-	.include "data/maps/DarkCave_3F/scripts.inc"
-
-	.include "data/maps/DarkCave_4F/scripts.inc"
-
-	.include "data/maps/Route34_Backside/scripts.inc"
 
 	.include "data/maps/Route32_East/scripts.inc"
 
