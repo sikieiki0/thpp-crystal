@@ -13,8 +13,6 @@
     "gMapGroup_IndoorTanbaCity",
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
-    "gMapGroup_IndoorDynamicCrystal",
-    "gMapGroup_SpecialAreaCrystal",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -61,6 +59,8 @@
     "TanbaCity",
     "ChoujiTown",
     "FusubeCity",
+    "IndigoPlateau",
+    "SilverCave_Entrace",
     "Route23",
     "Route26",
     "Route27",
@@ -71,6 +71,7 @@
     "Route32",
     "Route33",
     "Route34",
+    "Route34_Backside",
     "Route35",
     "Route36",
     "Route37",
@@ -169,7 +170,6 @@
     "Route32_East",
     "Route34_Gate",
     "Route34_Daycare",
-    "Route34_Backside",
     "Route35_Gate",
     "Route35_House",
     "Route36_Gate",
@@ -178,9 +178,7 @@
     "Route39_MoomooFarmStable",
     "Route40_BattleTowerGate",
     "PokemonLeagueReceptionGate",
-    "IndigoPlateau",
     "IndigoLeague_Reception",
-    "SilverCave_Entrace",
     "SilverCave_PokemonCenter"
   ],
   "gMapGroup_IndoorWakabaTown": [
@@ -302,12 +300,6 @@
     "FusubeCity_House1",
     "FusubeCity_House2",
     "FusubeCity_House3"
-  ],
-  "gMapGroup_IndoorDynamicCrystal": [
-
-  ],
-  "gMapGroup_SpecialAreaCrystal": [
-
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
