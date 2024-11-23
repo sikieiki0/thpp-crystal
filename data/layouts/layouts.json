@@ -7504,12 +7504,12 @@
     {
       "id": "LAYOUT_BONEKA_LEAGUE_RECEPTION_GATE",
       "name": "BonekaLeagueReceptionGate_Layout",
-      "width": 22,
+      "width": 23,
       "height": 21,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
+      "secondary_tileset": "gTileset_Crystal_MiscStatues",
       "border_filepath": "data/layouts/BonekaLeagueReceptionGate/border.bin",
       "blockdata_filepath": "data/layouts/BonekaLeagueReceptionGate/map.bin"
     },

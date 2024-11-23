@@ -33,13 +33,13 @@
     },
     {
       "x": 42,
-      "y": 6,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_SLOWPOKE_WELL_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 29,
+      "x": 30,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_HIWADA_TOWN_MART",

@@ -26,10 +26,10 @@
   "warp_events": [
     {
       "x": 47,
-      "y": 7,
+      "y": 5,
       "elevation": 0,
       "dest_map": "MAP_BONEKA_LEAGUE_RECEPTION_GATE",
-      "dest_warp_id": "1"
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [
