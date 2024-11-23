@@ -1220,7 +1220,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route29_Gate/scripts.inc"
 
-	.include "data/maps/YoshinoCity_PokemonCenter/scripts.inc"
+	.include "data/maps/YoshinoCity_BonekaCenter/scripts.inc"
 
 	.include "data/maps/YoshinoCity_Mart/scripts.inc"
 
@@ -1236,7 +1236,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route31_Gate/scripts.inc"
 
-	.include "data/maps/KikyouCity_PokeCenter/scripts.inc"
+	.include "data/maps/KikyouCity_BonekaCenter/scripts.inc"
 
 	.include "data/maps/KikyouCity_House1/scripts.inc"
 
@@ -1254,7 +1254,8 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/KikyouCity_House2/scripts.inc"
 
-	.include "data/maps/Route32_PokemonCenter/scripts.inc"
+	.include "data/maps/Route32_BonekaCenter/scripts.inc"
+
 	.include "data/maps/Route32_Gate/scripts.inc"
 
 	.include "data/maps/UnionCave_1F/scripts.inc"
@@ -1267,7 +1268,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/HiwadaTown_House1/scripts.inc"
 
-	.include "data/maps/HiwadaTown_PokemonCenter/scripts.inc"
+	.include "data/maps/HiwadaTown_BonekaCenter/scripts.inc"
 
 	.include "data/maps/HiwadaTown_Gym/scripts.inc"
 
@@ -1285,9 +1286,9 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route34_Daycare/scripts.inc"
 
-	.include "data/maps/KoganeCity_PokemonCommunicationCenter_1F/scripts.inc"
+	.include "data/maps/KoganeCity_BonekaCommunicationCenter_1F/scripts.inc"
 
-	.include "data/maps/KoganeCity_PokemonCommunicationCenter_2F/scripts.inc"
+	.include "data/maps/KoganeCity_BonekaCommunicationCenter_2F/scripts.inc"
 
 	.include "data/maps/KoganeCity_DepartmentStore_1F/scripts.inc"
 
@@ -1375,7 +1376,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/SinjohRuins_MystriStage/scripts.inc"
 
-	.include "data/maps/EnjuCity_PokemonCenter/scripts.inc"
+	.include "data/maps/EnjuCity_BonekaCenter/scripts.inc"
 
 	.include "data/maps/EnjuCity_House1/scripts.inc"
 
@@ -1413,7 +1414,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/AsagiCity_Mart/scripts.inc"
 
-	.include "data/maps/AsagiCity_PokemonCenter/scripts.inc"
+	.include "data/maps/AsagiCity_BonekaCenter/scripts.inc"
 
 	.include "data/maps/AsagiCity_Cafe/scripts.inc"
 
@@ -1441,7 +1442,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/TanbaCity_Pharmacy/scripts.inc"
 
-	.include "data/maps/TanbaCity_PokemonCenter/scripts.inc"
+	.include "data/maps/TanbaCity_BonekaCenter/scripts.inc"
 
 	.include "data/maps/LakeOfRage/scripts.inc"
 
@@ -1463,7 +1464,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/ChoujiTown_Gym/scripts.inc"
 
-	.include "data/maps/ChoujiTown_PokemonCenter/scripts.inc"
+	.include "data/maps/ChoujiTown_BonekaCenter/scripts.inc"
 
 	.include "data/maps/ChoujiTown_Hideout_SouvenirShop/scripts.inc"
 
@@ -1485,7 +1486,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/FusubeCity_Mart/scripts.inc"
 
-	.include "data/maps/FusubeCity_PokemonCenter/scripts.inc"
+	.include "data/maps/FusubeCity_BonekaCenter/scripts.inc"
 
 	.include "data/maps/FusubeCity_House1/scripts.inc"
 
@@ -1519,7 +1520,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route26/scripts.inc"
 
-	.include "data/maps/PokemonLeagueReceptionGate/scripts.inc"
+	.include "data/maps/BonekaLeagueReceptionGate/scripts.inc"
 
 	.include "data/maps/VictoryRoadIndigo_1F/scripts.inc"
 
@@ -1549,7 +1550,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/IndigoLeague_HallOfFame/scripts.inc"
 
-	.include "data/maps/SilverCave_PokemonCenter/scripts.inc"
+	.include "data/maps/SilverCave_BonekaCenter/scripts.inc"
 
 	.include "data/maps/SilverCave_1F/scripts.inc"
 

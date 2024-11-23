@@ -162,7 +162,7 @@
     "Route30_BerryExpertsHouse",
     "Route30_MrPokemonsHouse",
     "Route31_Gate",
-    "Route32_PokemonCenter",
+    "Route32_BonekaCenter",
     "Route32_Gate",
     "Route32_East",
     "Route34_Gate",
@@ -174,9 +174,9 @@
     "Route39_MoomooFarmHouse",
     "Route39_MoomooFarmStable",
     "Route40_BattleTowerGate",
-    "PokemonLeagueReceptionGate",
+    "BonekaLeagueReceptionGate",
     "IndigoLeague_Reception",
-    "SilverCave_PokemonCenter"
+    "SilverCave_BonekaCenter"
   ],
   "gMapGroup_IndoorWakabaTown": [
     "WakabaTown_PlayersHouse_1F",
@@ -186,14 +186,14 @@
     "WakabaTown_ProfessorElmsLab"
   ],
   "gMapGroup_IndoorYoshinoCity": [
-    "YoshinoCity_PokemonCenter",
+    "YoshinoCity_BonekaCenter",
     "YoshinoCity_Mart",
     "YoshinoCity_House1",
     "YoshinoCity_GuideGentsHouse",
     "YoshinoCity_FishermansHouse"
   ],
   "gMapGroup_IndoorKikyouCity": [
-    "KikyouCity_PokeCenter",
+    "KikyouCity_BonekaCenter",
     "KikyouCity_House1",
     "KikyouCity_PokemonAcademy",
     "KikyouCity_SproutTower",
@@ -206,14 +206,14 @@
   "gMapGroup_IndoorHiwadaTown": [
     "HiwadaTown_Mart",
     "HiwadaTown_House1",
-    "HiwadaTown_PokemonCenter",
+    "HiwadaTown_BonekaCenter",
     "HiwadaTown_Gym",
     "HiwadaTown_KurtsHouse",
     "HiwadaTown_Gate"
   ],
   "gMapGroup_IndoorKoganeCity": [
-    "KoganeCity_PokemonCommunicationCenter_1F",
-    "KoganeCity_PokemonCommunicationCenter_2F",
+    "KoganeCity_BonekaCommunicationCenter_1F",
+    "KoganeCity_BonekaCommunicationCenter_2F",
     "KoganeCity_DepartmentStore_1F",
     "KoganeCity_DepartmentStore_2F",
     "KoganeCity_DepartmentStore_3F",
@@ -244,7 +244,7 @@
     "KoganeCity_NameRater"
   ],
   "gMapGroup_IndoorEnjuCity": [
-    "EnjuCity_PokemonCenter",
+    "EnjuCity_BonekaCenter",
     "EnjuCity_House1",
     "EnjuCity_Gym",
     "EnjuCity_Mart",
@@ -259,7 +259,7 @@
     "AsagiCity_Gym",
     "AsagiCity_House1",
     "AsagiCity_Mart",
-    "AsagiCity_PokemonCenter",
+    "AsagiCity_BonekaCenter",
     "AsagiCity_Cafe",
     "AsagiCity_House2",
     "AsagiCity_House3",
@@ -273,13 +273,13 @@
     "TanbaCity_House2",
     "TanbaCity_Gym",
     "TanbaCity_Pharmacy",
-    "TanbaCity_PokemonCenter"
+    "TanbaCity_BonekaCenter"
   ],
   "gMapGroup_IndoorChoujiTown": [
     "ChoujiTown_LakeOfRageGate",
     "ChoujiTown_House",
     "ChoujiTown_Gym",
-    "ChoujiTown_PokemonCenter",
+    "ChoujiTown_BonekaCenter",
     "ChoujiTown_Hideout_SouvenirShop",
     "ChoujiTown_Hideout_1F",
     "ChoujiTown_Hideout_2F",
@@ -289,7 +289,7 @@
     "FusubeCity_Gym",
     "FusubeCity_Gym_2F",
     "FusubeCity_Mart",
-    "FusubeCity_PokemonCenter",
+    "FusubeCity_BonekaCenter",
     "FusubeCity_House1",
     "FusubeCity_House2",
     "FusubeCity_House3"

@@ -1,35 +1,29 @@
 {
-  "id": "MAP_ROUTE26",
-  "name": "Route26",
-  "layout": "LAYOUT_ROUTE26",
+  "id": "MAP_KIKYOU_CITY_BONEKA_CENTER",
+  "name": "KikyouCity_BonekaCenter",
+  "layout": "LAYOUT_VIOLET_CITY_BONEKA_CENTER",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
-  "allow_cycling": true,
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": true,
+  "allow_running": false,
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_ROUTE27",
-      "offset": 130,
-      "direction": "left"
-    }
-  ],
+  "connections": 0,
   "object_events": [
 
   ],
   "warp_events": [
     {
-      "x": 13,
-      "y": 7,
+      "x": 7,
+      "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_BONEKA_LEAGUE_RECEPTION_GATE",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_KIKYOU_CITY",
+      "dest_warp_id": "01"
     }
   ],
   "coord_events": [

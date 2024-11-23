@@ -1,34 +1,27 @@
 {
-  "id": "MAP_ROUTE28",
-  "name": "Route28",
-  "layout": "LAYOUT_ROUTE28",
+  "id": "MAP_KOGANE_CITY_BONEKA_COMMUNICATION_CENTER_2F",
+  "name": "KoganeCity_BonekaCommunicationCenter_2F",
+  "layout": "LAYOUT_GOLDENROD_CITY_BONEKA_COMMUNICATION_CENTER_2F",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
-  "allow_cycling": true,
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": true,
+  "allow_running": false,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_SILVER_CAVE_ENTRACE",
-      "offset": -17,
-      "direction": "left"
-    }
-  ],
+  "connections": 0,
   "object_events": [
 
   ],
   "warp_events": [
     {
-      "x": 47,
-      "y": 7,
+      "x": 1,
+      "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_BONEKA_LEAGUE_RECEPTION_GATE",
+      "dest_map": "MAP_KOGANE_CITY_BONEKA_COMMUNICATION_CENTER_1F",
       "dest_warp_id": "1"
     }
   ],
