@@ -1,2 +1,2 @@
-KoganeCity_PokemonCommunicationCenter_2F_MapScripts::
+KoganeCity_BonekaCommunicationCenter_2F_MapScripts::
 	.byte 0
