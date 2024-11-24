@@ -298,6 +298,16 @@ extern const u8 gText_Birch_AreYouReady[];
 extern const u8 gText_BirchInTrouble[];
 extern const u8 gText_ConfirmStarterChoice[];
 
+extern const u8 gText_Oak_Welcome[];
+extern const u8 gText_ThisIsABoneka[];
+extern const u8 gText_Oak_MainSpeech[];
+extern const u8 gText_Oak_AndYouAre[];
+extern const u8 gText_Oak_BoyOrGirl[];
+extern const u8 gText_Oak_WhatsYourName[];
+extern const u8 gText_Oak_SoItsPlayer[];
+extern const u8 gText_Oak_YourePlayer[];
+extern const u8 gText_Oak_AreYouReady[];
+
 // mystery event menu text
 extern const u8 gText_EventSafelyLoaded[];
 extern const u8 gText_LoadErrorEndingSession[];

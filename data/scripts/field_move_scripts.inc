@@ -454,7 +454,7 @@ Text_WantToSurface:
 	.string "Would you like to use {COLOR GREEN}Dive?$"
 
 Text_WantToHeadbutt:
-	.string "It's a moderated sized tree.\n"
+	.string "It's a moderately sized tree.\n"
 	.string "Would you like to use {COLOR GREEN}Headbutt?$"
 
 Text_CantHeadbuttTree:
