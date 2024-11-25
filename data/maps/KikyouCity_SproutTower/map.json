@@ -18,6 +18,69 @@
 
   ],
   "warp_events": [
+    {
+      "x": 9,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 30,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 42,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "06"
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "05"
+    },
+    {
+      "x": 34,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 59,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
+      "dest_warp_id": "07"
+    }
   ],
   "coord_events": [
 

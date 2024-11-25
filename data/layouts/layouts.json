@@ -5733,7 +5733,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_PlayersHouse",
       "border_filepath": "data/layouts/CherrygroveCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveCity_House1/map.bin"
     },
@@ -5836,7 +5836,7 @@
     {
       "id": "LAYOUT_VIOLET_CITY_SPROUT_TOWER",
       "name": "VioletCity_SproutTower_Layout",
-      "width": 19,
+      "width": 74,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
@@ -5844,30 +5844,6 @@
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
       "border_filepath": "data/layouts/VioletCity_SproutTower/border.bin",
       "blockdata_filepath": "data/layouts/VioletCity_SproutTower/map.bin"
-    },
-    {
-      "id": "LAYOUT_VIOLET_CITY_SPROUT_TOWER_2F",
-      "name": "VioletCity_SproutTower_2F_Layout",
-      "width": 19,
-      "height": 16,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/VioletCity_SproutTower_2F/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_SproutTower_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_VIOLET_CITY_SPROUT_TOWER_3F",
-      "name": "VioletCity_SproutTower_3F_Layout",
-      "width": 21,
-      "height": 17,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/VioletCity_SproutTower_3F/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_SproutTower_3F/map.bin"
     },
     {
       "id": "LAYOUT_VIOLET_CITY_GYM",

@@ -1244,10 +1244,6 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/KikyouCity_SproutTower/scripts.inc"
 
-	.include "data/maps/KikyouCity_SproutTower_2F/scripts.inc"
-
-	.include "data/maps/KikyouCity_SproutTower_3F/scripts.inc"
-
 	.include "data/maps/KikyouCity_Gym/scripts.inc"
 
 	.include "data/maps/KikyouCity_Mart/scripts.inc"

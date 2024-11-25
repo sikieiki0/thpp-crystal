@@ -60,49 +60,49 @@
       "x": 43,
       "y": 31,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_KIKYOU_CITY_BONEKA_CENTER",
       "dest_warp_id": "0"
     },
     {
       "x": 29,
       "y": 34,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_KIKYOU_CITY_HOUSE1",
       "dest_warp_id": "0"
     },
     {
       "x": 39,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_KIKYOU_CITY_POKEMON_ACADEMY",
       "dest_warp_id": "0"
     },
     {
       "x": 33,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_KIKYOU_CITY_SPROUT_TOWER",
       "dest_warp_id": "0"
     },
     {
       "x": 26,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_KIKYOU_CITY_GYM",
       "dest_warp_id": "0"
     },
     {
       "x": 16,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_KIKYOU_CITY_MART",
       "dest_warp_id": "0"
     },
     {
       "x": 5,
       "y": 20,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_KIKYOU_CITY_HOUSE2",
       "dest_warp_id": "0"
     }
   ],
