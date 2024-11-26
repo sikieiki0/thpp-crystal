@@ -30,36 +30,36 @@
   ],
   "warp_events": [
     {
-      "x": 40,
-      "y": 3,
+      "x": 41,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_YOSHINO_CITY_BONEKA_CENTER",
       "dest_warp_id": "0"
     },
     {
-      "x": 34,
+      "x": 33,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_YOSHINO_CITY_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_YOSHINO_CITY_MART",
       "dest_warp_id": "0"
     },
     {
-      "x": 49,
-      "y": 11,
-      "elevation": 0,
-      "dest_map": "MAP_YOSHINO_CITY_HOUSE1",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 41,
-      "y": 9,
+      "x": 35,
+      "y": 10,
       "elevation": 0,
       "dest_map": "MAP_YOSHINO_CITY_GUIDE_GENTS_HOUSE",
       "dest_warp_id": "0"
     },
     {
-      "x": 32,
-      "y": 8,
+      "x": 25,
+      "y": 12,
       "elevation": 0,
       "dest_map": "MAP_YOSHINO_CITY_FISHERMANS_HOUSE",
       "dest_warp_id": "0"
@@ -71,16 +71,16 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 49,
-      "y": 6,
+      "x": 31,
+      "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
     },
     {
       "type": "sign",
-      "x": 39,
-      "y": 9,
+      "x": 38,
+      "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
