@@ -834,7 +834,7 @@ const struct Tileset gTileset_Crystal_General =
     .palettes = gTilesetPalettes_Crystal_General,
     .metatiles = gMetatiles_Crystal_General,
     .metatileAttributes = gMetatileAttributes_Crystal_General,
-    .callback = NULL,
+    .callback = InitTilesetAnim_Crystal_General,
 };
 
 const struct Tileset gTileset_Crystal_Building =
