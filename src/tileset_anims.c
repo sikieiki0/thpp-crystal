@@ -76,6 +76,7 @@ static void QueueAnimTiles_EliteFour_GroundLights(u16);
 static void QueueAnimTiles_EliteFour_WallLights(u16);
 static void QueueAnimTiles_Crystal_General_FlowerFRLG(u16);
 static void QueueAnimTiles_Crystal_General_LandWatersEdge(u16);
+static void QueueAnimTiles_Crystal_General_SandWatersEdge(u16);
 
 const u16 gTilesetAnims_Crystal_General_FlowerFRLG_Frame0[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/flower_frlg/0.4bpp");
 const u16 gTilesetAnims_Crystal_General_FlowerFRLG_Frame1[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/flower_frlg/1.4bpp");
@@ -109,6 +110,26 @@ const u16 *const gTilesetAnims_Crystal_General_LandWatersEdge[] = {
     gTilesetAnims_Crystal_General_LandWatersEdge_Frame5,
     gTilesetAnims_Crystal_General_LandWatersEdge_Frame6,
     gTilesetAnims_Crystal_General_LandWatersEdge_Frame7
+};
+
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/0.4bpp");
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame1[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/1.4bpp");
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame2[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/2.4bpp");
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame3[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/3.4bpp");
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame4[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/4.4bpp");
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame5[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/5.4bpp");
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame6[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/6.4bpp");
+const u16 gTilesetAnims_Crystal_General_SandWatersEdge_Frame7[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/sandwatersedge/7.4bpp");
+
+const u16 *const gTilesetAnims_Crystal_General_SandWatersEdge[] = {
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame0,
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame1,
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame2,
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame3,
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame4,
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame5,
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame6,
+    gTilesetAnims_Crystal_General_SandWatersEdge_Frame7
 };
 
 const u16 gTilesetAnims_General_Flower_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/1.4bpp");
@@ -679,6 +700,8 @@ static void TilesetAnim_Crystal_General(u16 timer)
         QueueAnimTiles_Crystal_General_FlowerFRLG(timer >> 4);
     if (timer % 16 == 1)
         QueueAnimTiles_Crystal_General_LandWatersEdge(timer / 16);
+    if (timer % 16 == 2)
+        QueueAnimTiles_Crystal_General_SandWatersEdge(timer / 16);
         
 }
 
@@ -710,6 +733,11 @@ static void QueueAnimTiles_Crystal_General_FlowerFRLG(u16 timer)
 static void QueueAnimTiles_Crystal_General_LandWatersEdge(u16 timer)
 {
     AppendTilesetAnimToBuffer(gTilesetAnims_Crystal_General_LandWatersEdge[timer % ARRAY_COUNT(gTilesetAnims_Crystal_General_LandWatersEdge)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 16 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_Crystal_General_SandWatersEdge(u16 timer)
+{
+    AppendTilesetAnimToBuffer(gTilesetAnims_Crystal_General_SandWatersEdge[timer % ARRAY_COUNT(gTilesetAnims_Crystal_General_SandWatersEdge)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 18 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles_General_Flower(u16 timer)
