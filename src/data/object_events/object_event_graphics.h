@@ -384,8 +384,12 @@ const u16 gObjectEventPal_Substitute[] = INCBIN_U16("graphics/pokemon/question_m
 
 const u16 gObjectEventPaletteEmotes[] = INCBIN_U16("graphics/misc/emotes.gbapal");
 
-//FRLG
+//Crystal
+const u32 gObjectEventPic_Crystal[] = INCBIN_U32("graphics/object_events/pics/people/crystal.4bpp");
+const u32 gObjectEventPic_Ethan[] = INCBIN_U32("graphics/object_events/pics/people/ethan.4bpp");
+const u32 gObjectEventPic_Silver[] = INCBIN_U32("graphics/object_events/pics/people/silver.4bpp");
 const u32 gObjectEventPic_ProfOak[] = INCBIN_U32("graphics/object_events/pics/people/prof_oak.4bpp");
+const u32 gObjectEventPic_ProfElm[] = INCBIN_U32("graphics/object_events/pics/people/prof_elm.4bpp");
 
 #if OW_FOLLOWERS_POKEBALLS
 const u32 gObjectEventPic_MasterBall[] = INCBIN_U32("graphics/object_events/pics/misc/ball_master.4bpp");

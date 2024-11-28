@@ -248,8 +248,12 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan1;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
 
-//FRLG
+//Crystal
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Crystal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ethan;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Silver;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfOak;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfElm;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -494,7 +498,12 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKE_BALL] =                &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     //FRLG
+    [OBJ_EVENT_GFX_CRYSTAL] =                  &gObjectEventGraphicsInfo_Crystal,
+    [OBJ_EVENT_GFX_ETHAN] =                    &gObjectEventGraphicsInfo_Ethan,
+    [OBJ_EVENT_GFX_SILVER] =                   &gObjectEventGraphicsInfo_Silver,
     [OBJ_EVENT_GFX_PROF_OAK] =                 &gObjectEventGraphicsInfo_ProfOak,
+    [OBJ_EVENT_GFX_PROF_ELM] =                 &gObjectEventGraphicsInfo_ProfElm,
+    
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

@@ -1356,7 +1356,23 @@ static const struct SpriteFrameImage sPicTable_RubySapphireMay[] = {
     overworld_ascending_frames(gObjectEventPic_RubySapphireMayNormal, 2, 4),
 };
 
-//FRLG
+//Crystal
+static const struct SpriteFrameImage sPicTable_Crystal[] = {
+    overworld_ascending_frames(gObjectEventPic_Crystal, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Ethan[] = {
+    overworld_ascending_frames(gObjectEventPic_Ethan, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Silver[] = {
+    overworld_ascending_frames(gObjectEventPic_Silver, 2, 4),
+};
+
 static const struct SpriteFrameImage sPicTable_ProfOak[] = {
     overworld_ascending_frames(gObjectEventPic_ProfOak, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_ProfElm[] = {
+    overworld_ascending_frames(gObjectEventPic_ProfElm, 2, 4),
 };
