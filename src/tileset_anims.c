@@ -75,6 +75,7 @@ static void QueueAnimTiles_SootopolisGym_Waterfalls(u16);
 static void QueueAnimTiles_EliteFour_GroundLights(u16);
 static void QueueAnimTiles_EliteFour_WallLights(u16);
 static void QueueAnimTiles_Crystal_General_FlowerFRLG(u16);
+static void QueueAnimTiles_Crystal_General_FlowerRSE(u16);
 static void QueueAnimTiles_Crystal_General_LandWatersEdge(u16);
 static void QueueAnimTiles_Crystal_General_SandWatersEdge(u16);
 
@@ -90,6 +91,17 @@ const u16 *const gTilesetAnims_Crystal_General_FlowerFRLG[] = {
     gTilesetAnims_Crystal_General_FlowerFRLG_Frame2,
     gTilesetAnims_Crystal_General_FlowerFRLG_Frame3,
     gTilesetAnims_Crystal_General_FlowerFRLG_Frame4
+};
+
+const u16 gTilesetAnims_Crystal_General_FlowerRSE_Frame0[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/flower_rse/0.4bpp");
+const u16 gTilesetAnims_Crystal_General_FlowerRSE_Frame1[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/flower_rse/1.4bpp");
+const u16 gTilesetAnims_Crystal_General_FlowerRSE_Frame2[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/flower_rse/2.4bpp");
+
+const u16 *const gTilesetAnims_Crystal_General_FlowerRSE[] = {
+    gTilesetAnims_Crystal_General_FlowerRSE_Frame0,
+    gTilesetAnims_Crystal_General_FlowerRSE_Frame1,
+    gTilesetAnims_Crystal_General_FlowerRSE_Frame0,
+    gTilesetAnims_Crystal_General_FlowerRSE_Frame2,
 };
 
 const u16 gTilesetAnims_Crystal_General_LandWatersEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/crystal_general/anim/landwatersedge/0.4bpp");
@@ -697,10 +709,12 @@ void InitTilesetAnim_Building(void)
 static void TilesetAnim_Crystal_General(u16 timer)
 {
     if (timer % 16 == 0)
-        QueueAnimTiles_Crystal_General_FlowerFRLG(timer >> 4);
+        QueueAnimTiles_Crystal_General_FlowerFRLG(timer / 16);
     if (timer % 16 == 1)
-        QueueAnimTiles_Crystal_General_LandWatersEdge(timer / 16);
+        QueueAnimTiles_Crystal_General_FlowerRSE(timer / 16);
     if (timer % 16 == 2)
+        QueueAnimTiles_Crystal_General_LandWatersEdge(timer / 16);
+    if (timer % 16 == 3)
         QueueAnimTiles_Crystal_General_SandWatersEdge(timer / 16);
         
 }
@@ -728,6 +742,11 @@ static void TilesetAnim_Building(u16 timer)
 static void QueueAnimTiles_Crystal_General_FlowerFRLG(u16 timer)
 {
     AppendTilesetAnimToBuffer(gTilesetAnims_Crystal_General_FlowerFRLG[timer % ARRAY_COUNT(gTilesetAnims_Crystal_General_FlowerFRLG)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_Crystal_General_FlowerRSE(u16 timer)
+{
+    AppendTilesetAnimToBuffer(gTilesetAnims_Crystal_General_FlowerRSE[timer % ARRAY_COUNT(gTilesetAnims_Crystal_General_FlowerRSE)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(491)), 4 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles_Crystal_General_LandWatersEdge(u16 timer)
