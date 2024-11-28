@@ -221,10 +221,10 @@ const u32 gTrainerFrontPic_May[] = INCBIN_U32("graphics/trainers/front_pics/may.
 const u32 gTrainerPalette_May[] = INCBIN_U32("graphics/trainers/palettes/may.gbapal.lz");
 
 const u32 gTrainerFrontPic_Renko[] = INCBIN_U32("graphics/trainers/front_pics/renko.4bpp.lz");
-const u32 gTrainerPalette_Renko[] = INCBIN_U32("graphics/trainers/palettes/renko.gbapal.lz");
+const u32 gTrainerPalette_Renko[] = INCBIN_U32("graphics/trainers/front_pics/renko.gbapal.lz");
 
 const u32 gTrainerFrontPic_Mary[] = INCBIN_U32("graphics/trainers/front_pics/mary.4bpp.lz");
-const u32 gTrainerPalette_Mary[] = INCBIN_U32("graphics/trainers/palettes/mary.gbapal.lz");
+const u32 gTrainerPalette_Mary[] = INCBIN_U32("graphics/trainers/front_pics/mary.gbapal.lz");
 
 const u32 gTrainerFrontPic_BugCatcher[] = INCBIN_U32("graphics/trainers/front_pics/bug_catcher.4bpp.lz");
 const u32 gTrainerPalette_BugCatcher[] = INCBIN_U32("graphics/trainers/front_pics/bug_catcher.gbapal.lz");
@@ -301,6 +301,9 @@ const u8 gTrainerBackPic_Steven[] = INCBIN_U8("graphics/trainers/back_pics/steve
 
 const u32 gTrainerBackPicPalette_Red[] = INCBIN_U32("graphics/trainers/back_pics/red.gbapal.lz");
 const u32 gTrainerBackPicPalette_Leaf[] = INCBIN_U32("graphics/trainers/back_pics/leaf.gbapal.lz");
+
+const u32 gTrainerBackPicPalette_Renko[] = INCBIN_U32("graphics/trainers/back_pics/renko.gbapal.lz");
+const u32 gTrainerBackPicPalette_Mary[] = INCBIN_U32("graphics/trainers/back_pics/mary.gbapal.lz");
 
 // The first two parameters invoke a front pic and palette by
 // calling a "TRAINER_PIC" constant (e.g. TRAINER_PIC_HIKER), and
@@ -389,8 +392,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_SAILOR, gTrainerFrontPic_Sailor, gTrainerPalette_Sailor),
     TRAINER_SPRITE(TRAINER_PIC_MAGMA_ADMIN, gTrainerFrontPic_MagmaAdmin, gTrainerPalette_MagmaAdmin),
     TRAINER_SPRITE(TRAINER_PIC_WALLY, gTrainerFrontPic_Wally, gTrainerPalette_Wally),
-    TRAINER_SPRITE(TRAINER_PIC_BRENDAN, gTrainerFrontPic_Brendan, gTrainerPalette_Brendan),
-    TRAINER_SPRITE(TRAINER_PIC_MAY, gTrainerFrontPic_May, gTrainerPalette_May),
+    TRAINER_SPRITE(TRAINER_PIC_RENKO, gTrainerFrontPic_Renko, gTrainerPalette_Renko),
+    TRAINER_SPRITE(TRAINER_PIC_MARY, gTrainerFrontPic_Mary, gTrainerPalette_Mary),
     TRAINER_SPRITE(TRAINER_PIC_BUG_CATCHER, gTrainerFrontPic_BugCatcher, gTrainerPalette_BugCatcher),
     TRAINER_SPRITE(TRAINER_PIC_POKEMON_RANGER_M, gTrainerFrontPic_PokemonRangerM, gTrainerPalette_PokemonRangerM),
     TRAINER_SPRITE(TRAINER_PIC_POKEMON_RANGER_F, gTrainerFrontPic_PokemonRangerF, gTrainerPalette_PokemonRangerF),
@@ -573,6 +576,6 @@ const struct TrainerBacksprite gTrainerBacksprites[] =
     TRAINER_BACK_SPRITE(TRAINER_BACK_PIC_RUBY_SAPPHIRE_MAY, 4, gTrainerBackPic_RubySapphireMay, gTrainerBackPicTable_RubySapphireMay, gTrainerPalette_RubySapphireMay, sBackAnims_Hoenn),
     TRAINER_BACK_SPRITE(TRAINER_BACK_PIC_WALLY, 4, gTrainerBackPic_Wally, gTrainerBackPicTable_Wally, gTrainerPalette_Wally, sBackAnims_Hoenn),
     TRAINER_BACK_SPRITE(TRAINER_BACK_PIC_STEVEN, 4, gTrainerBackPic_Steven, gTrainerBackPicTable_Steven, gTrainerPalette_Steven, sBackAnims_Hoenn),
-    TRAINER_BACK_SPRITE(TRAINER_BACK_PIC_RENKO, 5, gTrainerBackPic_Renko, gTrainerBackPicTable_Renko, gTrainerPalette_Renko, sBackAnims_Kanto),
-    TRAINER_BACK_SPRITE(TRAINER_BACK_PIC_MARY, 5, gTrainerBackPic_Mary, gTrainerBackPicTable_Mary, gTrainerPalette_Mary, sBackAnims_Kanto),
+    TRAINER_BACK_SPRITE(TRAINER_BACK_PIC_RENKO, 5, gTrainerBackPic_Renko, gTrainerBackPicTable_Renko, gTrainerBackPicPalette_Renko, sBackAnims_Kanto),
+    TRAINER_BACK_SPRITE(TRAINER_BACK_PIC_MARY, 5, gTrainerBackPic_Mary, gTrainerBackPicTable_Mary, gTrainerBackPicPalette_Mary, sBackAnims_Kanto),
 };
