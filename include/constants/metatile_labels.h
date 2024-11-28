@@ -140,6 +140,7 @@
 #define METATILE_Contest_WallShadow          0x821
 
 // gTileset_Crystal_General
+#define METATILE_Crystal_General_Calm_Water              0x12B
 #define METATILE_Crystal_General_Door                    0x03D
 #define METATILE_Crystal_General_Headbutt_Tree           0x005
 #define METATILE_Crystal_General_Plain_Grass             0x00D
