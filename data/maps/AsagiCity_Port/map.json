@@ -21,7 +21,7 @@
     },
     {
       "map": "MAP_ASAGI_CITY",
-      "offset": 0,
+      "offset": -13,
       "direction": "up"
     }
   ],

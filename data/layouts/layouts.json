@@ -5464,7 +5464,7 @@
     {
       "id": "LAYOUT_ROUTE33",
       "name": "Route33_Layout",
-      "width": 44,
+      "width": 36,
       "height": 30,
       "border_width": 2,
       "border_height": 2,
@@ -6892,12 +6892,12 @@
     {
       "id": "LAYOUT_OLIVINE_CITY_PORT",
       "name": "OlivineCity_Port_Layout",
-      "width": 56,
-      "height": 56,
+      "width": 38,
+      "height": 22,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "secondary_tileset": "gTileset_Crystal_Port",
       "border_filepath": "data/layouts/OlivineCity_Port/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity_Port/map.bin"
     },

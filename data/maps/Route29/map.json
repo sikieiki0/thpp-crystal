@@ -28,6 +28,11 @@
       "map": "MAP_YOSHINO_CITY",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE30",
+      "offset": -61,
+      "direction": "left"
     }
   ],
   "object_events": [

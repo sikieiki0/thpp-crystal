@@ -18,6 +18,11 @@
       "map": "MAP_KIKYOU_CITY",
       "offset": -2,
       "direction": "up"
+    },
+    {
+      "map": "MAP_RUINS_OF_ALPH",
+      "offset": -28,
+      "direction": "left"
     }
   ],
   "object_events": [
