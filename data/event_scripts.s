@@ -1504,10 +1504,6 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/DarkCave_2F/scripts.inc"
 
-	.include "data/maps/Route32_East/scripts.inc"
-
-	.include "data/maps/HiddenForest/scripts.inc"
-
 	.include "data/maps/Route27/scripts.inc"
 
 	.include "data/maps/Route27_House/scripts.inc"
@@ -1587,3 +1583,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/TinTower_9F/scripts.inc"
 
 	.include "data/maps/BellchimeTrail/scripts.inc"
+
+	.include "data/maps/CliffEdgeGate/scripts.inc"
+
+	.include "data/maps/Route47/scripts.inc"
+
+	.include "data/maps/Route48/scripts.inc"
+
+	.include "data/maps/SafariZoneGate/scripts.inc"
+
+	.include "data/maps/EmbeddedTower/scripts.inc"

@@ -6585,7 +6585,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SilverCave",
+      "secondary_tileset": "gTileset_Crystal_Route44",
       "border_filepath": "data/layouts/SinjohRuins/border.bin",
       "blockdata_filepath": "data/layouts/SinjohRuins/map.bin"
     },
@@ -7418,18 +7418,6 @@
       "blockdata_filepath": "data/layouts/Route32_East/map.bin"
     },
     {
-      "id": "LAYOUT_HIDDEN_FOREST",
-      "name": "HiddenForest_Layout",
-      "width": 60,
-      "height": 36,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IlexForest",
-      "border_filepath": "data/layouts/HiddenForest/border.bin",
-      "blockdata_filepath": "data/layouts/HiddenForest/map.bin"
-    },
-    {
       "id": "LAYOUT_ROUTE27",
       "name": "Route27_Layout",
       "width": 110,
@@ -7908,6 +7896,66 @@
       "secondary_tileset": "gTileset_Crystal_EcruteakCity",
       "border_filepath": "data/layouts/BellchimeTrail/border.bin",
       "blockdata_filepath": "data/layouts/BellchimeTrail/map.bin"
+    },
+    {
+      "id": "LAYOUT_CLIFF_EDGE_GATE",
+      "name": "CliffEdgeGate_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
+      "border_filepath": "data/layouts/CliffEdgeGate/border.bin",
+      "blockdata_filepath": "data/layouts/CliffEdgeGate/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE47",
+      "name": "Route47_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "border_filepath": "data/layouts/Route47/border.bin",
+      "blockdata_filepath": "data/layouts/Route47/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE48",
+      "name": "Route48_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "border_filepath": "data/layouts/Route48/border.bin",
+      "blockdata_filepath": "data/layouts/Route48/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_ZONE_GATE",
+      "name": "SafariZoneGate_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "border_filepath": "data/layouts/SafariZoneGate/border.bin",
+      "blockdata_filepath": "data/layouts/SafariZoneGate/map.bin"
+    },
+    {
+      "id": "LAYOUT_EMBEDDED_TOWER",
+      "name": "EmbeddedTower_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "border_filepath": "data/layouts/EmbeddedTower/border.bin",
+      "blockdata_filepath": "data/layouts/EmbeddedTower/map.bin"
     }
   ]
 }
