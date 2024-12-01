@@ -393,10 +393,16 @@ EventScript_Headbutt::
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_CancelHeadbutt
 	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
-	closemessage
 	dofieldeffect FLDEFF_USE_HEADBUTT
+	special HeadbuttWildEncounter
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NoHeadbuttMon
 	waitstate
-	goto EventScript_HeadbuttTree
+	releaseall
+	end
+
+EventScript_NoHeadbuttMon:
+	msgbox Text_NoHeadbuttMon, MSGBOX_DEFAULT
+	releaseall
 	end
 
 EventScript_CantHeadbuttTree::
@@ -454,6 +460,9 @@ Text_WantToHeadbutt:
 
 Text_CantHeadbuttTree:
 	.string "You need a Bonéka that knows {COLOR GREEN}Headbutt.$"
+
+Text_NoHeadbuttMon:
+    .string "No Bonéka fell out of the tree!$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
