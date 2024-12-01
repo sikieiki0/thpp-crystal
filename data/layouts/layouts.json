@@ -7406,18 +7406,6 @@
       "blockdata_filepath": "data/layouts/DarkCave_2F/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE32_EAST",
-      "name": "Route32_East_Layout",
-      "width": 28,
-      "height": 139,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IlexForest",
-      "border_filepath": "data/layouts/Route32_East/border.bin",
-      "blockdata_filepath": "data/layouts/Route32_East/map.bin"
-    },
-    {
       "id": "LAYOUT_ROUTE27",
       "name": "Route27_Layout",
       "width": 110,
