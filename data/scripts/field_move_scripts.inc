@@ -393,6 +393,12 @@ EventScript_Headbutt::
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_CancelHeadbutt
 	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
 	dofieldeffect FLDEFF_USE_HEADBUTT
 	special HeadbuttWildEncounter
 	goto_if_eq VAR_RESULT, FALSE, EventScript_NoHeadbuttMon
@@ -418,22 +424,31 @@ EventScript_CancelHeadbutt::
 @ Use headbutt from party menu
 EventScript_UseHeadbutt::
 	lockall
-	dofieldeffect FLDEFF_USE_HEADBUTT
-	waitstate
-EventScript_HeadbuttTree:
+	goto EventScript_HeadbuttTree
+
+	EventScript_HeadbuttTree:
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
+	dofieldeffect FLDEFF_USE_HEADBUTT
 	special HeadbuttWildEncounter
-	compare VAR_RESULT, FALSE
-	goto_if_eq EventScript_EndHeadbutt
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NoHeadbuttMon
 	waitstate
-EventScript_EndHeadbutt:
 	releaseall
 	end
+
+Text_WantToHeadbutt:
+	.string "A tree is shaking!\n"
+	.string "Do you want to use {COLOR GREEN}Headbutt?$"
+
+Text_CantHeadbuttTree:
+	.string "You need a Bonéka that knows {COLOR GREEN}Headbutt.$"
+
+Text_NoHeadbuttMon:
+    .string "No Bonéka fell out of the tree!$"
 
 Text_CantDive:
     .string "The sea is deep here. A Bonéka\n"
@@ -453,16 +468,6 @@ Text_CantSurface:
 Text_WantToSurface:
 	.string "Light is filtering down from above.\n"
 	.string "Would you like to use {COLOR LIGHT_BLUE}Dive?$"
-
-Text_WantToHeadbutt:
-	.string "A tree is shaking!\n"
-	.string "Do you want to use {COLOR GREEN}Headbutt?$"
-
-Text_CantHeadbuttTree:
-	.string "You need a Bonéka that knows {COLOR GREEN}Headbutt.$"
-
-Text_NoHeadbuttMon:
-    .string "No Bonéka fell out of the tree!$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
