@@ -877,12 +877,12 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "Bonéka Mart$"
-	.string "“Selected items for your convenience!”$"
+	.string "Bonéka Mart\n"
+	.string "Select items for your convenience!$"
 
 gText_PokemonCenterSign::
 	.string "Bonéka Center\n"
-	.string "“Rest your tired Bonéka to full health!”$"
+	.string "Rest your tired Bonéka to full health!$"
 	
 
 gText_MomOrDadMightLikeThisProgram::
