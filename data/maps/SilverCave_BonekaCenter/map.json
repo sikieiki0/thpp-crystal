@@ -1,7 +1,7 @@
 {
   "id": "MAP_SILVER_CAVE_BONEKA_CENTER",
   "name": "SilverCave_BonekaCenter",
-  "layout": "LAYOUT_SILVER_CAVE_BONEKA_CENTER",
+  "layout": "LAYOUT_BONEKA_CENTER",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

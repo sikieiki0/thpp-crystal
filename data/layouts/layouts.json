@@ -752,8 +752,8 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
+      "primary_tileset": "gTileset_Crystal_Building",
+      "secondary_tileset": "gTileset_Crystal_Mart",
       "border_filepath": "data/layouts/Mart/border.bin",
       "blockdata_filepath": "data/layouts/Mart/map.bin"
     },
@@ -5702,28 +5702,16 @@
       "blockdata_filepath": "data/layouts/Route29_Gate/map.bin"
     },
     {
-      "id": "LAYOUT_CHERRYGROVE_CITY_BONEKA_CENTER",
-      "name": "CherrygroveCity_BonekaCenter_Layout",
+      "id": "LAYOUT_BONEKA_CENTER",
+      "name": "BonekaCenter_Layout",
       "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/CherrygroveCity_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity_BonekaCenter/map.bin"
-    },
-    {
-      "id": "LAYOUT_CHERRYGROVE_CITY_MART",
-      "name": "CherrygroveCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_Mart",
-      "border_filepath": "data/layouts/CherrygroveCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity_Mart/map.bin"
+      "border_filepath": "data/layouts/BonekaCenter/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaCenter/map.bin"
     },
     {
       "id": "LAYOUT_CHERRYGROVE_CITY_HOUSE1",
@@ -5798,18 +5786,6 @@
       "blockdata_filepath": "data/layouts/Route31_Gate/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY_BONEKA_CENTER",
-      "name": "VioletCity_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/VioletCity_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_BonekaCenter/map.bin"
-    },
-    {
       "id": "LAYOUT_VIOLET_CITY_HOUSE1",
       "name": "VioletCity_House1_Layout",
       "width": 12,
@@ -5858,18 +5834,6 @@
       "blockdata_filepath": "data/layouts/VioletCity_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY_MART",
-      "name": "VioletCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_Mart",
-      "border_filepath": "data/layouts/VioletCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_VIOLET_CITY_HOUSE2",
       "name": "VioletCity_House2_Layout",
       "width": 12,
@@ -5880,18 +5844,6 @@
       "secondary_tileset": "gTileset_Crystal_DarKBrown",
       "border_filepath": "data/layouts/VioletCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/VioletCity_House2/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE32_BONEKA_CENTER",
-      "name": "Route32_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/Route32_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/Route32_BonekaCenter/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE32_GATE",
@@ -5942,18 +5894,6 @@
       "blockdata_filepath": "data/layouts/UnionCave_3F/map.bin"
     },
     {
-      "id": "LAYOUT_AZALEA_TOWN_MART",
-      "name": "AzaleaTown_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_Mart",
-      "border_filepath": "data/layouts/AzaleaTown_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_AZALEA_TOWN_HOUSE1",
       "name": "AzaleaTown_House1_Layout",
       "width": 13,
@@ -5964,18 +5904,6 @@
       "secondary_tileset": "gTileset_Crystal_PlayersHouse",
       "border_filepath": "data/layouts/AzaleaTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/AzaleaTown_House1/map.bin"
-    },
-    {
-      "id": "LAYOUT_AZALEA_TOWN_BONEKA_CENTER",
-      "name": "AzaleaTown_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/AzaleaTown_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_BonekaCenter/map.bin"
     },
     {
       "id": "LAYOUT_AZALEA_TOWN_GYM",
@@ -6614,18 +6542,6 @@
       "blockdata_filepath": "data/layouts/SinjohRuins_MystriStage/map.bin"
     },
     {
-      "id": "LAYOUT_ECRUTEAK_CITY_BONEKA_CENTER",
-      "name": "EcruteakCity_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/EcruteakCity_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_BonekaCenter/map.bin"
-    },
-    {
       "id": "LAYOUT_ECRUTEAK_CITY_HOUSE1",
       "name": "EcruteakCity_House1_Layout",
       "width": 12,
@@ -6648,18 +6564,6 @@
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
       "border_filepath": "data/layouts/EcruteakCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/EcruteakCity_Gym/map.bin"
-    },
-    {
-      "id": "LAYOUT_ECRUTEAK_CITY_MART",
-      "name": "EcruteakCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_Mart",
-      "border_filepath": "data/layouts/EcruteakCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_Mart/map.bin"
     },
     {
       "id": "LAYOUT_ECRUTEAK_CITY_DANCE_THEATER",
@@ -6830,30 +6734,6 @@
       "blockdata_filepath": "data/layouts/OlivineCity_House1/map.bin"
     },
     {
-      "id": "LAYOUT_OLIVINE_CITY_MART",
-      "name": "OlivineCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_Mart",
-      "border_filepath": "data/layouts/OlivineCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_Mart/map.bin"
-    },
-    {
-      "id": "LAYOUT_OLIVINE_CITY_BONEKA_CENTER",
-      "name": "OlivineCity_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/OlivineCity_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_BonekaCenter/map.bin"
-    },
-    {
       "id": "LAYOUT_OLIVINE_CITY_CAFE",
       "name": "OlivineCity_Cafe_Layout",
       "width": 8,
@@ -7010,18 +6890,6 @@
       "blockdata_filepath": "data/layouts/CianwoodCity_Pharmacy/map.bin"
     },
     {
-      "id": "LAYOUT_CIANWOOD_CITY_BONEKA_CENTER",
-      "name": "CianwoodCity_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/CianwoodCity_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/CianwoodCity_BonekaCenter/map.bin"
-    },
-    {
       "id": "LAYOUT_LAKE_OF_RAGE",
       "name": "LakeOfRage_Layout",
       "width": 68,
@@ -7142,18 +7010,6 @@
       "blockdata_filepath": "data/layouts/MahagonyTown_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_MAHAGONY_TOWN_BONEKA_CENTER",
-      "name": "MahagonyTown_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/MahagonyTown_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown_BonekaCenter/map.bin"
-    },
-    {
       "id": "LAYOUT_MAHAGONY_TOWN_HIDEOUT_SOUVENIR_SHOP",
       "name": "MahagonyTown_Hideout_SouvenirShop_Layout",
       "width": 27,
@@ -7260,30 +7116,6 @@
       "secondary_tileset": "gTileset_Crystal_Mansion",
       "border_filepath": "data/layouts/BlackthornCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_Gym/map.bin"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY_MART",
-      "name": "BlackthornCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_Mart",
-      "border_filepath": "data/layouts/BlackthornCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_Mart/map.bin"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY_BONEKA_CENTER",
-      "name": "BlackthornCity_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/BlackthornCity_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_BonekaCenter/map.bin"
     },
     {
       "id": "LAYOUT_BLACKTHORN_CITY_HOUSE1",
@@ -7632,18 +7464,6 @@
       "secondary_tileset": "gTileset_Crystal_HallOfFame",
       "border_filepath": "data/layouts/IndigoLeague_HallOfFame/border.bin",
       "blockdata_filepath": "data/layouts/IndigoLeague_HallOfFame/map.bin"
-    },
-    {
-      "id": "LAYOUT_SILVER_CAVE_BONEKA_CENTER",
-      "name": "SilverCave_BonekaCenter_Layout",
-      "width": 15,
-      "height": 10,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/SilverCave_BonekaCenter/border.bin",
-      "blockdata_filepath": "data/layouts/SilverCave_BonekaCenter/map.bin"
     },
     {
       "id": "LAYOUT_SILVER_CAVE_1F",
