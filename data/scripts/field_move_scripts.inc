@@ -51,11 +51,11 @@ Text_MonUsedCut:
 	.string "{STR_VAR_1} {COLOR GREEN}cut down the tree!$"
 
 Text_WantToCut:
-	.string "A tree is blocking the way.\n"
-	.string "Do you want to {COLOR GREEN}cut it?"
+	.string "The tree blocks your path.\n"
+	.string "Would you like to {COLOR GREEN}cut it down?$"
 
 Text_CantCut:
-	.string "There is no Bonéka that can use {COLOR GREEN}Cut.$"
+	.string "You don't have a Bonéka that knows {COLOR GREEN}Cut.$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -221,11 +221,11 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "A rock is in the way.\n"
-	.string "Do you want to use {COLOR LIGHT_RED}Rock Smash?$"
+	.string "A rock blocks your way.\n"
+	.string "Would you like to use {COLOR LIGHT_RED}Rock Smash?$"
 
 Text_CantSmash:
-	.string "There is no Bonéka that can use {COLOR LIGHT_RED}Rock Smash.$"
+	.string "None of your Bonéka can use {COLOR LIGHT_RED}Rock Smash.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -271,14 +271,14 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a large boulder.\n"
-	.string "Do you want to use {COLOR LIGHT_RED}Strength?"
+	.string "A massive boulder blocks the way.\n"
+	.string "Would you like to use {COLOR LIGHT_RED}Strength?$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used {COLOR LIGHT_RED}Strength!\p"
+	.string "{STR_VAR_1} pushed the boulder aside!$"
 
 Text_CantStrength:
-	.string "There is no Bonéka that can use {COLOR LIGHT_RED}Strength.$"
+	.string "None of your Bonéka can use {COLOR LIGHT_RED}Strength.$"
 
 Text_StrengthActivated:
 	.string "{COLOR LIGHT_RED}Strength made it possible to move\n"
@@ -307,11 +307,11 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "You need a Bonéka that knows {COLOR LIGHT_BLUE}Waterfall."
+	.string "You don't have a Bonéka that knows {COLOR LIGHT_BLUE}Waterfall.$"
 
 Text_WantToWaterfall:
-	.string "A waterfall is flowing down.\n"
-	.string "Do you want to use {COLOR LIGHT_BLUE}Waterfall?$"
+	.string "A waterfall cascades down.\n"
+	.string "Would you like to use {COLOR LIGHT_BLUE}Waterfall?$"
 
 Text_MonUsedWaterfall:
 	.string "{STR_VAR_1} used {COLOR LIGHT_BLUE}Waterfall.$"
@@ -353,6 +353,17 @@ EventScript_UseDiveUnderwater::
 	goto EventScript_EndSurface
 	end
 
+Text_CantDive:
+    .string "The sea is deep here. Maybe a Bonéka\n"
+    .string "can dive underwater.$"
+
+Text_WantToDive:
+	.string "The sea is deep here.\n"
+	.string "Would you like to use {COLOR LIGHT_BLUE}Dive?$"
+
+Text_MonUsedDive:
+	.string "{STR_VAR_1} used {COLOR LIGHT_BLUE}Dive.$"
+
 EventScript_CantSurface::
 	lockall
 	msgbox Text_CantSurface, MSGBOX_DEFAULT
@@ -362,6 +373,14 @@ EventScript_CantSurface::
 EventScript_EndSurface::
 	releaseall
 	end
+
+Text_CantSurface:
+	.string "Light filters down from above.\n"
+	.string "A Bonéka may be able to {COLOR LIGHT_BLUE}surface.$"
+
+Text_WantToSurface:
+	.string "Light filters down from above.\n"
+	.string "Would you like to {COLOR LIGHT_BLUE}surface?$"
 
 EventScript_DigCommon:
 	isfollowerfieldmoveuser VAR_0x8004
@@ -441,37 +460,18 @@ EventScript_UseHeadbutt::
 	end
 
 Text_WantToHeadbutt:
-	.string "A tree is shaking!\n"
-	.string "Do you want to use {COLOR GREEN}Headbutt?$"
+	.string "The tree is shaking!\n"
+	.string "Would you like to use {COLOR GREEN}Headbutt?$"
 
 Text_CantHeadbuttTree:
-	.string "You need a Bonéka that knows {COLOR GREEN}Headbutt.$"
+	.string "None of your Bonéka can use {COLOR GREEN}Headbutt.$"
 
 Text_NoHeadbuttMon:
-    .string "No Bonéka fell out of the tree!$"
-
-Text_CantDive:
-    .string "The sea is deep here. A Bonéka\n"
-    .string "may be able to go underwater.$"
-
-Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use {COLOR LIGHT_BLUE}Dive?$"
-
-Text_MonUsedDive:
-	.string "{STR_VAR_1} used {COLOR LIGHT_BLUE}Dive.$"
-
-Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A Bonéka may be able to {COLOR LIGHT_BLUE}surface.$"
-
-Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use {COLOR LIGHT_BLUE}Dive?$"
+    .string "No Bonéka fell out of the tree…$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "The sweet scent seems to have no effect…$"
+	.string "The sweet scent lingers, but nothing happened…$"
