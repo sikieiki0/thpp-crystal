@@ -877,12 +877,13 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“Selected items for your convenience!”\n"
 	.string "Bonéka Mart$"
+	.string "“Selected items for your convenience!”$"
 
 gText_PokemonCenterSign::
-	.string "“Rejuvenate your tired partners!”\n"
-	.string "Bonéka Center$"
+	.string "Bonéka Center\n"
+	.string "“Rest your tired Bonéka to full health!”$"
+	
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "{STR_VAR_1} might like this program.\n"
@@ -1096,6 +1097,77 @@ EventScript_VsSeekerChargingDone::
 	special VsSeekerResetObjectMovementAfterChargeComplete
 	releaseall
 	end
+
+EventScript_Food::
+	msgbox Text_Food, MSGBOX_SIGN
+	end
+
+EventScript_Computer::
+	msgbox Text_Computer, MSGBOX_SIGN
+	end
+
+EventScript_Blueprints::
+	msgbox Text_Blueprints, MSGBOX_SIGN
+	end
+
+EventScript_Cabinet::
+	msgbox Text_DishesPlatesNeatlyLinedUp, MSGBOX_SIGN
+	end
+
+EventScript_Kitchen::
+	msgbox Text_Kitchen, MSGBOX_SIGN
+	end
+
+EventScript_Dresser::
+	msgbox Text_Dresser, MSGBOX_SIGN
+	end
+
+EventScript_Snacks::
+	msgbox Text_Snacks, MSGBOX_SIGN
+	end
+
+EventScript_Painting::
+	msgbox Text_Painting, MSGBOX_SIGN
+	end
+
+EventScript_Telephone::
+	msgbox Text_Telephone, MSGBOX_SIGN
+	end
+
+Text_Kitchen::
+	.string "It smells delicious!\n"
+	.string "Somebody's been cooking here.$"
+
+Text_Dresser::
+	.string "It's a nicely made dresser.\n"
+	.string "It will hold a lot of stuff.$"
+
+Text_Snacks::
+	.string "There's a pile of snacks here.$"
+
+Text_Food::
+	.string "It should be packed with all kinds\n"
+	.string "of delicious things to eat.$"
+
+Text_Blueprints::
+	.string "It's a blueprint of some sort.\n"
+	.string "It's filled with diagrams and text.$"
+
+Text_DishesPlatesNeatlyLinedUp::
+	.string "Dishes and plates are neatly\n"
+	.string "lined up.$"
+
+Text_Painting::
+	.string "It's a pretty picture of a Bonéka.\n"
+	.string "It looks like it's feeling good.$"
+
+Text_Telephone::
+	.string "It's a telephone.\n"
+	.string "Better not use it.$"
+
+Text_Computer::
+	.string "It's all complicated words and\n"
+	.string "numbers that make no sense…$"
 
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"
