@@ -178,7 +178,7 @@ MAKEFLAGS += --no-print-directory
 .DELETE_ON_ERROR:
 
 RULES_NO_SCAN += libagbsyscall clean clean-assets tidy tidymodern tidycheck generated clean-generated $(TESTELF)
-.PHONY: all rom agbcc modern compare check debug
+.PHONY: all rom modern compare check debug
 .PHONY: $(RULES_NO_SCAN)
 
 infoshell = $(foreach line, $(shell $1 | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
@@ -249,12 +249,6 @@ $(shell mkdir -p $(SUBDIRS))
 modern: all
 compare: all
 debug: all
-# Uncomment the next line, and then comment the 4 lines after it to reenable agbcc.
-#agbcc: all
-agbcc:
-	@echo "'make agbcc' is deprecated as of pokeemerald-expansion 1.9 and will be removed in 1.10."
-	@echo "Search for 'agbcc: all' in Makefile to reenable agbcc."
-	@exit 1
 
 LD_SCRIPT_TEST := ld_script_test.ld
 
@@ -367,9 +361,6 @@ else
 	$(AS) $(ASFLAGS) -o $@ $*.s
 endif
 
-$(C_BUILDDIR)/%.d: $(C_SUBDIR)/%.c
-	$(SCANINC) -M $@ $(INCLUDE_SCANINC_ARGS) -I tools/agbcc/include $<
-
 ifneq ($(NODEP),1)
 -include $(addprefix $(OBJ_DIR)/,$(C_SRCS:.c=.d))
 endif
@@ -377,9 +368,6 @@ endif
 $(TEST_BUILDDIR)/%.o: $(TEST_SUBDIR)/%.c
 	@echo "$(CC1) <flags> -o $@ $<"
 	@$(CPP) $(CPPFLAGS) $< | $(PREPROC) -i $< charmap.txt | $(CC1) $(CFLAGS) -o - - | cat - <(echo -e ".text\n\t.align\t2, 0") | $(AS) $(ASFLAGS) -o $@ -
-
-$(TEST_BUILDDIR)/%.d: $(TEST_SUBDIR)/%.c
-	$(SCANINC) -M $@ $(INCLUDE_SCANINC_ARGS) -I tools/agbcc/include $<
 
 ifneq ($(NODEP),1)
 -include $(addprefix $(OBJ_DIR)/,$(TEST_SRCS:.c=.d))
