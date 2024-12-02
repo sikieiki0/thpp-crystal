@@ -37,7 +37,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 19,
+      "x": 18,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_WAKABA_TOWN_ELMS_HOUSE",
@@ -64,7 +64,7 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 15,
+      "x": 16,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

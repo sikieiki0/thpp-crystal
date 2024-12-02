@@ -14102,4 +14102,18 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+    [ITEM_TOHONAV] =
+    {
+        .name = _("TōhōNav"),
+        .price = 2000,
+        .description = COMPOUND_STRING(
+            "Shows the map,\n"
+            "tracks puppeteers,\n"
+            "and much more."),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_VsSeeker,
+        .iconPalette = gItemIconPalette_VsSeeker,
+    },
 };

@@ -351,10 +351,11 @@
 #define OBJ_EVENT_PAL_TAG_BRENDAN                 0x1100
 #define OBJ_EVENT_PAL_TAG_BRENDAN_REFLECTION      0x1101
 #define OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION       0x1102
-#define OBJ_EVENT_PAL_TAG_NPC_1                   0x1103
-#define OBJ_EVENT_PAL_TAG_NPC_2                   0x1104
-#define OBJ_EVENT_PAL_TAG_NPC_3                   0x1105
-#define OBJ_EVENT_PAL_TAG_NPC_4                   0x1106
+#define OBJ_EVENT_PAL_TAG_NPC_BLUE                0x1103
+#define OBJ_EVENT_PAL_TAG_NPC_PINK                0x1104
+
+#define OBJ_EVENT_PAL_TAG_NPC_GREEN               0x1105
+#define OBJ_EVENT_PAL_TAG_NPC_WHITE               0x1106
 #define OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION        0x1107
 #define OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION        0x1108
 #define OBJ_EVENT_PAL_TAG_NPC_3_REFLECTION        0x1109
@@ -385,6 +386,12 @@
 #define OBJ_EVENT_PAL_TAG_RS_BRENDAN              0x1122
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1124
+
+//FRLG imports
+#define OBJ_EVENT_PAL_TAG_NPC_1                   OBJ_EVENT_PAL_TAG_NPC_BLUE
+#define OBJ_EVENT_PAL_TAG_NPC_2                   OBJ_EVENT_PAL_TAG_NPC_PINK
+#define OBJ_EVENT_PAL_TAG_NPC_3                   OBJ_EVENT_PAL_TAG_NPC_GREEN
+#define OBJ_EVENT_PAL_TAG_NPC_4                   OBJ_EVENT_PAL_TAG_NPC_WHITE
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
