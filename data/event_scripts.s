@@ -768,7 +768,7 @@ Common_EventScript_OutOfCenterPartyHeal::
 
 EventScript_RegionMap::
 	lockall
-	msgbox Common_Text_LookCloserAtMap, MSGBOX_DEFAULT
+	msgbox Text_LookCloserAtMap, MSGBOX_DEFAULT
 	fadescreen FADE_TO_BLACK
 	special FieldShowRegionMap
 	waitstate
@@ -1133,6 +1133,10 @@ EventScript_Painting::
 EventScript_Telephone::
 	msgbox Text_Telephone, MSGBOX_SIGN
 	end
+
+Text_LookCloserAtMap:
+	.string "{PLAYER} took a closer look at the\n"
+	.string "Johto region map.$"
 
 Text_Kitchen::
 	.string "It smells delicious!\n"

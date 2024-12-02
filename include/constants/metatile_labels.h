@@ -114,8 +114,6 @@
 // gTileset_Building
 #define METATILE_Building_PC_Off  0x004
 #define METATILE_Building_PC_On   0x005
-#define METATILE_Building_TV_Off  0x002
-#define METATILE_Building_TV_On   0x003
 
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x82F
@@ -138,6 +136,10 @@
 #define METATILE_Contest_CounterFlap_Top     0x8D1
 #define METATILE_Contest_FloorShadow         0x861
 #define METATILE_Contest_WallShadow          0x821
+
+// gTileset_Crystal_Building
+#define METATILE_Building_TV_Off  0x035
+#define METATILE_Building_TV_On   0x061
 
 // gTileset_Crystal_General
 #define METATILE_Crystal_General_Calm_Water              0x12B

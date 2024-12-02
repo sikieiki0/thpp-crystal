@@ -294,10 +294,6 @@ PlayersHouse_2F_Text_Notebook:
 	.string "Record your progress with SAVE.\p"
 	.string "The remaining pages are blank…$"
 
-Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "HOENN region map.$"
-
 PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"
 	.string "A Game Boy Advance is connected to\n"
