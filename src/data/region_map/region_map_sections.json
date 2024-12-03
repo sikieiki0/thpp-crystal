@@ -9,6 +9,14 @@
       "height": 1
     },
     {
+      "map_section": "MAPSEC_YOSHINO_CITY",
+      "name": "Yoshino City",
+      "x": 4,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
       "map_section": "MAPSEC_KIKYOU_CITY",
       "name": "Kikyou City",
       "x": 4,

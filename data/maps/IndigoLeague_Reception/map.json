@@ -3,7 +3,7 @@
   "name": "IndigoLeague_Reception",
   "layout": "LAYOUT_INDIGO_LEAGUE_RECEPTION",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_INDIGO_PLATEAU",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

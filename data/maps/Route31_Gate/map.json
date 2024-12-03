@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE31_GATE",
   "name": "Route31_Gate",
   "layout": "LAYOUT_ROUTE31_GATE",
-  "music": "MUS_DUMMY",
+  "music": "MAPSEC_ROUTE_31",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
