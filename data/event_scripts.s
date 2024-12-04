@@ -1272,7 +1272,7 @@ Text_Computer::
 	.include "data/maps/Route31_Gate/scripts.inc"
 	.include "data/maps/KikyouCity_BonekaCenter/scripts.inc"
 	.include "data/maps/KikyouCity_House1/scripts.inc"
-	.include "data/maps/KikyouCity_PokemonAcademy/scripts.inc"
+	.include "data/maps/KikyouCity_BonekaAcademy/scripts.inc"
 	.include "data/maps/KikyouCity_SproutTower/scripts.inc"
 	.include "data/maps/KikyouCity_Gym/scripts.inc"
 	.include "data/maps/KikyouCity_Mart/scripts.inc"

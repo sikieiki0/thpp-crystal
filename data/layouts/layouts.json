@@ -5685,7 +5685,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/NewBarkTown_ProfessorElmsLab/border.bin",
       "blockdata_filepath": "data/layouts/NewBarkTown_ProfessorElmsLab/map.bin"
     },
@@ -5697,7 +5697,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
       "border_filepath": "data/layouts/Entrance_1F/border.bin",
       "blockdata_filepath": "data/layouts/Entrance_1F/map.bin"
     },
@@ -5733,7 +5733,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/CherrygroveCity_GuideGentsHouse/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveCity_GuideGentsHouse/map.bin"
     },
@@ -5745,7 +5745,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/CherrygroveCity_FishermansHouse/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveCity_FishermansHouse/map.bin"
     },
@@ -5757,7 +5757,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/Route30_BerryExpertsHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route30_BerryExpertsHouse/map.bin"
     },
@@ -5786,16 +5786,16 @@
       "blockdata_filepath": "data/layouts/VioletCity_House1/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY_POKEMON_ACADEMY",
-      "name": "VioletCity_PokemonAcademy_Layout",
+      "id": "LAYOUT_VIOLET_CITY_BONEKA_ACADEMY",
+      "name": "VioletCity_BonekaAcademy_Layout",
       "width": 10,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_Academy",
-      "border_filepath": "data/layouts/VioletCity_PokemonAcademy/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_PokemonAcademy/map.bin"
+      "secondary_tileset": "gTileset_Crystal_School",
+      "border_filepath": "data/layouts/VioletCity_BonekaAcademy/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_BonekaAcademy/map.bin"
     },
     {
       "id": "LAYOUT_VIOLET_CITY_SPROUT_TOWER",
@@ -6093,7 +6093,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/GoldenrodCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_House1/map.bin"
     },
@@ -6117,7 +6117,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/GoldenrodCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_House3/map.bin"
     },
@@ -6213,7 +6213,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
       "border_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceNorth/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceNorth/map.bin"
     },
@@ -6225,7 +6225,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
       "border_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceSouth/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceSouth/map.bin"
     },
@@ -6261,7 +6261,7 @@
       "border_width": 1,
       "border_height": 19,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
       "border_filepath": "data/layouts/GoldenrodCity_HideoutEntrace/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_HideoutEntrace/map.bin"
     },
@@ -6309,7 +6309,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/Route35_House/border.bin",
       "blockdata_filepath": "data/layouts/Route35_House/map.bin"
     },
@@ -6417,7 +6417,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/RuinsOfAlph_Laboratory/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_Laboratory/map.bin"
     },
@@ -6609,7 +6609,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/Route39_MoomooFarmHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route39_MoomooFarmHouse/map.bin"
     },
@@ -6645,7 +6645,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/OlivineCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity_House1/map.bin"
     },
@@ -6669,7 +6669,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/OlivineCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity_House2/map.bin"
     },
@@ -6681,7 +6681,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/OlivineCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity_House3/map.bin"
     },
@@ -6729,7 +6729,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/CianwoodCity_PokeSeerHouse/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity_PokeSeerHouse/map.bin"
     },
@@ -6741,7 +6741,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/CianwoodCity_PhotoStudio/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity_PhotoStudio/map.bin"
     },
@@ -6753,7 +6753,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/CianwoodCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity_House1/map.bin"
     },
@@ -6765,7 +6765,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/CianwoodCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity_House2/map.bin"
     },
@@ -6789,7 +6789,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/CianwoodCity_Pharmacy/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity_Pharmacy/map.bin"
     },
@@ -6813,7 +6813,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/LakeOfRage_FishingGurusHouse/border.bin",
       "blockdata_filepath": "data/layouts/LakeOfRage_FishingGurusHouse/map.bin"
     },
@@ -6825,7 +6825,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/LakeOfRage_House/border.bin",
       "blockdata_filepath": "data/layouts/LakeOfRage_House/map.bin"
     },
@@ -6885,7 +6885,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/MahagonyTown_House/border.bin",
       "blockdata_filepath": "data/layouts/MahagonyTown_House/map.bin"
     },
@@ -7017,7 +7017,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/BlackthornCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_House1/map.bin"
     },
@@ -7029,7 +7029,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/BlackthornCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_House2/map.bin"
     },
@@ -7041,7 +7041,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/BlackthornCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_House3/map.bin"
     },
@@ -7149,7 +7149,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_ElmsLab",
+      "secondary_tileset": "gTileset_Crystal_Lab",
       "border_filepath": "data/layouts/Route27_House/border.bin",
       "blockdata_filepath": "data/layouts/Route27_House/map.bin"
     },
@@ -7185,7 +7185,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
+      "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
       "border_filepath": "data/layouts/BonekaLeague_ReceptionGate/border.bin",
       "blockdata_filepath": "data/layouts/BonekaLeague_ReceptionGate/map.bin"
     },

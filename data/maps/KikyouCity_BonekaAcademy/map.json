@@ -1,7 +1,7 @@
 {
-  "id": "MAP_KIKYOU_CITY_POKEMON_ACADEMY",
-  "name": "KikyouCity_PokemonAcademy",
-  "layout": "LAYOUT_VIOLET_CITY_POKEMON_ACADEMY",
+  "id": "MAP_KIKYOU_CITY_BONEKA_ACADEMY",
+  "name": "KikyouCity_BonekaAcademy",
+  "layout": "LAYOUT_VIOLET_CITY_BONEKA_ACADEMY",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
