@@ -38,7 +38,7 @@
  *
  */
 
-#define MAP_WIDTH 28
+#define MAP_WIDTH 44
 #define MAP_HEIGHT 15
 #define MAPCURSOR_X_MIN 1
 #define MAPCURSOR_Y_MIN 2
