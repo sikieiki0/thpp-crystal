@@ -6794,28 +6794,28 @@
       "blockdata_filepath": "data/layouts/OlivineCity_Lighthouse/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE40_BATTLE_TOWER_GATE",
-      "name": "Route40_BattleTowerGate_Layout",
+      "id": "LAYOUT_ROUTE40_BATTLE_FRONTIER_GATE",
+      "name": "Route40_BattleFrontierGate_Layout",
       "width": 15,
       "height": 12,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route40_BattleTowerGate/border.bin",
-      "blockdata_filepath": "data/layouts/Route40_BattleTowerGate/map.bin"
+      "border_filepath": "data/layouts/Route40_BattleFrontierGate/border.bin",
+      "blockdata_filepath": "data/layouts/Route40_BattleFrontierGate/map.bin"
     },
     {
-      "id": "LAYOUT_BATTLE_TOWER",
-      "name": "BattleTower_Layout",
+      "id": "LAYOUT_BATTLE_FRONTIER",
+      "name": "BattleFrontier_Layout",
       "width": 34,
       "height": 30,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
-      "border_filepath": "data/layouts/BattleTower/border.bin",
-      "blockdata_filepath": "data/layouts/BattleTower/map.bin"
+      "border_filepath": "data/layouts/BattleFrontier/border.bin",
+      "blockdata_filepath": "data/layouts/BattleFrontier/map.bin"
     },
     {
       "id": "LAYOUT_CIANWOOD_CITY_POKE_SEER_HOUSE",
@@ -7382,16 +7382,16 @@
       "blockdata_filepath": "data/layouts/Route28/map.bin"
     },
     {
-      "id": "LAYOUT_SILVER_CAVE_ENTRACE",
-      "name": "SilverCave_Entrace_Layout",
+      "id": "LAYOUT_SILVER_CAVE",
+      "name": "SilverCave_Layout",
       "width": 44,
       "height": 48,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
-      "border_filepath": "data/layouts/SilverCave_Entrace/border.bin",
-      "blockdata_filepath": "data/layouts/SilverCave_Entrace/map.bin"
+      "border_filepath": "data/layouts/SilverCave/border.bin",
+      "blockdata_filepath": "data/layouts/SilverCave/map.bin"
     },
     {
       "id": "LAYOUT_INDIGO_LEAGUE_ROOM1",

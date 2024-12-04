@@ -1364,8 +1364,9 @@ Text_Computer::
 	.include "data/maps/AsagiCity_House3/scripts.inc"
 	.include "data/maps/AsagiCity_Port/scripts.inc"
 	.include "data/maps/AsagiCity_Lighthouse/scripts.inc"
-	.include "data/maps/Route40_BattleTowerGate/scripts.inc"
-	.include "data/maps/BattleTower/scripts.inc"
+	.include "data/maps/BattleFrontier/scripts.inc"
+	.include "data/maps/Route40_BattleFrontierGate/scripts.inc"
+	.include "data/maps/BattleFrontier_BonekaCenter/scripts.inc"
 	.include "data/maps/TanbaCity_PokeSeerHouse/scripts.inc"
 	.include "data/maps/TanbaCity_PhotoStudio/scripts.inc"
 	.include "data/maps/TanbaCity_House1/scripts.inc"
@@ -1417,7 +1418,7 @@ Text_Computer::
 	.include "data/maps/IndigoPlateau/scripts.inc"
 	.include "data/maps/IndigoLeague_Reception/scripts.inc"
 	.include "data/maps/Route28/scripts.inc"
-	.include "data/maps/SilverCave_Entrace/scripts.inc"
+	.include "data/maps/SilverCave/scripts.inc"
 	.include "data/maps/IndigoLeague_Room1/scripts.inc"
 	.include "data/maps/IndigoLeague_Room2/scripts.inc"
 	.include "data/maps/IndigoLeague_Room3/scripts.inc"
@@ -1452,3 +1453,5 @@ Text_Computer::
 	.include "data/maps/EmbeddedTower/scripts.inc"
 
 	.include "data/maps/WakabaTown_PlayersHouse_1F/text.inc"
+
+	

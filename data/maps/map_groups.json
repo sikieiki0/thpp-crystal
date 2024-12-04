@@ -60,7 +60,7 @@
     "ChoujiTown",
     "FusubeCity",
     "IndigoPlateau",
-    "SilverCave_Entrace",
+    "SilverCave",
     "Route23",
     "Route26",
     "Route27",
@@ -118,7 +118,7 @@
     "TinTower_8F",
     "TinTower_9F",
     "TinTower_Roof",
-    "BattleTower",
+    "BattleFrontier",
     "SeasideCave_1F",
     "SeasideCave_2F",
     "SeasideCave_3F",
@@ -171,10 +171,11 @@
     "RuinsOfAlph_Gate",
     "Route39_MoomooFarmHouse",
     "Route39_MoomooFarmStable",
-    "Route40_BattleTowerGate",
+    "Route40_BattleFrontierGate",
     "BonekaLeagueReceptionGate",
     "IndigoLeague_Reception",
-    "SilverCave_BonekaCenter"
+    "SilverCave_BonekaCenter",
+    "BattleFrontier_BonekaCenter"
   ],
   "gMapGroup_IndoorWakabaTown": [
     "WakabaTown_PlayersHouse_1F",

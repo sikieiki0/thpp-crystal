@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE40_BATTLE_TOWER_GATE",
-  "name": "Route40_BattleTowerGate",
-  "layout": "LAYOUT_ROUTE40_BATTLE_TOWER_GATE",
+  "id": "MAP_SILVER_CAVE",
+  "name": "SilverCave",
+  "layout": "LAYOUT_SILVER_CAVE",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_ROUTE_40",
+  "region_map_section": "MAPSEC_SILVER_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
@@ -13,23 +13,22 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_ROUTE28",
+      "offset": 17,
+      "direction": "right"
+    }
+  ],
   "object_events": [
 
   ],
   "warp_events": [
     {
-      "x": 7,
-      "y": 10,
+      "x": 14,
+      "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE40",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 7,
-      "y": 1,
-      "elevation": 0,
-      "dest_map": "MAP_BATTLE_TOWER",
+      "dest_map": "MAP_SILVER_CAVE",
       "dest_warp_id": "0"
     }
   ],

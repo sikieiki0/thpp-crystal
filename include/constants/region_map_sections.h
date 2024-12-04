@@ -36,8 +36,8 @@
 #define MAPSEC_ROUTE_46                     32
 #define MAPSEC_ROUTE_47                     33
 #define MAPSEC_ROUTE_48                     34
-#define MAPSEC_ROUTE_32_POKECENTER          35
-#define MAPSEC_SILVER_CAVE_POKECENTER       36   
+#define MAPSEC_ROUTE_32_BONEKACENTER        35
+#define MAPSEC_SILVER_CAVE_BONEKACENTER     36   
 #define MAPSEC_DARK_CAVE                    37
 #define MAPSEC_UNION_CAVE                   38
 #define MAPSEC_SPROUT_TOWER                 39  

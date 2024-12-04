@@ -273,16 +273,16 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_32_POKECENTER",
-      "name": "Route 32 PokeCenter",
+      "map_section": "MAPSEC_ROUTE_32_BONEKACENTER",
+      "name": "Route 32 Boneka",
       "x": 5,
       "y": 6,
       "width": 3,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SILVER_CAVE_POKECENTER",
-      "name": "Silver Cave PokeCenter",
+      "map_section": "MAPSEC_SILVER_CAVE_BONEKACENTER",
+      "name": "Silver Cave Boneka Center",
       "x": 5,
       "y": 6,
       "width": 3,

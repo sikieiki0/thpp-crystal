@@ -3,7 +3,7 @@
   "name": "Route32_BonekaCenter",
   "layout": "LAYOUT_BONEKA_CENTER",
   "music": "MAPSEC_ROUTE_32",
-  "region_map_section": "MAPSEC_ROUTE_32_POKECENTER",
+  "region_map_section": "MAPSEC_ROUTE_32_BONEKACENTER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

@@ -1,9 +1,9 @@
 {
-  "id": "MAP_BATTLE_TOWER",
-  "name": "BattleTower",
-  "layout": "LAYOUT_BATTLE_TOWER",
+  "id": "MAP_BATTLE_FRONTIER",
+  "name": "BattleFrontier",
+  "layout": "LAYOUT_BATTLE_FRONTIER",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_BATTLE_FRONTIER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
@@ -22,14 +22,14 @@
       "x": 14,
       "y": 23,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE40_BATTLE_TOWER_GATE",
+      "dest_map": "MAP_ROUTE40_BATTLE_FRONTIER_GATE",
       "dest_warp_id": "1"
     },
     {
       "x": 14,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_BATTLE_TOWER",
+      "dest_map": "MAP_BATTLE_FRONTIER",
       "dest_warp_id": "0"
     }
   ],

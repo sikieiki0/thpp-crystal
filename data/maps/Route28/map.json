@@ -15,7 +15,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_SILVER_CAVE_ENTRACE",
+      "map": "MAP_SILVER_CAVE",
       "offset": -17,
       "direction": "left"
     }
