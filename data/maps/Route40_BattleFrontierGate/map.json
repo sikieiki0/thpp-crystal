@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE40_BATTLE_FRONTIER_GATE",
   "name": "Route40_BattleFrontierGate",
-  "layout": "LAYOUT_ROUTE40_BATTLE_FRONTIER_GATE",
+  "layout": "LAYOUT_ENTRANCE_1F",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ROUTE_40",
   "requires_flash": false,

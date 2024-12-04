@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE34_GATE",
   "name": "Route34_Gate",
-  "layout": "LAYOUT_ROUTE34_GATE",
+  "layout": "LAYOUT_ENTRANCE_1F",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ROUTE_34",
   "requires_flash": false,

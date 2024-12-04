@@ -1,7 +1,7 @@
 {
   "id": "MAP_ENJU_CITY_GATE_WEST",
   "name": "EnjuCity_GateWest",
-  "layout": "LAYOUT_ECRUTEAK_CITY_GATE_WEST",
+  "layout": "LAYOUT_ENTRANCE_1F",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

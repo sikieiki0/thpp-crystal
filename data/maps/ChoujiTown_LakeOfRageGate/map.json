@@ -1,7 +1,7 @@
 {
   "id": "MAP_CHOUJI_TOWN_LAKE_OF_RAGE_GATE",
   "name": "ChoujiTown_LakeOfRageGate",
-  "layout": "LAYOUT_MAHAGONY_TOWN_LAKE_OF_RAGE_GATE",
+  "layout": "LAYOUT_ENTRANCE_1F",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

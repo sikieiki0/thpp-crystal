@@ -5690,16 +5690,16 @@
       "blockdata_filepath": "data/layouts/NewBarkTown_ProfessorElmsLab/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE29_GATE",
-      "name": "Route29_Gate_Layout",
+      "id": "LAYOUT_ENTRANCE_1F",
+      "name": "Entrance_1F_Layout",
       "width": 15,
       "height": 12,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route29_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/Route29_Gate/map.bin"
+      "border_filepath": "data/layouts/Entrance_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Entrance_1F/map.bin"
     },
     {
       "id": "LAYOUT_BONEKA_CENTER",
@@ -5774,18 +5774,6 @@
       "blockdata_filepath": "data/layouts/Route30_MrPokemonsHouse/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE31_GATE",
-      "name": "Route31_Gate_Layout",
-      "width": 13,
-      "height": 9,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route31_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/Route31_Gate/map.bin"
-    },
-    {
       "id": "LAYOUT_VIOLET_CITY_HOUSE1",
       "name": "VioletCity_House1_Layout",
       "width": 12,
@@ -5844,18 +5832,6 @@
       "secondary_tileset": "gTileset_Crystal_DarKBrown",
       "border_filepath": "data/layouts/VioletCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/VioletCity_House2/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE32_GATE",
-      "name": "Route32_Gate_Layout",
-      "width": 27,
-      "height": 23,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route32_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/Route32_Gate/map.bin"
     },
     {
       "id": "LAYOUT_UNION_CAVE_1F",
@@ -5954,18 +5930,6 @@
       "blockdata_filepath": "data/layouts/SlowpokeWell_2F/map.bin"
     },
     {
-      "id": "LAYOUT_AZALEA_TOWN_GATE",
-      "name": "AzaleaTown_Gate_Layout",
-      "width": 27,
-      "height": 23,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/AzaleaTown_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_Gate/map.bin"
-    },
-    {
       "id": "LAYOUT_ILEX_FOREST",
       "name": "IlexForest_Layout",
       "width": 50,
@@ -5976,18 +5940,6 @@
       "secondary_tileset": "gTileset_Crystal_IlexForest",
       "border_filepath": "data/layouts/IlexForest/border.bin",
       "blockdata_filepath": "data/layouts/IlexForest/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE34_GATE",
-      "name": "Route34_Gate_Layout",
-      "width": 15,
-      "height": 12,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route34_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/Route34_Gate/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE34_DAYCARE",
@@ -6350,18 +6302,6 @@
       "blockdata_filepath": "data/layouts/GoldenrodCity_Hideout_1F2B/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE35_GATE",
-      "name": "Route35_Gate_Layout",
-      "width": 15,
-      "height": 12,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route35_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/Route35_Gate/map.bin"
-    },
-    {
       "id": "LAYOUT_ROUTE35_HOUSE",
       "name": "Route35_House_Layout",
       "width": 13,
@@ -6384,30 +6324,6 @@
       "secondary_tileset": "gTileset_Crystal_BlackthornCity",
       "border_filepath": "data/layouts/NationalPark/border.bin",
       "blockdata_filepath": "data/layouts/NationalPark/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE36_GATE",
-      "name": "Route36_Gate_Layout",
-      "width": 27,
-      "height": 23,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route36_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/Route36_Gate/map.bin"
-    },
-    {
-      "id": "LAYOUT_RUINS_OF_ALPH_GATE",
-      "name": "RuinsOfAlph_Gate_Layout",
-      "width": 15,
-      "height": 12,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/RuinsOfAlph_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/RuinsOfAlph_Gate/map.bin"
     },
     {
       "id": "LAYOUT_RUINS_OF_ALPH",
@@ -6794,18 +6710,6 @@
       "blockdata_filepath": "data/layouts/OlivineCity_Lighthouse/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE40_BATTLE_FRONTIER_GATE",
-      "name": "Route40_BattleFrontierGate_Layout",
-      "width": 15,
-      "height": 12,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/Route40_BattleFrontierGate/border.bin",
-      "blockdata_filepath": "data/layouts/Route40_BattleFrontierGate/map.bin"
-    },
-    {
       "id": "LAYOUT_BATTLE_FRONTIER",
       "name": "BattleFrontier_Layout",
       "width": 34,
@@ -6972,18 +6876,6 @@
       "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/MtMortar_3F/border.bin",
       "blockdata_filepath": "data/layouts/MtMortar_3F/map.bin"
-    },
-    {
-      "id": "LAYOUT_MAHAGONY_TOWN_LAKE_OF_RAGE_GATE",
-      "name": "MahagonyTown_LakeOfRageGate_Layout",
-      "width": 15,
-      "height": 12,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/MahagonyTown_LakeOfRageGate/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown_LakeOfRageGate/map.bin"
     },
     {
       "id": "LAYOUT_MAHAGONY_TOWN_HOUSE",
@@ -7584,30 +7476,6 @@
       "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/WhirlIslands_1F3B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F3B/map.bin"
-    },
-    {
-      "id": "LAYOUT_ECRUTEAK_CITY_GATE_WEST",
-      "name": "EcruteakCity_GateWest_Layout",
-      "width": 27,
-      "height": 23,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/EcruteakCity_GateWest/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_GateWest/map.bin"
-    },
-    {
-      "id": "LAYOUT_ECRUTEAK_CITY_GATE_EAST",
-      "name": "EcruteakCity_GateEast_Layout",
-      "width": 27,
-      "height": 23,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/EcruteakCity_GateEast/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_GateEast/map.bin"
     },
     {
       "id": "LAYOUT_GOLDENROD_CITY_NAME_RATER",

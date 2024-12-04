@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE31_GATE",
   "name": "Route31_Gate",
-  "layout": "LAYOUT_ROUTE31_GATE",
+  "layout": "LAYOUT_ENTRANCE_1F",
   "music": "MAPSEC_ROUTE_31",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
