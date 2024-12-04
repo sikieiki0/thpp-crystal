@@ -1,15 +1,15 @@
 {
-  "id": "MAP_INDIGO_LEAGUE_ROOM3",
-  "name": "IndigoLeague_Room3",
-  "layout": "LAYOUT_INDIGO_LEAGUE_ROOM3",
+  "id": "MAP_INDIGO_PLATEAU_BONEKA_CENTER",
+  "name": "IndigoPlateau_BonekaCenter",
+  "layout": "LAYOUT_INDIGO_PLATEAU_BONEKA_CENTER",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_INDIGO_PLATEAU",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": true,
+  "allow_running": false,
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
@@ -19,17 +19,17 @@
   ],
   "warp_events": [
     {
-      "x": 6,
-      "y": 12,
+      "x": 7,
+      "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_INDIGO_LEAGUE_ROOM2",
-      "dest_warp_id": "1"
+      "dest_map": "MAP_INDIGO_PLATEAU",
+      "dest_warp_id": "0"
     },
     {
-      "x": 6,
+      "x": 22,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_INDIGO_LEAGUE_ROOM4",
+      "dest_map": "MAP_BONEKA_LEAGUE_ROOM1",
       "dest_warp_id": "0"
     }
   ],

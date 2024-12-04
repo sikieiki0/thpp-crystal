@@ -65,8 +65,8 @@ static const struct HealLocation sHealLocationsPokemonCenter[HEAL_LOCATION_COUNT
     },
     [HEAL_LOCATION_INDIGO_PLATEAU - 1] =
     {
-        .group = MAP_GROUP(INDIGO_LEAGUE_RECEPTION),
-        .map = MAP_NUM(INDIGO_LEAGUE_RECEPTION),
+        .group = MAP_GROUP(INDIGO_PLATEAU_BONEKA_CENTER),
+        .map = MAP_NUM(INDIGO_PLATEAU_BONEKA_CENTER),
         .x = 2,
         .y = 7,
     },

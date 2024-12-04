@@ -1,7 +1,7 @@
 {
-  "id": "MAP_INDIGO_LEAGUE_HALL_OF_FAME",
-  "name": "IndigoLeague_HallOfFame",
-  "layout": "LAYOUT_INDIGO_LEAGUE_HALL_OF_FAME",
+  "id": "MAP_BONEKA_LEAGUE_ROOM2",
+  "name": "BonekaLeague_Room2",
+  "layout": "LAYOUT_BONEKA_LEAGUE_ROOM2",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
@@ -9,7 +9,7 @@
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": false,
+  "allow_running": true,
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
@@ -19,10 +19,17 @@
   ],
   "warp_events": [
     {
-      "x": 5,
+      "x": 6,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_INDIGO_LEAGUE_HALL_OF_FAME",
+      "dest_map": "MAP_BONEKA_LEAGUE_ROOM1",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_BONEKA_LEAGUE_ROOM3",
       "dest_warp_id": "0"
     }
   ],

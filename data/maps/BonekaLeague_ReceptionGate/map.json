@@ -1,6 +1,6 @@
 {
   "id": "MAP_BONEKA_LEAGUE_RECEPTION_GATE",
-  "name": "BonekaLeagueReceptionGate",
+  "name": "BonekaLeague_ReceptionGate",
   "layout": "LAYOUT_BONEKA_LEAGUE_RECEPTION_GATE",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_VICTORY_ROAD",

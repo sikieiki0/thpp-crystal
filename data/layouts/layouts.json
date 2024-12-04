@@ -7179,15 +7179,15 @@
     },
     {
       "id": "LAYOUT_BONEKA_LEAGUE_RECEPTION_GATE",
-      "name": "BonekaLeagueReceptionGate_Layout",
+      "name": "BonekaLeague_ReceptionGate_Layout",
       "width": 23,
       "height": 21,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscStatues",
-      "border_filepath": "data/layouts/BonekaLeagueReceptionGate/border.bin",
-      "blockdata_filepath": "data/layouts/BonekaLeagueReceptionGate/map.bin"
+      "border_filepath": "data/layouts/BonekaLeague_ReceptionGate/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaLeague_ReceptionGate/map.bin"
     },
     {
       "id": "LAYOUT_VICTORY_ROAD_INDIGO_1F",
@@ -7250,16 +7250,16 @@
       "blockdata_filepath": "data/layouts/IndigoPlateau/map.bin"
     },
     {
-      "id": "LAYOUT_INDIGO_LEAGUE_RECEPTION",
-      "name": "IndigoLeague_Reception_Layout",
+      "id": "LAYOUT_INDIGO_PLATEAU_BONEKA_CENTER",
+      "name": "IndigoPlateau_BonekaCenter_Layout",
       "width": 25,
       "height": 18,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/IndigoLeague_Reception/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoLeague_Reception/map.bin"
+      "border_filepath": "data/layouts/IndigoPlateau_BonekaCenter/border.bin",
+      "blockdata_filepath": "data/layouts/IndigoPlateau_BonekaCenter/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE28",
@@ -7286,76 +7286,76 @@
       "blockdata_filepath": "data/layouts/SilverCave/map.bin"
     },
     {
-      "id": "LAYOUT_INDIGO_LEAGUE_ROOM1",
-      "name": "IndigoLeague_Room1_Layout",
+      "id": "LAYOUT_BONEKA_LEAGUE_ROOM1",
+      "name": "BonekaLeague_Room1_Layout",
       "width": 13,
       "height": 13,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_League",
-      "border_filepath": "data/layouts/IndigoLeague_Room1/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoLeague_Room1/map.bin"
+      "border_filepath": "data/layouts/BonekaLeague_Room1/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaLeague_Room1/map.bin"
     },
     {
-      "id": "LAYOUT_INDIGO_LEAGUE_ROOM2",
-      "name": "IndigoLeague_Room2_Layout",
+      "id": "LAYOUT_BONEKA_LEAGUE_ROOM2",
+      "name": "BonekaLeague_Room2_Layout",
       "width": 13,
       "height": 13,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_League",
-      "border_filepath": "data/layouts/IndigoLeague_Room2/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoLeague_Room2/map.bin"
+      "border_filepath": "data/layouts/BonekaLeague_Room2/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaLeague_Room2/map.bin"
     },
     {
-      "id": "LAYOUT_INDIGO_LEAGUE_ROOM3",
-      "name": "IndigoLeague_Room3_Layout",
+      "id": "LAYOUT_BONEKA_LEAGUE_ROOM3",
+      "name": "BonekaLeague_Room3_Layout",
       "width": 13,
       "height": 13,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_League",
-      "border_filepath": "data/layouts/IndigoLeague_Room3/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoLeague_Room3/map.bin"
+      "border_filepath": "data/layouts/BonekaLeague_Room3/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaLeague_Room3/map.bin"
     },
     {
-      "id": "LAYOUT_INDIGO_LEAGUE_ROOM4",
-      "name": "IndigoLeague_Room4_Layout",
+      "id": "LAYOUT_BONEKA_LEAGUE_ROOM4",
+      "name": "BonekaLeague_Room4_Layout",
       "width": 13,
       "height": 13,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_League",
-      "border_filepath": "data/layouts/IndigoLeague_Room4/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoLeague_Room4/map.bin"
+      "border_filepath": "data/layouts/BonekaLeague_Room4/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaLeague_Room4/map.bin"
     },
     {
-      "id": "LAYOUT_INDIGO_LEAGUE_CHAMPIONS_ROOM",
-      "name": "IndigoLeague_ChampionsRoom_Layout",
+      "id": "LAYOUT_BONEKA_LEAGUE_CHAMPIONS_ROOM",
+      "name": "BonekaLeague_ChampionsRoom_Layout",
       "width": 13,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_League",
-      "border_filepath": "data/layouts/IndigoLeague_ChampionsRoom/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoLeague_ChampionsRoom/map.bin"
+      "border_filepath": "data/layouts/BonekaLeague_ChampionsRoom/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaLeague_ChampionsRoom/map.bin"
     },
     {
-      "id": "LAYOUT_INDIGO_LEAGUE_HALL_OF_FAME",
-      "name": "IndigoLeague_HallOfFame_Layout",
+      "id": "LAYOUT_BONEKA_LEAGUE_HALL_OF_FAME",
+      "name": "BonekaLeague_HallOfFame_Layout",
       "width": 11,
       "height": 13,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_HallOfFame",
-      "border_filepath": "data/layouts/IndigoLeague_HallOfFame/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoLeague_HallOfFame/map.bin"
+      "border_filepath": "data/layouts/BonekaLeague_HallOfFame/border.bin",
+      "blockdata_filepath": "data/layouts/BonekaLeague_HallOfFame/map.bin"
     },
     {
       "id": "LAYOUT_SILVER_CAVE_1F",
