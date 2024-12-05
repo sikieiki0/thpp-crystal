@@ -36,7 +36,7 @@
   "warp_events": [
     {
       "x": 28,
-      "y": 44,
+      "y": 36,
       "elevation": 0,
       "dest_map": "MAP_ASAGI_CITY_PORT",
       "dest_warp_id": "0"

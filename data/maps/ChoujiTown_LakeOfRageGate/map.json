@@ -1,7 +1,7 @@
 {
   "id": "MAP_CHOUJI_TOWN_LAKE_OF_RAGE_GATE",
   "name": "ChoujiTown_LakeOfRageGate",
-  "layout": "LAYOUT_ENTRANCE_1F",
+  "layout": "LAYOUT_ENTRANCE_NORTH_SOUTH",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
@@ -19,14 +19,14 @@
   ],
   "warp_events": [
     {
-      "x": 7,
-      "y": 10,
+      "x": 4,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_CHOUJI_TOWN",
       "dest_warp_id": "0"
     },
     {
-      "x": 7,
+      "x": 4,
       "y": 1,
       "elevation": 0,
       "dest_map": "MAP_ROUTE43",

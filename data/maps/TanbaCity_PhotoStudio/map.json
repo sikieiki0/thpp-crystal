@@ -1,7 +1,7 @@
 {
   "id": "MAP_TANBA_CITY_PHOTO_STUDIO",
   "name": "TanbaCity_PhotoStudio",
-  "layout": "LAYOUT_CIANWOOD_CITY_PHOTO_STUDIO",
+  "layout": "LAYOUT_HOUSE2",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

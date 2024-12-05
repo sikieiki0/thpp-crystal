@@ -1,7 +1,7 @@
 {
   "id": "MAP_YOSHINO_CITY_GUIDE_GENTS_HOUSE",
   "name": "YoshinoCity_GuideGentsHouse",
-  "layout": "LAYOUT_CHERRYGROVE_CITY_GUIDE_GENTS_HOUSE",
+  "layout": "LAYOUT_HOUSE2",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

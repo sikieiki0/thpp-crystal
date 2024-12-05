@@ -1,7 +1,7 @@
 {
   "id": "MAP_KOGANE_CITY_HOUSE1",
   "name": "KoganeCity_House1",
-  "layout": "LAYOUT_GOLDENROD_CITY_HOUSE1",
+  "layout": "LAYOUT_HOUSE2",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

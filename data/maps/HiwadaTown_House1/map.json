@@ -1,7 +1,7 @@
 {
   "id": "MAP_HIWADA_TOWN_HOUSE1",
   "name": "HiwadaTown_House1",
-  "layout": "LAYOUT_AZALEA_TOWN_HOUSE1",
+  "layout": "LAYOUT_HOUSE1",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
