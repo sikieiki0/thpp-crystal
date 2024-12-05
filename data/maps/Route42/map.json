@@ -16,7 +16,7 @@
   "connections": [
     {
       "map": "MAP_ENJU_CITY",
-      "offset": -20,
+      "offset": -12,
       "direction": "left"
     },
     {
