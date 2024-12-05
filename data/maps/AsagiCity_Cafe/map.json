@@ -1,7 +1,7 @@
 {
   "id": "MAP_ASAGI_CITY_CAFE",
   "name": "AsagiCity_Cafe",
-  "layout": "LAYOUT_OLIVINE_CITY_CAFE",
+  "layout": "LAYOUT_ASAGI_CITY_CAFE",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

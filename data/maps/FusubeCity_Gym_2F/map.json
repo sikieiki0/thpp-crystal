@@ -1,7 +1,7 @@
 {
   "id": "MAP_FUSUBE_CITY_GYM_2F",
   "name": "FusubeCity_Gym_2F",
-  "layout": "LAYOUT_BLACKTHORN_CITY_GYM_2F",
+  "layout": "LAYOUT_FUSUBE_CITY_GYM_2F",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

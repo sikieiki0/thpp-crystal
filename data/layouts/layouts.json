@@ -5246,124 +5246,124 @@
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_BARK_TOWN",
-      "name": "NewBarkTown_Layout",
+      "id": "WAKABA_TOWN",
+      "name": "WakabaTown_Layout",
       "width": 28,
       "height": 22,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_NewBarkTown",
-      "border_filepath": "data/layouts/NewBarkTown/border.bin",
-      "blockdata_filepath": "data/layouts/NewBarkTown/map.bin"
+      "border_filepath": "data/layouts/WakabaTown/border.bin",
+      "blockdata_filepath": "data/layouts/WakabaTown/map.bin"
     },
     {
-      "id": "LAYOUT_CHERRYGROVE_CITY",
-      "name": "CherrygroveCity_Layout",
+      "id": "LAYOUT_YOSHINO_CITY",
+      "name": "YoshinoCity_Layout",
       "width": 52,
       "height": 40,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_EcruteakCity",
-      "border_filepath": "data/layouts/CherrygroveCity/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin"
+      "border_filepath": "data/layouts/YoshinoCity/border.bin",
+      "blockdata_filepath": "data/layouts/YoshinoCity/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY",
-      "name": "VioletCity_Layout",
+      "id": "LAYOUT_KIKYOU_CITY",
+      "name": "KikyouCity_Layout",
       "width": 54,
       "height": 42,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_EcruteakCity",
-      "border_filepath": "data/layouts/VioletCity/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity/map.bin"
+      "border_filepath": "data/layouts/KikyouCity/border.bin",
+      "blockdata_filepath": "data/layouts/KikyouCity/map.bin"
     },
     {
-      "id": "LAYOUT_AZALEA_TOWN",
-      "name": "AzaleaTown_Layout",
+      "id": "LAYOUT_HIWADA_TOWN",
+      "name": "HiwadaTown_Layout",
       "width": 54,
       "height": 26,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
-      "border_filepath": "data/layouts/AzaleaTown/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown/map.bin"
+      "border_filepath": "data/layouts/HiwadaTown/border.bin",
+      "blockdata_filepath": "data/layouts/HiwadaTown/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY",
-      "name": "GoldenrodCity_Layout",
+      "id": "LAYOUT_KOGANE_CITY",
+      "name": "KoganeCity_Layout",
       "width": 76,
       "height": 54,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_GoldenrodCity",
-      "border_filepath": "data/layouts/GoldenrodCity/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity/map.bin"
+      "border_filepath": "data/layouts/KoganeCity/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity/map.bin"
     },
     {
-      "id": "LAYOUT_ECRUTEAK_CITY",
-      "name": "EcruteakCity_Layout",
+      "id": "LAYOUT_ENJU_CITY",
+      "name": "EnjuCity_Layout",
       "width": 48,
       "height": 40,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_EcruteakCity",
-      "border_filepath": "data/layouts/EcruteakCity/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity/map.bin"
+      "border_filepath": "data/layouts/EnjuCity/border.bin",
+      "blockdata_filepath": "data/layouts/EnjuCity/map.bin"
     },
     {
-      "id": "LAYOUT_OLIVINE_CITY",
-      "name": "OlivineCity_Layout",
+      "id": "LAYOUT_ASAGI_CITY",
+      "name": "AsagiCity_Layout",
       "width": 56,
       "height": 50,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_OlivineCity",
-      "border_filepath": "data/layouts/OlivineCity/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity/map.bin"
+      "border_filepath": "data/layouts/AsagiCity/border.bin",
+      "blockdata_filepath": "data/layouts/AsagiCity/map.bin"
     },
     {
-      "id": "LAYOUT_CIANWOOD_CITY",
-      "name": "CianwoodCity_Layout",
+      "id": "LAYOUT_TANBA_CITY",
+      "name": "TanbaCity_Layout",
       "width": 48,
       "height": 76,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_CeruleanCity",
-      "border_filepath": "data/layouts/CianwoodCity/border.bin",
-      "blockdata_filepath": "data/layouts/CianwoodCity/map.bin"
+      "border_filepath": "data/layouts/TanbaCity/border.bin",
+      "blockdata_filepath": "data/layouts/TanbaCity/map.bin"
     },
     {
-      "id": "LAYOUT_MAHAGONY_TOWN",
-      "name": "MahagonyTown_Layout",
+      "id": "LAYOUT_CHOUJI_TOWN",
+      "name": "ChoujiTown_Layout",
       "width": 36,
       "height": 40,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_EcruteakCity",
-      "border_filepath": "data/layouts/MahagonyTown/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown/map.bin"
+      "border_filepath": "data/layouts/ChoujiTown/border.bin",
+      "blockdata_filepath": "data/layouts/ChoujiTown/map.bin"
     },
     {
-      "id": "LAYOUT_BLACKTHORN_CITY",
-      "name": "BlackthornCity_Layout",
+      "id": "LAYOUT_FUSUBE_CITY",
+      "name": "FusubeCity_Layout",
       "width": 60,
       "height": 52,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_BlackthornCity",
-      "border_filepath": "data/layouts/BlackthornCity/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity/map.bin"
+      "border_filepath": "data/layouts/FusubeCity/border.bin",
+      "blockdata_filepath": "data/layouts/FusubeCity/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE29",
@@ -5642,52 +5642,52 @@
       "blockdata_filepath": "data/layouts/House5/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_BARK_TOWN_PLAYERS_HOUSE_1F",
-      "name": "NewBarkTown_PlayersHouse_1F_Layout",
+      "id": "WAKABA_TOWN_PLAYERS_HOUSE_1F",
+      "name": "WakabaTown_PlayersHouse_1F_Layout",
       "width": 17,
       "height": 14,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PlayersHouse",
-      "border_filepath": "data/layouts/NewBarkTown_PlayersHouse_1F/border.bin",
-      "blockdata_filepath": "data/layouts/NewBarkTown_PlayersHouse_1F/map.bin"
+      "border_filepath": "data/layouts/WakabaTown_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/WakabaTown_PlayersHouse_1F/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_BARK_TOWN_PLAYERS_HOUSE_2F",
-      "name": "NewBarkTown_PlayersHouse_2F_Layout",
+      "id": "WAKABA_TOWN_PLAYERS_HOUSE_2F",
+      "name": "WakabaTown_PlayersHouse_2F_Layout",
       "width": 11,
       "height": 9,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PlayersHouse",
-      "border_filepath": "data/layouts/NewBarkTown_PlayersHouse_2F/border.bin",
-      "blockdata_filepath": "data/layouts/NewBarkTown_PlayersHouse_2F/map.bin"
+      "border_filepath": "data/layouts/WakabaTown_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/WakabaTown_PlayersHouse_2F/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_BARK_TOWN_ELMS_HOUSE",
-      "name": "NewBarkTown_ElmsHouse_Layout",
+      "id": "WAKABA_TOWN_ELMS_HOUSE",
+      "name": "WakabaTown_ElmsHouse_Layout",
       "width": 13,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PlayersHouse",
-      "border_filepath": "data/layouts/NewBarkTown_ElmsHouse/border.bin",
-      "blockdata_filepath": "data/layouts/NewBarkTown_ElmsHouse/map.bin"
+      "border_filepath": "data/layouts/WakabaTown_ElmsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/WakabaTown_ElmsHouse/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_BARK_TOWN_PROFESSOR_ELMS_LAB",
-      "name": "NewBarkTown_ProfessorElmsLab_Layout",
+      "id": "WAKABA_TOWN_PROFESSOR_ELMS_LAB",
+      "name": "WakabaTown_ProfessorElmsLab_Layout",
       "width": 32,
       "height": 28,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_Lab",
-      "border_filepath": "data/layouts/NewBarkTown_ProfessorElmsLab/border.bin",
-      "blockdata_filepath": "data/layouts/NewBarkTown_ProfessorElmsLab/map.bin"
+      "border_filepath": "data/layouts/WakabaTown_ProfessorElmsLab/border.bin",
+      "blockdata_filepath": "data/layouts/WakabaTown_ProfessorElmsLab/map.bin"
     },
     {
       "id": "LAYOUT_ENTRANCE_1F",
@@ -5738,40 +5738,40 @@
       "blockdata_filepath": "data/layouts/Route30_MrPokemonsHouse/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY_BONEKA_ACADEMY",
-      "name": "VioletCity_BonekaAcademy_Layout",
+      "id": "LAYOUT_KIKYOU_CITY_BONEKA_ACADEMY",
+      "name": "KikyouCity_BonekaAcademy_Layout",
       "width": 10,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_School",
-      "border_filepath": "data/layouts/VioletCity_BonekaAcademy/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_BonekaAcademy/map.bin"
+      "border_filepath": "data/layouts/KikyouCity_BonekaAcademy/border.bin",
+      "blockdata_filepath": "data/layouts/KikyouCity_BonekaAcademy/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY_SPROUT_TOWER",
-      "name": "VioletCity_SproutTower_Layout",
+      "id": "LAYOUT_KIKYOU_CITY_SPROUT_TOWER",
+      "name": "KikyouCity_SproutTower_Layout",
       "width": 74,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/VioletCity_SproutTower/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_SproutTower/map.bin"
+      "border_filepath": "data/layouts/KikyouCity_SproutTower/border.bin",
+      "blockdata_filepath": "data/layouts/KikyouCity_SproutTower/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY_GYM",
-      "name": "VioletCity_Gym_Layout",
+      "id": "LAYOUT_KIKYOU_CITY_GYM",
+      "name": "KikyouCity_Gym_Layout",
       "width": 13,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_Mansion",
-      "border_filepath": "data/layouts/VioletCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_Gym/map.bin"
+      "border_filepath": "data/layouts/KikyouCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/KikyouCity_Gym/map.bin"
     },
     {
       "id": "LAYOUT_UNION_CAVE_1F",
@@ -5810,28 +5810,28 @@
       "blockdata_filepath": "data/layouts/UnionCave_3F/map.bin"
     },
     {
-      "id": "LAYOUT_AZALEA_TOWN_GYM",
-      "name": "AzaleaTown_Gym_Layout",
+      "id": "LAYOUT_HIWADA_TOWN_GYM",
+      "name": "HiwadaTown_Gym_Layout",
       "width": 24,
       "height": 26,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_BugsyGym",
-      "border_filepath": "data/layouts/AzaleaTown_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_Gym/map.bin"
+      "border_filepath": "data/layouts/HiwadaTown_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/HiwadaTown_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_AZALEA_TOWN_KURTS_HOUSE",
-      "name": "AzaleaTown_KurtsHouse_Layout",
+      "id": "LAYOUT_HIWADA_TOWN_KURTS_HOUSE",
+      "name": "HiwadaTown_KurtsHouse_Layout",
       "width": 30,
       "height": 24,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DarKBrown",
-      "border_filepath": "data/layouts/AzaleaTown_KurtsHouse/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_KurtsHouse/map.bin"
+      "border_filepath": "data/layouts/HiwadaTown_KurtsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/HiwadaTown_KurtsHouse/map.bin"
     },
     {
       "id": "LAYOUT_SLOWPOKE_WELL_1F",
@@ -5882,316 +5882,316 @@
       "blockdata_filepath": "data/layouts/Route34_Daycare/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_BONEKA_COMMUNICATION_CENTER_1F",
-      "name": "GoldenrodCity_BonekaCommunicationCenter_1F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_BONEKA_COMMUNICATION_CENTER_1F",
+      "name": "KoganeCity_BonekaCommunicationCenter_1F_Layout",
       "width": 26,
       "height": 17,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/GoldenrodCity_BonekaCommunicationCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_BonekaCommunicationCenter_1F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_BonekaCommunicationCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_BonekaCommunicationCenter_1F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_BONEKA_COMMUNICATION_CENTER_2F",
-      "name": "GoldenrodCity_BonekaCommunicationCenter_2F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_BONEKA_COMMUNICATION_CENTER_2F",
+      "name": "KoganeCity_BonekaCommunicationCenter_2F_Layout",
       "width": 15,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PokemonCenter",
-      "border_filepath": "data/layouts/GoldenrodCity_BonekaCommunicationCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_BonekaCommunicationCenter_2F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_BonekaCommunicationCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_BonekaCommunicationCenter_2F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_1F",
-      "name": "GoldenrodCity_DepartmentStore_1F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_1F",
+      "name": "KoganeCity_DepartmentStore_1F_Layout",
       "width": 32,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DepartmentStore",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_1F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_1F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_1F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_1F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_2F",
-      "name": "GoldenrodCity_DepartmentStore_2F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_2F",
+      "name": "KoganeCity_DepartmentStore_2F_Layout",
       "width": 32,
       "height": 19,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DepartmentStore",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_2F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_2F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_2F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_2F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_3F",
-      "name": "GoldenrodCity_DepartmentStore_3F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_3F",
+      "name": "KoganeCity_DepartmentStore_3F_Layout",
       "width": 33,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DepartmentStore",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_3F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_3F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_3F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_3F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_4F",
-      "name": "GoldenrodCity_DepartmentStore_4F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_4F",
+      "name": "KoganeCity_DepartmentStore_4F_Layout",
       "width": 32,
       "height": 19,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DepartmentStore",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_4F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_4F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_4F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_4F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_5F",
-      "name": "GoldenrodCity_DepartmentStore_5F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_5F",
+      "name": "KoganeCity_DepartmentStore_5F_Layout",
       "width": 33,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DepartmentStore",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_5F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_5F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_5F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_5F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_6F",
-      "name": "GoldenrodCity_DepartmentStore_6F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_6F",
+      "name": "KoganeCity_DepartmentStore_6F_Layout",
       "width": 32,
       "height": 19,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DepartmentStore",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_6F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_6F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_6F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_6F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_7F",
-      "name": "GoldenrodCity_DepartmentStore_7F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_7F",
+      "name": "KoganeCity_DepartmentStore_7F_Layout",
       "width": 32,
       "height": 19,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DepartmentStore",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_7F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_7F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_7F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_7F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_DEPARTMENT_STORE_ELEVATOR",
-      "name": "GoldenrodCity_DepartmentStore_Elevator_Layout",
+      "id": "LAYOUT_KOGANE_CITY_DEPARTMENT_STORE_ELEVATOR",
+      "name": "KoganeCity_DepartmentStore_Elevator_Layout",
       "width": 5,
       "height": 7,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_DepartmentStore_Elevator/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_DepartmentStore_Elevator/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_DepartmentStore_Elevator/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_DepartmentStore_Elevator/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_MAGNET_TRAIN",
-      "name": "GoldenrodCity_MagnetTrain_Layout",
+      "id": "LAYOUT_KOGANE_CITY_MAGNET_TRAIN",
+      "name": "KoganeCity_MagnetTrain_Layout",
       "width": 27,
       "height": 18,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_Train",
-      "border_filepath": "data/layouts/GoldenrodCity_MagnetTrain/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_MagnetTrain/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_MagnetTrain/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_MagnetTrain/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_GYM",
-      "name": "GoldenrodCity_Gym_Layout",
+      "id": "LAYOUT_KOGANE_CITY_GYM",
+      "name": "KoganeCity_Gym_Layout",
       "width": 34,
       "height": 27,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_BugsyGym",
-      "border_filepath": "data/layouts/GoldenrodCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_Gym/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_RADIO_TOWER_1F",
-      "name": "GoldenrodCity_RadioTower_1F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_RADIO_TOWER_1F",
+      "name": "KoganeCity_RadioTower_1F_Layout",
       "width": 32,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_RadioTower_1F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_RadioTower_1F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_RadioTower_1F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_RadioTower_1F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_RADIO_TOWER_2F",
-      "name": "GoldenrodCity_RadioTower_2F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_RADIO_TOWER_2F",
+      "name": "KoganeCity_RadioTower_2F_Layout",
       "width": 32,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_RadioTower_2F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_RadioTower_2F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_RadioTower_2F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_RadioTower_2F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_RADIO_TOWER_3F",
-      "name": "GoldenrodCity_RadioTower_3F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_RADIO_TOWER_3F",
+      "name": "KoganeCity_RadioTower_3F_Layout",
       "width": 32,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_RadioTower_3F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_RadioTower_3F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_RadioTower_3F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_RadioTower_3F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_RADIO_TOWER_4F",
-      "name": "GoldenrodCity_RadioTower_4F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_RADIO_TOWER_4F",
+      "name": "KoganeCity_RadioTower_4F_Layout",
       "width": 32,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_RadioTower_4F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_RadioTower_4F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_RadioTower_4F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_RadioTower_4F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_RADIO_TOWER_5F",
-      "name": "GoldenrodCity_RadioTower_5F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_RADIO_TOWER_5F",
+      "name": "KoganeCity_RadioTower_5F_Layout",
       "width": 32,
       "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_RadioTower_5F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_RadioTower_5F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_RadioTower_5F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_RadioTower_5F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_GAME_CORNER",
-      "name": "GoldenrodCity_GameCorner_Layout",
+      "id": "LAYOUT_KOGANE_CITY_GAME_CORNER",
+      "name": "KoganeCity_GameCorner_Layout",
       "width": 23,
       "height": 15,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_GameCorner",
-      "border_filepath": "data/layouts/GoldenrodCity_GameCorner/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_GameCorner/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_GameCorner/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_GameCorner/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_ENTRACE_NORTH",
-      "name": "GoldenrodCity_UndergroundEntraceNorth_Layout",
+      "id": "LAYOUT_KOGANE_CITY_UNDERGROUND_ENTRACE_NORTH",
+      "name": "KoganeCity_UndergroundEntraceNorth_Layout",
       "width": 27,
       "height": 18,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
-      "border_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceNorth/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceNorth/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_UndergroundEntraceNorth/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_UndergroundEntraceNorth/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_ENTRACE_SOUTH",
-      "name": "GoldenrodCity_UndergroundEntraceSouth_Layout",
+      "id": "LAYOUT_KOGANE_CITY_UNDERGROUND_ENTRACE_SOUTH",
+      "name": "KoganeCity_UndergroundEntraceSouth_Layout",
       "width": 27,
       "height": 18,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
-      "border_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceSouth/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_UndergroundEntraceSouth/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_UndergroundEntraceSouth/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_UndergroundEntraceSouth/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_PATH",
-      "name": "GoldenrodCity_UndergroundPath_Layout",
+      "id": "LAYOUT_KOGANE_CITY_UNDERGROUND_PATH",
+      "name": "KoganeCity_UndergroundPath_Layout",
       "width": 16,
       "height": 36,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_UndergroundPath",
-      "border_filepath": "data/layouts/GoldenrodCity_UndergroundPath/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_UndergroundPath/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_UndergroundPath/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_UndergroundPath/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_BIKE_SHOP",
-      "name": "GoldenrodCity_BikeShop_Layout",
+      "id": "LAYOUT_KOGANE_CITY_BIKE_SHOP",
+      "name": "KoganeCity_BikeShop_Layout",
       "width": 11,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_BikeShop",
-      "border_filepath": "data/layouts/GoldenrodCity_BikeShop/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_BikeShop/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_BikeShop/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_BikeShop/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_HIDEOUT_ENTRACE",
-      "name": "GoldenrodCity_HideoutEntrace_Layout",
+      "id": "LAYOUT_KOGANE_CITY_HIDEOUT_ENTRACE",
+      "name": "KoganeCity_HideoutEntrace_Layout",
       "width": 27,
       "height": 18,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_GenericBuilding2",
-      "border_filepath": "data/layouts/GoldenrodCity_HideoutEntrace/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_HideoutEntrace/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_HideoutEntrace/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_HideoutEntrace/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_HIDEOUT_1F1B",
-      "name": "GoldenrodCity_Hideout_1F1B_Layout",
+      "id": "LAYOUT_KOGANE_CITY_HIDEOUT_1F1B",
+      "name": "KoganeCity_Hideout_1F1B_Layout",
       "width": 60,
       "height": 36,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_Hideout_1F1B/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_Hideout_1F1B/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_Hideout_1F1B/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_Hideout_1F1B/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_HIDEOUT_2F",
-      "name": "GoldenrodCity_Hideout_2F_Layout",
+      "id": "LAYOUT_KOGANE_CITY_HIDEOUT_2F",
+      "name": "KoganeCity_Hideout_2F_Layout",
       "width": 30,
       "height": 19,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_Hideout_2F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_Hideout_2F/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_Hideout_2F/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_Hideout_2F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_HIDEOUT_1F2B",
-      "name": "GoldenrodCity_Hideout_1F2B_Layout",
+      "id": "LAYOUT_KOGANE_CITY_HIDEOUT_1F2B",
+      "name": "KoganeCity_Hideout_1F2B_Layout",
       "width": 30,
       "height": 24,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/GoldenrodCity_Hideout_1F2B/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_Hideout_1F2B/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_Hideout_1F2B/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_Hideout_1F2B/map.bin"
     },
     {
       "id": "LAYOUT_NATIONAL_PARK",
@@ -6326,28 +6326,28 @@
       "blockdata_filepath": "data/layouts/SinjohRuins_MystriStage/map.bin"
     },
     {
-      "id": "LAYOUT_ECRUTEAK_CITY_GYM",
-      "name": "EcruteakCity_Gym_Layout",
+      "id": "LAYOUT_ENJU_CITY_GYM",
+      "name": "EnjuCity_Gym_Layout",
       "width": 12,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/EcruteakCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_Gym/map.bin"
+      "border_filepath": "data/layouts/EnjuCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/EnjuCity_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_ECRUTEAK_CITY_DANCE_THEATER",
-      "name": "EcruteakCity_DanceTheater_Layout",
+      "id": "LAYOUT_ENJU_CITY_DANCE_THEATER",
+      "name": "EnjuCity_DanceTheater_Layout",
       "width": 12,
       "height": 18,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DanceTheater",
-      "border_filepath": "data/layouts/EcruteakCity_DanceTheater/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_DanceTheater/map.bin"
+      "border_filepath": "data/layouts/EnjuCity_DanceTheater/border.bin",
+      "blockdata_filepath": "data/layouts/EnjuCity_DanceTheater/map.bin"
     },
     {
       "id": "LAYOUT_BRASS_TOWER_1F",
@@ -6422,28 +6422,28 @@
       "blockdata_filepath": "data/layouts/TinTower_Roof/map.bin"
     },
     {
-      "id": "LAYOUT_ECRUTEAK_CITY_BARRIER_STATION_1F1B",
-      "name": "EcruteakCity_BarrierStation_1F1B_Layout",
+      "id": "LAYOUT_ENJU_CITY_BARRIER_STATION_1F1B",
+      "name": "EnjuCity_BarrierStation_1F1B_Layout",
       "width": 26,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/EcruteakCity_BarrierStation_1F1B/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_BarrierStation_1F1B/map.bin"
+      "border_filepath": "data/layouts/EnjuCity_BarrierStation_1F1B/border.bin",
+      "blockdata_filepath": "data/layouts/EnjuCity_BarrierStation_1F1B/map.bin"
     },
     {
-      "id": "LAYOUT_ECRUTEAK_CITY_BARRIER_STATION_1F2B",
-      "name": "EcruteakCity_BarrierStation_1F2B_Layout",
+      "id": "LAYOUT_ENJU_CITY_BARRIER_STATION_1F2B",
+      "name": "EnjuCity_BarrierStation_1F2B_Layout",
       "width": 9,
       "height": 9,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/EcruteakCity_BarrierStation_1F2B/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_BarrierStation_1F2B/map.bin"
+      "border_filepath": "data/layouts/EnjuCity_BarrierStation_1F2B/border.bin",
+      "blockdata_filepath": "data/layouts/EnjuCity_BarrierStation_1F2B/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE39_MOOMOO_FARM_STABLE",
@@ -6458,52 +6458,52 @@
       "blockdata_filepath": "data/layouts/Route39_MoomooFarmStable/map.bin"
     },
     {
-      "id": "LAYOUT_OLIVINE_CITY_GYM",
-      "name": "OlivineCity_Gym_Layout",
+      "id": "LAYOUT_ASAGI_CITY_GYM",
+      "name": "AsagiCity_Gym_Layout",
       "width": 12,
       "height": 17,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_DarkCave",
-      "border_filepath": "data/layouts/OlivineCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_Gym/map.bin"
+      "border_filepath": "data/layouts/AsagiCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/AsagiCity_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_OLIVINE_CITY_CAFE",
-      "name": "OlivineCity_Cafe_Layout",
+      "id": "LAYOUT_ASAGI_CITY_CAFE",
+      "name": "AsagiCity_Cafe_Layout",
       "width": 8,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_Cafe",
-      "border_filepath": "data/layouts/OlivineCity_Cafe/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_Cafe/map.bin"
+      "border_filepath": "data/layouts/AsagiCity_Cafe/border.bin",
+      "blockdata_filepath": "data/layouts/AsagiCity_Cafe/map.bin"
     },
     {
-      "id": "LAYOUT_OLIVINE_CITY_PORT",
-      "name": "OlivineCity_Port_Layout",
+      "id": "LAYOUT_ASAGI_CITY_PORT",
+      "name": "AsagiCity_Port_Layout",
       "width": 38,
       "height": 22,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_Port",
-      "border_filepath": "data/layouts/OlivineCity_Port/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_Port/map.bin"
+      "border_filepath": "data/layouts/AsagiCity_Port/border.bin",
+      "blockdata_filepath": "data/layouts/AsagiCity_Port/map.bin"
     },
     {
-      "id": "LAYOUT_OLIVINE_CITY_LIGHTHOUSE",
-      "name": "OlivineCity_Lighthouse_Layout",
+      "id": "LAYOUT_ASAGI_CITY_LIGHTHOUSE",
+      "name": "AsagiCity_Lighthouse_Layout",
       "width": 155,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
       "secondary_tileset": "gTileset_Crystal_Lighthouse",
-      "border_filepath": "data/layouts/OlivineCity_Lighthouse/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_Lighthouse/map.bin"
+      "border_filepath": "data/layouts/AsagiCity_Lighthouse/border.bin",
+      "blockdata_filepath": "data/layouts/AsagiCity_Lighthouse/map.bin"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER",
@@ -6518,16 +6518,16 @@
       "blockdata_filepath": "data/layouts/BattleFrontier/map.bin"
     },
     {
-      "id": "LAYOUT_CIANWOOD_CITY_GYM",
-      "name": "CianwoodCity_Gym_Layout",
+      "id": "LAYOUT_TANBA_CITY_GYM",
+      "name": "TanbaCity_Gym_Layout",
       "width": 12,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PowerPlant",
-      "border_filepath": "data/layouts/CianwoodCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/CianwoodCity_Gym/map.bin"
+      "border_filepath": "data/layouts/TanbaCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/TanbaCity_Gym/map.bin"
     },
     {
       "id": "LAYOUT_LAKE_OF_RAGE",
@@ -6602,64 +6602,64 @@
       "blockdata_filepath": "data/layouts/MtMortar_3F/map.bin"
     },
     {
-      "id": "LAYOUT_MAHAGONY_TOWN_GYM",
-      "name": "MahagonyTown_Gym_Layout",
+      "id": "LAYOUT_CHOUJI_TOWN_GYM",
+      "name": "ChoujiTown_Gym_Layout",
       "width": 27,
       "height": 29,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_Mansion",
-      "border_filepath": "data/layouts/MahagonyTown_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown_Gym/map.bin"
+      "border_filepath": "data/layouts/ChoujiTown_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/ChoujiTown_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_MAHAGONY_TOWN_HIDEOUT_SOUVENIR_SHOP",
-      "name": "MahagonyTown_Hideout_SouvenirShop_Layout",
+      "id": "LAYOUT_CHOUJI_TOWN_HIDEOUT_SOUVENIR_SHOP",
+      "name": "ChoujiTown_Hideout_SouvenirShop_Layout",
       "width": 27,
       "height": 19,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_GameCorner",
-      "border_filepath": "data/layouts/MahagonyTown_Hideout_SouvenirShop/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown_Hideout_SouvenirShop/map.bin"
+      "border_filepath": "data/layouts/ChoujiTown_Hideout_SouvenirShop/border.bin",
+      "blockdata_filepath": "data/layouts/ChoujiTown_Hideout_SouvenirShop/map.bin"
     },
     {
-      "id": "LAYOUT_MAHAGONY_TOWN_HIDEOUT_1F",
-      "name": "MahagonyTown_Hideout_1F_Layout",
+      "id": "LAYOUT_CHOUJI_TOWN_HIDEOUT_1F",
+      "name": "ChoujiTown_Hideout_1F_Layout",
       "width": 34,
       "height": 22,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/MahagonyTown_Hideout_1F/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown_Hideout_1F/map.bin"
+      "border_filepath": "data/layouts/ChoujiTown_Hideout_1F/border.bin",
+      "blockdata_filepath": "data/layouts/ChoujiTown_Hideout_1F/map.bin"
     },
     {
-      "id": "LAYOUT_MAHAGONY_TOWN_HIDEOUT_2F",
-      "name": "MahagonyTown_Hideout_2F_Layout",
+      "id": "LAYOUT_CHOUJI_TOWN_HIDEOUT_2F",
+      "name": "ChoujiTown_Hideout_2F_Layout",
       "width": 38,
       "height": 27,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/MahagonyTown_Hideout_2F/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown_Hideout_2F/map.bin"
+      "border_filepath": "data/layouts/ChoujiTown_Hideout_2F/border.bin",
+      "blockdata_filepath": "data/layouts/ChoujiTown_Hideout_2F/map.bin"
     },
     {
-      "id": "LAYOUT_MAHAGONY_TOWN_HIDEOUT_3F",
-      "name": "MahagonyTown_Hideout_3F_Layout",
+      "id": "LAYOUT_CHOUJI_TOWN_HIDEOUT_3F",
+      "name": "ChoujiTown_Hideout_3F_Layout",
       "width": 36,
       "height": 22,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_MiscLab",
-      "border_filepath": "data/layouts/MahagonyTown_Hideout_3F/border.bin",
-      "blockdata_filepath": "data/layouts/MahagonyTown_Hideout_3F/map.bin"
+      "border_filepath": "data/layouts/ChoujiTown_Hideout_3F/border.bin",
+      "blockdata_filepath": "data/layouts/ChoujiTown_Hideout_3F/map.bin"
     },
     {
       "id": "LAYOUT_ICE_PATH_1F",
@@ -6710,28 +6710,28 @@
       "blockdata_filepath": "data/layouts/IcePath_4F/map.bin"
     },
     {
-      "id": "LAYOUT_BLACKTHORN_CITY_GYM",
-      "name": "BlackthornCity_Gym_Layout",
+      "id": "LAYOUT_FUSUBE_CITY_GYM",
+      "name": "FusubeCity_Gym_Layout",
       "width": 11,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_Mansion",
-      "border_filepath": "data/layouts/BlackthornCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_Gym/map.bin"
+      "border_filepath": "data/layouts/FusubeCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/FusubeCity_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_BLACKTHORN_CITY_GYM_2F",
-      "name": "BlackthornCity_Gym_2F_Layout",
+      "id": "LAYOUT_FUSUBE_CITY_GYM_2F",
+      "name": "FusubeCity_Gym_2F_Layout",
       "width": 11,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_Mansion",
-      "border_filepath": "data/layouts/BlackthornCity_Gym_2F/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_Gym_2F/map.bin"
+      "border_filepath": "data/layouts/FusubeCity_Gym_2F/border.bin",
+      "blockdata_filepath": "data/layouts/FusubeCity_Gym_2F/map.bin"
     },
     {
       "id": "LAYOUT_DRAGONS_DEN_1F",
@@ -7142,16 +7142,16 @@
       "blockdata_filepath": "data/layouts/WhirlIslands_1F3B/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_NAME_RATER",
-      "name": "GoldenrodCity_NameRater_Layout",
+      "id": "LAYOUT_KOGANE_CITY_NAME_RATER",
+      "name": "KoganeCity_NameRater_Layout",
       "width": 13,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
       "secondary_tileset": "gTileset_Crystal_PlayersHouse",
-      "border_filepath": "data/layouts/GoldenrodCity_NameRater/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_NameRater/map.bin"
+      "border_filepath": "data/layouts/KoganeCity_NameRater/border.bin",
+      "blockdata_filepath": "data/layouts/KoganeCity_NameRater/map.bin"
     },
     {
       "id": "LAYOUT_TIN_TOWER_4F",

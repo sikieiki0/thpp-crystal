@@ -1,7 +1,7 @@
 {
   "id": "MAP_ASAGI_CITY_GYM",
   "name": "AsagiCity_Gym",
-  "layout": "LAYOUT_OLIVINE_CITY_GYM",
+  "layout": "LAYOUT_ASAGI_CITY_GYM",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

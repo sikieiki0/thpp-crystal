@@ -1,7 +1,7 @@
 {
   "id": "MAP_KIKYOU_CITY_SPROUT_TOWER",
   "name": "KikyouCity_SproutTower",
-  "layout": "LAYOUT_VIOLET_CITY_SPROUT_TOWER",
+  "layout": "LAYOUT_KIKYOU_CITY_SPROUT_TOWER",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

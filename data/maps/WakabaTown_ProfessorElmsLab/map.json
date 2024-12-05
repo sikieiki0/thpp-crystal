@@ -1,7 +1,7 @@
 {
   "id": "MAP_WAKABA_TOWN_PROFESSOR_ELMS_LAB",
   "name": "WakabaTown_ProfessorElmsLab",
-  "layout": "LAYOUT_NEW_BARK_TOWN_PROFESSOR_ELMS_LAB",
+  "layout": "WAKABA_TOWN_PROFESSOR_ELMS_LAB",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

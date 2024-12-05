@@ -1,7 +1,7 @@
 {
   "id": "MAP_KOGANE_CITY_HIDEOUT_ENTRACE",
   "name": "KoganeCity_HideoutEntrace",
-  "layout": "LAYOUT_GOLDENROD_CITY_HIDEOUT_ENTRACE",
+  "layout": "LAYOUT_KOGANE_CITY_HIDEOUT_ENTRACE",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

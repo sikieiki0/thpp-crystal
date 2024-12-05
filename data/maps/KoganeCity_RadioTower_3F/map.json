@@ -1,7 +1,7 @@
 {
   "id": "MAP_KOGANE_CITY_RADIO_TOWER_3F",
   "name": "KoganeCity_RadioTower_3F",
-  "layout": "LAYOUT_GOLDENROD_CITY_RADIO_TOWER_3F",
+  "layout": "LAYOUT_KOGANE_CITY_RADIO_TOWER_3F",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

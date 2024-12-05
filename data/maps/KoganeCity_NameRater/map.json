@@ -1,7 +1,7 @@
 {
   "id": "MAP_KOGANE_CITY_NAME_RATER",
   "name": "KoganeCity_NameRater",
-  "layout": "LAYOUT_GOLDENROD_CITY_NAME_RATER",
+  "layout": "LAYOUT_KOGANE_CITY_NAME_RATER",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,

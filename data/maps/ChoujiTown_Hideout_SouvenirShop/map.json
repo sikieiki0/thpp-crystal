@@ -1,7 +1,7 @@
 {
   "id": "MAP_CHOUJI_TOWN_HIDEOUT_SOUVENIR_SHOP",
   "name": "ChoujiTown_Hideout_SouvenirShop",
-  "layout": "LAYOUT_MAHAGONY_TOWN_HIDEOUT_SOUVENIR_SHOP",
+  "layout": "LAYOUT_CHOUJI_TOWN_HIDEOUT_SOUVENIR_SHOP",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
