@@ -859,36 +859,36 @@ const struct Tileset gTileset_Crystal_PalletTown =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_SlowpokeWell =
+const struct Tileset gTileset_Crystal_NavelRock =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_SlowpokeWell,
-    .palettes = gTilesetPalettes_Crystal_SlowpokeWell,
-    .metatiles = gMetatiles_Crystal_SlowpokeWell,
-    .metatileAttributes = gMetatileAttributes_Crystal_SlowpokeWell,
+    .tiles = gTilesetTiles_Crystal_NavelRock,
+    .palettes = gTilesetPalettes_Crystal_NavelRock,
+    .metatiles = gMetatiles_Crystal_NavelRock,
+    .metatileAttributes = gMetatileAttributes_Crystal_NavelRock,
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_GoldenrodCity =
+const struct Tileset gTileset_Crystal_SaffronCity =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_GoldenrodCity,
-    .palettes = gTilesetPalettes_Crystal_GoldenrodCity,
-    .metatiles = gMetatiles_Crystal_GoldenrodCity,
-    .metatileAttributes = gMetatileAttributes_Crystal_GoldenrodCity,
+    .tiles = gTilesetTiles_Crystal_SaffronCity,
+    .palettes = gTilesetPalettes_Crystal_SaffronCity,
+    .metatiles = gMetatiles_Crystal_SaffronCity,
+    .metatileAttributes = gMetatileAttributes_Crystal_SaffronCity,
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_OlivineCity =
+const struct Tileset gTileset_Crystal_CinnabarIsland =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_OlivineCity,
-    .palettes = gTilesetPalettes_Crystal_OlivineCity,
-    .metatiles = gMetatiles_Crystal_OlivineCity,
-    .metatileAttributes = gMetatileAttributes_Crystal_OlivineCity,
+    .tiles = gTilesetTiles_Crystal_CinnabarIsland,
+    .palettes = gTilesetPalettes_Crystal_CinnabarIsland,
+    .metatiles = gMetatiles_Crystal_CinnabarIsland,
+    .metatileAttributes = gMetatileAttributes_Crystal_CinnabarIsland,
     .callback = NULL,
 };
 
@@ -980,14 +980,14 @@ const struct Tileset gTileset_Crystal_MiscLab =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_DarKBrown =
+const struct Tileset gTileset_Crystal_KurtsHouse =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_DarKBrown,
-    .palettes = gTilesetPalettes_Crystal_DarKBrown,
-    .metatiles = gMetatiles_Crystal_DarKBrown,
-    .metatileAttributes = gMetatileAttributes_Crystal_DarKBrown,
+    .tiles = gTilesetTiles_Crystal_KurtsHouse,
+    .palettes = gTilesetPalettes_Crystal_KurtsHouse,
+    .metatiles = gMetatiles_Crystal_KurtsHouse,
+    .metatileAttributes = gMetatileAttributes_Crystal_KurtsHouse,
     .callback = NULL,
 };
 
@@ -1024,14 +1024,14 @@ const struct Tileset gTileset_Crystal_Mansion =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_IlexForest =
+const struct Tileset gTileset_Crystal_ViridianForest =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_IlexForest,
-    .palettes = gTilesetPalettes_Crystal_IlexForest,
-    .metatiles = gMetatiles_Crystal_IlexForest,
-    .metatileAttributes = gMetatileAttributes_Crystal_IlexForest,
+    .tiles = gTilesetTiles_Crystal_ViridianForest,
+    .palettes = gTilesetPalettes_Crystal_ViridianForest,
+    .metatiles = gMetatiles_Crystal_ViridianForest,
+    .metatileAttributes = gMetatileAttributes_Crystal_ViridianForest,
     .callback = NULL,
 };
 
@@ -1043,17 +1043,6 @@ const struct Tileset gTileset_Crystal_BugsyGym =
     .palettes = gTilesetPalettes_Crystal_BugsyGym,
     .metatiles = gMetatiles_Crystal_BugsyGym,
     .metatileAttributes = gMetatileAttributes_Crystal_BugsyGym,
-    .callback = NULL,
-};
-
-const struct Tileset gTileset_Crystal_MtSilver =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_MtSilver,
-    .palettes = gTilesetPalettes_Crystal_MtSilver,
-    .metatiles = gMetatiles_Crystal_MtSilver,
-    .metatileAttributes = gMetatileAttributes_Crystal_MtSilver,
     .callback = NULL,
 };
 
@@ -1112,25 +1101,14 @@ const struct Tileset gTileset_Crystal_BikeShop =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_SilverCave =
+const struct Tileset gTileset_Crystal_TanobyRuins =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_SilverCave,
-    .palettes = gTilesetPalettes_Crystal_SilverCave,
-    .metatiles = gMetatiles_Crystal_SilverCave,
-    .metatileAttributes = gMetatileAttributes_Crystal_SilverCave,
-    .callback = NULL,
-};
-
-const struct Tileset gTileset_Crystal_HiddenRoomAlph =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_HiddenRoomAlph,
-    .palettes = gTilesetPalettes_Crystal_HiddenRoomAlph,
-    .metatiles = gMetatiles_Crystal_HiddenRoomAlph,
-    .metatileAttributes = gMetatileAttributes_Crystal_HiddenRoomAlph,
+    .tiles = gTilesetTiles_Crystal_TanobyRuins,
+    .palettes = gTilesetPalettes_Crystal_TanobyRuins,
+    .metatiles = gMetatiles_Crystal_TanobyRuins,
+    .metatileAttributes = gMetatileAttributes_Crystal_TanobyRuins,
     .callback = NULL,
 };
 
@@ -1189,14 +1167,14 @@ const struct Tileset gTileset_Crystal_Lighthouse =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_IcePath =
+const struct Tileset gTileset_Crystal_SeafoamIslands =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_IcePath,
-    .palettes = gTilesetPalettes_Crystal_IcePath,
-    .metatiles = gMetatiles_Crystal_IcePath,
-    .metatileAttributes = gMetatileAttributes_Crystal_IcePath,
+    .tiles = gTilesetTiles_Crystal_SeafoamIslands,
+    .palettes = gTilesetPalettes_Crystal_SeafoamIslands,
+    .metatiles = gMetatiles_Crystal_SeafoamIslands,
+    .metatileAttributes = gMetatileAttributes_Crystal_SeafoamIslands,
     .callback = NULL,
 };
 
@@ -1255,14 +1233,14 @@ const struct Tileset gTileset_Crystal_HallOfFame =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_Route44 =
+const struct Tileset gTileset_Crystal_SnowtopMountain =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_Route44,
-    .palettes = gTilesetPalettes_Crystal_Route44,
-    .metatiles = gMetatiles_Crystal_Route44,
-    .metatileAttributes = gMetatileAttributes_Crystal_Route44,
+    .tiles = gTilesetTiles_Crystal_SnowtopMountain,
+    .palettes = gTilesetPalettes_Crystal_SnowtopMountain,
+    .metatiles = gMetatiles_Crystal_SnowtopMountain,
+    .metatileAttributes = gMetatileAttributes_Crystal_SnowtopMountain,
     .callback = NULL,
 };
 
@@ -1362,5 +1340,16 @@ const struct Tileset gTileset_Crystal_SeviiIslands123 =
     .palettes = gTilesetPalettes_Crystal_SeviiIslands123,
     .metatiles = gMetatiles_Crystal_SeviiIslands123,
     .metatileAttributes = gMetatileAttributes_Crystal_SeviiIslands123,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Crystal_RockTunnel =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Crystal_RockTunnel,
+    .palettes = gTilesetPalettes_Crystal_RockTunnel,
+    .metatiles = gMetatiles_Crystal_RockTunnel,
+    .metatileAttributes = gMetatileAttributes_Crystal_RockTunnel,
     .callback = NULL,
 };

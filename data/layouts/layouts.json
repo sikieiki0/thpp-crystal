@@ -5246,7 +5246,7 @@
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
     },
     {
-      "id": "WAKABA_TOWN",
+      "id": "LAYOUT_WAKABA_TOWN",
       "name": "WakabaTown_Layout",
       "width": 28,
       "height": 22,
@@ -5289,7 +5289,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/HiwadaTown/border.bin",
       "blockdata_filepath": "data/layouts/HiwadaTown/map.bin"
     },
@@ -5301,7 +5301,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_GoldenrodCity",
+      "secondary_tileset": "gTileset_Crystal_SaffronCity",
       "border_filepath": "data/layouts/KoganeCity/border.bin",
       "blockdata_filepath": "data/layouts/KoganeCity/map.bin"
     },
@@ -5325,7 +5325,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "secondary_tileset": "gTileset_Crystal_CinnabarIsland",
       "border_filepath": "data/layouts/AsagiCity/border.bin",
       "blockdata_filepath": "data/layouts/AsagiCity/map.bin"
     },
@@ -5433,7 +5433,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_GoldenrodCity",
+      "secondary_tileset": "gTileset_Crystal_SaffronCity",
       "border_filepath": "data/layouts/Route34/border.bin",
       "blockdata_filepath": "data/layouts/Route34/map.bin"
     },
@@ -5493,7 +5493,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "secondary_tileset": "gTileset_Crystal_CinnabarIsland",
       "border_filepath": "data/layouts/Route39/border.bin",
       "blockdata_filepath": "data/layouts/Route39/map.bin"
     },
@@ -5505,7 +5505,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "secondary_tileset": "gTileset_Crystal_CinnabarIsland",
       "border_filepath": "data/layouts/Route40/border.bin",
       "blockdata_filepath": "data/layouts/Route40/map.bin"
     },
@@ -5553,7 +5553,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_Route44",
+      "secondary_tileset": "gTileset_Crystal_SnowtopMountain",
       "border_filepath": "data/layouts/Route44/border.bin",
       "blockdata_filepath": "data/layouts/Route44/map.bin"
     },
@@ -5577,7 +5577,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/Route46/border.bin",
       "blockdata_filepath": "data/layouts/Route46/map.bin"
     },
@@ -5625,7 +5625,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_DarKBrown",
+      "secondary_tileset": "gTileset_Crystal_KurtsHouse",
       "border_filepath": "data/layouts/House4/border.bin",
       "blockdata_filepath": "data/layouts/House4/map.bin"
     },
@@ -5829,7 +5829,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_DarKBrown",
+      "secondary_tileset": "gTileset_Crystal_KurtsHouse",
       "border_filepath": "data/layouts/HiwadaTown_KurtsHouse/border.bin",
       "blockdata_filepath": "data/layouts/HiwadaTown_KurtsHouse/map.bin"
     },
@@ -5841,7 +5841,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_RockTunnel",
       "border_filepath": "data/layouts/SlowpokeWell_1F/border.bin",
       "blockdata_filepath": "data/layouts/SlowpokeWell_1F/map.bin"
     },
@@ -5853,7 +5853,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_SlowpokeWell",
+      "secondary_tileset": "gTileset_Crystal_RockTunnel",
       "border_filepath": "data/layouts/SlowpokeWell_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlowpokeWell_2F/map.bin"
     },
@@ -5865,7 +5865,7 @@
       "border_width": 3,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IlexForest",
+      "secondary_tileset": "gTileset_Crystal_ViridianForest",
       "border_filepath": "data/layouts/IlexForest/border.bin",
       "blockdata_filepath": "data/layouts/IlexForest/map.bin"
     },
@@ -6225,7 +6225,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_SilverCave",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/RuinsOfAlph_North/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_North/map.bin"
     },
@@ -6237,7 +6237,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_SilverCave",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/RuinsOfAlph_Underground/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_Underground/map.bin"
     },
@@ -6249,7 +6249,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_SilverCave",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/RuinsOfAlph_NorthWest/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_NorthWest/map.bin"
     },
@@ -6261,7 +6261,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_SilverCave",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/RuinsOfAlph_SouthEast/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_SouthEast/map.bin"
     },
@@ -6273,7 +6273,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_SilverCave",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/RuinsOfAlph_SouthWest/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_SouthWest/map.bin"
     },
@@ -6285,7 +6285,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_Building",
-      "secondary_tileset": "gTileset_Crystal_HiddenRoomAlph",
+      "secondary_tileset": "gTileset_Crystal_TanobyRuins",
       "border_filepath": "data/layouts/RuinsOfAlph_HiddenRoom/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_HiddenRoom/map.bin"
     },
@@ -6309,7 +6309,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_Route44",
+      "secondary_tileset": "gTileset_Crystal_SnowtopMountain",
       "border_filepath": "data/layouts/SinjohRuins/border.bin",
       "blockdata_filepath": "data/layouts/SinjohRuins/map.bin"
     },
@@ -6669,7 +6669,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IcePath",
+      "secondary_tileset": "gTileset_Crystal_SeafoamIslands",
       "border_filepath": "data/layouts/IcePath_1F/border.bin",
       "blockdata_filepath": "data/layouts/IcePath_1F/map.bin"
     },
@@ -6681,7 +6681,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IcePath",
+      "secondary_tileset": "gTileset_Crystal_SeafoamIslands",
       "border_filepath": "data/layouts/IcePath_2F/border.bin",
       "blockdata_filepath": "data/layouts/IcePath_2F/map.bin"
     },
@@ -6693,7 +6693,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IcePath",
+      "secondary_tileset": "gTileset_Crystal_SeafoamIslands",
       "border_filepath": "data/layouts/IcePath_3F/border.bin",
       "blockdata_filepath": "data/layouts/IcePath_3F/map.bin"
     },
@@ -6705,7 +6705,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IcePath",
+      "secondary_tileset": "gTileset_Crystal_SeafoamIslands",
       "border_filepath": "data/layouts/IcePath_4F/border.bin",
       "blockdata_filepath": "data/layouts/IcePath_4F/map.bin"
     },
@@ -6861,7 +6861,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/VictoryRoadIndigo_1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoadIndigo_1F/map.bin"
     },
@@ -6873,7 +6873,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/VictoryRoadIndigo_2F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoadIndigo_2F/map.bin"
     },
@@ -6885,7 +6885,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/VictoryRoadIndigo_3F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoadIndigo_3F/map.bin"
     },
@@ -7029,7 +7029,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/SilverCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/SilverCave_1F/map.bin"
     },
@@ -7041,7 +7041,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/SilverCave_2F/border.bin",
       "blockdata_filepath": "data/layouts/SilverCave_2F/map.bin"
     },
@@ -7053,7 +7053,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_MtSilver",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/SilverCave_3F/border.bin",
       "blockdata_filepath": "data/layouts/SilverCave_3F/map.bin"
     },
@@ -7101,7 +7101,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IlexForest",
+      "secondary_tileset": "gTileset_Crystal_ViridianForest",
       "border_filepath": "data/layouts/SeasideCave_SecretGarden/border.bin",
       "blockdata_filepath": "data/layouts/SeasideCave_SecretGarden/map.bin"
     },
@@ -7245,7 +7245,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_Crystal_DarkCave",
       "border_filepath": "data/layouts/CliffEdgeGate/border.bin",
       "blockdata_filepath": "data/layouts/CliffEdgeGate/map.bin"
     },
@@ -7257,7 +7257,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/Route47/border.bin",
       "blockdata_filepath": "data/layouts/Route47/map.bin"
     },
@@ -7269,7 +7269,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_Crystal_NavelRock",
       "border_filepath": "data/layouts/Route48/border.bin",
       "blockdata_filepath": "data/layouts/Route48/map.bin"
     },
@@ -7401,7 +7401,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_GoldenrodCity",
+      "secondary_tileset": "gTileset_Crystal_SaffronCity",
       "border_filepath": "data/layouts/YamabukiCity/border.bin",
       "blockdata_filepath": "data/layouts/YamabukiCity/map.bin"
     },
@@ -7413,7 +7413,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "secondary_tileset": "gTileset_Crystal_CinnabarIsland",
       "border_filepath": "data/layouts/GurenTown/border.bin",
       "blockdata_filepath": "data/layouts/GurenTown/map.bin"
     },
@@ -7653,7 +7653,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "secondary_tileset": "gTileset_Crystal_CinnabarIsland",
       "border_filepath": "data/layouts/Route20/border.bin",
       "blockdata_filepath": "data/layouts/Route20/map.bin"
     },
@@ -7677,7 +7677,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_OlivineCity",
+      "secondary_tileset": "gTileset_Crystal_CinnabarIsland",
       "border_filepath": "data/layouts/Route21_South/border.bin",
       "blockdata_filepath": "data/layouts/Route21_South/map.bin"
     },
