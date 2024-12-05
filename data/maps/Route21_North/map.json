@@ -13,7 +13,18 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_MASARA_TOWN",
+      "offset": 0,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE21_SOUTH",
+      "offset": 0,
+      "direction": "down"
+    }
+  ],
   "object_events": [
 
   ],

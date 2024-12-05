@@ -13,12 +13,24 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_TOKIWA_CITY",
+      "offset": -10,
+      "direction": "right"
+    }
+  ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_BONEKA_LEAGUE_RECEPTION_GATE",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 
