@@ -5253,7 +5253,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/WakabaTown/border.bin",
       "blockdata_filepath": "data/layouts/WakabaTown/map.bin"
     },
@@ -5265,7 +5265,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/YoshinoCity/border.bin",
       "blockdata_filepath": "data/layouts/YoshinoCity/map.bin"
     },
@@ -5277,7 +5277,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/KikyouCity/border.bin",
       "blockdata_filepath": "data/layouts/KikyouCity/map.bin"
     },
@@ -5313,7 +5313,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/EnjuCity/border.bin",
       "blockdata_filepath": "data/layouts/EnjuCity/map.bin"
     },
@@ -5349,7 +5349,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/ChoujiTown/border.bin",
       "blockdata_filepath": "data/layouts/ChoujiTown/map.bin"
     },
@@ -5361,7 +5361,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/FusubeCity/border.bin",
       "blockdata_filepath": "data/layouts/FusubeCity/map.bin"
     },
@@ -5373,7 +5373,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/Route29/border.bin",
       "blockdata_filepath": "data/layouts/Route29/map.bin"
     },
@@ -5385,7 +5385,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/Route30/border.bin",
       "blockdata_filepath": "data/layouts/Route30/map.bin"
     },
@@ -5397,7 +5397,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/Route31/border.bin",
       "blockdata_filepath": "data/layouts/Route31/map.bin"
     },
@@ -5409,7 +5409,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/Route32/border.bin",
       "blockdata_filepath": "data/layouts/Route32/map.bin"
     },
@@ -5421,7 +5421,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/Route33/border.bin",
       "blockdata_filepath": "data/layouts/Route33/map.bin"
     },
@@ -5445,7 +5445,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/Route35/border.bin",
       "blockdata_filepath": "data/layouts/Route35/map.bin"
     },
@@ -5457,7 +5457,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/Route36/border.bin",
       "blockdata_filepath": "data/layouts/Route36/map.bin"
     },
@@ -5469,7 +5469,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/Route37/border.bin",
       "blockdata_filepath": "data/layouts/Route37/map.bin"
     },
@@ -5481,7 +5481,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/Route38/border.bin",
       "blockdata_filepath": "data/layouts/Route38/map.bin"
     },
@@ -5541,7 +5541,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/Route43/border.bin",
       "blockdata_filepath": "data/layouts/Route43/map.bin"
     },
@@ -5565,7 +5565,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/Route45/border.bin",
       "blockdata_filepath": "data/layouts/Route45/map.bin"
     },
@@ -6201,7 +6201,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/NationalPark/border.bin",
       "blockdata_filepath": "data/layouts/NationalPark/map.bin"
     },
@@ -6213,7 +6213,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands67",
       "border_filepath": "data/layouts/RuinsOfAlph/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph/map.bin"
     },
@@ -6321,7 +6321,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/SinjohRuins_MystriStage/border.bin",
       "blockdata_filepath": "data/layouts/SinjohRuins_MystriStage/map.bin"
     },
@@ -6369,7 +6369,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/BrassTower_2F/border.bin",
       "blockdata_filepath": "data/layouts/BrassTower_2F/map.bin"
     },
@@ -6513,7 +6513,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands67",
       "border_filepath": "data/layouts/BattleFrontier/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier/map.bin"
     },
@@ -6813,7 +6813,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/Route27/border.bin",
       "blockdata_filepath": "data/layouts/Route27/map.bin"
     },
@@ -6837,7 +6837,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "secondary_tileset": "gTileset_Crystal_ViridianCity",
       "border_filepath": "data/layouts/Route26/border.bin",
       "blockdata_filepath": "data/layouts/Route26/map.bin"
     },
@@ -6897,7 +6897,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_Route23",
+      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
       "border_filepath": "data/layouts/Route23/border.bin",
       "blockdata_filepath": "data/layouts/Route23/map.bin"
     },
@@ -6909,7 +6909,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_Route23",
+      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
       "border_filepath": "data/layouts/IndigoPlateau/border.bin",
       "blockdata_filepath": "data/layouts/IndigoPlateau/map.bin"
     },
@@ -6933,7 +6933,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "secondary_tileset": "gTileset_Crystal_ViridianCity",
       "border_filepath": "data/layouts/Route28/border.bin",
       "blockdata_filepath": "data/layouts/Route28/map.bin"
     },
@@ -7233,7 +7233,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_EcruteakCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/BellchimeTrail/border.bin",
       "blockdata_filepath": "data/layouts/BellchimeTrail/map.bin"
     },
@@ -7281,7 +7281,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BlackthornCity",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/SafariZoneGate/border.bin",
       "blockdata_filepath": "data/layouts/SafariZoneGate/map.bin"
     },
@@ -7305,7 +7305,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_NewBarkTown",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/MasaraTown/border.bin",
       "blockdata_filepath": "data/layouts/MasaraTown/map.bin"
     },
@@ -7317,7 +7317,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
+      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
       "border_filepath": "data/layouts/TokiwaCity/border.bin",
       "blockdata_filepath": "data/layouts/TokiwaCity/map.bin"
     },
@@ -7329,7 +7329,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_PewterCity",
       "border_filepath": "data/layouts/NibiCity/border.bin",
       "blockdata_filepath": "data/layouts/NibiCity/map.bin"
     },
@@ -7341,7 +7341,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/HanadaCity/border.bin",
       "blockdata_filepath": "data/layouts/HanadaCity/map.bin"
     },
@@ -7352,8 +7352,8 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_BattleArena",
-      "secondary_tileset": "gTileset_BattleFrontierRankingHall",
+      "primary_tileset": "gTileset_Crystal_General",
+      "secondary_tileset": "gTileset_Crystal_VermilionCity",
       "border_filepath": "data/layouts/KuchibaCity/border.bin",
       "blockdata_filepath": "data/layouts/KuchibaCity/map.bin"
     },
@@ -7365,7 +7365,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "secondary_tileset": "gTileset_Crystal_LavenderTown",
       "border_filepath": "data/layouts/CionTown/border.bin",
       "blockdata_filepath": "data/layouts/CionTown/map.bin"
     },
@@ -7377,7 +7377,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_CeladonCity",
       "border_filepath": "data/layouts/TamamushiCity/border.bin",
       "blockdata_filepath": "data/layouts/TamamushiCity/map.bin"
     },
@@ -7389,7 +7389,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_FuchsiaCity",
       "border_filepath": "data/layouts/SekichikuCity/border.bin",
       "blockdata_filepath": "data/layouts/SekichikuCity/map.bin"
     },
@@ -7401,7 +7401,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_GoldenrodCity",
       "border_filepath": "data/layouts/YamabukiCity/border.bin",
       "blockdata_filepath": "data/layouts/YamabukiCity/map.bin"
     },
@@ -7413,7 +7413,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_OlivineCity",
       "border_filepath": "data/layouts/GurenTown/border.bin",
       "blockdata_filepath": "data/layouts/GurenTown/map.bin"
     },
@@ -7425,7 +7425,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_BattleTowerOutside",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/Route1/border.bin",
       "blockdata_filepath": "data/layouts/Route1/map.bin"
     },
@@ -7437,7 +7437,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
       "border_filepath": "data/layouts/Route2/border.bin",
       "blockdata_filepath": "data/layouts/Route2/map.bin"
     },
@@ -7449,7 +7449,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_Crystal_PewterCity",
       "border_filepath": "data/layouts/Route3/border.bin",
       "blockdata_filepath": "data/layouts/Route3/map.bin"
     },
@@ -7461,7 +7461,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/Route4/border.bin",
       "blockdata_filepath": "data/layouts/Route4/map.bin"
     },
@@ -7473,7 +7473,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/Route5/border.bin",
       "blockdata_filepath": "data/layouts/Route5/map.bin"
     },
@@ -7485,7 +7485,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierRankingHall",
+      "secondary_tileset": "gTileset_Crystal_VermilionCity",
       "border_filepath": "data/layouts/Route6/border.bin",
       "blockdata_filepath": "data/layouts/Route6/map.bin"
     },
@@ -7497,7 +7497,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePalace",
+      "secondary_tileset": "gTileset_Crystal_CeladonCity",
       "border_filepath": "data/layouts/Route7/border.bin",
       "blockdata_filepath": "data/layouts/Route7/map.bin"
     },
@@ -7509,7 +7509,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "secondary_tileset": "gTileset_Crystal_LavenderTown",
       "border_filepath": "data/layouts/Route8/border.bin",
       "blockdata_filepath": "data/layouts/Route8/map.bin"
     },
@@ -7521,7 +7521,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/Route9/border.bin",
       "blockdata_filepath": "data/layouts/Route9/map.bin"
     },
@@ -7533,7 +7533,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "secondary_tileset": "gTileset_Crystal_LavenderTown",
       "border_filepath": "data/layouts/Route10/border.bin",
       "blockdata_filepath": "data/layouts/Route10/map.bin"
     },
@@ -7545,7 +7545,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierRankingHall",
+      "secondary_tileset": "gTileset_Crystal_VermilionCity",
       "border_filepath": "data/layouts/Route11/border.bin",
       "blockdata_filepath": "data/layouts/Route11/map.bin"
     },
@@ -7557,7 +7557,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "secondary_tileset": "gTileset_Crystal_LavenderTown",
       "border_filepath": "data/layouts/Route12/border.bin",
       "blockdata_filepath": "data/layouts/Route12/map.bin"
     },
@@ -7569,7 +7569,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "secondary_tileset": "gTileset_Crystal_LavenderTown",
       "border_filepath": "data/layouts/Route13/border.bin",
       "blockdata_filepath": "data/layouts/Route13/map.bin"
     },
@@ -7581,7 +7581,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "secondary_tileset": "gTileset_Crystal_LavenderTown",
       "border_filepath": "data/layouts/Route14/border.bin",
       "blockdata_filepath": "data/layouts/Route14/map.bin"
     },
@@ -7593,7 +7593,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePike",
+      "secondary_tileset": "gTileset_Crystal_FuchsiaCity",
       "border_filepath": "data/layouts/Route15/border.bin",
       "blockdata_filepath": "data/layouts/Route15/map.bin"
     },
@@ -7605,7 +7605,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePalace",
+      "secondary_tileset": "gTileset_Crystal_CeladonCity",
       "border_filepath": "data/layouts/Route16/border.bin",
       "blockdata_filepath": "data/layouts/Route16/map.bin"
     },
@@ -7617,7 +7617,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePalace",
+      "secondary_tileset": "gTileset_Crystal_CeladonCity",
       "border_filepath": "data/layouts/Route17/border.bin",
       "blockdata_filepath": "data/layouts/Route17/map.bin"
     },
@@ -7629,7 +7629,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePalace",
+      "secondary_tileset": "gTileset_Crystal_CeladonCity",
       "border_filepath": "data/layouts/Route18/border.bin",
       "blockdata_filepath": "data/layouts/Route18/map.bin"
     },
@@ -7641,7 +7641,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePike",
+      "secondary_tileset": "gTileset_Crystal_FuchsiaCity",
       "border_filepath": "data/layouts/Route19/border.bin",
       "blockdata_filepath": "data/layouts/Route19/map.bin"
     },
@@ -7653,7 +7653,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePyramid",
+      "secondary_tileset": "gTileset_Crystal_OlivineCity",
       "border_filepath": "data/layouts/Route20/border.bin",
       "blockdata_filepath": "data/layouts/Route20/map.bin"
     },
@@ -7665,7 +7665,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleDome",
+      "secondary_tileset": "gTileset_Crystal_PalletTown",
       "border_filepath": "data/layouts/Route21_North/border.bin",
       "blockdata_filepath": "data/layouts/Route21_North/map.bin"
     },
@@ -7677,7 +7677,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattlePyramid",
+      "secondary_tileset": "gTileset_Crystal_OlivineCity",
       "border_filepath": "data/layouts/Route21_South/border.bin",
       "blockdata_filepath": "data/layouts/Route21_South/map.bin"
     },
@@ -7689,7 +7689,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
       "border_filepath": "data/layouts/Route22/border.bin",
       "blockdata_filepath": "data/layouts/Route22/map.bin"
     },
@@ -7701,7 +7701,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/Route24/border.bin",
       "blockdata_filepath": "data/layouts/Route24/map.bin"
     },
@@ -7713,7 +7713,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCity",
       "border_filepath": "data/layouts/Route25/border.bin",
       "blockdata_filepath": "data/layouts/Route25/map.bin"
     },
@@ -7725,7 +7725,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/OneIsland/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland/map.bin"
     },
@@ -7737,7 +7737,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/TwoIsland/border.bin",
       "blockdata_filepath": "data/layouts/TwoIsland/map.bin"
     },
@@ -7749,7 +7749,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands123",
       "border_filepath": "data/layouts/ThreeIsland/border.bin",
       "blockdata_filepath": "data/layouts/ThreeIsland/map.bin"
     },
@@ -7761,7 +7761,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_DewfordGym",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/FourIsland/border.bin",
       "blockdata_filepath": "data/layouts/FourIsland/map.bin"
     },
@@ -7773,7 +7773,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_DewfordGym",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands45",
       "border_filepath": "data/layouts/FiveIsland/border.bin",
       "blockdata_filepath": "data/layouts/FiveIsland/map.bin"
     },
@@ -7785,7 +7785,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands67",
       "border_filepath": "data/layouts/SixIsland/border.bin",
       "blockdata_filepath": "data/layouts/SixIsland/map.bin"
     },
@@ -7797,7 +7797,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_Crystal_SeviiIslands67",
       "border_filepath": "data/layouts/SevenIsland/border.bin",
       "blockdata_filepath": "data/layouts/SevenIsland/map.bin"
     }

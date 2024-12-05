@@ -214,8 +214,8 @@ const u16 gMetatileAttributes_Crystal_General[] = INCBIN_U16("data/tilesets/prim
 const u16 gMetatiles_Crystal_Building[] = INCBIN_U16("data/tilesets/primary/crystal_building/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_Building[] = INCBIN_U16("data/tilesets/primary/crystal_building/metatile_attributes.bin");
 
-const u16 gMetatiles_Crystal_NewBarkTown[] = INCBIN_U16("data/tilesets/secondary/crystal_new_bark_town/metatiles.bin");
-const u16 gMetatileAttributes_Crystal_NewBarkTown[] = INCBIN_U16("data/tilesets/secondary/crystal_new_bark_town/metatile_attributes.bin");
+const u16 gMetatiles_Crystal_PalletTown[] = INCBIN_U16("data/tilesets/secondary/crystal_pallet_town/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_PalletTown[] = INCBIN_U16("data/tilesets/secondary/crystal_pallet_town/metatile_attributes.bin");
 
 const u16 gMetatiles_Crystal_SlowpokeWell[] = INCBIN_U16("data/tilesets/secondary/crystal_slowpoke_well/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_SlowpokeWell[] = INCBIN_U16("data/tilesets/secondary/crystal_slowpoke_well/metatile_attributes.bin");
@@ -223,17 +223,14 @@ const u16 gMetatileAttributes_Crystal_SlowpokeWell[] = INCBIN_U16("data/tilesets
 const u16 gMetatiles_Crystal_GoldenrodCity[] = INCBIN_U16("data/tilesets/secondary/crystal_goldenrod_city/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_GoldenrodCity[] = INCBIN_U16("data/tilesets/secondary/crystal_goldenrod_city/metatile_attributes.bin");
 
-const u16 gMetatiles_Crystal_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/crystal_ecruteak_city/metatiles.bin");
-const u16 gMetatileAttributes_Crystal_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/crystal_ecruteak_city/metatile_attributes.bin");
-
 const u16 gMetatiles_Crystal_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/crystal_olivine_city/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/crystal_olivine_city/metatile_attributes.bin");
 
-const u16 gMetatiles_Crystal_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/crystal_blackthorn_city/metatiles.bin");
-const u16 gMetatileAttributes_Crystal_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/crystal_blackthorn_city/metatile_attributes.bin");
+const u16 gMetatiles_Crystal_SeviiIslands45[] = INCBIN_U16("data/tilesets/secondary/crystal_sevii_islands_45/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_SeviiIslands45[] = INCBIN_U16("data/tilesets/secondary/crystal_sevii_islands_45/metatile_attributes.bin");
 
-const u16 gMetatiles_Crystal_BattleTowerOutside[] = INCBIN_U16("data/tilesets/secondary/crystal_battle_tower_outside/metatiles.bin");
-const u16 gMetatileAttributes_Crystal_BattleTowerOutside[] = INCBIN_U16("data/tilesets/secondary/crystal_battle_tower_outside/metatile_attributes.bin");
+const u16 gMetatiles_Crystal_SeviiIslands67[] = INCBIN_U16("data/tilesets/secondary/crystal_sevii_islands_67/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_SeviiIslands67[] = INCBIN_U16("data/tilesets/secondary/crystal_sevii_islands_67/metatile_attributes.bin");
 
 const u16 gMetatiles_Crystal_PlayersHouse[] = INCBIN_U16("data/tilesets/secondary/crystal_players_house/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_PlayersHouse[] = INCBIN_U16("data/tilesets/secondary/crystal_players_house/metatile_attributes.bin");
@@ -316,11 +313,11 @@ const u16 gMetatileAttributes_Crystal_IcePath[] = INCBIN_U16("data/tilesets/seco
 const u16 gMetatiles_Crystal_CeruleanCity[] = INCBIN_U16("data/tilesets/secondary/crystal_cerulean_city/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_CeruleanCity[] = INCBIN_U16("data/tilesets/secondary/crystal_cerulean_city/metatile_attributes.bin");
 
+const u16 gMetatiles_Crystal_ViridianCity[] = INCBIN_U16("data/tilesets/secondary/crystal_viridian_city/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_ViridianCity[] = INCBIN_U16("data/tilesets/secondary/crystal_viridian_city/metatile_attributes.bin");
+
 const u16 gMetatiles_Crystal_IndigoPlateau[] = INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_IndigoPlateau[] = INCBIN_U16("data/tilesets/secondary/crystal_indigo_plateau/metatile_attributes.bin");
-
-const u16 gMetatiles_Crystal_Route23[] = INCBIN_U16("data/tilesets/secondary/crystal_route_23/metatiles.bin");
-const u16 gMetatileAttributes_Crystal_Route23[] = INCBIN_U16("data/tilesets/secondary/crystal_route_23/metatile_attributes.bin");
 
 const u16 gMetatiles_Crystal_League[] = INCBIN_U16("data/tilesets/secondary/crystal_league/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_League[] = INCBIN_U16("data/tilesets/secondary/crystal_league/metatile_attributes.bin");
@@ -338,3 +335,21 @@ const u16 gMetatileAttributes_Crystal_MtEmber[] = INCBIN_U16("data/tilesets/seco
 
 const u16 gMetatiles_Crystal_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/crystal_cerulean_cave/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/crystal_cerulean_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_PewterCity[] = INCBIN_U16("data/tilesets/secondary/crystal_pewter_city/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_PewterCity[] = INCBIN_U16("data/tilesets/secondary/crystal_pewter_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_FuchsiaCity[] = INCBIN_U16("data/tilesets/secondary/crystal_fuchsia_city/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_FuchsiaCity[] = INCBIN_U16("data/tilesets/secondary/crystal_fuchsia_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_CeladonCity[] = INCBIN_U16("data/tilesets/secondary/crystal_celadon_city/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_CeladonCity[] = INCBIN_U16("data/tilesets/secondary/crystal_celadon_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_LavenderTown[] = INCBIN_U16("data/tilesets/secondary/crystal_lavender_town/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_LavenderTown[] = INCBIN_U16("data/tilesets/secondary/crystal_lavender_town/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_VermilionCity[] = INCBIN_U16("data/tilesets/secondary/crystal_vermilion_city/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_VermilionCity[] = INCBIN_U16("data/tilesets/secondary/crystal_vermilion_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Crystal_SeviiIslands123[] = INCBIN_U16("data/tilesets/secondary/crystal_sevii_islands_123/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_SeviiIslands123[] = INCBIN_U16("data/tilesets/secondary/crystal_sevii_islands_123/metatile_attributes.bin");
