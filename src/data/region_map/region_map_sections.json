@@ -569,16 +569,16 @@
       "height": 3
     },
     {
-      "map_section": "MAPSEC_CERULEAN_ISLAND",
-      "name": "Cerulean Island",
+      "map_section": "MAPSEC_YAMABUKI_CITY",
+      "name": "Yamabuki City",
       "x": 23,
       "y": 6,
       "width": 3,
       "height": 3
     },
     {
-      "map_section": "MAPSEC_YAMABUKI_CITY",
-      "name": "Yamabuki City",
+      "map_section": "MAPSEC_GUREN_TOWN",
+      "name": "Guren Town",
       "x": 23,
       "y": 6,
       "width": 3,

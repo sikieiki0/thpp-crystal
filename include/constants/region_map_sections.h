@@ -74,8 +74,8 @@
 #define MAPSEC_KUCHIBA_CITY                 69
 #define MAPSEC_TAMAMUSHI_CITY               70
 #define MAPSEC_SEKICHIKU_CITY               71
-#define MAPSEC_CERULEAN_ISLAND                72 
-#define MAPSEC_YAMABUKI_CITY                73
+#define MAPSEC_YAMABUKI_CITY                72
+#define MAPSEC_GUREN_TOWN                   73 
 #define MAPSEC_ROUTE_1                      74
 #define MAPSEC_ROUTE_2                      75
 #define MAPSEC_ROUTE_3                      76
