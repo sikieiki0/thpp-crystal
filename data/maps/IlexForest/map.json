@@ -26,8 +26,15 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 10,
-      "y": 10,
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE34_GATE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_ROUTE34_GATE",
       "dest_warp_id": "0"
