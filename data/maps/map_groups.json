@@ -1,6 +1,7 @@
 {
   "group_order": [
-    "gMapGroup_TownsAndRoutesCrystal",
+    "gMapGroup_TownsAndRoutesJohto",
+    "gMapGroup_TownsAndRoutesKanto",
     "gMapGroup_DungeonsCrystal",
     "gMapGroup_IndoorRoutes",
     "gMapGroup_IndoorWakabaTown",
@@ -48,7 +49,7 @@
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124"
   ],
-  "gMapGroup_TownsAndRoutesCrystal": [
+  "gMapGroup_TownsAndRoutesJohto": [
     "WakabaTown",
     "YoshinoCity",
     "KikyouCity",
@@ -61,7 +62,6 @@
     "FusubeCity",
     "IndigoPlateau",
     "SilverCave",
-    "Route23",
     "Route26",
     "Route27",
     "Route28",
@@ -84,13 +84,14 @@
     "Route45",
     "Route46",
     "Route47",
-    "Route48",
+    "Route48"
+  ],
+  "gMapGroup_TownsAndRoutesKanto": [
     "MasaraTown",
     "TokiwaCity",
-    "NibiCity",
-    "HanadaCity",
     "KuchibaCity",
-    "CionTown",
+    "HanadaCity",
+    "NibiCity",
     "TamamushiCity",
     "SekichikuCity",
     "YamabukiCity",
@@ -102,6 +103,7 @@
     "FiveIsland",
     "SixIsland",
     "SevenIsland",
+    "CionTown",
     "Route1",
     "Route2",
     "Route3",
@@ -118,13 +120,14 @@
     "Route14",
     "Route15",
     "Route16",
-    "Route17",
     "Route18",
+    "Route17",
     "Route19",
     "Route20",
     "Route21_North",
     "Route21_South",
     "Route22",
+    "Route23",
     "Route24",
     "Route25"
   ],

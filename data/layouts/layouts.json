@@ -5296,7 +5296,7 @@
     {
       "id": "LAYOUT_KOGANE_CITY",
       "name": "KoganeCity_Layout",
-      "width": 76,
+      "width": 54,
       "height": 54,
       "border_width": 2,
       "border_height": 2,
@@ -5429,7 +5429,7 @@
       "id": "LAYOUT_ROUTE34",
       "name": "Route34_Layout",
       "width": 54,
-      "height": 112,
+      "height": 82,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
