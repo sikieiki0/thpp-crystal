@@ -5529,7 +5529,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "secondary_tileset": "gTileset_Crystal_ViridianCity",
       "border_filepath": "data/layouts/Route42/border.bin",
       "blockdata_filepath": "data/layouts/Route42/map.bin"
     },
@@ -6945,7 +6945,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "secondary_tileset": "gTileset_Crystal_ViridianCity",
       "border_filepath": "data/layouts/SilverCave/border.bin",
       "blockdata_filepath": "data/layouts/SilverCave/map.bin"
     },
@@ -7317,7 +7317,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "secondary_tileset": "gTileset_Crystal_ViridianCity",
       "border_filepath": "data/layouts/TokiwaCity/border.bin",
       "blockdata_filepath": "data/layouts/TokiwaCity/map.bin"
     },
@@ -7437,7 +7437,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_IndigoPlateau",
+      "secondary_tileset": "gTileset_Crystal_ViridianCity",
       "border_filepath": "data/layouts/Route2/border.bin",
       "blockdata_filepath": "data/layouts/Route2/map.bin"
     },
