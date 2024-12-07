@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE32_BONEKA_CENTER",
   "name": "Route32_BonekaCenter",
   "layout": "LAYOUT_BONEKA_CENTER",
-  "music": "MAPSEC_ROUTE_32",
+  "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ROUTE_32_BONEKACENTER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

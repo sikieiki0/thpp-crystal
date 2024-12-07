@@ -63,6 +63,12 @@ static const struct HealLocation sHealLocationsPokemonCenter[HEAL_LOCATION_COUNT
         .map = MAP_NUM(FUSUBE_CITY_BONEKA_CENTER),
         DEFAULT_POKEMON_CENTER_COORDS,
     },
+    [HEAL_LOCATION_JITTERBUG_TOWN - 1] =
+    {
+        .group = MAP_GROUP(JITTERBUG_TOWN),
+        .map = MAP_NUM(JITTERBUG_TOWN),
+        DEFAULT_POKEMON_CENTER_COORDS,
+    },
     [HEAL_LOCATION_INDIGO_PLATEAU - 1] =
     {
         .group = MAP_GROUP(INDIGO_PLATEAU_BONEKA_CENTER),

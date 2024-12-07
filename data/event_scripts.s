@@ -1238,6 +1238,7 @@ Text_Computer::
 	.include "data/maps/AsagiCity/scripts.inc"
 	.include "data/maps/ChoujiTown/scripts.inc"
 	.include "data/maps/FusubeCity/scripts.inc"
+	.include "data/maps/JitterbugTown/scripts.inc"
 	.include "data/maps/Route29/scripts.inc"
 	.include "data/maps/Route30/scripts.inc"
 	.include "data/maps/Route31/scripts.inc"
@@ -1295,7 +1296,6 @@ Text_Computer::
 	.include "data/maps/Route34_Daycare/scripts.inc"
 	.include "data/maps/KoganeCity_BonekaCommunicationCenter_1F/scripts.inc"
 	.include "data/maps/KoganeCity_BonekaCommunicationCenter_2F/scripts.inc"
-
 	.include "data/maps/KoganeCity_DepartmentStore_1F/scripts.inc"
 	.include "data/maps/KoganeCity_DepartmentStore_2F/scripts.inc"
 	.include "data/maps/KoganeCity_DepartmentStore_3F/scripts.inc"
@@ -1393,6 +1393,7 @@ Text_Computer::
 	.include "data/maps/IcePath_2F/scripts.inc"
 	.include "data/maps/IcePath_3F/scripts.inc"
 	.include "data/maps/IcePath_4F/scripts.inc"
+	.include "data/maps/SnowtopMountain/scripts.inc"
 	.include "data/maps/FusubeCity_Gym/scripts.inc"
 	.include "data/maps/FusubeCity_Mart/scripts.inc"
 	.include "data/maps/FusubeCity_BonekaCenter/scripts.inc"
@@ -1495,5 +1496,5 @@ Text_Computer::
 	.include "data/maps/SevenIsland/scripts.inc"	
 
 	.include "data/maps/WakabaTown_PlayersHouse_1F/text.inc"
-	
 
+	

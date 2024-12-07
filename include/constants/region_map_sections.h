@@ -12,6 +12,7 @@
 #define MAPSEC_TANBA_CITY                   8
 #define MAPSEC_CHOUJI_TOWN                  9
 #define MAPSEC_FUSUBE_CITY                  10
+#define MAPSEC_JITTERBUG_TOWN              223
 #define MAPSEC_ROUTE_23                     11
 #define MAPSEC_ROUTE_26                     12
 #define MAPSEC_ROUTE_27                     13
@@ -57,6 +58,7 @@
 #define MAPSEC_MT_MORTAR                    53
 #define MAPSEC_LAKE_OF_RAGE                 54
 #define MAPSEC_ICE_PATH                     55
+#define MAPSEC_SNOWTOP_MOUNTAIN             222
 #define MAPSEC_DRAGONS_DEN                  56
 #define MAPSEC_TOHJO_FALLS                  57
 #define MAPSEC_VICTORY_ROAD                 58
