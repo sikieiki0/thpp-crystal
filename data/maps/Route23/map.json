@@ -18,6 +18,11 @@
       "map": "MAP_INDIGO_PLATEAU",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE26",
+      "offset": -5,
+      "direction": "down"
     }
   ],
   "object_events": [

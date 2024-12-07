@@ -18,6 +18,11 @@
       "map": "MAP_TOKIWA_CITY",
       "offset": -10,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE26",
+      "offset": 0,
+      "direction": "left"
     }
   ],
   "object_events": [

@@ -18,6 +18,11 @@
       "map": "MAP_SILVER_CAVE",
       "offset": -17,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE26",
+      "offset": 0,
+      "direction": "right"
     }
   ],
   "object_events": [
