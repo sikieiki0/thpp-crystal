@@ -3,7 +3,7 @@
     {
       "map_section": "MAPSEC_WAKABA_TOWN",
       "name": "Wakaba Town",
-      "x": 4,
+      "x": 23,
       "y": 11,
       "width": 1,
       "height": 1
@@ -11,23 +11,23 @@
     {
       "map_section": "MAPSEC_YOSHINO_CITY",
       "name": "Yoshino City",
-      "x": 4,
-      "y": 9,
+      "x": 19,
+      "y": 12,
       "width": 1,
       "height": 1
     },
     {
       "map_section": "MAPSEC_KIKYOU_CITY",
       "name": "Kikyou City",
-      "x": 4,
-      "y": 9,
+      "x": 16,
+      "y": 6,
       "width": 1,
       "height": 1
     },
     {
       "map_section": "MAPSEC_HIWADA_TOWN",
       "name": "Hiwada Town",
-      "x": 2,
+      "x": 14,
       "y": 14,
       "width": 1,
       "height": 1
@@ -35,31 +35,31 @@
     {
       "map_section": "MAPSEC_KOGANE_CITY",
       "name": "Kogane City",
-      "x": 5,
-      "y": 3,
+      "x": 12,
+      "y": 9,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "map_section": "MAPSEC_ENJU_CITY",
       "name": "Enju City",
-      "x": 3,
-      "y": 0,
+      "x": 14,
+      "y": 3,
       "width": 1,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ASAGI_CITY",
       "name": "Asagi City",
-      "x": 4,
-      "y": 6,
+      "x": 8,
+      "y": 5,
       "width": 1,
       "height": 1
     },
     {
       "map_section": "MAPSEC_TANBA_CITY",
       "name": "Tanba City",
-      "x": 17,
+      "x": 4,
       "y": 10,
       "width": 1,
       "height": 1
@@ -67,218 +67,218 @@
     {
       "map_section": "MAPSEC_CHOUJI_TOWN",
       "name": "Chouji Town",
-      "x": 1,
-      "y": 9,
+      "x": 18,
+      "y": 3,
       "width": 1,
       "height": 1
     },
     {
       "map_section": "MAPSEC_FUSUBE_CITY",
       "name": "Fusube City",
-      "x": 8,
-      "y": 10,
+      "x": 22,
+      "y": 3,
       "width": 1,
       "height": 2
     },
     {
       "map_section": "MAPSEC_JITTERBUG_TOWN",
       "name": "Jitterbug Town",
-      "x": 4,
-      "y": 9,
+      "x": 25,
+      "y": 8,
       "width": 1,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_23",
       "name": "Route 23",
-      "x": 8,
-      "y": 6,
-      "width": 2,
-      "height": 1
+      "x": 27,
+      "y": 3,
+      "width": 1,
+      "height": 5
     },
     {
       "map_section": "MAPSEC_ROUTE_26",
       "name": "Route 26",
-      "x": 0,
-      "y": 5,
+      "x": 27,
+      "y": 8,
       "width": 1,
-      "height": 2
+      "height": 5
     },
     {
       "map_section": "MAPSEC_ROUTE_27",
       "name": "Route 27",
-      "x": 12,
-      "y": 0,
-      "width": 1,
+      "x": 24,
+      "y": 12,
+      "width": 3,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_28",
       "name": "Route 28",
-      "x": 18,
-      "y": 3,
+      "x": 25,
+      "y": 7,
       "width": 2,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_29",
       "name": "Route 29",
-      "x": 24,
-      "y": 5,
-      "width": 2,
+      "x": 20,
+      "y": 12,
+      "width": 3,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_30",
       "name": "Route 30",
-      "x": 21,
+      "x": 19,
       "y": 7,
-      "width": 1,
+      "width": 5,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_31",
       "name": "Route 31",
-      "x": 27,
-      "y": 8,
-      "width": 1,
-      "height": 2
+      "x": 17,
+      "y": 6,
+      "width": 3,
+      "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_32",
       "name": "Route 32",
-      "x": 4,
-      "y": 10,
+      "x": 16,
+      "y": 7,
       "width": 1,
-      "height": 1
+      "height": 7
     },
     {
       "map_section": "MAPSEC_ROUTE_33",
       "name": "Route 33",
-      "x": 2,
-      "y": 9,
+      "x": 15,
+      "y": 4,
       "width": 2,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_34",
       "name": "Route 34",
-      "x": 4,
-      "y": 8,
-      "width": 4,
-      "height": 1
+      "x": 12,
+      "y": 11,
+      "width": 1,
+      "height": 3
     },
     {
       "map_section": "MAPSEC_ROUTE_35",
       "name": "Route 35",
-      "x": 0,
-      "y": 7,
+      "x": 12,
+      "y": 6,
       "width": 1,
       "height": 3
     },
     {
       "map_section": "MAPSEC_ROUTE_36",
       "name": "Route 36",
-      "x": 0,
-      "y": 10,
-      "width": 1,
-      "height": 3
+      "x": 13,
+      "y": 6,
+      "width": 3,
+      "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_37",
       "name": "Route 37",
-      "x": 0,
-      "y": 13,
-      "width": 2,
-      "height": 1
+      "x": 14,
+      "y": 4,
+      "width": 1,
+      "height": 2
     },
     {
       "map_section": "MAPSEC_ROUTE_38",
       "name": "Route 38",
-      "x": 3,
-      "y": 14,
-      "width": 3,
+      "x": 9,
+      "y": 3,
+      "width": 5,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_39",
       "name": "Route 39",
-      "x": 6,
-      "y": 14,
-      "width": 2,
-      "height": 1
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 2
     },
     {
       "map_section": "MAPSEC_ROUTE_40",
       "name": "Route 40",
-      "x": 8,
-      "y": 12,
-      "width": 1,
+      "x": 7,
+      "y": 6,
+      "width": 2,
       "height": 3
     },
     {
       "map_section": "MAPSEC_ROUTE_41",
       "name": "Route 41",
-      "x": 8,
-      "y": 7,
-      "width": 1,
-      "height": 3
+      "x": 5,
+      "y": 10,
+      "width": 2,
+      "height": 13
     },
     {
       "map_section": "MAPSEC_ROUTE_42",
       "name": "Route 42",
-      "x": 8,
-      "y": 0,
-      "width": 1,
-      "height": 6
+      "x": 15,
+      "y": 3,
+      "width": 3,
+      "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_43",
       "name": "Route 43",
-      "x": 6,
-      "y": 3,
-      "width": 2,
-      "height": 1
+      "x": 18,
+      "y": 1,
+      "width": 1,
+      "height": 2
     },
     {
       "map_section": "MAPSEC_ROUTE_44",
       "name": "Route 44",
-      "x": 4,
-      "y": 0,
-      "width": 4,
+      "x": 19,
+      "y": 3,
+      "width": 3,
       "height": 1
     },
     {
       "map_section": "MAPSEC_ROUTE_45",
       "name": "Route 45",
-      "x": 1,
-      "y": 0,
-      "width": 2,
-      "height": 3
+      "x": 22,
+      "y": 4,
+      "width": 1,
+      "height": 7
     },
     {
       "map_section": "MAPSEC_ROUTE_46",
       "name": "Route 46",
-      "x": 0,
-      "y": 2,
+      "x": 21,
+      "y": 10,
       "width": 1,
-      "height": 3
+      "height": 2
     },
     {
       "map_section": "MAPSEC_ROUTE_47",
       "name": "Route 47",
       "x": 1,
-      "y": 5,
-      "width": 4,
-      "height": 1
+      "y": 10,
+      "width": 3,
+      "height": 2
     },
     {
       "map_section": "MAPSEC_ROUTE_48",
       "name": "Route 48",
-      "x": 5,
-      "y": 6,
-      "width": 3,
-      "height": 1
+      "x": 1,
+      "y": 8,
+      "width": 1,
+      "height": 2
     },
     {
       "map_section": "MAPSEC_ROUTE_32_BONEKACENTER",
@@ -331,9 +331,9 @@
     {
       "map_section": "MAPSEC_ILEX_FOREST",
       "name": "Ilex Forest",
-      "x": 14,
-      "y": 3,
-      "width": 4,
+      "x": 12,
+      "y": 14,
+      "width": 2,
       "height": 1
     },
     {
@@ -419,10 +419,10 @@
     {
       "map_section": "MAPSEC_WHIRL_ISLANDS",
       "name": "Whirl Islands",
-      "x": 24,
-      "y": 10,
+      "x": 74,
+      "y": 9,
       "width": 2,
-      "height": 1
+      "height": 2
     },
     {
       "map_section": "MAPSEC_MT_MORTAR",
@@ -436,8 +436,8 @@
       "map_section": "MAPSEC_LAKE_OF_RAGE",
       "name": "Lake of Rage",
       "x": 18,
-      "y": 10,
-      "width": 3,
+      "y": 0,
+      "width": 1,
       "height": 1
     },
     {
@@ -483,10 +483,10 @@
     {
       "map_section": "MAPSEC_INDIGO_PLATEAU",
       "name": "Indigo Plateau",
-      "x": 20,
-      "y": 6,
-      "width": 3,
-      "height": 3
+      "x": 27,
+      "y": 2,
+      "width": 1,
+      "height": 1
     },
     {
       "map_section": "MAPSEC_SILVER_CAVE",
