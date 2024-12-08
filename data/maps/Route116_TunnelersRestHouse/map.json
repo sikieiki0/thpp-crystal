@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE116_TUNNELERS_REST_HOUSE",
   "name": "Route116_TunnelersRestHouse",
-  "layout": "LAYOUT_ROUTE116_TUNNELERS_REST_HOUSE",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_RUSTBORO",
   "region_map_section": "MAPSEC_ROUTE_116",
   "requires_flash": false,

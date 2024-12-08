@@ -1,7 +1,7 @@
 {
   "id": "MAP_EVER_GRANDE_CITY",
   "name": "EverGrandeCity",
-  "layout": "LAYOUT_EVER_GRANDE_CITY",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_EVER_GRANDE",
   "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
   "requires_flash": false,

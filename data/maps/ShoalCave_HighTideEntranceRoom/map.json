@@ -1,7 +1,7 @@
 {
   "id": "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
   "name": "ShoalCave_HighTideEntranceRoom",
-  "layout": "LAYOUT_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_MT_PYRE",
   "region_map_section": "MAPSEC_SHOAL_CAVE",
   "requires_flash": false,

@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE120",
   "name": "Route120",
-  "layout": "LAYOUT_ROUTE120",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_ROUTE_120",
   "requires_flash": false,
@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {

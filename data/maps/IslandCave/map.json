@@ -1,7 +1,7 @@
 {
   "id": "MAP_ISLAND_CAVE",
   "name": "IslandCave",
-  "layout": "LAYOUT_ISLAND_CAVE",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_SEALED_CHAMBER",
   "region_map_section": "MAPSEC_ISLAND_CAVE",
   "requires_flash": false,

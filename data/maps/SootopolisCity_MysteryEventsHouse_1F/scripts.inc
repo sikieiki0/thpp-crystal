@@ -15,7 +15,6 @@ SootopolisCity_MysteryEventsHouse_1F_EventScript_SetTrainerVisitingLayout::
 	setvar VAR_TEMP_1, 1
 	setobjectxyperm LOCALID_OLD_MAN, 3, 2
 	setobjectmovementtype LOCALID_OLD_MAN, MOVEMENT_TYPE_FACE_DOWN
-	setmaplayoutindex LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F_STAIRS_UNBLOCKED
 	return
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_MoveOldManToDoor::

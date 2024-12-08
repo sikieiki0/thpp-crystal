@@ -171,9 +171,7 @@ static void DoTVShow3CheersForPokeblocks(void);
 static void DoTVShowPokemonTodayFailedCapture(void);
 static void DoTVShowPokemonAngler(void);
 static void DoTVShowTheWorldOfMasters(void);
-static void DoTVShowTodaysRivalTrainer(void);
 static void DoTVShowDewfordTrendWatcherNetwork(void);
-static void DoTVShowHoennTreasureInvestigators(void);
 static void DoTVShowFindThatGamer(void);
 static void DoTVShowBreakingNewsTV(void);
 static void DoTVShowSecretBaseVisit(void);
@@ -4217,14 +4215,8 @@ void DoTVShow(void)
         case TVSHOW_WORLD_OF_MASTERS:
             DoTVShowTheWorldOfMasters();
             break;
-        case TVSHOW_TODAYS_RIVAL_TRAINER:
-            DoTVShowTodaysRivalTrainer();
-            break;
         case TVSHOW_TREND_WATCHER:
             DoTVShowDewfordTrendWatcherNetwork();
-            break;
-        case TVSHOW_TREASURE_INVESTIGATORS:
-            DoTVShowHoennTreasureInvestigators();
             break;
         case TVSHOW_FIND_THAT_GAMER:
             DoTVShowFindThatGamer();
@@ -5505,125 +5497,6 @@ static void DoTVShowTheWorldOfMasters(void)
     ShowFieldMessage(sTVWorldOfMastersTextGroup[state]);
 }
 
-static void DoTVShowTodaysRivalTrainer(void)
-{
-    TVShow *show;
-    u8 state;
-
-    show = &gSaveBlock1Ptr->tvShows[gSpecialVar_0x8004];
-    gSpecialVar_Result = FALSE;
-    state = sTVShowState;
-    switch (state)
-    {
-    case 0:
-        switch (show->rivalTrainer.location)
-        {
-        default:
-            sTVShowState = 7;
-            break;
-        case MAPSEC_SECRET_BASE:
-            sTVShowState = 8;
-            break;
-        case MAPSEC_DYNAMIC:
-            switch (show->rivalTrainer.mapLayoutId)
-            {
-            case LAYOUT_SS_TIDAL_CORRIDOR:
-            case LAYOUT_SS_TIDAL_LOWER_DECK:
-            case LAYOUT_SS_TIDAL_ROOMS:
-                sTVShowState = 10;
-                break;
-            default:
-                sTVShowState = 9;
-                break;
-            }
-            break;
-        }
-        break;
-    case 7:
-        TVShowConvertInternationalString(gStringVar1, show->rivalTrainer.playerName, show->rivalTrainer.language);
-        ConvertIntToDecimalString(1, show->rivalTrainer.dexCount);
-        GetMapName(gStringVar3, show->rivalTrainer.location, 0);
-        if (show->rivalTrainer.badgeCount != 0)
-            sTVShowState = 1;
-        else
-            sTVShowState = 2;
-        break;
-    case 8:
-        TVShowConvertInternationalString(gStringVar1, show->rivalTrainer.playerName, show->rivalTrainer.language);
-        ConvertIntToDecimalString(1, show->rivalTrainer.dexCount);
-        if (show->rivalTrainer.badgeCount != 0)
-            sTVShowState = 1;
-        else
-            sTVShowState = 2;
-        break;
-    case 9:
-        TVShowConvertInternationalString(gStringVar1, show->rivalTrainer.playerName, show->rivalTrainer.language);
-        ConvertIntToDecimalString(1, show->rivalTrainer.dexCount);
-        if (show->rivalTrainer.badgeCount != 0)
-            sTVShowState = 1;
-        else
-            sTVShowState = 2;
-        break;
-    case 10:
-        TVShowConvertInternationalString(gStringVar1, show->rivalTrainer.playerName, show->rivalTrainer.language);
-        ConvertIntToDecimalString(1, show->rivalTrainer.dexCount);
-        if (show->rivalTrainer.badgeCount != 0)
-            sTVShowState = 1;
-        else
-            sTVShowState = 2;
-        break;
-    case 1:
-        ConvertIntToDecimalString(0, show->rivalTrainer.badgeCount);
-        if (FlagGet(FLAG_LANDMARK_BATTLE_FRONTIER))
-        {
-            if (show->rivalTrainer.nSilverSymbols || show->rivalTrainer.nGoldSymbols)
-                sTVShowState = 4;
-            else
-                sTVShowState = 3;
-        }
-        else
-        {
-            sTVShowState = 6;
-        }
-        break;
-    case 2:
-        if (FlagGet(FLAG_LANDMARK_BATTLE_FRONTIER))
-        {
-            if (show->rivalTrainer.nSilverSymbols || show->rivalTrainer.nGoldSymbols)
-                sTVShowState = 4;
-            else
-                sTVShowState = 3;
-        }
-        else
-        {
-            sTVShowState = 6;
-        }
-        break;
-    case 3:
-        if (show->rivalTrainer.battlePoints == 0)
-            sTVShowState = 6;
-        else
-            sTVShowState = 5;
-        break;
-    case 4:
-        ConvertIntToDecimalString(0, show->rivalTrainer.nGoldSymbols);
-        ConvertIntToDecimalString(1, show->rivalTrainer.nSilverSymbols);
-        if (show->rivalTrainer.battlePoints == 0)
-            sTVShowState = 6;
-        else
-            sTVShowState = 5;
-        break;
-    case 5:
-        ConvertIntToDecimalString(0, show->rivalTrainer.battlePoints);
-        sTVShowState = 6;
-        break;
-    case 6:
-        TVShowConvertInternationalString(gStringVar1, show->rivalTrainer.playerName, show->rivalTrainer.language);
-        TVShowDone();
-    }
-    ShowFieldMessage(sTVTodaysRivalTrainerTextGroup[state]);
-}
-
 static void DoTVShowDewfordTrendWatcherNetwork(void)
 {
     TVShow *show;
@@ -5670,52 +5543,6 @@ static void DoTVShowDewfordTrendWatcherNetwork(void)
         TVShowDone();
     }
     ShowFieldMessage(sTVDewfordTrendWatcherNetworkTextGroup[state]);
-}
-
-static void DoTVShowHoennTreasureInvestigators(void)
-{
-    TVShow *show;
-    u8 state;
-
-    show = &gSaveBlock1Ptr->tvShows[gSpecialVar_0x8004];
-    gSpecialVar_Result = FALSE;
-    state = sTVShowState;
-    switch (state)
-    {
-    case 0:
-        StringCopy(gStringVar1, ItemId_GetName(show->treasureInvestigators.item));
-        if (show->treasureInvestigators.location == MAPSEC_DYNAMIC)
-        {
-            switch (show->treasureInvestigators.mapLayoutId)
-            {
-            case LAYOUT_SS_TIDAL_CORRIDOR:
-            case LAYOUT_SS_TIDAL_LOWER_DECK:
-            case LAYOUT_SS_TIDAL_ROOMS:
-                sTVShowState = 2;
-                break;
-            default:
-                sTVShowState = 1;
-                break;
-            }
-        }
-        else
-        {
-            sTVShowState = 1;
-        }
-        break;
-    case 1:
-        StringCopy(gStringVar1, ItemId_GetName(show->treasureInvestigators.item));
-        TVShowConvertInternationalString(gStringVar2, show->treasureInvestigators.playerName, show->treasureInvestigators.language);
-        GetMapName(gStringVar3, show->treasureInvestigators.location, 0);
-        TVShowDone();
-        break;
-    case 2:
-        StringCopy(gStringVar1, ItemId_GetName(show->treasureInvestigators.item));
-        TVShowConvertInternationalString(gStringVar2, show->treasureInvestigators.playerName, show->treasureInvestigators.language);
-        TVShowDone();
-        break;
-    }
-    ShowFieldMessage(sTVHoennTreasureInvestisatorsTextGroup[state]);
 }
 
 static void DoTVShowFindThatGamer(void)

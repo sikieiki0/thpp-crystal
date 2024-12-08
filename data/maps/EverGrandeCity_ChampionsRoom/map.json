@@ -1,7 +1,7 @@
 {
   "id": "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
   "name": "EverGrandeCity_ChampionsRoom",
-  "layout": "LAYOUT_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_VICTORY_ROAD",
   "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
   "requires_flash": false,

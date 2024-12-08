@@ -1,7 +1,7 @@
 {
   "id": "MAP_EVER_GRANDE_CITY_HALL_OF_FAME",
   "name": "EverGrandeCity_HallOfFame",
-  "layout": "LAYOUT_EVER_GRANDE_CITY_HALL_OF_FAME",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_HALL_OF_FAME_ROOM",
   "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
   "requires_flash": false,

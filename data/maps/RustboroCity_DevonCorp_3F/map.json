@@ -1,7 +1,7 @@
 {
   "id": "MAP_RUSTBORO_CITY_DEVON_CORP_3F",
   "name": "RustboroCity_DevonCorp_3F",
-  "layout": "LAYOUT_RUSTBORO_CITY_DEVON_CORP_3F",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_RUSTBORO",
   "region_map_section": "MAPSEC_RUSTBORO_CITY",
   "requires_flash": false,

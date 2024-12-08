@@ -1,7 +1,7 @@
 {
   "id": "MAP_METEOR_FALLS_STEVENS_CAVE",
   "name": "MeteorFalls_StevensCave",
-  "layout": "LAYOUT_METEOR_FALLS_STEVENS_CAVE",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_CAVE_OF_ORIGIN",
   "region_map_section": "MAPSEC_METEOR_FALLS",
   "requires_flash": false,

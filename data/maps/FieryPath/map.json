@@ -1,7 +1,7 @@
 {
   "id": "MAP_FIERY_PATH",
   "name": "FieryPath",
-  "layout": "LAYOUT_FIERY_PATH",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_PETALBURG_WOODS",
   "region_map_section": "MAPSEC_FIERY_PATH",
   "requires_flash": false,

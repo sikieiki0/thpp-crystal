@@ -1,7 +1,7 @@
 {
   "id": "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3",
   "name": "CaveOfOrigin_UnusedRubySapphireMap3",
-  "layout": "LAYOUT_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_CAVE_OF_ORIGIN",
   "region_map_section": "MAPSEC_CAVE_OF_ORIGIN",
   "requires_flash": true,

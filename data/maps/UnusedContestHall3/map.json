@@ -1,7 +1,7 @@
 {
   "id": "MAP_UNUSED_CONTEST_HALL3",
   "name": "UnusedContestHall3",
-  "layout": "LAYOUT_UNUSED_CONTEST_HALL3",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_GSC_PEWTER",
   "region_map_section": "MAPSEC_DYNAMIC",
   "requires_flash": false,

@@ -1,7 +1,7 @@
 {
   "id": "MAP_CAVE_OF_ORIGIN_B1F",
   "name": "CaveOfOrigin_B1F",
-  "layout": "LAYOUT_CAVE_OF_ORIGIN_B1F",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_NONE",
   "region_map_section": "MAPSEC_CAVE_OF_ORIGIN",
   "requires_flash": false,

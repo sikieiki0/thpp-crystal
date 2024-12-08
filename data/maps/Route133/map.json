@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE133",
   "name": "Route133",
-  "layout": "LAYOUT_ROUTE133",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_ROUTE119",
   "region_map_section": "MAPSEC_ROUTE_133",
   "requires_flash": false,

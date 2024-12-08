@@ -1,7 +1,7 @@
 {
   "id": "MAP_ANCIENT_TOMB",
   "name": "AncientTomb",
-  "layout": "LAYOUT_ANCIENT_TOMB",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_SEALED_CHAMBER",
   "region_map_section": "MAPSEC_ANCIENT_TOMB",
   "requires_flash": false,

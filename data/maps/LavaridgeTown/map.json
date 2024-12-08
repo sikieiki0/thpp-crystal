@@ -1,7 +1,7 @@
 {
   "id": "MAP_LAVARIDGE_TOWN",
   "name": "LavaridgeTown",
-  "layout": "LAYOUT_LAVARIDGE_TOWN",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_OLDALE",
   "region_map_section": "MAPSEC_LAVARIDGE_TOWN",
   "requires_flash": false,

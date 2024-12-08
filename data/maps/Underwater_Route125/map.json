@@ -1,7 +1,7 @@
 {
   "id": "MAP_UNDERWATER_ROUTE125",
   "name": "Underwater_Route125",
-  "layout": "LAYOUT_UNDERWATER_ROUTE125",
+  "layout": "LAYOUT_BATTLE_TENT_LOBBY",
   "music": "MUS_UNDERWATER",
   "region_map_section": "MAPSEC_UNDERWATER_125",
   "requires_flash": false,
