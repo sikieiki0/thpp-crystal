@@ -23,6 +23,11 @@
       "map": "MAP_ROUTE30",
       "offset": 14,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE32",
+      "offset": -42,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -37,15 +42,15 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 33,
-      "y": 4,
+      "x": 25,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_YOSHINO_CITY_HOUSE1",
       "dest_warp_id": "0"
     },
     {
-      "x": 26,
-      "y": 3,
+      "x": 36,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_YOSHINO_CITY_MART",
       "dest_warp_id": "0"

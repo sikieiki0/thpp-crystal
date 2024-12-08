@@ -23,6 +23,11 @@
       "map": "MAP_RUINS_OF_ALPH",
       "offset": -28,
       "direction": "left"
+    },
+    {
+      "map": "MAP_YOSHINO_CITY",
+      "offset": 42,
+      "direction": "right"
     }
   ],
   "object_events": [
