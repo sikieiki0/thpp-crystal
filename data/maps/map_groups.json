@@ -24,7 +24,6 @@
     "gMapGroup_IndoorSlateport",
     "gMapGroup_IndoorMauville",
     "gMapGroup_IndoorRustboro",
-    "gMapGroup_IndoorFortree",
     "gMapGroup_IndoorLilycove",
     "gMapGroup_IndoorMossdeep",
     "gMapGroup_IndoorSootopolis",
@@ -344,7 +343,6 @@
     "SlateportCity",
     "MauvilleCity",
     "RustboroCity",
-    "FortreeCity",
     "LilycoveCity",
     "MossdeepCity",
     "SootopolisCity",
@@ -492,18 +490,6 @@
     "RustboroCity_Flat2_3F",
     "RustboroCity_House3"
   ],
-  "gMapGroup_IndoorFortree": [
-    "FortreeCity_House1",
-    "FortreeCity_Gym",
-    "FortreeCity_PokemonCenter_1F",
-    "FortreeCity_PokemonCenter_2F",
-    "FortreeCity_Mart",
-    "FortreeCity_House2",
-    "FortreeCity_House3",
-    "FortreeCity_House4",
-    "FortreeCity_House5",
-    "FortreeCity_DecorationShop"
-  ],
   "gMapGroup_IndoorLilycove": [
     "LilycoveCity_CoveLilyMotel_1F",
     "LilycoveCity_CoveLilyMotel_2F",
@@ -600,7 +586,6 @@
     "PetalburgWoods",
     "MtChimney",
     "JaggedPass",
-    "FieryPath",
     "MtPyre_1F",
     "MtPyre_2F",
     "MtPyre_3F",
