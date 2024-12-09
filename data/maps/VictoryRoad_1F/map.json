@@ -134,20 +134,6 @@
   ],
   "warp_events": [
     {
-      "x": 15,
-      "y": 40,
-      "elevation": 3,
-      "dest_map": "MAP_EVER_GRANDE_CITY",
-      "dest_warp_id": "2"
-    },
-    {
-      "x": 39,
-      "y": 5,
-      "elevation": 3,
-      "dest_map": "MAP_EVER_GRANDE_CITY",
-      "dest_warp_id": "3"
-    },
-    {
       "x": 21,
       "y": 32,
       "elevation": 3,
