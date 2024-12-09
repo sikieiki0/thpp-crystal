@@ -2654,8 +2654,6 @@ static bool8 ShouldApplyPokeNewsEffect(u8 newsKind)
             return TRUE;
         return FALSE;
     case POKENEWS_LILYCOVE:
-        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP)
-         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP))
             return TRUE;
         return FALSE;
     }

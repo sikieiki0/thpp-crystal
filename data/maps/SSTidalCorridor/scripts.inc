@@ -124,7 +124,6 @@ SSTidalCorridor_EventScript_ExitSailor::
 SSTidalCorridor_EventScript_ExitLilycove::
 	msgbox SSTidalCorridor_Text_WeveArrived, MSGBOX_DEFAULT
 	call_if_set FLAG_RECEIVED_TM_SNATCH, SSTidalCorridor_EventScript_HideSnatchGiver
-	warp MAP_LILYCOVE_CITY_HARBOR, 8, 11
 	waitstate
 	release
 	end

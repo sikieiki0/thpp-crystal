@@ -86,8 +86,6 @@ static EWRAM_DATA u32 sBikeCyclingTimer = 0;
 static EWRAM_DATA u8 sSlidingDoorNextFrameCounter = 0;
 static EWRAM_DATA u8 sSlidingDoorFrame = 0;
 static EWRAM_DATA u8 sTutorMoveAndElevatorWindowId = 0;
-static EWRAM_DATA u16 sLilycoveDeptStore_NeverRead = 0;
-static EWRAM_DATA u16 sLilycoveDeptStore_DefaultFloorChoice = 0;
 static EWRAM_DATA struct ListMenuItem *sScrollableMultichoice_ListMenuItem = NULL;
 
 static EWRAM_DATA u16 sFrontierExchangeCorner_NeverRead = 0;
@@ -1777,71 +1775,6 @@ static const u16 sElevatorWindowTiles_Descending[ELEVATOR_WINDOW_HEIGHT][ELEVATO
     },
 };
 
-void SetDeptStoreFloor(void)
-{
-    u8 deptStoreFloor;
-    switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
-    {
-    case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_1F):
-        deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
-        break;
-    case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_2F):
-        deptStoreFloor = DEPT_STORE_FLOORNUM_2F;
-        break;
-    case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_3F):
-        deptStoreFloor = DEPT_STORE_FLOORNUM_3F;
-        break;
-    case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_4F):
-        deptStoreFloor = DEPT_STORE_FLOORNUM_4F;
-        break;
-    case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_5F):
-        deptStoreFloor = DEPT_STORE_FLOORNUM_5F;
-        break;
-    case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP):
-        deptStoreFloor = DEPT_STORE_FLOORNUM_ROOFTOP;
-        break;
-    default:
-        deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
-        break;
-    }
-    VarSet(VAR_DEPT_STORE_FLOOR, deptStoreFloor);
-}
-
-u16 GetDeptStoreDefaultFloorChoice(void)
-{
-    sLilycoveDeptStore_NeverRead = 0;
-    sLilycoveDeptStore_DefaultFloorChoice = 0;
-
-    if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(LILYCOVE_CITY_DEPARTMENT_STORE_1F))
-    {
-        switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
-        {
-        case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_5F):
-            sLilycoveDeptStore_NeverRead = 0;
-            sLilycoveDeptStore_DefaultFloorChoice = 0;
-            break;
-        case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_4F):
-            sLilycoveDeptStore_NeverRead = 0;
-            sLilycoveDeptStore_DefaultFloorChoice = 1;
-            break;
-        case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_3F):
-            sLilycoveDeptStore_NeverRead = 0;
-            sLilycoveDeptStore_DefaultFloorChoice = 2;
-            break;
-        case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_2F):
-            sLilycoveDeptStore_NeverRead = 0;
-            sLilycoveDeptStore_DefaultFloorChoice = 3;
-            break;
-        case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_1F):
-            sLilycoveDeptStore_NeverRead = 0;
-            sLilycoveDeptStore_DefaultFloorChoice = 4;
-            break;
-        }
-    }
-
-    return sLilycoveDeptStore_DefaultFloorChoice;
-}
-
 // Task data for Task_MoveElevator
 #define tTimer       data[1]
 #define tMoveCounter data[2]
@@ -2049,7 +1982,6 @@ bool8 UsedPokemonCenterWarp(void)
         MAP_SLATEPORT_CITY_POKEMON_CENTER_1F,
         MAP_MAUVILLE_CITY_POKEMON_CENTER_1F,
         MAP_RUSTBORO_CITY_POKEMON_CENTER_1F,
-        MAP_LILYCOVE_CITY_POKEMON_CENTER_1F,
         MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F,
         MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F,
         MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F,
@@ -3819,7 +3751,6 @@ bool8 InPokemonCenter(void)
         MAP_SLATEPORT_CITY_POKEMON_CENTER_1F,
         MAP_MAUVILLE_CITY_POKEMON_CENTER_1F,
         MAP_RUSTBORO_CITY_POKEMON_CENTER_1F,
-        MAP_LILYCOVE_CITY_POKEMON_CENTER_1F,
         MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F,
         MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F,
         MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F,

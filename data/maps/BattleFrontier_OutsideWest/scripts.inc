@@ -56,7 +56,6 @@ BattleFrontier_OutsideWest_EventScript_FerryToLilycove::
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_OutsideWest_EventScript_ChooseNewFerryDestination
 	msgbox BattleFrontier_OutsideWest_Text_PleaseBoardFerry, MSGBOX_DEFAULT
 	call BattleFrontier_OutsideWest_EventScript_BoardFerry
-	warp MAP_LILYCOVE_CITY_HARBOR, 8, 11
 	waitstate
 	release
 	end

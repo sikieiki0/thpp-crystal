@@ -20,11 +20,6 @@
       "direction": "down"
     },
     {
-      "map": "MAP_LILYCOVE_CITY",
-      "offset": 10,
-      "direction": "left"
-    },
-    {
       "map": "MAP_ROUTE125",
       "offset": 0,
       "direction": "right"
