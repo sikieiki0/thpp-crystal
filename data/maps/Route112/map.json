@@ -237,20 +237,6 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE112_CABLE_CAR_STATION",
       "dest_warp_id": "1"
-    },
-    {
-      "x": 6,
-      "y": 46,
-      "elevation": 3,
-      "dest_map": "MAP_JAGGED_PASS",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 7,
-      "y": 46,
-      "elevation": 3,
-      "dest_map": "MAP_JAGGED_PASS",
-      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

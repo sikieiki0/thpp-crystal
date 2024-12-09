@@ -95,13 +95,6 @@
   ],
   "warp_events": [
     {
-      "x": 10,
-      "y": 34,
-      "elevation": 3,
-      "dest_map": "MAP_JAGGED_PASS",
-      "dest_warp_id": "4"
-    },
-    {
       "x": 25,
       "y": 34,
       "elevation": 3,
