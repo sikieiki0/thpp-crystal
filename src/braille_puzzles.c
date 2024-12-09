@@ -103,10 +103,6 @@ bool8 CheckRelicanthWailord(void)
     return FALSE;
 }
 
-// THEORY: this was caused by block commenting out all of the older R/S braille functions but leaving the call to it itself, which creates the nullsub.
-void ShouldDoBrailleRegirockEffectOld(void)
-{
-}
 
 #define tDelayCounter  data[1]
 #define tShakeCounter  data[2]
@@ -163,32 +159,6 @@ static void Task_SealedChamberShakingEffect(u8 taskId)
 #undef tVerticalPan
 #undef tDelay
 #undef tNumShakes
-
-bool8 ShouldDoBrailleRegirockEffect(void)
-{
-    if (!FlagGet(FLAG_SYS_REGIROCK_PUZZLE_COMPLETED)
-        && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(DESERT_RUINS)
-        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(DESERT_RUINS))
-    {
-        if (gSaveBlock1Ptr->pos.x == 6 && gSaveBlock1Ptr->pos.y == 23)
-        {
-            sIsRegisteelPuzzle = FALSE;
-            return TRUE;
-        }
-        else if (gSaveBlock1Ptr->pos.x == 5 && gSaveBlock1Ptr->pos.y == 23)
-        {
-            sIsRegisteelPuzzle = FALSE;
-            return TRUE;
-        }
-        else if (gSaveBlock1Ptr->pos.x == 7 && gSaveBlock1Ptr->pos.y == 23)
-        {
-            sIsRegisteelPuzzle = FALSE;
-            return TRUE;
-        }
-    }
-
-    return FALSE;
-}
 
 void SetUpPuzzleEffectRegirock(void)
 {
