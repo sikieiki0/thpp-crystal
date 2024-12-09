@@ -20,11 +20,6 @@
       "direction": "down"
     },
     {
-      "map": "MAP_FALLARBOR_TOWN",
-      "offset": 0,
-      "direction": "left"
-    },
-    {
       "map": "MAP_ROUTE111",
       "offset": 0,
       "direction": "right"

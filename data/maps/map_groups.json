@@ -18,7 +18,6 @@
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorLavaridge",
-    "gMapGroup_IndoorFallarbor",
     "gMapGroup_IndoorVerdanturf",
     "gMapGroup_IndoorPacifidlog",
     "gMapGroup_IndoorPetalburg",
@@ -352,7 +351,6 @@
     "LittlerootTown",
     "OldaleTown",
     "LavaridgeTown",
-    "FallarborTown",
     "VerdanturfTown",
     "PacifidlogTown",
     "Route101",
@@ -419,16 +417,6 @@
     "LavaridgeTown_Mart",
     "LavaridgeTown_PokemonCenter_1F",
     "LavaridgeTown_PokemonCenter_2F"
-  ],
-  "gMapGroup_IndoorFallarbor": [
-    "FallarborTown_Mart",
-    "FallarborTown_BattleTentLobby",
-    "FallarborTown_BattleTentCorridor",
-    "FallarborTown_BattleTentBattleRoom",
-    "FallarborTown_PokemonCenter_1F",
-    "FallarborTown_PokemonCenter_2F",
-    "FallarborTown_CozmosHouse",
-    "FallarborTown_MoveRelearnersHouse"
   ],
   "gMapGroup_IndoorVerdanturf": [
     "VerdanturfTown_BattleTentLobby",
