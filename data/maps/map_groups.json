@@ -17,7 +17,6 @@
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
-    "gMapGroup_IndoorLavaridge",
     "gMapGroup_IndoorVerdanturf",
     "gMapGroup_IndoorPacifidlog",
     "gMapGroup_IndoorPetalburg",
@@ -348,7 +347,6 @@
     "SootopolisCity",
     "LittlerootTown",
     "OldaleTown",
-    "LavaridgeTown",
     "VerdanturfTown",
     "PacifidlogTown",
     "Route101",
@@ -406,15 +404,6 @@
     "OldaleTown_PokemonCenter_1F",
     "OldaleTown_PokemonCenter_2F",
     "OldaleTown_Mart"
-  ],
-  "gMapGroup_IndoorLavaridge": [
-    "LavaridgeTown_HerbShop",
-    "LavaridgeTown_Gym_1F",
-    "LavaridgeTown_Gym_B1F",
-    "LavaridgeTown_House",
-    "LavaridgeTown_Mart",
-    "LavaridgeTown_PokemonCenter_1F",
-    "LavaridgeTown_PokemonCenter_2F"
   ],
   "gMapGroup_IndoorVerdanturf": [
     "VerdanturfTown_BattleTentLobby",
