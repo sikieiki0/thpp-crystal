@@ -217,19 +217,6 @@ static void DoBrailleRegirockEffect(void)
     UnfreezeObjectEvents();
 }
 
-bool8 ShouldDoBrailleRegisteelEffect(void)
-{
-    if (!FlagGet(FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED) && (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ANCIENT_TOMB) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ANCIENT_TOMB)))
-    {
-        if (gSaveBlock1Ptr->pos.x == 8 && gSaveBlock1Ptr->pos.y == 25)
-        {
-            sIsRegisteelPuzzle = TRUE;
-            return TRUE;
-        }
-    }
-    return FALSE;
-}
-
 void SetUpPuzzleEffectRegisteel(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();

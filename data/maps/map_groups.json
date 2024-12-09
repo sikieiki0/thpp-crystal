@@ -684,7 +684,6 @@
     "NewMauville_Entrance",
     "NewMauville_Inside",
     "IslandCave",
-    "AncientTomb",
     "Underwater_Route134",
     "Underwater_SealedChamber",
     "SealedChamber_OuterRoom",
@@ -722,7 +721,6 @@
     "MarineCave_End",
     "TerraCave_Entrance",
     "TerraCave_End",
-    "AlteringCave",
     "MeteorFalls_StevensCave"
   ],
   "gMapGroup_IndoorDynamic": [
