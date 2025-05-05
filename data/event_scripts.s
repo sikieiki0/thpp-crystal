@@ -340,7 +340,6 @@ gStdScripts_End::
 	.include "data/maps/Route121_SafariZoneEntrance/scripts.inc"
 	.include "data/maps/Underwater_SootopolisCity/scripts.inc"
 	.include "data/maps/Underwater_Route134/scripts.inc"
-	.include "data/maps/ScorchedSlab/scripts.inc"
 	.include "data/scripts/shared_secret_base.inc"
 	.include "data/maps/BattleColosseum_2P/scripts.inc"
 	.include "data/maps/TradeCenter/scripts.inc"
