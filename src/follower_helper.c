@@ -200,16 +200,6 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_ON_MB(MB_SAND, MB_FOOTPRINTS),
         },
     },
-    [COND_MSG_ICE_ROOM] =
-    {
-        .text = (u8*)sColdTexts,
-        .textSpread = 1,
-        .emotion = FOLLOWER_EMOTION_SURPRISE,
-        .conditions =
-        {
-            MATCH_MAP(SHOAL_CAVE_LOW_TIDE_ICE_ROOM),
-        },
-    },
     [COND_MSG_ROUTE_117] =
     {
         .text = sCondMsg27,
