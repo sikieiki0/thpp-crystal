@@ -14,16 +14,6 @@
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
-    {
-      "map": "MAP_VERDANTURF_TOWN",
-      "offset": 80,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_RUSTBORO_CITY",
-      "offset": 0,
-      "direction": "left"
-    }
   ],
   "object_events": [
     {

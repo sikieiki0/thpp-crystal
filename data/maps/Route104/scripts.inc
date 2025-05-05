@@ -65,7 +65,6 @@ Route104_EventScript_RivalTrigger::
 	waitmovement 0
 	delay 20
 	setvar VAR_0x8008, 0
-	call RustboroCity_EventScript_PlayRivalMusic
 	playse SE_PIN
 	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
