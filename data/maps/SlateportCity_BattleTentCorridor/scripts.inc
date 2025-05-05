@@ -49,7 +49,6 @@ SlateportCity_BattleTentCorridor_EventScript_EnterBattleRoom::
 	waitmovement 0
 	closedoor 2, 1
 	waitdooranim
-	warp MAP_SLATEPORT_CITY_BATTLE_TENT_BATTLE_ROOM, 4, 4
 	waitstate
 	end
 

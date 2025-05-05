@@ -14,21 +14,6 @@
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
-    {
-      "map": "MAP_MAUVILLE_CITY",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_SLATEPORT_CITY",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_ROUTE103",
-      "offset": 60,
-      "direction": "left"
-    }
   ],
   "object_events": [
     {
