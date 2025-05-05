@@ -3829,18 +3829,6 @@
       "secondary_tileset": "gTileset_Crystal_SnowtopMountain",
       "border_filepath": "data/layouts/SnowtopMountain/border.bin",
       "blockdata_filepath": "data/layouts/SnowtopMountain/map.bin"
-    },
-    {
-      "id": "LAYOUT_JITTERBUG_TOWN",
-      "name": "JitterbugTown_Layout",
-      "width": 20,
-      "height": 20,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_ViridianCity",
-      "border_filepath": "data/layouts/JitterbugTown/border.bin",
-      "blockdata_filepath": "data/layouts/JitterbugTown/map.bin"
     }
   ]
 }

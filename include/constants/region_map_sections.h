@@ -12,7 +12,6 @@
 #define MAPSEC_TANBA_CITY                   8
 #define MAPSEC_CHOUJI_TOWN                  9
 #define MAPSEC_FUSUBE_CITY                  10
-#define MAPSEC_JITTERBUG_TOWN              223
 #define MAPSEC_ROUTE_23                     11
 #define MAPSEC_ROUTE_26                     12
 #define MAPSEC_ROUTE_27                     13

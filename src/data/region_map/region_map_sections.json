@@ -81,14 +81,6 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_JITTERBUG_TOWN",
-      "name": "Jitterbug Town",
-      "x": 25,
-      "y": 8,
-      "width": 1,
-      "height": 1
-    },
-    {
       "map_section": "MAPSEC_ROUTE_23",
       "name": "Route 23",
       "x": 27,

@@ -133,7 +133,6 @@ gStdScripts_End::
 	.include "data/maps/AsagiCity/scripts.inc"
 	.include "data/maps/ChoujiTown/scripts.inc"
 	.include "data/maps/FusubeCity/scripts.inc"
-	.include "data/maps/JitterbugTown/scripts.inc"	
 	.include "data/maps/Route1/scripts.inc"
 	.include "data/maps/Route2/scripts.inc"
 	.include "data/maps/Route3/scripts.inc"
