@@ -529,9 +529,6 @@
     "NewMauville_Entrance",
     "NewMauville_Inside",
     "Underwater_Route134",
-    "Underwater_SealedChamber",
-    "SealedChamber_OuterRoom",
-    "SealedChamber_InnerRoom",
     "ScorchedSlab"
   ],
   "gMapGroup_IndoorDynamic": [
