@@ -145,11 +145,6 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
         .textSpread = 1,
         .emotion = FOLLOWER_EMOTION_MUSIC,
         .orFlag = 1, // match any of these maps
-        .conditions =
-        {
-            MATCH_MAP(SLATEPORT_CITY_STERNS_SHIPYARD_1F),
-            MATCH_MAP(SLATEPORT_CITY_STERNS_SHIPYARD_2F),
-        },
     },
     [COND_MSG_SAILING] =
     {

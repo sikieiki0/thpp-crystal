@@ -16,7 +16,6 @@
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorPetalburg",
-    "gMapGroup_IndoorSlateport",
     "gMapGroup_IndoorMauville",
     "gMapGroup_IndoorRustboro",
     "gMapGroup_IndoorMossdeep",
@@ -372,22 +371,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_IndoorSlateport": [
-    "SlateportCity_SternsShipyard_1F",
-    "SlateportCity_SternsShipyard_2F",
-    "SlateportCity_BattleTentLobby",
-    "SlateportCity_BattleTentCorridor",
-    "SlateportCity_BattleTentBattleRoom",
-    "SlateportCity_NameRatersHouse",
-    "SlateportCity_PokemonFanClub",
-    "SlateportCity_OceanicMuseum_1F",
-    "SlateportCity_OceanicMuseum_2F",
-    "SlateportCity_Harbor",
-    "SlateportCity_House",
-    "SlateportCity_PokemonCenter_1F",
-    "SlateportCity_PokemonCenter_2F",
-    "SlateportCity_Mart"
   ],
   "gMapGroup_IndoorMauville": [
     "MauvilleCity_Gym",
