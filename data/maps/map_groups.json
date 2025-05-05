@@ -15,7 +15,6 @@
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_TownsAndRoutes",
-    "gMapGroup_IndoorMossdeep",
     "gMapGroup_IndoorSootopolis",
     "gMapGroup_IndoorRoute104",
     "gMapGroup_IndoorRoute111",
@@ -368,21 +367,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_IndoorMossdeep": [
-    "MossdeepCity_Gym",
-    "MossdeepCity_House1",
-    "MossdeepCity_House2",
-    "MossdeepCity_PokemonCenter_1F",
-    "MossdeepCity_PokemonCenter_2F",
-    "MossdeepCity_Mart",
-    "MossdeepCity_House3",
-    "MossdeepCity_StevensHouse",
-    "MossdeepCity_House4",
-    "MossdeepCity_SpaceCenter_1F",
-    "MossdeepCity_SpaceCenter_2F",
-    "MossdeepCity_GameCorner_1F",
-    "MossdeepCity_GameCorner_B1F"
   ],
   "gMapGroup_IndoorSootopolis": [
     "SootopolisCity_Gym_1F",
