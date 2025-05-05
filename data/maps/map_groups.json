@@ -532,11 +532,7 @@
     "Underwater_SealedChamber",
     "SealedChamber_OuterRoom",
     "SealedChamber_InnerRoom",
-    "ScorchedSlab",
-    "MirageTower_1F",
-    "MirageTower_2F",
-    "MirageTower_3F",
-    "MirageTower_4F"
+    "ScorchedSlab"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
