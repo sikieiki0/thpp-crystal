@@ -34,10 +34,6 @@ Route123_EventScript_RouteSign::
 	msgbox Route123_Text_RouteSign, MSGBOX_SIGN
 	end
 
-Route123_EventScript_RouteSignMtPyre::
-	msgbox Route123_Text_RouteSignMtPyre, MSGBOX_SIGN
-	end
-
 Route123_EventScript_BerryMastersHouseSign::
 	msgbox Route123_Text_BerryMastersHouse, MSGBOX_SIGN
 	end
@@ -188,10 +184,6 @@ Route123_Text_CheckTreesWithMyGrassMon:
 Route123_Text_RouteSign:
 	.string "{RIGHT_ARROW} ROUTE 123\n"
 	.string "{LEFT_ARROW} ROUTE 118$"
-
-Route123_Text_RouteSignMtPyre:
-	.string "{UP_ARROW} MT. PYRE\n"
-	.string "“Forbidden to the faint of heart.”$"
 
 Route123_Text_BerryMastersHouse:
 	.string "BERRY MASTER'S HOUSE$"

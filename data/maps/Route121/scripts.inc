@@ -5,14 +5,6 @@
 Route121_MapScripts::
 	.byte 0
 
-Route121_EventScript_Woman::
-	msgbox Route121_Text_AheadLoomsMtPyre, MSGBOX_NPC
-	end
-
-Route121_EventScript_MtPyrePierSign::
-	msgbox Route121_Text_MtPyrePierSign, MSGBOX_SIGN
-	end
-
 Route121_EventScript_SafariZoneSign::
 	msgbox Route121_Text_SafariZoneSign, MSGBOX_SIGN
 	end
@@ -22,7 +14,6 @@ Route121_EventScript_AquaGruntsMoveOut::
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
 	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceRight
 	waitmovement 0
-	msgbox Route121_Text_OkayMoveOutToMtPyre, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_GRUNT_1, Route121_Movement_Grunt1Exit
 	applymovement LOCALID_GRUNT_2, Route121_Movement_Grunt2Exit
@@ -171,20 +162,6 @@ Route121_EventScript_RematchCristin::
 	trainerbattle_rematch TRAINER_CRISTIN_1, Route121_Text_CristinRematchIntro, Route121_Text_CristinRematchDefeat
 	msgbox Route121_Text_CristinPostRematch, MSGBOX_AUTOCLOSE
 	end
-
-Route121_Text_OkayMoveOutToMtPyre:
-	.string "Okay!\n"
-	.string "We're to move out to MT. PYRE!$"
-
-Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms MT. PYRE…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed POKéMON…$"
-
-Route121_Text_MtPyrePierSign:
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
 
 Route121_Text_SafariZoneSign:
 	.string "“Filled with rare POKéMON!”\n"

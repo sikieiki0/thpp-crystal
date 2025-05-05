@@ -752,14 +752,6 @@
   ],
   "bg_events": [
     {
-      "type": "sign",
-      "x": 117,
-      "y": 10,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Route123_EventScript_RouteSignMtPyre"
-    },
-    {
       "type": "secret_base",
       "x": 47,
       "y": 3,

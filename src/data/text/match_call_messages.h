@@ -399,7 +399,6 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_CRISTIN] = MCFLAVOR(Cooltrainer_Cristin),
     [REMATCH_BROOKE] = MCFLAVOR(Cooltrainer_Brooke),
     [REMATCH_WILTON] = MCFLAVOR(Cooltrainer_Wilton),
-    [REMATCH_VALERIE] = MCFLAVOR(HexManiac_Valerie),
     [REMATCH_CINDY] = MCFLAVOR(Lady_Cindy),
     [REMATCH_THALIA] = MCFLAVOR(Beauty_Thalia),
     [REMATCH_JESSICA] = MCFLAVOR(Beauty_Jessica),
@@ -443,7 +442,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_EDWIN] = MCFLAVOR(Collector_Edwin),
     [REMATCH_LYDIA] = MCFLAVOR(PkmnBreeder_Lydia),
     [REMATCH_ISAAC] = MCFLAVOR(PkmnBreeder_Isaac),
-    [REMATCH_GABRIELLE] = MCFLAVOR(PkmnBreeder_Gabrielle),
+
     [REMATCH_CATHERINE] = MCFLAVOR(PkmnRanger_Catherine),
     [REMATCH_JACKSON] = MCFLAVOR(PkmnRanger_Jackson),
     [REMATCH_HALEY] = MCFLAVOR(Lass_Haley),
