@@ -900,8 +900,6 @@ SootopolisCity_EventScript_Steven::
 	waitmovement 0
 	call_if_unset FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN, SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_StevenHelpWallace
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_StevenHelpedWallace
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_StevenHelpedWallace
 	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_StevenMaxieArchieLeft
 	msgbox SootopolisCity_Text_SoThatsRayquaza, MSGBOX_DEFAULT
 	releaseall
@@ -914,11 +912,6 @@ SootopolisCity_EventScript_StevenHelpWallace::
 
 SootopolisCity_EventScript_StevenMaxieArchieLeft::
 	msgbox SootopolisCity_Text_MaxieArchieLeft, MSGBOX_DEFAULT
-	releaseall
-	end
-
-SootopolisCity_EventScript_StevenHelpedWallace::
-	msgbox SootopolisCity_Text_NeverBeenToSkyPillar, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -1296,44 +1289,12 @@ SootopolisCity_EventScript_ManiacRayquaza::
 	releaseall
 	end
 
-SootopolisCity_EventScript_Wallace::
-	lock
-	faceplayer
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_GoToSkyPillar
-	goto_if_set FLAG_RECEIVED_HM_WATERFALL, SootopolisCity_EventScript_GoToGym
-	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_GiveWaterfall
-	msgbox SootopolisCity_Text_AquaMagmaDidntMeanHarm, MSGBOX_DEFAULT
-	release
-	end
-
 SootopolisCity_EventScript_GiveWaterfall::
 	msgbox SootopolisCity_Text_ThankYouForHelpAcceptThis, MSGBOX_DEFAULT
 	giveitem ITEM_HM_WATERFALL
 	setflag FLAG_RECEIVED_HM_WATERFALL
 	msgbox SootopolisCity_Text_ExplainWaterfallGoToGym, MSGBOX_DEFAULT
 	closemessage
-	call_if_eq VAR_FACING, DIR_NORTH, SootopolisCity_EventScript_WallaceMoveFromGym
-	call_if_eq VAR_FACING, DIR_EAST, SootopolisCity_EventScript_WallaceMoveFromGym
-	call_if_eq VAR_FACING, DIR_WEST, SootopolisCity_EventScript_WallaceMoveFromGymWest
-	release
-	end
-
-SootopolisCity_EventScript_WallaceMoveFromGym::
-	applymovement LOCALID_WALLACE, SootopolisCity_Movement_WallaceMoveFromGym
-	waitmovement 0
-	copyobjectxytoperm LOCALID_WALLACE
-	setvar VAR_SOOTOPOLIS_WALLACE_STATE, 1
-	return
-
-SootopolisCity_EventScript_WallaceMoveFromGymWest::
-	applymovement LOCALID_WALLACE, SootopolisCity_Movement_WallaceMoveFromGymWest
-	waitmovement 0
-	copyobjectxytoperm LOCALID_WALLACE
-	setvar VAR_SOOTOPOLIS_WALLACE_STATE, 2
-	return
-
-SootopolisCity_EventScript_GoToSkyPillar::
-	msgbox SootopolisCity_Text_HaventYouScaledSkyPillar, MSGBOX_DEFAULT
 	release
 	end
 
@@ -1667,11 +1628,6 @@ SootopolisCity_Text_KnowWhatsNeededToHelpHim:
 	.string "STEVEN: I think you have what's\n"
 	.string "needed to help him…$"
 
-SootopolisCity_Text_NeverBeenToSkyPillar:
-	.string "STEVEN: The SKY PILLAR…\p"
-	.string "I've never been there.\n"
-	.string "I wonder where it could be?$"
-
 SootopolisCity_Text_SoThatsRayquaza:
 	.string "STEVEN: So that's RAYQUAZA…\p"
 	.string "It's incredible how the two rampaging\n"
@@ -1682,14 +1638,6 @@ SootopolisCity_Text_MaxieArchieLeft:
 	.string "ARCHIE have gone away somewhere.\p"
 	.string "Perhaps they've gone to MT. PYRE to\n"
 	.string "return those ORBS…$"
-
-SootopolisCity_Text_HaventYouScaledSkyPillar:
-	.string "WALLACE: Oh?\n"
-	.string "{PLAYER}{KUN}?\p"
-	.string "Haven't you scaled the SKY PILLAR\n"
-	.string "yet?\p"
-	.string "I'm sure that you can make it to\n"
-	.string "the top of the SKY PILLAR…$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "WALLACE: {PLAYER}{KUN}…\p"

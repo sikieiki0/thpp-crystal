@@ -19,10 +19,6 @@ PacifidlogTown_EventScript_Girl::
 	msgbox PacifidlogTown_Text_FastRunningCurrent, MSGBOX_NPC
 	end
 
-PacifidlogTown_EventScript_Fisherman::
-	msgbox PacifidlogTown_Text_SkyPillarTooScary, MSGBOX_NPC
-	end
-
 PacifidlogTown_EventScript_TownSign::
 	msgbox PacifidlogTown_Text_TownSign, MSGBOX_SIGN
 	end
@@ -37,15 +33,6 @@ PacifidlogTown_Text_NeatHousesOnWater:
 	.string "See, isn't it neat?\n"
 	.string "These houses are on water!\p"
 	.string "I was born here!$"
-
-PacifidlogTown_Text_SkyPillarTooScary:
-	.string "The SKY PILLAR?\p"
-	.string "…Oh, you must mean that tall, tall\n"
-	.string "tower a little further out.\p"
-	.string "If you asked me, I wouldn't climb it.\n"
-	.string "It's too scary to get up that high.\p"
-	.string "Life at sea level in PACIFIDLOG,\n"
-	.string "that suits me fine.$"
 
 PacifidlogTown_Text_TownSign:
 	.string "PACIFIDLOG TOWN\p"
