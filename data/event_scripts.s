@@ -182,7 +182,6 @@ gStdScripts_End::
 	.include "data/maps/Route46/scripts.inc"
 	.include "data/maps/Route47/scripts.inc"
 	.include "data/maps/Route48/scripts.inc"
-	.include "data/maps/SootopolisCity/scripts.inc"
 	.include "data/maps/OldaleTown/scripts.inc"
 	.include "data/maps/VerdanturfTown/scripts.inc"
 	.include "data/maps/PacifidlogTown/scripts.inc"
@@ -646,6 +645,9 @@ Common_EventScript_OutOfCenterPartyHeal::
 	callnative UpdateFollowingPokemon
 	fadescreen FADE_FROM_BLACK
 	return
+
+EventScript_ClosedSootopolisDoor::
+	end
 
 EventScript_RegionMap::
 	lockall
