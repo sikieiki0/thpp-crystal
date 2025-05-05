@@ -666,7 +666,6 @@ static bool8 TryStartStepCountScript(u16 metatileBehavior)
         if (ShouldDoScottBattleFrontierCall() == TRUE)
         if (ShouldDoRoxanneCall() == TRUE)
         {
-            ScriptContext_SetupScript(RustboroCity_Gym_EventScript_RegisterRoxanne);
             return TRUE;
         }
         if (ShouldDoRivalRayquazaCall() == TRUE)
