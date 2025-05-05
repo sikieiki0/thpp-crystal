@@ -67,10 +67,6 @@ Route114_EventScript_Poochyena::
 	release
 	end
 
-Route114_EventScript_MeteorFallsSign::
-	msgbox Route114_Text_MeteorFallsSign, MSGBOX_SIGN
-	end
-
 Route114_EventScript_FossilManiacsHouseSign::
 	msgbox Route114_Text_FossilManiacsHouseSign, MSGBOX_SIGN
 	end
@@ -188,10 +184,6 @@ Route114_Text_ExplainRoar:
 
 Route114_Text_Poochyena:
 	.string "Bow! Bowwow!$"
-
-Route114_Text_MeteorFallsSign:
-	.string "METEOR FALLS\n"
-	.string "RUSTBORO CITY THROUGH HERE$"
 
 Route114_Text_FossilManiacsHouseSign:
 	.string "FOSSIL MANIAC'S HOUSE\n"

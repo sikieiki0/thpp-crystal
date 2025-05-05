@@ -526,10 +526,6 @@
     "Route121_SafariZoneEntrance"
   ],
   "gMapGroup_Dungeons": [
-    "MeteorFalls_1F_1R",
-    "MeteorFalls_1F_2R",
-    "MeteorFalls_B1F_1R",
-    "MeteorFalls_B1F_2R",
     "RusturfTunnel",
     "Underwater_SootopolisCity",
     "PetalburgWoods",
@@ -583,8 +579,7 @@
     "MirageTower_3F",
     "MirageTower_4F",
     "TerraCave_Entrance",
-    "TerraCave_End",
-    "MeteorFalls_StevensCave"
+    "TerraCave_End"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

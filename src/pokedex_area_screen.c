@@ -31,7 +31,7 @@
 
 // Only maps in the following map groups have their encounters considered for the area screen
 #define MAP_GROUP_TOWNS_AND_ROUTES MAP_GROUP(PETALBURG_CITY)
-#define MAP_GROUP_DUNGEONS MAP_GROUP(METEOR_FALLS_1F_1R)
+#define MAP_GROUP_DUNGEONS MAP_GROUP(RUINS_OF_ALPH)
 #define MAP_GROUP_SPECIAL_AREA MAP_GROUP(SAFARI_ZONE_NORTHWEST)
 
 #define AREA_SCREEN_WIDTH 32

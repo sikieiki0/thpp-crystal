@@ -27,10 +27,6 @@ Route115_EventScript_RouteSignRustboro::
 	msgbox Route115_Text_RouteSignRustboro, MSGBOX_SIGN
 	end
 
-Route115_EventScript_MeteorFallsSign::
-	msgbox Route115_Text_MeteorFallsSign, MSGBOX_SIGN
-	end
-
 Route115_EventScript_Timothy::
 	trainerbattle_single TRAINER_TIMOTHY_1, Route115_Text_TimothyIntro, Route115_Text_TimothyDefeat, Route115_EventScript_RegisterTimothy
 	specialvar VAR_RESULT, ShouldTryRematchBattle
@@ -138,8 +134,3 @@ Route115_Text_NeverKnowWhenCavePokemonWillAppear:
 Route115_Text_RouteSignRustboro:
 	.string "ROUTE 115\n"
 	.string "{DOWN_ARROW} RUSTBORO CITY$"
-
-Route115_Text_MeteorFallsSign:
-	.string "METEOR FALLS\n"
-	.string "FALLARBOR TOWN THROUGH HERE$"
-
