@@ -339,7 +339,6 @@ gStdScripts_End::
 	.include "data/maps/Route117_PokemonDayCare/scripts.inc"
 	.include "data/maps/Route121_SafariZoneEntrance/scripts.inc"
 	.include "data/maps/Underwater_SootopolisCity/scripts.inc"
-	.include "data/maps/PetalburgWoods/scripts.inc"
 	.include "data/maps/Underwater_SeafloorCavern/scripts.inc"
 	.include "data/maps/SeafloorCavern_Entrance/scripts.inc"
 	.include "data/maps/SeafloorCavern_Room1/scripts.inc"
