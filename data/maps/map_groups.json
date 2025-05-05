@@ -373,15 +373,6 @@
     "Underwater_Route105",
     "Underwater_Route125"
   ],
-  "gMapGroup_IndoorPetalburg": [
-    "PetalburgCity_WallysHouse",
-    "PetalburgCity_Gym",
-    "PetalburgCity_House1",
-    "PetalburgCity_House2",
-    "PetalburgCity_PokemonCenter_1F",
-    "PetalburgCity_PokemonCenter_2F",
-    "PetalburgCity_Mart"
-  ],
   "gMapGroup_IndoorSlateport": [
     "SlateportCity_SternsShipyard_1F",
     "SlateportCity_SternsShipyard_2F",
