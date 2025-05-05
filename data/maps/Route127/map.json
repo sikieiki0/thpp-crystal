@@ -14,26 +14,6 @@
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
-    {
-      "map": "MAP_MOSSDEEP_CITY",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE128",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_ROUTE126",
-      "offset": 0,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_UNDERWATER_ROUTE127",
-      "offset": 0,
-      "direction": "dive"
-    }
   ],
   "object_events": [
     {
