@@ -15,8 +15,6 @@
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_TownsAndRoutes",
-    "gMapGroup_IndoorPetalburg",
-    "gMapGroup_IndoorMauville",
     "gMapGroup_IndoorRustboro",
     "gMapGroup_IndoorMossdeep",
     "gMapGroup_IndoorSootopolis",
@@ -371,16 +369,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_IndoorMauville": [
-    "MauvilleCity_Gym",
-    "MauvilleCity_BikeShop",
-    "MauvilleCity_House1",
-    "MauvilleCity_GameCorner",
-    "MauvilleCity_House2",
-    "MauvilleCity_PokemonCenter_1F",
-    "MauvilleCity_PokemonCenter_2F",
-    "MauvilleCity_Mart"
   ],
   "gMapGroup_IndoorRustboro": [
     "RustboroCity_DevonCorp_1F",

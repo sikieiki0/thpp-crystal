@@ -132,12 +132,6 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
     },
     [COND_MSG_BIKE_SHOP] =
     {
-        .text = sCondMsg12,
-        .emotion = FOLLOWER_EMOTION_PENSIVE,
-        .conditions =
-        {
-            MATCH_MAP(MAUVILLE_CITY_BIKE_SHOP)
-        },
     },
     [COND_MSG_MACHINES] =
     {
