@@ -47,13 +47,7 @@ Route112_EventScript_MagmaGrunts::
 	releaseall
 	end
 
-Route112_EventScript_MtChimneyCableCarSign::
-	msgbox Route112_Text_MtChimneyCableCarSign, MSGBOX_SIGN
-	end
 
-Route112_EventScript_MtChimneySign::
-	msgbox Route112_Text_MtChimneySign, MSGBOX_SIGN
-	end
 
 Route112_EventScript_RouteSignLavaridge::
 	msgbox Route112_Text_RouteSignLavaridge, MSGBOX_SIGN
@@ -130,14 +124,6 @@ Route112_Text_NotEasyToGetBackToLavaridge:
 	.string "I went down these ledges, it'd be no\l"
 	.string "easy matter to get back to LAVARIDGE.$"
 
-Route112_Text_MtChimneyCableCarSign:
-	.string "MT. CHIMNEY CABLE CAR\n"
-	.string "“A short walk {UP_ARROW} way!”$"
-
-Route112_Text_MtChimneySign:
-	.string "MT. CHIMNEY\p"
-	.string "“For LAVARIDGE TOWN or the summit,\n"
-	.string "please take the CABLE CAR.”$"
 
 Route112_Text_RouteSignLavaridge:
 	.string "ROUTE 112\n"

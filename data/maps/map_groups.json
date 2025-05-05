@@ -508,8 +508,7 @@
     "Route111_OldLadysRestStop"
   ],
   "gMapGroup_IndoorRoute112": [
-    "Route112_CableCarStation",
-    "MtChimney_CableCarStation"
+    "Route112_CableCarStation"
   ],
   "gMapGroup_IndoorRoute114": [
     "Route114_FossilManiacsHouse",
@@ -529,7 +528,6 @@
     "RusturfTunnel",
     "Underwater_SootopolisCity",
     "PetalburgWoods",
-    "MtChimney",
     "MtPyre_1F",
     "MtPyre_2F",
     "MtPyre_3F",
