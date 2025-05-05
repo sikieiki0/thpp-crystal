@@ -15,7 +15,6 @@
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_TownsAndRoutes",
-    "gMapGroup_IndoorVerdanturf",
     "gMapGroup_IndoorPacifidlog",
     "gMapGroup_IndoorPetalburg",
     "gMapGroup_IndoorSlateport",
@@ -374,17 +373,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_IndoorVerdanturf": [
-    "VerdanturfTown_BattleTentLobby",
-    "VerdanturfTown_BattleTentCorridor",
-    "VerdanturfTown_BattleTentBattleRoom",
-    "VerdanturfTown_Mart",
-    "VerdanturfTown_PokemonCenter_1F",
-    "VerdanturfTown_PokemonCenter_2F",
-    "VerdanturfTown_WandasHouse",
-    "VerdanturfTown_FriendshipRatersHouse",
-    "VerdanturfTown_House"
   ],
   "gMapGroup_IndoorPacifidlog": [
     "PacifidlogTown_PokemonCenter_1F",
