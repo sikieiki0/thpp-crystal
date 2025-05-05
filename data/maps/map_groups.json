@@ -15,7 +15,6 @@
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_TownsAndRoutes",
-    "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorVerdanturf",
     "gMapGroup_IndoorPacifidlog",
     "gMapGroup_IndoorPetalburg",
@@ -375,13 +374,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_IndoorOldale": [
-    "OldaleTown_House1",
-    "OldaleTown_House2",
-    "OldaleTown_PokemonCenter_1F",
-    "OldaleTown_PokemonCenter_2F",
-    "OldaleTown_Mart"
   ],
   "gMapGroup_IndoorVerdanturf": [
     "VerdanturfTown_BattleTentLobby",
