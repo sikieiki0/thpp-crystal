@@ -118,10 +118,6 @@ Route116_EventScript_RouteSignRustboro::
 	msgbox Route116_Text_RouteSignRustboro, MSGBOX_SIGN
 	end
 
-Route116_EventScript_RusturfTunnelSign::
-	msgbox Route116_Text_RusturfTunnelSign, MSGBOX_SIGN
-	end
-
 Route116_EventScript_TunnelersRestHouseSign::
 	msgbox Route116_Text_TunnelersRestHouse, MSGBOX_SIGN
 	end
@@ -445,12 +441,6 @@ Route116_Text_NotWhatImLookingFor:
 Route116_Text_RouteSignRustboro:
 	.string "ROUTE 116\n"
 	.string "{LEFT_ARROW} RUSTBORO CITY$"
-
-Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
 
 Route116_Text_TunnelersRestHouse:
 	.string "TUNNELER'S REST HOUSE$"

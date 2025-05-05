@@ -421,25 +421,11 @@
   ],
   "warp_events": [
     {
-      "x": 47,
-      "y": 8,
-      "elevation": 0,
-      "dest_map": "MAP_RUSTURF_TUNNEL",
-      "dest_warp_id": "0"
-    },
-    {
       "x": 38,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_ROUTE116_TUNNELERS_REST_HOUSE",
       "dest_warp_id": "0"
-    },
-    {
-      "x": 65,
-      "y": 10,
-      "elevation": 0,
-      "dest_map": "MAP_RUSTURF_TUNNEL",
-      "dest_warp_id": "2"
     },
     {
       "x": 59,
@@ -475,14 +461,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route116_EventScript_RouteSignRustboro"
-    },
-    {
-      "type": "sign",
-      "x": 48,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Route116_EventScript_RusturfTunnelSign"
     },
     {
       "type": "sign",

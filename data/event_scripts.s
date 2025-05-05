@@ -338,7 +338,6 @@ gStdScripts_End::
 	.include "data/maps/Route116_TunnelersRestHouse/scripts.inc"
 	.include "data/maps/Route117_PokemonDayCare/scripts.inc"
 	.include "data/maps/Route121_SafariZoneEntrance/scripts.inc"
-	.include "data/maps/RusturfTunnel/scripts.inc"
 	.include "data/maps/Underwater_SootopolisCity/scripts.inc"
 	.include "data/maps/PetalburgWoods/scripts.inc"
 	.include "data/maps/Underwater_SeafloorCavern/scripts.inc"
@@ -745,15 +744,6 @@ EventScript_HideMrBriney::
 	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
 	setvar VAR_BRINEY_LOCATION, 0
-	return
-
-RusturfTunnel_EventScript_SetRusturfTunnelOpen::
-	removeobject LOCALID_WANDAS_BF
-	removeobject LOCALID_WANDA
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA
-	setvar VAR_RUSTURF_TUNNEL_STATE, 6
-	setflag FLAG_RUSTURF_TUNNEL_OPENED
 	return
 
 EventScript_UnusedBoardFerry::

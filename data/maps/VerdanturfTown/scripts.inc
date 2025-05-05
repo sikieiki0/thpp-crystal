@@ -12,7 +12,6 @@ VerdanturfTown_OnTransition:
 VerdanturfTown_EventScript_Twin::
 	lock
 	faceplayer
-	goto_if_set FLAG_RUSTURF_TUNNEL_OPENED, VerdanturfTown_EventScript_TwinTunnelOpen
 	msgbox VerdanturfTown_Text_ManTryingToDigTunnel, MSGBOX_DEFAULT
 	applymovement LOCALID_TWIN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -37,7 +36,6 @@ VerdanturfTown_EventScript_Camper::
 VerdanturfTown_EventScript_Boy::
 	lock
 	faceplayer
-	goto_if_set FLAG_RUSTURF_TUNNEL_OPENED, VerdanturfTown_EventScript_BoyTunnelOpen
 	msgbox VerdanturfTown_Text_GuyTryingToBustThroughCave, MSGBOX_DEFAULT
 	release
 	end
@@ -57,10 +55,6 @@ VerdanturfTown_EventScript_WandasHouseSign::
 
 VerdanturfTown_EventScript_BattleTentSign::
 	msgbox VerdanturfTown_Text_BattleTentSign, MSGBOX_SIGN
-	end
-
-VerdanturfTown_EventScript_RusturfTunnelSign::
-	msgbox VerdanturfTown_Text_RusturfTunnelSign, MSGBOX_SIGN
 	end
 
 VerdanturfTown_Text_ManTryingToDigTunnel:
@@ -118,10 +112,4 @@ VerdanturfTown_Text_WandasHouse:
 VerdanturfTown_Text_BattleTentSign:
 	.string "BATTLE TENT VERDANTURF SITE\n"
 	.string "“Feast Your Eyes on Battles!”$"
-
-VerdanturfTown_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
 
