@@ -14,16 +14,6 @@
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
-    {
-      "map": "MAP_VERDANTURF_TOWN",
-      "offset": 0,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_MAUVILLE_CITY",
-      "offset": 0,
-      "direction": "right"
-    }
   ],
   "object_events": [
     {
