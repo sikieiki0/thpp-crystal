@@ -339,8 +339,6 @@ gStdScripts_End::
 	.include "data/maps/Route117_PokemonDayCare/scripts.inc"
 	.include "data/maps/Route121_SafariZoneEntrance/scripts.inc"
 	.include "data/maps/Underwater_SootopolisCity/scripts.inc"
-	.include "data/maps/NewMauville_Entrance/scripts.inc"
-	.include "data/maps/NewMauville_Inside/scripts.inc"
 	.include "data/maps/Underwater_Route134/scripts.inc"
 	.include "data/maps/ScorchedSlab/scripts.inc"
 	.include "data/scripts/shared_secret_base.inc"
