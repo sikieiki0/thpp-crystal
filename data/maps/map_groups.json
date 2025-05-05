@@ -536,9 +536,7 @@
     "MirageTower_1F",
     "MirageTower_2F",
     "MirageTower_3F",
-    "MirageTower_4F",
-    "TerraCave_Entrance",
-    "TerraCave_End"
+    "MirageTower_4F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

@@ -386,20 +386,6 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE114_LANETTES_HOUSE",
       "dest_warp_id": "0"
-    },
-    {
-      "x": 6,
-      "y": 46,
-      "elevation": 0,
-      "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 7,
-      "y": 4,
-      "elevation": 0,
-      "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
-      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

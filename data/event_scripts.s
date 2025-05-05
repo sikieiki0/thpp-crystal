@@ -350,8 +350,6 @@ gStdScripts_End::
 	.include "data/maps/MirageTower_2F/scripts.inc"
 	.include "data/maps/MirageTower_3F/scripts.inc"
 	.include "data/maps/MirageTower_4F/scripts.inc"
-	.include "data/maps/TerraCave_Entrance/scripts.inc"
-	.include "data/maps/TerraCave_End/scripts.inc"
 	.include "data/scripts/shared_secret_base.inc"
 	.include "data/maps/BattleColosseum_2P/scripts.inc"
 	.include "data/maps/TradeCenter/scripts.inc"
