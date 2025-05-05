@@ -15,7 +15,6 @@
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_TownsAndRoutes",
-    "gMapGroup_IndoorSootopolis",
     "gMapGroup_IndoorRoute104",
     "gMapGroup_IndoorRoute111",
     "gMapGroup_IndoorRoute112",
@@ -367,23 +366,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_IndoorSootopolis": [
-    "SootopolisCity_Gym_1F",
-    "SootopolisCity_Gym_B1F",
-    "SootopolisCity_PokemonCenter_1F",
-    "SootopolisCity_PokemonCenter_2F",
-    "SootopolisCity_Mart",
-    "SootopolisCity_House1",
-    "SootopolisCity_House2",
-    "SootopolisCity_House3",
-    "SootopolisCity_House4",
-    "SootopolisCity_House5",
-    "SootopolisCity_House6",
-    "SootopolisCity_House7",
-    "SootopolisCity_LotadAndSeedotHouse",
-    "SootopolisCity_MysteryEventsHouse_1F",
-    "SootopolisCity_MysteryEventsHouse_B1F"
   ],
   "gMapGroup_IndoorRoute104": [
     "Route104_MrBrineysHouse",
