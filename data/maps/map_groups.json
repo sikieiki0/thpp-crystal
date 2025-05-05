@@ -15,7 +15,6 @@
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
     "gMapGroup_TownsAndRoutes",
-    "gMapGroup_IndoorPacifidlog",
     "gMapGroup_IndoorPetalburg",
     "gMapGroup_IndoorSlateport",
     "gMapGroup_IndoorMauville",
@@ -373,15 +372,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125"
-  ],
-  "gMapGroup_IndoorPacifidlog": [
-    "PacifidlogTown_PokemonCenter_1F",
-    "PacifidlogTown_PokemonCenter_2F",
-    "PacifidlogTown_House1",
-    "PacifidlogTown_House2",
-    "PacifidlogTown_House3",
-    "PacifidlogTown_House4",
-    "PacifidlogTown_House5"
   ],
   "gMapGroup_IndoorPetalburg": [
     "PetalburgCity_WallysHouse",
