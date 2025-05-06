@@ -323,28 +323,6 @@ gStdScripts_End::
 	.include "data/maps/NavelRock_Down11/scripts.inc"
 	.include "data/maps/NavelRock_Bottom/scripts.inc"
 	.include "data/maps/TrainerHill_Elevator/scripts.inc"
-	.include "data/maps/Route104_Prototype/scripts.inc"
-	.include "data/maps/Route104_PrototypePrettyPetalFlowerShop/scripts.inc"
-	.include "data/maps/Route109_SeashoreHouse/scripts.inc"
-	.include "data/maps/Route110_TrickHouseEntrance/scripts.inc"
-	.include "data/maps/Route110_TrickHouseEnd/scripts.inc"
-	.include "data/maps/Route110_TrickHouseCorridor/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle1/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle2/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle3/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle4/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle5/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle6/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle7/scripts.inc"
-	.include "data/maps/Route110_TrickHousePuzzle8/scripts.inc"
-	.include "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.inc"
-	.include "data/maps/Route110_SeasideCyclingRoadNorthEntrance/scripts.inc"
-	.include "data/maps/Route113_GlassWorkshop/scripts.inc"
-	.include "data/maps/Route123_BerryMastersHouse/scripts.inc"
-	.include "data/maps/Route119_WeatherInstitute_1F/scripts.inc"
-	.include "data/maps/Route119_WeatherInstitute_2F/scripts.inc"
-	.include "data/maps/Route119_House/scripts.inc"
-	.include "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc"
 
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
@@ -933,6 +911,11 @@ Text_Painting::
 Text_Telephone::
 	.string "It's a telephone.\n"
 	.string "Better not use it.$"
+
+Route110_TrickHousePuzzle_EventScript_Door::
+	lockall
+	switch VAR_TRICK_HOUSE_LEVEL
+	end
 
 Text_Computer::
 	.string "It's all complicated words and\n"
