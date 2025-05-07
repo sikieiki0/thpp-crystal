@@ -3277,14 +3277,14 @@ bool8 AbnormalWeatherHasExpired(void)
 
     if (++steps > 999)
     {
-        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_ROUTE127))
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE30))
         {
             switch (gSaveBlock1Ptr->location.mapNum)
             {
-            case MAP_NUM(UNDERWATER_ROUTE127):
-            case MAP_NUM(UNDERWATER_ROUTE129):
-            case MAP_NUM(UNDERWATER_ROUTE105):
-            case MAP_NUM(UNDERWATER_ROUTE125):
+            case MAP_NUM(ROUTE30):
+            case MAP_NUM(ROUTE31):
+            case MAP_NUM(ROUTE32):
+            case MAP_NUM(ROUTE33):
                 VarSet(VAR_SHOULD_END_ABNORMAL_WEATHER, 1);
                 return FALSE;
             default:
