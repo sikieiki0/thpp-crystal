@@ -14,11 +14,6 @@
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
-    {
-      "map": "MAP_ROUTE118",
-      "offset": -40,
-      "direction": "down"
-    }
   ],
   "object_events": [
     {
