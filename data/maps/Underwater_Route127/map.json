@@ -13,21 +13,6 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
-    {
-      "map": "MAP_ROUTE127",
-      "offset": 0,
-      "direction": "emerge"
-    },
-    {
-      "map": "MAP_UNDERWATER_ROUTE126",
-      "offset": 0,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_UNDERWATER_ROUTE128",
-      "offset": 0,
-      "direction": "down"
-    }
   ],
   "object_events": [
 

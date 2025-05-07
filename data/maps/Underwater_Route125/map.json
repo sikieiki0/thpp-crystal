@@ -13,11 +13,6 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
-    {
-      "map": "MAP_ROUTE125",
-      "offset": 0,
-      "direction": "emerge"
-    }
   ],
   "object_events": [],
   "warp_events": [
