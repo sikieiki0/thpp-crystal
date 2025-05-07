@@ -401,7 +401,6 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_THALIA] = MCFLAVOR(Beauty_Thalia),
     [REMATCH_JESSICA] = MCFLAVOR(Beauty_Jessica),
     [REMATCH_STEVE] = MCFLAVOR(PokeManiac_Steve),
-    [REMATCH_TONY] = MCFLAVOR(Swimmer_Tony),
     [REMATCH_NOB] = MCFLAVOR(BlackBelt_Nob),
     [REMATCH_KOJI] = MCFLAVOR(BlackBelt_Koji),
     [REMATCH_FERNANDO] = MCFLAVOR(Guitarist_Fernando),
