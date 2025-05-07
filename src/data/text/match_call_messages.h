@@ -392,8 +392,6 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
 {
     [REMATCH_ROSE] = MCFLAVOR(AromaLady_Rose),
     [REMATCH_DUSTY] = MCFLAVOR(RuinManiac_Dusty),
-    [REMATCH_LOLA] = MCFLAVOR(Tuber_Lola),
-    [REMATCH_RICKY] = MCFLAVOR(Tuber_Ricky),
     [REMATCH_LILA_AND_ROY] = MCFLAVOR(SisAndBro_LilaAndRoy),
     [REMATCH_CRISTIN] = MCFLAVOR(Cooltrainer_Cristin),
     [REMATCH_BROOKE] = MCFLAVOR(Cooltrainer_Brooke),
@@ -414,7 +412,6 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_KAREN] = MCFLAVOR(SchoolKid_Karen),
     [REMATCH_JERRY] = MCFLAVOR(SchoolKid_Jerry),
     [REMATCH_ANNA_AND_MEG] = MCFLAVOR(SrAndJr_AnnaAndMeg),
-    [REMATCH_ISABEL] = MCFLAVOR(Pokefan_Isabel),
     [REMATCH_TIMOTHY] = MCFLAVOR(Expert_Timothy),
     [REMATCH_ISAIAH] = MCFLAVOR(Triathlete_Isaiah),
     [REMATCH_MARIA] = MCFLAVOR(Triathlete_Maria),
