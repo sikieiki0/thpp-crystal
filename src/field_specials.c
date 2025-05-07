@@ -3300,8 +3300,6 @@ void CreateAbnormalWeatherEvent(void)
 bool32 GetAbnormalWeatherMapNameAndType(void)
 {
     static const u8 sAbnormalWeatherMapNumbers[] = {
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE114),
         MAP_NUM(ROUTE115),
         MAP_NUM(ROUTE115),
         MAP_NUM(ROUTE116),
@@ -3331,8 +3329,6 @@ bool8 AbnormalWeatherHasExpired(void)
     // Duplicate array.
     static const u8 sAbnormalWeatherMapNumbers[] =
     {
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE114),
         MAP_NUM(ROUTE115),
         MAP_NUM(ROUTE115),
         MAP_NUM(ROUTE116),
