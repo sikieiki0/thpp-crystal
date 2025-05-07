@@ -182,7 +182,6 @@ gStdScripts_End::
 	.include "data/maps/Route46/scripts.inc"
 	.include "data/maps/Route47/scripts.inc"
 	.include "data/maps/Route48/scripts.inc"
-	.include "data/maps/Route133/scripts.inc"
 	.include "data/maps/Route134/scripts.inc"
 	.include "data/maps/Underwater_Route124/scripts.inc"
 	.include "data/maps/Underwater_Route126/scripts.inc"
