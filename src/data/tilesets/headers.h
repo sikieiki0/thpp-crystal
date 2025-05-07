@@ -1145,14 +1145,14 @@ const struct Tileset gTileset_Crystal_DarkCave =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Crystal_Port =
+const struct Tileset gTileset_Crystal_IslandHarbor =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Crystal_Port,
-    .palettes = gTilesetPalettes_Crystal_Port,
-    .metatiles = gMetatiles_Crystal_Port,
-    .metatileAttributes = gMetatileAttributes_Crystal_Port,
+    .tiles = gTilesetTiles_Crystal_IslandHarbor,
+    .palettes = gTilesetPalettes_Crystal_IslandHarbor,
+    .metatiles = gMetatiles_Crystal_IslandHarbor,
+    .metatileAttributes = gMetatileAttributes_Crystal_IslandHarbor,
     .callback = NULL,
 };
 

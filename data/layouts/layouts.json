@@ -2505,7 +2505,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_Port",
+      "secondary_tileset": "gTileset_Crystal_Island_Harbor",
       "border_filepath": "data/layouts/AsagiCity_Port/border.bin",
       "blockdata_filepath": "data/layouts/AsagiCity_Port/map.bin"
     },

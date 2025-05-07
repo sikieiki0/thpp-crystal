@@ -295,8 +295,8 @@ const u16 gMetatileAttributes_Crystal_Cafe[] = INCBIN_U16("data/tilesets/seconda
 const u16 gMetatiles_Crystal_DarkCave[] = INCBIN_U16("data/tilesets/secondary/crystal_dark_cave/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_DarkCave[] = INCBIN_U16("data/tilesets/secondary/crystal_dark_cave/metatile_attributes.bin");
 
-const u16 gMetatiles_Crystal_Port[] = INCBIN_U16("data/tilesets/secondary/crystal_port/metatiles.bin");
-const u16 gMetatileAttributes_Crystal_Port[] = INCBIN_U16("data/tilesets/secondary/crystal_port/metatile_attributes.bin");
+const u16 gMetatiles_Crystal_Island_Harbor[] = INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/metatiles.bin");
+const u16 gMetatileAttributes_Crystal_Island_Harbor[] = INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/metatile_attributes.bin");
 
 const u16 gMetatiles_Crystal_Lighthouse[] = INCBIN_U16("data/tilesets/secondary/crystal_lighthouse/metatiles.bin");
 const u16 gMetatileAttributes_Crystal_Lighthouse[] = INCBIN_U16("data/tilesets/secondary/crystal_lighthouse/metatile_attributes.bin");

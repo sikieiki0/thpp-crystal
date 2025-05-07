@@ -2186,24 +2186,24 @@ const u16 gTilesetPalettes_Crystal_DarkCave[][16] =
 
 const u32 gTilesetTiles_Crystal_DarkCave[] = INCBIN_U32("data/tilesets/secondary/crystal_dark_cave/tiles.4bpp.lz");
 
-const u16 gTilesetPalettes_Crystal_Port[][16] =
+const u16 gTilesetPalettes_Crystal_Island_Harbor[][16] =
 {
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/crystal_port/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/crystal_island_harbor/palettes/12.gbapal"),
 };
 
-const u32 gTilesetTiles_Crystal_Port[] = INCBIN_U32("data/tilesets/secondary/crystal_port/tiles.4bpp.lz");
+const u32 gTilesetTiles_Crystal_Island_Harbor[] = INCBIN_U32("data/tilesets/secondary/crystal_island_harbor/tiles.4bpp.lz");
 
 const u16 gTilesetPalettes_Crystal_Lighthouse[][16] =
 {
