@@ -429,7 +429,6 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_MADELINE] = MCFLAVOR(ParasolLady_Madeline),
     [REMATCH_JENNY] = MCFLAVOR(Swimmer_Jenny),
     [REMATCH_DIANA] = MCFLAVOR(Picnicker_Diana),
-    [REMATCH_CORY] = MCFLAVOR(Sailor_Cory),
     [REMATCH_EDWIN] = MCFLAVOR(Collector_Edwin),
     [REMATCH_LYDIA] = MCFLAVOR(PkmnBreeder_Lydia),
     [REMATCH_ISAAC] = MCFLAVOR(PkmnBreeder_Isaac),

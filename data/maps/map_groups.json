@@ -2,7 +2,7 @@
   "group_order": [
     "gMapGroup_TownsAndRoutesJohto",
     "gMapGroup_TownsAndRoutesKanto",
-    "gMapGroup_DungeonsCrystal",
+    "gMapGroup_DungeonsJohto",
     "gMapGroup_IndoorRoutes",
     "gMapGroup_IndoorWakabaTown",
     "gMapGroup_IndoorYoshinoCity",
@@ -100,7 +100,7 @@
     "Route24",
     "Route25"
   ],
-  "gMapGroup_DungeonsCrystal": [
+  "gMapGroup_DungeonsJohto": [
     "DarkCave_1F",
     "DarkCave_2F",
     "UnionCave_1F",
@@ -311,7 +311,6 @@
     "FusubeCity_House3"
   ],
   "gMapGroup_TownsAndRoutes": [
-    "Route108",
     "Route109",
     "Route110",
     "Route111",
