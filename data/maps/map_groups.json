@@ -14,7 +14,6 @@
     "gMapGroup_IndoorTanbaCity",
     "gMapGroup_IndoorChoujiTown",
     "gMapGroup_IndoorFusubeCity",
-    "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorDynamic",
     "gMapGroup_SpecialArea"
   ],
@@ -309,12 +308,6 @@
     "FusubeCity_House1",
     "FusubeCity_House2",
     "FusubeCity_House3"
-  ],
-  "gMapGroup_TownsAndRoutes": [
-    "Underwater_Route128",
-    "Underwater_Route129",
-    "Underwater_Route105",
-    "Underwater_Route125"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
