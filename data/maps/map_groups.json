@@ -384,16 +384,16 @@
     "BirthIsland_Exterior",
     "BirthIsland_Harbor",
     "FarawayIsland_Entrance",
-    "FarawayIsland_Interior", 
+    "FarawayIsland_Interior",
     "SouthernIsland_Exterior",
-    "SouthernIsland_Interior",  
+    "SouthernIsland_Interior",
     "SafariZone_Northwest",
     "SafariZone_North",
     "SafariZone_Southwest",
     "SafariZone_South",
     "SafariZone_RestHouse",
     "SafariZone_Northeast",
-    "SafariZone_Southeast",  
+    "SafariZone_Southeast",
     "BattleFrontier_OutsideEast",
     "BattleFrontier_OutsideWest",
     "BattleFrontier_BattleTowerLobby",
@@ -450,10 +450,10 @@
     "TrainerHill_Elevator"
   ],
   "gMapGroup_Link": [
-  "BattleColosseum_2P",
-  "TradeCenter",
-  "RecordCorner",
-  "BattleColosseum_4P",
-  "UnionRoom"
+    "BattleColosseum_2P",
+    "TradeCenter",
+    "RecordCorner",
+    "BattleColosseum_4P",
+    "UnionRoom"
   ]
 }
