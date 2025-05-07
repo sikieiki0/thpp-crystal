@@ -91,15 +91,6 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_TYPES(TYPE_FIRE, TYPE_FIRE),
         },
     },
-    [COND_MSG_ROUTE_112] =
-    {
-        .text = sCondMsg07,
-        .emotion = FOLLOWER_EMOTION_HAPPY,
-        .conditions =
-        {
-            MATCH_MAP(ROUTE112),
-        },
-    },
     [COND_MSG_MART] =
     {
         .text = (u8*)sShopTexts,

@@ -429,7 +429,6 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
 
     [REMATCH_CATHERINE] = MCFLAVOR(PkmnRanger_Catherine),
     [REMATCH_JACKSON] = MCFLAVOR(PkmnRanger_Jackson),
-    [REMATCH_TRENT] = MCFLAVOR(Hiker_Trent),
     [REMATCH_KIRA_AND_DAN] = MCFLAVOR(YoungCouple_LoisAndHal),
     [REMATCH_WALLY_VR] = MCFLAVOR(PkmnTrainer_Wally),
     [REMATCH_BRAWLY] = MCFLAVOR(TheBigHit_Brawly),
