@@ -1261,7 +1261,6 @@
       "border_filepath": "data/layouts/BattleFrontier_ScottsHouse/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ScottsHouse/map.bin"
     },
-    
     {
       "id": "LAYOUT_WAKABA_TOWN",
       "name": "WakabaTown_Layout",
