@@ -169,15 +169,6 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_ON_MB(MB_SAND, MB_FOOTPRINTS),
         },
     },
-    [COND_MSG_ROUTE_117] =
-    {
-        .text = sCondMsg27,
-        .emotion = FOLLOWER_EMOTION_SURPRISE,
-        .conditions =
-        {
-            MATCH_MAP(ROUTE117),
-        },
-    },
     [COND_MSG_DRAGON_GROWL] =
     {
         .text = sCondMsg28,
