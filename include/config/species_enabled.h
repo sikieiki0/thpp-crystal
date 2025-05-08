@@ -20,29 +20,30 @@
 #define P_GEN_9_POKEMON                  FALSE // Generation 9 Pokémon (SV)
 
 //Touhou Games 
-#define P_TOUHOU1_PUPPETS                FALSE  // TH01 - Highly Responsive to Prayers  (PC-98 Era)
-#define P_TOUHOU2_PUPPETS                FALSE  // TH02 - Story of Eastern Wonderland
-#define P_TOUHOU3_PUPPETS                FALSE  // TH03 - Phantasmagoria of Dim.Dream
-#define P_TOUHOU4_PUPPETS                FALSE  // TH04 - Lotus Land Story
-#define P_TOUHOU5_PUPPETS                FALSE  // TH05 - Mystic Square
-#define P_TOUHOU6_PUPPETS                FALSE  // TH06 - Embodiment of Scarlet Devil   (Windows Era)
-#define P_TOUHOU7_PUPPETS                FALSE  // TH07 - Perfect Cherry Blossom
-#define P_TOUHOU8_PUPPETS                FALSE  // TH08 - Imperishable Night
-#define P_TOUHOU9_PUPPETS                FALSE  // TH09 - Phantasmagoria of Flower View
-#define P_TOUHOU10_PUPPETS               FALSE  // TH10 - Mountain of Faith
-#define P_TOUHOU11_PUPPETS               FALSE  // TH11 - Subterranean Animism
-#define P_TOUHOU12_PUPPETS               FALSE  // TH12 - Undefined Fantastic Object
-#define P_TOUHOU13_PUPPETS               FALSE  // TH13 - Ten Desires
-#define P_TOUHOU14_PUPPETS               FALSE  // TH14 - Double Dealing Character
-#define P_TOUHOU15_PUPPETS               FALSE  // TH15 - Legacy of Lunatic Kingdom
-#define P_TOUHOU16_PUPPETS               FALSE  // TH16 - Hidden Star in Four Seasons
-#define P_TOUHOU17_PUPPETS               FALSE  // TH17 - Wily Beast and Weakest Creature
-#define P_TOUHOU18_PUPPETS               FALSE  // TH18 - Unconnected Marketeers
-#define P_TOUHOU19_PUPPETS               FALSE  // TH19 - Unfinished Dream of All Living Ghost
+#define P_TOUHOU1_PUPPETS                TRUE  // TH01 - Highly Responsive to Prayers  (PC-98 Era)
+#define P_TOUHOU2_PUPPETS                TRUE  // TH02 - Story of Eastern Wonderland
+#define P_TOUHOU3_PUPPETS                TRUE  // TH03 - Phantasmagoria of Dim.Dream
+#define P_TOUHOU4_PUPPETS                TRUE  // TH04 - Lotus Land Story
+#define P_TOUHOU5_PUPPETS                TRUE  // TH05 - Mystic Square
+#define P_TOUHOU6_PUPPETS                TRUE  // TH06 - Embodiment of Scarlet Devil   (Windows Era)
+#define P_TOUHOU7_PUPPETS                TRUE  // TH07 - Perfect Cherry Blossom
+#define P_TOUHOU8_PUPPETS                TRUE  // TH08 - Imperishable Night
+#define P_TOUHOU9_PUPPETS                TRUE  // TH09 - Phantasmagoria of Flower View
+#define P_TOUHOU10_PUPPETS               TRUE  // TH10 - Mountain of Faith
+#define P_TOUHOU11_PUPPETS               TRUE  // TH11 - Subterranean Animism
+#define P_TOUHOU12_PUPPETS               TRUE  // TH12 - Undefined Fantastic Object
+#define P_TOUHOU13_PUPPETS               TRUE  // TH13 - Ten Desires
+#define P_TOUHOU14_PUPPETS               TRUE  // TH14 - Double Dealing Character
+#define P_TOUHOU15_PUPPETS               TRUE  // TH15 - Legacy of Lunatic Kingdom
+#define P_TOUHOU16_PUPPETS               TRUE  // TH16 - Hidden Star in Four Seasons
+#define P_TOUHOU17_PUPPETS               TRUE  // TH17 - Wily Beast and Weakest Creature
+#define P_TOUHOU18_PUPPETS               TRUE  // TH18 - Unconnected Marketeers
+#define P_TOUHOU19_PUPPETS               TRUE  // TH19 - Unfinished Dream of All Living Ghost
+#define P_TOUHOU20_PUPPETS               TRUE  // TH20 - Fossilized Wonders
 //misc Puppets
-#define P_TOUHOU_PRINT_PUPPETS           FALSE  // Mangas, Comics etc.
-#define P_TOUHOU_SPINOFF_PUPPETS         FALSE  // Spinoff games
-#define P_TOUHOU_OTHER_PUPPETS           FALSE  // Other sources
+#define P_TOUHOU_PRINT_PUPPETS           TRUE  // Mangas, Comics etc.
+#define P_TOUHOU_SPINOFF_PUPPETS         TRUE  // Spinoff games
+#define P_TOUHOU_OTHER_PUPPETS           TRUE  // Other sources
 
 // Setting this to TRUE will add the new evolutions to the Regional Dex.
 #define P_NEW_EVOS_IN_REGIONAL_DEX       TRUE
