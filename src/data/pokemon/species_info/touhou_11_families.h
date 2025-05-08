@@ -1,11 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhou11[] =
-{
-#endif
-
-
-    #if P_TOUHOU11_PUPPETS  
-
     [SPECIES_CKISUME] =
     {
         .speciesName = _("Kisume{CHIBI}"),
@@ -1963,10 +1955,3 @@ const struct SpeciesInfo gSpeciesInfoTouhou11[] =
         .levelUpLearnset = sSKoishiLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sSKoishiTeachableLearnset,
     },
-    
-    #endif // P_TOUHOU11_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

@@ -1,8 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhou12[] =
-{
-#endif
-
     [SPECIES_CNAZRIN] =
     {
         .speciesName = _("Nazrin{CHIBI}"),
@@ -125,8 +120,6 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .levelUpLearnset = sNazrinLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,
     },
-
-    #if P_TOUHOU12_PUPPETS  
 
     [SPECIES_TNAZRIN] =
     {
@@ -1717,10 +1710,3 @@ const struct SpeciesInfo gSpeciesInfoTouhou12[] =
         .levelUpLearnset = sTNueLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sTNueTeachableLearnset,
     },
-
-    #endif // P_TOUHOU12_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

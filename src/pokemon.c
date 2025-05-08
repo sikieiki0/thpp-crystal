@@ -112,25 +112,8 @@ static const struct CombinedMove sCombinedMoves[2] =
 #define HOENN_TO_NATIONAL(name)     [HOENN_DEX_##name - 1] = NATIONAL_DEX_##name
 
 // Assigns all Hoenn Dex Indexes to a National Dex Index
-static const u16 sHoennToNationalOrder[HOENN_DEX_COUNT - 1] =
+static const u16 sHoennToNationalOrder[HOENN_DEX_COUNT] =
 {
-    HOENN_TO_NATIONAL(CREIMU98),
-    HOENN_TO_NATIONAL(REIMU98),
-    HOENN_TO_NATIONAL(CMARISA98),
-    HOENN_TO_NATIONAL(MARISA98),
-    HOENN_TO_NATIONAL(CALICE98),
-    HOENN_TO_NATIONAL(ALICE98),
-    HOENN_TO_NATIONAL(CNAZRIN),
-    HOENN_TO_NATIONAL(NAZRIN),
-    HOENN_TO_NATIONAL(CTOKIKO),
-    HOENN_TO_NATIONAL(TOKIKO),
-    HOENN_TO_NATIONAL(CDAIYOUSEI),
-    HOENN_TO_NATIONAL(DAIYOUSEI),
-    HOENN_TO_NATIONAL(CCHEN),
-    HOENN_TO_NATIONAL(CHEN),
-    HOENN_TO_NATIONAL(CSEIRAN),
-    HOENN_TO_NATIONAL(SEIRAN),
-    HOENN_TO_NATIONAL(DEOXYS),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =

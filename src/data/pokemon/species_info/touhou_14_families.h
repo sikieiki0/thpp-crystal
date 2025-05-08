@@ -1,11 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhou14[] =
-{
-#endif
-
-
-    #if P_TOUHOU14_PUPPETS  
-
     [SPECIES_CWAKASAGIHIME] =
     {
         .speciesName = _("Wakasagi{CHIBI}"), ///// MISSING DATA
@@ -981,10 +973,3 @@ const struct SpeciesInfo gSpeciesInfoTouhou14[] =
         .levelUpLearnset = sNoneLevelUpLearnset,//sRaikoLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sRaikoTeachableLearnset,
     },
-    
-    #endif // P_TOUHOU14_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

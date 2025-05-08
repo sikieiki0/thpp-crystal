@@ -1,8 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhou15[] =
-{
-#endif
-
     [SPECIES_CSEIRAN] =
     {
         .speciesName = _("Seiran{CHIBI}"), ///// MISSING DATA
@@ -125,8 +120,6 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
         .levelUpLearnset = sSeiranLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sSeiranTeachableLearnset,
     },
-
-    #if P_TOUHOU15_PUPPETS  
 
     [SPECIES_CRINGO] =
     {
@@ -859,10 +852,3 @@ const struct SpeciesInfo gSpeciesInfoTouhou15[] =
         .levelUpLearnset = sNoneLevelUpLearnset,//sHecatiaLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sHecatiaTeachableLearnset,
     },
-    
-    #endif // P_TOUHOU15_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

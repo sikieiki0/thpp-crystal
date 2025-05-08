@@ -1,8 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhouPrint[] =
-{
-#endif
-
     [SPECIES_CTOKIKO] =
     {
         .speciesName = _("Tokiko{CHIBI}"),
@@ -124,8 +119,6 @@ const struct SpeciesInfo gSpeciesInfoTouhouPrint[] =
         .levelUpLearnset = sTokikoLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,
     },
-
-    #if P_TOUHOU_PRINT_PUPPETS  
 
     //Perfect Memento in Strict Sense
     [SPECIES_AKYUU] =
@@ -1355,10 +1348,3 @@ const struct SpeciesInfo gSpeciesInfoTouhouPrint[] =
         .levelUpLearnset = sNoneLevelUpLearnset,//sMiyoiLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sMiyoiTeachableLearnset,
     },
-    
-    #endif // P_TOUHOU_PRINT_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

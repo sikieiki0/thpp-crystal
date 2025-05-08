@@ -1,4 +1,5 @@
 // Only list base species here.
+// This shall be deleted eventually.
 const u16 gPokedexOrder_Alphabetical[] =
 {
     NATIONAL_DEX_CREIMU98,

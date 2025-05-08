@@ -1,11 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhou8[] =
-{
-#endif
-
-
-    #if P_TOUHOU8_PUPPETS  
-
     [SPECIES_CWRIGGLE] =
     {
         .speciesName = _("Wriggle{CHIBI}"),
@@ -2323,10 +2315,3 @@ const struct SpeciesInfo gSpeciesInfoTouhou8[] =
         .levelUpLearnset = sAdMokouLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sAdMokouTeachableLearnset,
     },
-    
-    #endif // P_TOUHOU8_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

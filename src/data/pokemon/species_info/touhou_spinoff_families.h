@@ -1,11 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhouSpinoff[] =
-{
-#endif
-
-
-    #if P_TOUHOU_SPINOFF_PUPPETS  
-
     //Touhou Sangetsusei
     [SPECIES_CLUNACHILD] =
     {
@@ -2885,11 +2877,3 @@ const struct SpeciesInfo gSpeciesInfoTouhouSpinoff[] =
         .levelUpLearnset = sNoneLevelUpLearnset,//sYuumaLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sYuumaTeachableLearnset,
     },
-
-    
-    #endif // P_TOUHOU_SPINOFF_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

@@ -1,8 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhou7[] =
-{
-#endif
-
     [SPECIES_CCHEN] =
     {
         .speciesName = _("Chen{CHIBI}"),
@@ -125,8 +120,6 @@ const struct SpeciesInfo gSpeciesInfoTouhou7[] =
         .levelUpLearnset = sChenLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,
     },
-
-    #if P_TOUHOU7_PUPPETS  
 
     [SPECIES_CLETTY] =
     {
@@ -922,7 +915,7 @@ const struct SpeciesInfo gSpeciesInfoTouhou7[] =
 
     [SPECIES_DARKALICE] =
     {
-        .speciesName = _("Alice{BLACK}"),
+        .speciesName = _("Dark Alice"),
         .baseHP        = 90,
         .baseAttack    = 50,
         .baseDefense   = 85,
@@ -3787,10 +3780,3 @@ const struct SpeciesInfo gSpeciesInfoTouhou7[] =
         .levelUpLearnset = sAyakashiLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sAyakashiTeachableLearnset,
     }, 
-    
-    #endif // P_TOUHOU7_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif

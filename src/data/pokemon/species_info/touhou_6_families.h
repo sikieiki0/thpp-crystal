@@ -1,8 +1,3 @@
-#ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoTouhou6[] =
-{
-#endif
-
     [SPECIES_CDAIYOUSEI] =
     {
         .speciesName = _("Daiyousei{CHIBI}"),
@@ -125,8 +120,6 @@ const struct SpeciesInfo gSpeciesInfoTouhou6[] =
         .levelUpLearnset = sDaiyouseiLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,
     },
-
-    #if P_TOUHOU6_PUPPETS  
 
     [SPECIES_CREIMU] =
     {
@@ -2876,6 +2869,67 @@ const struct SpeciesInfo gSpeciesInfoTouhou6[] =
         .teachableLearnset = sNoneTeachableLearnset,//sSFlandreTeachableLearnset,
     },
 
+    [SPECIES_CSATSUKI] =
+    {
+        .speciesName = _("Satsuki{CHIBI}"), //unreleased player character, duplicate of evolved version
+        .baseHP        = 150,
+        .baseAttack    = 50,
+        .baseDefense   = 140,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 140,
+        .types = MON_TYPES(TYPE_NATURE, TYPE_ELECTRIC),
+        .catchRate = 1,
+        .expYield = 190,
+        .evYield_HP        = 0,
+        .evYield_Attack    = 0,
+        .evYield_Defense   = 1,
+        .evYield_Speed     = 0,
+        .evYield_SpAttack  = 2,
+        .evYield_SpDefense = 0,
+        .itemCommon = ITEM_NONE,
+        .itemRare = ITEM_NONE,
+        .genderRatio = 127,
+        .eggCycles = 120,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
+        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .safariZoneFleeRate = 0,
+        .cryId = CRY_NONE,
+        .natDexNum = NATIONAL_DEX_CSATSUKI,
+        .sourceGame = SOURCE_OTHER,
+        .categoryName = _("Mythical"),
+        .height = 17,
+        .weight = 608,
+        .description = COMPOUND_STRING(
+        "Rin was supposed to exist, a long\n"
+        "time ago. But, somehow, no trace\n"
+        "of her remains in this world..."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+        .frontPic = gMonFrontPic_CSatsuki,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_CSatsuki,
+        .frontAnimId = ANIM_GROW_VIBRATE,
+        .frontAnimDelay = 15,
+        .enemyMonElevation = 0,
+        .backPic = gMonBackPic_CSatsuki,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_CSatsuki,
+        .shinyPalette = gMonShinyPalette_CSatsuki,
+        .iconSprite = gMonIcon_CSatsuki,
+        .iconPalIndex = 2,
+        FOOTPRINT(CSatsuki)
+        .levelUpLearnset = sCSatsukiLevelUpLearnset,
+        .teachableLearnset = sNoneTeachableLearnset,//sCSatsukiTeachableLearnset,
+    },
+
     [SPECIES_SATSUKI] =
     {
         .speciesName = _("Satsuki"), //unreleased player character
@@ -2936,10 +2990,3 @@ const struct SpeciesInfo gSpeciesInfoTouhou6[] =
         .levelUpLearnset = sSatsukiLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,//sSatsukiTeachableLearnset,
     },
-    
-    #endif // P_TOUHOU6_PUPPETS
-
-
-#ifdef __INTELLISENSE__
-};
-#endif
