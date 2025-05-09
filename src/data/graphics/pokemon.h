@@ -844,3 +844,430 @@ const u32 gMonPalette_Satsuki[]      = INCBIN_U32("graphics/boneka/satsuki/evolv
 const u32 gMonShinyPalette_Satsuki[] = INCBIN_U32("graphics/boneka/satsuki/evolved/shiny.gbapal.lz");
 const u8 gMonIcon_Satsuki[]          = INCBIN_U8 ("graphics/boneka/satsuki/evolved/icon.4bpp");
 const u8 gMonFootprint_Satsuki[]     = INCBIN_U8 ("graphics/boneka/satsuki/footprint.1bpp");
+
+const u32 gMonFrontPic_CChen[]     = INCBIN_U32("graphics/boneka/chen/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CChen[]      = INCBIN_U32("graphics/boneka/chen/chibi/back.4bpp.lz");
+const u32 gMonPalette_CChen[]      = INCBIN_U32("graphics/boneka/chen/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CChen[] = INCBIN_U32("graphics/boneka/chen/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CChen[]          = INCBIN_U8 ("graphics/boneka/chen/chibi/icon.4bpp");
+const u8 gMonFootprint_CChen[]     = INCBIN_U8 ("graphics/boneka/chen/footprint.1bpp");
+
+const u32 gMonFrontPic_Chen[]     = INCBIN_U32("graphics/boneka/chen/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Chen[]      = INCBIN_U32("graphics/boneka/chen/evolved/back.4bpp.lz");
+const u32 gMonPalette_Chen[]      = INCBIN_U32("graphics/boneka/chen/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Chen[] = INCBIN_U32("graphics/boneka/chen/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Chen[]          = INCBIN_U8 ("graphics/boneka/chen/evolved/icon.4bpp");
+const u8 gMonFootprint_Chen[]     = INCBIN_U8 ("graphics/boneka/chen/footprint.1bpp");
+
+const u32 gMonFrontPic_CLetty[]     = INCBIN_U32("graphics/boneka/letty/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CLetty[]      = INCBIN_U32("graphics/boneka/letty/chibi/back.4bpp.lz");
+const u32 gMonPalette_CLetty[]      = INCBIN_U32("graphics/boneka/letty/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CLetty[] = INCBIN_U32("graphics/boneka/letty/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CLetty[]          = INCBIN_U8 ("graphics/boneka/letty/chibi/icon.4bpp");
+const u8 gMonFootprint_CLetty[]     = INCBIN_U8 ("graphics/boneka/letty/footprint.1bpp");
+
+const u32 gMonFrontPic_Letty[]     = INCBIN_U32("graphics/boneka/letty/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Letty[]      = INCBIN_U32("graphics/boneka/letty/evolved/back.4bpp.lz");
+const u32 gMonPalette_Letty[]      = INCBIN_U32("graphics/boneka/letty/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Letty[] = INCBIN_U32("graphics/boneka/letty/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Letty[]          = INCBIN_U8 ("graphics/boneka/letty/evolved/icon.4bpp");
+const u8 gMonFootprint_Letty[]     = INCBIN_U8 ("graphics/boneka/letty/footprint.1bpp");
+
+const u32 gMonFrontPic_DLetty[]     = INCBIN_U32("graphics/boneka/letty/defense/front.4bpp.lz");
+const u32 gMonBackPic_DLetty[]      = INCBIN_U32("graphics/boneka/letty/defense/back.4bpp.lz");
+const u32 gMonPalette_DLetty[]      = INCBIN_U32("graphics/boneka/letty/defense/normal.gbapal.lz");
+const u32 gMonShinyPalette_DLetty[] = INCBIN_U32("graphics/boneka/letty/defense/shiny.gbapal.lz");
+const u8 gMonIcon_DLetty[]          = INCBIN_U8 ("graphics/boneka/letty/defense/icon.4bpp");
+const u8 gMonFootprint_DLetty[]     = INCBIN_U8 ("graphics/boneka/letty/footprint.1bpp");
+
+const u32 gMonFrontPic_HLetty[]     = INCBIN_U32("graphics/boneka/letty/helper/front.4bpp.lz");
+const u32 gMonBackPic_HLetty[]      = INCBIN_U32("graphics/boneka/letty/helper/back.4bpp.lz");
+const u32 gMonPalette_HLetty[]      = INCBIN_U32("graphics/boneka/letty/helper/normal.gbapal.lz");
+const u32 gMonShinyPalette_HLetty[] = INCBIN_U32("graphics/boneka/letty/helper/shiny.gbapal.lz");
+const u8 gMonIcon_HLetty[]          = INCBIN_U8 ("graphics/boneka/letty/helper/icon.4bpp");
+const u8 gMonFootprint_HLetty[]     = INCBIN_U8 ("graphics/boneka/letty/footprint.1bpp");
+
+const u32 gMonFrontPic_AdLetty[]     = INCBIN_U32("graphics/boneka/letty/advent/front.4bpp.lz");
+const u32 gMonBackPic_AdLetty[]      = INCBIN_U32("graphics/boneka/letty/advent/back.4bpp.lz");
+const u32 gMonPalette_AdLetty[]      = INCBIN_U32("graphics/boneka/letty/advent/normal.gbapal.lz");
+const u32 gMonShinyPalette_AdLetty[] = INCBIN_U32("graphics/boneka/letty/advent/shiny.gbapal.lz");
+const u8 gMonIcon_AdLetty[]          = INCBIN_U8 ("graphics/boneka/letty/advent/icon.4bpp");
+const u8 gMonFootprint_AdLetty[]     = INCBIN_U8 ("graphics/boneka/letty/footprint.1bpp");
+
+const u32 gMonFrontPic_AChen[]     = INCBIN_U32("graphics/boneka/chen/attack/front.4bpp.lz");
+const u32 gMonBackPic_AChen[]      = INCBIN_U32("graphics/boneka/chen/attack/back.4bpp.lz");
+const u32 gMonPalette_AChen[]      = INCBIN_U32("graphics/boneka/chen/attack/normal.gbapal.lz");
+const u32 gMonShinyPalette_AChen[] = INCBIN_U32("graphics/boneka/chen/attack/shiny.gbapal.lz");
+const u8 gMonIcon_AChen[]          = INCBIN_U8 ("graphics/boneka/chen/attack/icon.4bpp");
+const u8 gMonFootprint_AChen[]     = INCBIN_U8 ("graphics/boneka/chen/footprint.1bpp");
+
+const u32 gMonFrontPic_TChen[]     = INCBIN_U32("graphics/boneka/chen/technic/front.4bpp.lz");
+const u32 gMonBackPic_TChen[]      = INCBIN_U32("graphics/boneka/chen/technic/back.4bpp.lz");
+const u32 gMonPalette_TChen[]      = INCBIN_U32("graphics/boneka/chen/technic/normal.gbapal.lz");
+const u32 gMonShinyPalette_TChen[] = INCBIN_U32("graphics/boneka/chen/technic/shiny.gbapal.lz");
+const u8 gMonIcon_TChen[]          = INCBIN_U8 ("graphics/boneka/chen/technic/icon.4bpp");
+const u8 gMonFootprint_TChen[]     = INCBIN_U8 ("graphics/boneka/chen/footprint.1bpp");
+
+const u32 gMonFrontPic_CAlice[]     = INCBIN_U32("graphics/boneka/alice/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CAlice[]      = INCBIN_U32("graphics/boneka/alice/chibi/back.4bpp.lz");
+const u32 gMonPalette_CAlice[]      = INCBIN_U32("graphics/boneka/alice/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CAlice[] = INCBIN_U32("graphics/boneka/alice/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CAlice[]          = INCBIN_U8 ("graphics/boneka/alice/chibi/icon.4bpp");
+const u8 gMonFootprint_CAlice[]     = INCBIN_U8 ("graphics/boneka/alice/footprint.1bpp");
+
+const u32 gMonFrontPic_Alice[]     = INCBIN_U32("graphics/boneka/alice/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Alice[]      = INCBIN_U32("graphics/boneka/alice/evolved/back.4bpp.lz");
+const u32 gMonPalette_Alice[]      = INCBIN_U32("graphics/boneka/alice/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Alice[] = INCBIN_U32("graphics/boneka/alice/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Alice[]          = INCBIN_U8 ("graphics/boneka/alice/evolved/icon.4bpp");
+const u8 gMonFootprint_Alice[]     = INCBIN_U8 ("graphics/boneka/alice/footprint.1bpp");
+
+const u32 gMonFrontPic_AAlice[]     = INCBIN_U32("graphics/boneka/alice/attack/front.4bpp.lz");
+const u32 gMonBackPic_AAlice[]      = INCBIN_U32("graphics/boneka/alice/attack/back.4bpp.lz");
+const u32 gMonPalette_AAlice[]      = INCBIN_U32("graphics/boneka/alice/attack/normal.gbapal.lz");
+const u32 gMonShinyPalette_AAlice[] = INCBIN_U32("graphics/boneka/alice/attack/shiny.gbapal.lz");
+const u8 gMonIcon_AAlice[]          = INCBIN_U8 ("graphics/boneka/alice/attack/icon.4bpp");
+const u8 gMonFootprint_AAlice[]     = INCBIN_U8 ("graphics/boneka/alice/footprint.1bpp");
+
+const u32 gMonFrontPic_TAlice[]     = INCBIN_U32("graphics/boneka/alice/technic/front.4bpp.lz");
+const u32 gMonBackPic_TAlice[]      = INCBIN_U32("graphics/boneka/alice/technic/back.4bpp.lz");
+const u32 gMonPalette_TAlice[]      = INCBIN_U32("graphics/boneka/alice/technic/normal.gbapal.lz");
+const u32 gMonShinyPalette_TAlice[] = INCBIN_U32("graphics/boneka/alice/technic/shiny.gbapal.lz");
+const u8 gMonIcon_TAlice[]          = INCBIN_U8 ("graphics/boneka/alice/technic/icon.4bpp");
+const u8 gMonFootprint_TAlice[]     = INCBIN_U8 ("graphics/boneka/alice/footprint.1bpp");
+
+const u32 gMonFrontPic_AdAlice[]     = INCBIN_U32("graphics/boneka/alice/advent/front.4bpp.lz");
+const u32 gMonBackPic_AdAlice[]      = INCBIN_U32("graphics/boneka/alice/advent/back.4bpp.lz");
+const u32 gMonPalette_AdAlice[]      = INCBIN_U32("graphics/boneka/alice/advent/normal.gbapal.lz");
+const u32 gMonShinyPalette_AdAlice[] = INCBIN_U32("graphics/boneka/alice/advent/shiny.gbapal.lz");
+const u8 gMonIcon_AdAlice[]          = INCBIN_U8 ("graphics/boneka/alice/advent/icon.4bpp");
+const u8 gMonFootprint_AdAlice[]     = INCBIN_U8 ("graphics/boneka/alice/footprint.1bpp");
+
+const u32 gMonFrontPic_DarkAlice[]     = INCBIN_U32("graphics/boneka/alice/dark/front.4bpp.lz");
+const u32 gMonBackPic_DarkAlice[]      = INCBIN_U32("graphics/boneka/alice/dark/back.4bpp.lz");
+const u32 gMonPalette_DarkAlice[]      = INCBIN_U32("graphics/boneka/alice/dark/normal.gbapal.lz");
+const u32 gMonShinyPalette_DarkAlice[] = INCBIN_U32("graphics/boneka/alice/dark/shiny.gbapal.lz");
+const u8 gMonIcon_DarkAlice[]          = INCBIN_U8 ("graphics/boneka/alice/dark/icon.4bpp");
+const u8 gMonFootprint_DarkAlice[]     = INCBIN_U8 ("graphics/boneka/alice/footprint.1bpp");
+
+const u32 gMonFrontPic_Shanghai[]     = INCBIN_U32("graphics/boneka/alicedolls/shanghai/front.4bpp.lz");
+const u32 gMonBackPic_Shanghai[]      = INCBIN_U32("graphics/boneka/alicedolls/shanghai/back.4bpp.lz");
+const u32 gMonPalette_Shanghai[]      = INCBIN_U32("graphics/boneka/alicedolls/shanghai/normal.gbapal.lz");
+const u32 gMonShinyPalette_Shanghai[] = INCBIN_U32("graphics/boneka/alicedolls/shanghai/shiny.gbapal.lz");
+const u8 gMonIcon_Shanghai[]          = INCBIN_U8 ("graphics/boneka/alicedolls/shanghai/icon.4bpp");
+const u8 gMonFootprint_Shanghai[]     = INCBIN_U8 ("graphics/boneka/alicedolls/footprint.1bpp");
+
+const u32 gMonFrontPic_Hourai[]     = INCBIN_U32("graphics/boneka/alicedolls/hourai/front.4bpp.lz");
+const u32 gMonBackPic_Hourai[]      = INCBIN_U32("graphics/boneka/alicedolls/hourai/back.4bpp.lz");
+const u32 gMonPalette_Hourai[]      = INCBIN_U32("graphics/boneka/alicedolls/hourai/normal.gbapal.lz");
+const u32 gMonShinyPalette_Hourai[] = INCBIN_U32("graphics/boneka/alicedolls/hourai/shiny.gbapal.lz");
+const u8 gMonIcon_Hourai[]          = INCBIN_U8 ("graphics/boneka/alicedolls/hourai/icon.4bpp");
+const u8 gMonFootprint_Hourai[]     = INCBIN_U8 ("graphics/boneka/alicedolls/footprint.1bpp");
+
+const u32 gMonFrontPic_CLilyWhite[]     = INCBIN_U32("graphics/boneka/lilywhite/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CLilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/chibi/back.4bpp.lz");
+const u32 gMonPalette_CLilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CLilyWhite[] = INCBIN_U32("graphics/boneka/lilywhite/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CLilyWhite[]          = INCBIN_U8 ("graphics/boneka/lilywhite/chibi/icon.4bpp");
+const u8 gMonFootprint_CLilyWhite[]     = INCBIN_U8 ("graphics/boneka/lilywhite/footprint.1bpp");
+
+const u32 gMonFrontPic_LilyWhite[]     = INCBIN_U32("graphics/boneka/lilywhite/evolved/front.4bpp.lz");
+const u32 gMonBackPic_LilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/evolved/back.4bpp.lz");
+const u32 gMonPalette_LilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_LilyWhite[] = INCBIN_U32("graphics/boneka/lilywhite/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_LilyWhite[]          = INCBIN_U8 ("graphics/boneka/lilywhite/evolved/icon.4bpp");
+const u8 gMonFootprint_LilyWhite[]     = INCBIN_U8 ("graphics/boneka/lilywhite/footprint.1bpp");
+
+const u32 gMonFrontPic_ALilyWhite[]     = INCBIN_U32("graphics/boneka/lilywhite/attack/front.4bpp.lz");
+const u32 gMonBackPic_ALilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/attack/back.4bpp.lz");
+const u32 gMonPalette_ALilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/attack/normal.gbapal.lz");
+const u32 gMonShinyPalette_ALilyWhite[] = INCBIN_U32("graphics/boneka/lilywhite/attack/shiny.gbapal.lz");
+const u8 gMonIcon_ALilyWhite[]          = INCBIN_U8 ("graphics/boneka/lilywhite/attack/icon.4bpp");
+const u8 gMonFootprint_ALilyWhite[]     = INCBIN_U8 ("graphics/boneka/lilywhite/footprint.1bpp");
+
+const u32 gMonFrontPic_HLilyWhite[]     = INCBIN_U32("graphics/boneka/lilywhite/helper/front.4bpp.lz");
+const u32 gMonBackPic_HLilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/helper/back.4bpp.lz");
+const u32 gMonPalette_HLilyWhite[]      = INCBIN_U32("graphics/boneka/lilywhite/helper/normal.gbapal.lz");
+const u32 gMonShinyPalette_HLilyWhite[] = INCBIN_U32("graphics/boneka/lilywhite/helper/shiny.gbapal.lz");
+const u8 gMonIcon_HLilyWhite[]          = INCBIN_U8 ("graphics/boneka/lilywhite/helper/icon.4bpp");
+const u8 gMonFootprint_HLilyWhite[]     = INCBIN_U8 ("graphics/boneka/lilywhite/footprint.1bpp");
+
+const u32 gMonFrontPic_CLilyBlack[]     = INCBIN_U32("graphics/boneka/lilyblack/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CLilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/chibi/back.4bpp.lz");
+const u32 gMonPalette_CLilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CLilyBlack[] = INCBIN_U32("graphics/boneka/lilyblack/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CLilyBlack[]          = INCBIN_U8 ("graphics/boneka/lilyblack/chibi/icon.4bpp");
+const u8 gMonFootprint_CLilyBlack[]     = INCBIN_U8 ("graphics/boneka/lilyblack/footprint.1bpp");
+
+const u32 gMonFrontPic_LilyBlack[]     = INCBIN_U32("graphics/boneka/lilyblack/evolved/front.4bpp.lz");
+const u32 gMonBackPic_LilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/evolved/back.4bpp.lz");
+const u32 gMonPalette_LilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_LilyBlack[] = INCBIN_U32("graphics/boneka/lilyblack/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_LilyBlack[]          = INCBIN_U8 ("graphics/boneka/lilyblack/evolved/icon.4bpp");
+const u8 gMonFootprint_LilyBlack[]     = INCBIN_U8 ("graphics/boneka/lilyblack/footprint.1bpp");
+
+const u32 gMonFrontPic_ALilyBlack[]     = INCBIN_U32("graphics/boneka/lilyblack/attack/front.4bpp.lz");
+const u32 gMonBackPic_ALilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/attack/back.4bpp.lz");
+const u32 gMonPalette_ALilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/attack/normal.gbapal.lz");
+const u32 gMonShinyPalette_ALilyBlack[] = INCBIN_U32("graphics/boneka/lilyblack/attack/shiny.gbapal.lz");
+const u8 gMonIcon_ALilyBlack[]          = INCBIN_U8 ("graphics/boneka/lilyblack/attack/icon.4bpp");
+const u8 gMonFootprint_ALilyBlack[]     = INCBIN_U8 ("graphics/boneka/lilyblack/footprint.1bpp");
+
+const u32 gMonFrontPic_SLilyBlack[]     = INCBIN_U32("graphics/boneka/lilyblack/speed/front.4bpp.lz");
+const u32 gMonBackPic_SLilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/speed/back.4bpp.lz");
+const u32 gMonPalette_SLilyBlack[]      = INCBIN_U32("graphics/boneka/lilyblack/speed/normal.gbapal.lz");
+const u32 gMonShinyPalette_SLilyBlack[] = INCBIN_U32("graphics/boneka/lilyblack/speed/shiny.gbapal.lz");
+const u8 gMonIcon_SLilyBlack[]          = INCBIN_U8 ("graphics/boneka/lilyblack/speed/icon.4bpp");
+const u8 gMonFootprint_SLilyBlack[]     = INCBIN_U8 ("graphics/boneka/lilyblack/footprint.1bpp");
+
+const u32 gMonFrontPic_CLunasa[]     = INCBIN_U32("graphics/boneka/lunasa/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CLunasa[]      = INCBIN_U32("graphics/boneka/lunasa/chibi/back.4bpp.lz");
+const u32 gMonPalette_CLunasa[]      = INCBIN_U32("graphics/boneka/lunasa/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CLunasa[] = INCBIN_U32("graphics/boneka/lunasa/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CLunasa[]          = INCBIN_U8 ("graphics/boneka/lunasa/chibi/icon.4bpp");
+const u8 gMonFootprint_CLunasa[]     = INCBIN_U8 ("graphics/boneka/lunasa/footprint.1bpp");
+
+const u32 gMonFrontPic_Lunasa[]     = INCBIN_U32("graphics/boneka/lunasa/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Lunasa[]      = INCBIN_U32("graphics/boneka/lunasa/evolved/back.4bpp.lz");
+const u32 gMonPalette_Lunasa[]      = INCBIN_U32("graphics/boneka/lunasa/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Lunasa[] = INCBIN_U32("graphics/boneka/lunasa/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Lunasa[]          = INCBIN_U8 ("graphics/boneka/lunasa/evolved/icon.4bpp");
+const u8 gMonFootprint_Lunasa[]     = INCBIN_U8 ("graphics/boneka/lunasa/footprint.1bpp");
+
+const u32 gMonFrontPic_HLunasa[]     = INCBIN_U32("graphics/boneka/lunasa/helper/front.4bpp.lz");
+const u32 gMonBackPic_HLunasa[]      = INCBIN_U32("graphics/boneka/lunasa/helper/back.4bpp.lz");
+const u32 gMonPalette_HLunasa[]      = INCBIN_U32("graphics/boneka/lunasa/helper/normal.gbapal.lz");
+const u32 gMonShinyPalette_HLunasa[] = INCBIN_U32("graphics/boneka/lunasa/helper/shiny.gbapal.lz");
+const u8 gMonIcon_HLunasa[]          = INCBIN_U8 ("graphics/boneka/lunasa/helper/icon.4bpp");
+const u8 gMonFootprint_HLunasa[]     = INCBIN_U8 ("graphics/boneka/lunasa/footprint.1bpp");
+
+const u32 gMonFrontPic_CMerlin[]     = INCBIN_U32("graphics/boneka/merlin/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CMerlin[]      = INCBIN_U32("graphics/boneka/merlin/chibi/back.4bpp.lz");
+const u32 gMonPalette_CMerlin[]      = INCBIN_U32("graphics/boneka/merlin/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CMerlin[] = INCBIN_U32("graphics/boneka/merlin/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CMerlin[]          = INCBIN_U8 ("graphics/boneka/merlin/chibi/icon.4bpp");
+const u8 gMonFootprint_CMerlin[]     = INCBIN_U8 ("graphics/boneka/merlin/footprint.1bpp");
+
+const u32 gMonFrontPic_Merlin[]     = INCBIN_U32("graphics/boneka/merlin/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Merlin[]      = INCBIN_U32("graphics/boneka/merlin/evolved/back.4bpp.lz");
+const u32 gMonPalette_Merlin[]      = INCBIN_U32("graphics/boneka/merlin/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Merlin[] = INCBIN_U32("graphics/boneka/merlin/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Merlin[]          = INCBIN_U8 ("graphics/boneka/merlin/evolved/icon.4bpp");
+const u8 gMonFootprint_Merlin[]     = INCBIN_U8 ("graphics/boneka/merlin/footprint.1bpp");
+
+const u32 gMonFrontPic_HMerlin[]     = INCBIN_U32("graphics/boneka/merlin/helper/front.4bpp.lz");
+const u32 gMonBackPic_HMerlin[]      = INCBIN_U32("graphics/boneka/merlin/helper/back.4bpp.lz");
+const u32 gMonPalette_HMerlin[]      = INCBIN_U32("graphics/boneka/merlin/helper/normal.gbapal.lz");
+const u32 gMonShinyPalette_HMerlin[] = INCBIN_U32("graphics/boneka/merlin/helper/shiny.gbapal.lz");
+const u8 gMonIcon_HMerlin[]          = INCBIN_U8 ("graphics/boneka/merlin/helper/icon.4bpp");
+const u8 gMonFootprint_HMerlin[]     = INCBIN_U8 ("graphics/boneka/merlin/footprint.1bpp");
+
+const u32 gMonFrontPic_CLyrica[]     = INCBIN_U32("graphics/boneka/lyrica/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CLyrica[]      = INCBIN_U32("graphics/boneka/lyrica/chibi/back.4bpp.lz");
+const u32 gMonPalette_CLyrica[]      = INCBIN_U32("graphics/boneka/lyrica/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CLyrica[] = INCBIN_U32("graphics/boneka/lyrica/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CLyrica[]          = INCBIN_U8 ("graphics/boneka/lyrica/chibi/icon.4bpp");
+const u8 gMonFootprint_CLyrica[]     = INCBIN_U8 ("graphics/boneka/lyrica/footprint.1bpp");
+
+const u32 gMonFrontPic_Lyrica[]     = INCBIN_U32("graphics/boneka/lyrica/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Lyrica[]      = INCBIN_U32("graphics/boneka/lyrica/evolved/back.4bpp.lz");
+const u32 gMonPalette_Lyrica[]      = INCBIN_U32("graphics/boneka/lyrica/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Lyrica[] = INCBIN_U32("graphics/boneka/lyrica/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Lyrica[]          = INCBIN_U8 ("graphics/boneka/lyrica/evolved/icon.4bpp");
+const u8 gMonFootprint_Lyrica[]     = INCBIN_U8 ("graphics/boneka/lyrica/footprint.1bpp");
+
+const u32 gMonFrontPic_HLyrica[]     = INCBIN_U32("graphics/boneka/lyrica/helper/front.4bpp.lz");
+const u32 gMonBackPic_HLyrica[]      = INCBIN_U32("graphics/boneka/lyrica/helper/back.4bpp.lz");
+const u32 gMonPalette_HLyrica[]      = INCBIN_U32("graphics/boneka/lyrica/helper/normal.gbapal.lz");
+const u32 gMonShinyPalette_HLyrica[] = INCBIN_U32("graphics/boneka/lyrica/helper/shiny.gbapal.lz");
+const u8 gMonIcon_HLyrica[]          = INCBIN_U8 ("graphics/boneka/lyrica/helper/icon.4bpp");
+const u8 gMonFootprint_HLyrica[]     = INCBIN_U8 ("graphics/boneka/lyrica/footprint.1bpp");
+
+const u32 gMonFrontPic_Prismriver[]     = INCBIN_U32("graphics/boneka/prismriver/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Prismriver[]      = INCBIN_U32("graphics/boneka/prismriver/evolved/back.4bpp.lz");
+const u32 gMonPalette_Prismriver[]      = INCBIN_U32("graphics/boneka/prismriver/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Prismriver[] = INCBIN_U32("graphics/boneka/prismriver/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Prismriver[]          = INCBIN_U8 ("graphics/boneka/prismriver/evolved/icon.4bpp");
+const u8 gMonFootprint_Prismriver[]     = INCBIN_U8 ("graphics/boneka/prismriver/footprint.1bpp");
+
+const u32 gMonFrontPic_CYoumu[]     = INCBIN_U32("graphics/boneka/youmu/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CYoumu[]      = INCBIN_U32("graphics/boneka/youmu/chibi/back.4bpp.lz");
+const u32 gMonPalette_CYoumu[]      = INCBIN_U32("graphics/boneka/youmu/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CYoumu[] = INCBIN_U32("graphics/boneka/youmu/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CYoumu[]          = INCBIN_U8 ("graphics/boneka/youmu/chibi/icon.4bpp");
+const u8 gMonFootprint_CYoumu[]     = INCBIN_U8 ("graphics/boneka/youmu/footprint.1bpp");
+
+const u32 gMonFrontPic_Youmu[]     = INCBIN_U32("graphics/boneka/youmu/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Youmu[]      = INCBIN_U32("graphics/boneka/youmu/evolved/back.4bpp.lz");
+const u32 gMonPalette_Youmu[]      = INCBIN_U32("graphics/boneka/youmu/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Youmu[] = INCBIN_U32("graphics/boneka/youmu/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Youmu[]          = INCBIN_U8 ("graphics/boneka/youmu/evolved/icon.4bpp");
+const u8 gMonFootprint_Youmu[]     = INCBIN_U8 ("graphics/boneka/youmu/footprint.1bpp");
+
+const u32 gMonFrontPic_DYoumu[]     = INCBIN_U32("graphics/boneka/youmu/defense/front.4bpp.lz");
+const u32 gMonBackPic_DYoumu[]      = INCBIN_U32("graphics/boneka/youmu/defense/back.4bpp.lz");
+const u32 gMonPalette_DYoumu[]      = INCBIN_U32("graphics/boneka/youmu/defense/normal.gbapal.lz");
+const u32 gMonShinyPalette_DYoumu[] = INCBIN_U32("graphics/boneka/youmu/defense/shiny.gbapal.lz");
+const u8 gMonIcon_DYoumu[]          = INCBIN_U8 ("graphics/boneka/youmu/defense/icon.4bpp");
+const u8 gMonFootprint_DYoumu[]     = INCBIN_U8 ("graphics/boneka/youmu/footprint.1bpp");
+
+const u32 gMonFrontPic_SYoumu[]     = INCBIN_U32("graphics/boneka/youmu/speed/front.4bpp.lz");
+const u32 gMonBackPic_SYoumu[]      = INCBIN_U32("graphics/boneka/youmu/speed/back.4bpp.lz");
+const u32 gMonPalette_SYoumu[]      = INCBIN_U32("graphics/boneka/youmu/speed/normal.gbapal.lz");
+const u32 gMonShinyPalette_SYoumu[] = INCBIN_U32("graphics/boneka/youmu/speed/shiny.gbapal.lz");
+const u8 gMonIcon_SYoumu[]          = INCBIN_U8 ("graphics/boneka/youmu/speed/icon.4bpp");
+const u8 gMonFootprint_SYoumu[]     = INCBIN_U8 ("graphics/boneka/youmu/footprint.1bpp");
+
+const u32 gMonFrontPic_AdYoumu[]     = INCBIN_U32("graphics/boneka/youmu/advent/front.4bpp.lz");
+const u32 gMonBackPic_AdYoumu[]      = INCBIN_U32("graphics/boneka/youmu/advent/back.4bpp.lz");
+const u32 gMonPalette_AdYoumu[]      = INCBIN_U32("graphics/boneka/youmu/advent/normal.gbapal.lz");
+const u32 gMonShinyPalette_AdYoumu[] = INCBIN_U32("graphics/boneka/youmu/advent/shiny.gbapal.lz");
+const u8 gMonIcon_AdYoumu[]          = INCBIN_U8 ("graphics/boneka/youmu/advent/icon.4bpp");
+const u8 gMonFootprint_AdYoumu[]     = INCBIN_U8 ("graphics/boneka/youmu/footprint.1bpp");
+
+const u32 gMonFrontPic_CYuyuko[]     = INCBIN_U32("graphics/boneka/yuyuko/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/chibi/back.4bpp.lz");
+const u32 gMonPalette_CYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CYuyuko[] = INCBIN_U32("graphics/boneka/yuyuko/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CYuyuko[]          = INCBIN_U8 ("graphics/boneka/yuyuko/chibi/icon.4bpp");
+const u8 gMonFootprint_CYuyuko[]     = INCBIN_U8 ("graphics/boneka/yuyuko/footprint.1bpp");
+
+const u32 gMonFrontPic_Yuyuko[]     = INCBIN_U32("graphics/boneka/yuyuko/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Yuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/evolved/back.4bpp.lz");
+const u32 gMonPalette_Yuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Yuyuko[] = INCBIN_U32("graphics/boneka/yuyuko/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Yuyuko[]          = INCBIN_U8 ("graphics/boneka/yuyuko/evolved/icon.4bpp");
+const u8 gMonFootprint_Yuyuko[]     = INCBIN_U8 ("graphics/boneka/yuyuko/footprint.1bpp");
+
+const u32 gMonFrontPic_AYuyuko[]     = INCBIN_U32("graphics/boneka/yuyuko/attack/front.4bpp.lz");
+const u32 gMonBackPic_AYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/attack/back.4bpp.lz");
+const u32 gMonPalette_AYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/attack/normal.gbapal.lz");
+const u32 gMonShinyPalette_AYuyuko[] = INCBIN_U32("graphics/boneka/yuyuko/attack/shiny.gbapal.lz");
+const u8 gMonIcon_AYuyuko[]          = INCBIN_U8 ("graphics/boneka/yuyuko/attack/icon.4bpp");
+const u8 gMonFootprint_AYuyuko[]     = INCBIN_U8 ("graphics/boneka/yuyuko/footprint.1bpp");
+
+const u32 gMonFrontPic_DYuyuko[]     = INCBIN_U32("graphics/boneka/yuyuko/defense/front.4bpp.lz");
+const u32 gMonBackPic_DYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/defense/back.4bpp.lz");
+const u32 gMonPalette_DYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/defense/normal.gbapal.lz");
+const u32 gMonShinyPalette_DYuyuko[] = INCBIN_U32("graphics/boneka/yuyuko/defense/shiny.gbapal.lz");
+const u8 gMonIcon_DYuyuko[]          = INCBIN_U8 ("graphics/boneka/yuyuko/defense/icon.4bpp");
+const u8 gMonFootprint_DYuyuko[]     = INCBIN_U8 ("graphics/boneka/yuyuko/footprint.1bpp");
+
+const u32 gMonFrontPic_AdYuyuko[]     = INCBIN_U32("graphics/boneka/yuyuko/advent/front.4bpp.lz");
+const u32 gMonBackPic_AdYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/advent/back.4bpp.lz");
+const u32 gMonPalette_AdYuyuko[]      = INCBIN_U32("graphics/boneka/yuyuko/advent/normal.gbapal.lz");
+const u32 gMonShinyPalette_AdYuyuko[] = INCBIN_U32("graphics/boneka/yuyuko/advent/shiny.gbapal.lz");
+const u8 gMonIcon_AdYuyuko[]          = INCBIN_U8 ("graphics/boneka/yuyuko/advent/icon.4bpp");
+const u8 gMonFootprint_AdYuyuko[]     = INCBIN_U8 ("graphics/boneka/yuyuko/footprint.1bpp");
+
+const u32 gMonFrontPic_CRan[]     = INCBIN_U32("graphics/boneka/ran/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CRan[]      = INCBIN_U32("graphics/boneka/ran/chibi/back.4bpp.lz");
+const u32 gMonPalette_CRan[]      = INCBIN_U32("graphics/boneka/ran/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CRan[] = INCBIN_U32("graphics/boneka/ran/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CRan[]          = INCBIN_U8 ("graphics/boneka/ran/chibi/icon.4bpp");
+const u8 gMonFootprint_CRan[]     = INCBIN_U8 ("graphics/boneka/ran/footprint.1bpp");
+
+const u32 gMonFrontPic_Ran[]     = INCBIN_U32("graphics/boneka/ran/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Ran[]      = INCBIN_U32("graphics/boneka/ran/evolved/back.4bpp.lz");
+const u32 gMonPalette_Ran[]      = INCBIN_U32("graphics/boneka/ran/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Ran[] = INCBIN_U32("graphics/boneka/ran/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Ran[]          = INCBIN_U8 ("graphics/boneka/ran/evolved/icon.4bpp");
+const u8 gMonFootprint_Ran[]     = INCBIN_U8 ("graphics/boneka/ran/footprint.1bpp");
+
+const u32 gMonFrontPic_ARan[]     = INCBIN_U32("graphics/boneka/ran/attack/front.4bpp.lz");
+const u32 gMonBackPic_ARan[]      = INCBIN_U32("graphics/boneka/ran/attack/back.4bpp.lz");
+const u32 gMonPalette_ARan[]      = INCBIN_U32("graphics/boneka/ran/attack/normal.gbapal.lz");
+const u32 gMonShinyPalette_ARan[] = INCBIN_U32("graphics/boneka/ran/attack/shiny.gbapal.lz");
+const u8 gMonIcon_ARan[]          = INCBIN_U8 ("graphics/boneka/ran/attack/icon.4bpp");
+const u8 gMonFootprint_ARan[]     = INCBIN_U8 ("graphics/boneka/ran/footprint.1bpp");
+
+const u32 gMonFrontPic_HRan[]     = INCBIN_U32("graphics/boneka/ran/helper/front.4bpp.lz");
+const u32 gMonBackPic_HRan[]      = INCBIN_U32("graphics/boneka/ran/helper/back.4bpp.lz");
+const u32 gMonPalette_HRan[]      = INCBIN_U32("graphics/boneka/ran/helper/normal.gbapal.lz");
+const u32 gMonShinyPalette_HRan[] = INCBIN_U32("graphics/boneka/ran/helper/shiny.gbapal.lz");
+const u8 gMonIcon_HRan[]          = INCBIN_U8 ("graphics/boneka/ran/helper/icon.4bpp");
+const u8 gMonFootprint_HRan[]     = INCBIN_U8 ("graphics/boneka/ran/footprint.1bpp");
+
+const u32 gMonFrontPic_AdRan[]     = INCBIN_U32("graphics/boneka/ran/advent/front.4bpp.lz");
+const u32 gMonBackPic_AdRan[]      = INCBIN_U32("graphics/boneka/ran/advent/back.4bpp.lz");
+const u32 gMonPalette_AdRan[]      = INCBIN_U32("graphics/boneka/ran/advent/normal.gbapal.lz");
+const u32 gMonShinyPalette_AdRan[] = INCBIN_U32("graphics/boneka/ran/advent/shiny.gbapal.lz");
+const u8 gMonIcon_AdRan[]          = INCBIN_U8 ("graphics/boneka/ran/advent/icon.4bpp");
+const u8 gMonFootprint_AdRan[]     = INCBIN_U8 ("graphics/boneka/ran/footprint.1bpp");
+
+const u32 gMonFrontPic_CYukari[]     = INCBIN_U32("graphics/boneka/yukari/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CYukari[]      = INCBIN_U32("graphics/boneka/yukari/chibi/back.4bpp.lz");
+const u32 gMonPalette_CYukari[]      = INCBIN_U32("graphics/boneka/yukari/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CYukari[] = INCBIN_U32("graphics/boneka/yukari/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CYukari[]          = INCBIN_U8 ("graphics/boneka/yukari/chibi/icon.4bpp");
+const u8 gMonFootprint_CYukari[]     = INCBIN_U8 ("graphics/boneka/yukari/footprint.1bpp");
+
+const u32 gMonFrontPic_Yukari[]     = INCBIN_U32("graphics/boneka/yukari/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Yukari[]      = INCBIN_U32("graphics/boneka/yukari/evolved/back.4bpp.lz");
+const u32 gMonPalette_Yukari[]      = INCBIN_U32("graphics/boneka/yukari/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Yukari[] = INCBIN_U32("graphics/boneka/yukari/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Yukari[]          = INCBIN_U8 ("graphics/boneka/yukari/evolved/icon.4bpp");
+const u8 gMonFootprint_Yukari[]     = INCBIN_U8 ("graphics/boneka/yukari/footprint.1bpp");
+
+const u32 gMonFrontPic_DYukari[]     = INCBIN_U32("graphics/boneka/yukari/defense/front.4bpp.lz");
+const u32 gMonBackPic_DYukari[]      = INCBIN_U32("graphics/boneka/yukari/defense/back.4bpp.lz");
+const u32 gMonPalette_DYukari[]      = INCBIN_U32("graphics/boneka/yukari/defense/normal.gbapal.lz");
+const u32 gMonShinyPalette_DYukari[] = INCBIN_U32("graphics/boneka/yukari/defense/shiny.gbapal.lz");
+const u8 gMonIcon_DYukari[]          = INCBIN_U8 ("graphics/boneka/yukari/defense/icon.4bpp");
+const u8 gMonFootprint_DYukari[]     = INCBIN_U8 ("graphics/boneka/yukari/footprint.1bpp");
+
+const u32 gMonFrontPic_TYukari[]     = INCBIN_U32("graphics/boneka/yukari/technic/front.4bpp.lz");
+const u32 gMonBackPic_TYukari[]      = INCBIN_U32("graphics/boneka/yukari/technic/back.4bpp.lz");
+const u32 gMonPalette_TYukari[]      = INCBIN_U32("graphics/boneka/yukari/technic/normal.gbapal.lz");
+const u32 gMonShinyPalette_TYukari[] = INCBIN_U32("graphics/boneka/yukari/technic/shiny.gbapal.lz");
+const u8 gMonIcon_TYukari[]          = INCBIN_U8 ("graphics/boneka/yukari/technic/icon.4bpp");
+const u8 gMonFootprint_TYukari[]     = INCBIN_U8 ("graphics/boneka/yukari/footprint.1bpp");
+
+const u32 gMonFrontPic_AdYukari[]     = INCBIN_U32("graphics/boneka/yukari/advent/front.4bpp.lz");
+const u32 gMonBackPic_AdYukari[]      = INCBIN_U32("graphics/boneka/yukari/advent/back.4bpp.lz");
+const u32 gMonPalette_AdYukari[]      = INCBIN_U32("graphics/boneka/yukari/advent/normal.gbapal.lz");
+const u32 gMonShinyPalette_AdYukari[] = INCBIN_U32("graphics/boneka/yukari/advent/shiny.gbapal.lz");
+const u8 gMonIcon_AdYukari[]          = INCBIN_U8 ("graphics/boneka/yukari/advent/icon.4bpp");
+const u8 gMonFootprint_AdYukari[]     = INCBIN_U8 ("graphics/boneka/yukari/footprint.1bpp");
+
+const u32 gMonFrontPic_Kedama[]     = INCBIN_U32("graphics/boneka/kedama/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Kedama[]      = INCBIN_U32("graphics/boneka/kedama/evolved/back.4bpp.lz");
+const u32 gMonPalette_Kedama[]      = INCBIN_U32("graphics/boneka/kedama/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Kedama[] = INCBIN_U32("graphics/boneka/kedama/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Kedama[]          = INCBIN_U8 ("graphics/boneka/kedama/evolved/icon.4bpp");
+const u8 gMonFootprint_Kedama[]     = INCBIN_U8 ("graphics/boneka/kedama/footprint.1bpp");
+
+const u32 gMonFrontPic_CLayla[]     = INCBIN_U32("graphics/boneka/layla/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CLayla[]      = INCBIN_U32("graphics/boneka/layla/chibi/back.4bpp.lz");
+const u32 gMonPalette_CLayla[]      = INCBIN_U32("graphics/boneka/layla/chibi/normal.gbapal.lz");
+const u32 gMonShinyPalette_CLayla[] = INCBIN_U32("graphics/boneka/layla/chibi/shiny.gbapal.lz");
+const u8 gMonIcon_CLayla[]          = INCBIN_U8 ("graphics/boneka/layla/chibi/icon.4bpp");
+const u8 gMonFootprint_CLayla[]     = INCBIN_U8 ("graphics/boneka/layla/footprint.1bpp");
+
+const u32 gMonFrontPic_Layla[]     = INCBIN_U32("graphics/boneka/layla/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Layla[]      = INCBIN_U32("graphics/boneka/layla/evolved/back.4bpp.lz");
+const u32 gMonPalette_Layla[]      = INCBIN_U32("graphics/boneka/layla/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Layla[] = INCBIN_U32("graphics/boneka/layla/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Layla[]          = INCBIN_U8 ("graphics/boneka/layla/evolved/icon.4bpp");
+const u8 gMonFootprint_Layla[]     = INCBIN_U8 ("graphics/boneka/layla/footprint.1bpp");
+
+const u32 gMonFrontPic_DLayla[]     = INCBIN_U32("graphics/boneka/layla/defense/front.4bpp.lz");
+const u32 gMonBackPic_DLayla[]      = INCBIN_U32("graphics/boneka/layla/defense/back.4bpp.lz");
+const u32 gMonPalette_DLayla[]      = INCBIN_U32("graphics/boneka/layla/defense/normal.gbapal.lz");
+const u32 gMonShinyPalette_DLayla[] = INCBIN_U32("graphics/boneka/layla/defense/shiny.gbapal.lz");
+const u8 gMonIcon_DLayla[]          = INCBIN_U8 ("graphics/boneka/layla/defense/icon.4bpp");
+const u8 gMonFootprint_DLayla[]     = INCBIN_U8 ("graphics/boneka/layla/footprint.1bpp");
+
+const u32 gMonFrontPic_Youki[]     = INCBIN_U32("graphics/boneka/youki/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Youki[]      = INCBIN_U32("graphics/boneka/youki/evolved/back.4bpp.lz");
+const u32 gMonPalette_Youki[]      = INCBIN_U32("graphics/boneka/youki/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Youki[] = INCBIN_U32("graphics/boneka/youki/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Youki[]          = INCBIN_U8 ("graphics/boneka/youki/evolved/icon.4bpp");
+const u8 gMonFootprint_Youki[]     = INCBIN_U8 ("graphics/boneka/youki/footprint.1bpp");
+
+const u32 gMonFrontPic_Ayakashi[]     = INCBIN_U32("graphics/boneka/ayakashi/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Ayakashi[]      = INCBIN_U32("graphics/boneka/ayakashi/evolved/back.4bpp.lz");
+const u32 gMonPalette_Ayakashi[]      = INCBIN_U32("graphics/boneka/ayakashi/evolved/normal.gbapal.lz");
+const u32 gMonShinyPalette_Ayakashi[] = INCBIN_U32("graphics/boneka/ayakashi/evolved/shiny.gbapal.lz");
+const u8 gMonIcon_Ayakashi[]          = INCBIN_U8 ("graphics/boneka/ayakashi/evolved/icon.4bpp");
+const u8 gMonFootprint_Ayakashi[]     = INCBIN_U8 ("graphics/boneka/ayakashi/footprint.1bpp");
