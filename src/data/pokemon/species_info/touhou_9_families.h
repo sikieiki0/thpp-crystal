@@ -57,7 +57,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CAya)
         .levelUpLearnset = sCAyaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCAyaTeachableLearnset,
+        .teachableLearnset = sCAyaTeachableLearnset,
     },
 
     [SPECIES_AYA] =
@@ -118,7 +118,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Aya)
         .levelUpLearnset = sAyaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAyaTeachableLearnset,
+        .teachableLearnset = sAyaTeachableLearnset,
     },
 
     [SPECIES_SAYA] =
@@ -178,7 +178,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(SAya)
         .levelUpLearnset = sSAyaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSAyaTeachableLearnset,
+        .teachableLearnset = sSAyaTeachableLearnset,
     },
 
     [SPECIES_TAYA] =
@@ -238,7 +238,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(TAya)
         .levelUpLearnset = sTAyaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTAyaTeachableLearnset,
+        .teachableLearnset = sTAyaTeachableLearnset,
     },
 
     [SPECIES_CMEDICINE] =
@@ -300,7 +300,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CMedicine)
         .levelUpLearnset = sCMedicineLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCMedicineTeachableLearnset,
     },
 
     [SPECIES_MEDICINE] =
@@ -361,7 +361,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Medicine)
         .levelUpLearnset = sMedicineLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sMedicineTeachableLearnset,
     },
 
     [SPECIES_AMEDICINE] =
@@ -422,7 +422,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AMedicine)
         .levelUpLearnset = sAMedicineLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAMedicineTeachableLearnset,
+        .teachableLearnset = sAMedicineTeachableLearnset,
     },
 
     [SPECIES_SMEDICINE] =
@@ -483,7 +483,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(SMedicine)
         .levelUpLearnset = sSMedicineLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSMedicineTeachableLearnset,
+        .teachableLearnset = sSMedicineTeachableLearnset,
     },
 
     [SPECIES_TMEDICINE] =
@@ -544,7 +544,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(TMedicine)
         .levelUpLearnset = sTMedicineLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTMedicineTeachableLearnset,
+        .teachableLearnset = sTMedicineTeachableLearnset,
     },
 
     [SPECIES_CYUUKA] =
@@ -606,7 +606,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CYuuka)
         .levelUpLearnset = sCYuukaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCYuukaTeachableLearnset,
+        .teachableLearnset = sCYuukaTeachableLearnset,
     },
 
     [SPECIES_YUUKA] =
@@ -667,7 +667,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Yuuka)
         .levelUpLearnset = sYuukaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYuukaTeachableLearnset,
+        .teachableLearnset = sYuukaTeachableLearnset,
     },
 
     [SPECIES_AYUUKA] =
@@ -728,7 +728,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(AYuuka)
         .levelUpLearnset = sAYuukaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAYuukaTeachableLearnset,
+        .teachableLearnset = sAYuukaTeachableLearnset,
     },
 
     [SPECIES_TYUUKA] =
@@ -789,7 +789,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(TYuuka)
         .levelUpLearnset = sTYuukaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTYuukaTeachableLearnset,
+        .teachableLearnset = sTYuukaTeachableLearnset,
     },
 
     [SPECIES_CKOMACHI] =
@@ -851,7 +851,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CKomachi)
         .levelUpLearnset = sCKomachiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCKomachiTeachableLearnset,
     },
 
     [SPECIES_KOMACHI] =
@@ -912,7 +912,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Komachi)
         .levelUpLearnset = sKomachiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sKomachiTeachableLearnset,
     },
 
     [SPECIES_AKOMACHI] =
@@ -972,7 +972,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(AKomachi)
         .levelUpLearnset = sAKomachiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAKomachiTeachableLearnset,
+        .teachableLearnset = sAKomachiTeachableLearnset,
     },
 
     [SPECIES_SKOMACHI] =
@@ -1033,7 +1033,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(SKomachi)
         .levelUpLearnset = sSKomachiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSKomachiTeachableLearnset,
+        .teachableLearnset = sSKomachiTeachableLearnset,
     },
 
     [SPECIES_CEIKI] =
@@ -1095,7 +1095,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CEiki)
         .levelUpLearnset = sCEikiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCEikiTeachableLearnset,
+        .teachableLearnset = sCEikiTeachableLearnset,
     },
 
     [SPECIES_EIKI] =
@@ -1156,7 +1156,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Eiki)
         .levelUpLearnset = sEikiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sEikiTeachableLearnset,
+        .teachableLearnset = sEikiTeachableLearnset,
     },
 
     [SPECIES_AEIKI] =
@@ -1217,7 +1217,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(AEiki)
         .levelUpLearnset = sAEikiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAEikiTeachableLearnset,
+        .teachableLearnset = sAEikiTeachableLearnset,
     },
 
     [SPECIES_DEIKI] =
@@ -1278,5 +1278,5 @@
         .iconPalIndex = 0,
         FOOTPRINT(DEiki)
         .levelUpLearnset = sDEikiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDEikiTeachableLearnset,
+        .teachableLearnset = sDEikiTeachableLearnset,
     },

@@ -39,24 +39,24 @@
         .pokemonOffset = 0,
         .trainerScale = 290,
         .trainerOffset = 2,
-        .frontPic = gMonFrontPic_CEternitylarva,
+        .frontPic = gMonFrontPic_CEternityLarva,
         .frontPicSize = MON_COORDS_SIZE(32, 40),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_CEternitylarva,
+        .frontAnimFrames = sAnims_CEternityLarva,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_CEternitylarva,
+        .backPic = gMonBackPic_CEternityLarva,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_CEternitylarva,
-        .shinyPalette = gMonShinyPalette_CEternitylarva,
-        .iconSprite = gMonIcon_CEternitylarva,
+        .palette = gMonPalette_CEternityLarva,
+        .shinyPalette = gMonShinyPalette_CEternityLarva,
+        .iconSprite = gMonIcon_CEternityLarva,
         .iconPalIndex = 0,
-        FOOTPRINT(CEternitylarva)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCEternitylarvaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCEternitylarvaTeachableLearnset,
+        FOOTPRINT(CEternityLarva)
+        .levelUpLearnset = sCEternityLarvaLevelUpLearnset,
+        .teachableLearnset = sCEternityLarvaTeachableLearnset,
     },
 
     [SPECIES_ETERNITYLARVA] =
@@ -100,24 +100,24 @@
         .pokemonOffset = 0,
         .trainerScale = 290,
         .trainerOffset = 2,
-        .frontPic = gMonFrontPic_Eternitylarva,
+        .frontPic = gMonFrontPic_EternityLarva,
         .frontPicSize = MON_COORDS_SIZE(32, 40),
         .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_Eternitylarva,
+        .frontAnimFrames = sAnims_EternityLarva,
         .frontAnimId = ANIM_GROW_VIBRATE,
         .frontAnimDelay = 15,
         .enemyMonElevation = 0,
-        .backPic = gMonBackPic_Eternitylarva,
+        .backPic = gMonBackPic_EternityLarva,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        .palette = gMonPalette_Eternitylarva,
-        .shinyPalette = gMonShinyPalette_Eternitylarva,
-        .iconSprite = gMonIcon_Eternitylarva,
+        .palette = gMonPalette_EternityLarva,
+        .shinyPalette = gMonShinyPalette_EternityLarva,
+        .iconSprite = gMonIcon_EternityLarva,
         .iconPalIndex = 0,
-        FOOTPRINT(Eternitylarva)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sEternitylarvaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sEternitylarvaTeachableLearnset,
+        FOOTPRINT(EternityLarva)
+        .levelUpLearnset = sEternityLarvaLevelUpLearnset,
+        .teachableLearnset = sEternityLarvaTeachableLearnset,
     },
 
     [SPECIES_CNEMUNO] =
@@ -177,8 +177,8 @@
         .iconSprite = gMonIcon_CNemuno,
         .iconPalIndex = 0,
         FOOTPRINT(CNemuno)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCNemunoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCNemunoTeachableLearnset,
+        .levelUpLearnset = sCNemunoLevelUpLearnset,
+        .teachableLearnset = sCNemunoTeachableLearnset,
     },
 
     [SPECIES_NEMUNO] =
@@ -238,8 +238,8 @@
         .iconSprite = gMonIcon_Nemuno,
         .iconPalIndex = 0,
         FOOTPRINT(Nemuno)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sNemunoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sNemunoTeachableLearnset,
+        .levelUpLearnset = sNemunoLevelUpLearnset,
+        .teachableLearnset = sNemunoTeachableLearnset,
     },
 
     [SPECIES_CAUNN] =
@@ -299,8 +299,8 @@
         .iconSprite = gMonIcon_CAunn,
         .iconPalIndex = 2,
         FOOTPRINT(CAunn)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCAunnLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCAunnTeachableLearnset,
+        .levelUpLearnset = sCAunnLevelUpLearnset,
+        .teachableLearnset = sCAunnTeachableLearnset,
     },
 
     [SPECIES_AUNN] =
@@ -360,8 +360,8 @@
         .iconSprite = gMonIcon_Aunn,
         .iconPalIndex = 2,
         FOOTPRINT(Aunn)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sAunnLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAunnTeachableLearnset,
+        .levelUpLearnset = sAunnLevelUpLearnset,
+        .teachableLearnset = sAunnTeachableLearnset,
     },
 
     [SPECIES_CNARUMI] =
@@ -421,8 +421,8 @@
         .iconSprite = gMonIcon_CNarumi,
         .iconPalIndex = 0,
         FOOTPRINT(CNarumi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCNarumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCNarumiTeachableLearnset,
+        .levelUpLearnset = sCNarumiLevelUpLearnset,
+        .teachableLearnset = sCNarumiTeachableLearnset,
     },
 
     [SPECIES_NARUMI] =
@@ -482,8 +482,8 @@
         .iconSprite = gMonIcon_Narumi,
         .iconPalIndex = 0,
         FOOTPRINT(Narumi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sNarumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sNarumiTeachableLearnset,
+        .levelUpLearnset = sNarumiLevelUpLearnset,
+        .teachableLearnset = sNarumiTeachableLearnset,
     },
 
     [SPECIES_CTEIREIDA] =
@@ -543,8 +543,8 @@
         .iconSprite = gMonIcon_CTeireida,
         .iconPalIndex = 0,
         FOOTPRINT(CTeireida)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCTeireidaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCTeireidaTeachableLearnset,
+        .levelUpLearnset = sCTeireidaLevelUpLearnset,
+        .teachableLearnset = sCTeireidaTeachableLearnset,
     },
 
     [SPECIES_TEIREIDA] =
@@ -604,8 +604,8 @@
         .iconSprite = gMonIcon_Teireida,
         .iconPalIndex = 0,
         FOOTPRINT(Teireida)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sTeireidaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTeireidaTeachableLearnset,
+        .levelUpLearnset = sTeireidaLevelUpLearnset,
+        .teachableLearnset = sTeireidaTeachableLearnset,
     },
 
     [SPECIES_CSATONO] =
@@ -665,8 +665,8 @@
         .iconSprite = gMonIcon_CSatono,
         .iconPalIndex = 1,
         FOOTPRINT(CSatono)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCSatonoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSatonoTeachableLearnset,
+        .levelUpLearnset = sCSatonoLevelUpLearnset,
+        .teachableLearnset = sCSatonoTeachableLearnset,
     },
 
     [SPECIES_SATONO] =
@@ -726,8 +726,8 @@
         .iconSprite = gMonIcon_Satono,
         .iconPalIndex = 1,
         FOOTPRINT(Satono)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sSatonoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSatonoTeachableLearnset,
+        .levelUpLearnset = sSatonoLevelUpLearnset,
+        .teachableLearnset = sSatonoTeachableLearnset,
     },
 
     [SPECIES_COKINA] =
@@ -787,8 +787,8 @@
         .iconSprite = gMonIcon_COkina,
         .iconPalIndex = 2,
         FOOTPRINT(COkina)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCOkinaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCOkinaTeachableLearnset,
+        .levelUpLearnset = sCOkinaLevelUpLearnset,
+        .teachableLearnset = sCOkinaTeachableLearnset,
     },
 
     [SPECIES_OKINA] =
@@ -848,8 +848,8 @@
         .iconSprite = gMonIcon_Okina,
         .iconPalIndex = 2,
         FOOTPRINT(Okina)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sOkinaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sOkinaTeachableLearnset,
+        .levelUpLearnset = sOkinaLevelUpLearnset,
+        .teachableLearnset = sOkinaTeachableLearnset,
     },
 
     [SPECIES_OKINAMAIDS] =
@@ -909,6 +909,6 @@
         .iconSprite = gMonIcon_Okinamaids,
         .iconPalIndex = 2,
         FOOTPRINT(Okinamaids)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sOkinamaidsLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sOkinamaidsTeachableLearnset,
+        .levelUpLearnset = sOkinamaidsLevelUpLearnset,
+        .teachableLearnset = sOkinamaidsTeachableLearnset,
     },

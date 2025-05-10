@@ -58,7 +58,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CKyouko)
         .levelUpLearnset = sCKyoukoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKyoukoTeachableLearnset,
+        .teachableLearnset = sCKyoukoTeachableLearnset,
     },
 
     [SPECIES_KYOUKO] =
@@ -119,7 +119,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(Kyouko)
         .levelUpLearnset = sKyoukoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKyoukoTeachableLearnset,
+        .teachableLearnset = sKyoukoTeachableLearnset,
     },
 
     [SPECIES_CYOSHIKA] =
@@ -180,7 +180,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CYoshika)
         .levelUpLearnset = sCYoshikaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCYoshikaTeachableLearnset,
+        .teachableLearnset = sCYoshikaTeachableLearnset,
     },
 
     [SPECIES_YOSHIKA] =
@@ -241,7 +241,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Yoshika)
         .levelUpLearnset = sYoshikaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYoshikaTeachableLearnset,
+        .teachableLearnset = sYoshikaTeachableLearnset,
     },
 
     [SPECIES_CSEIGA] =
@@ -303,7 +303,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CSeiga)
         .levelUpLearnset = sCSeigaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSeigaTeachableLearnset,
+        .teachableLearnset = sCSeigaTeachableLearnset,
     },
 
     [SPECIES_SEIGA] =
@@ -365,7 +365,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Seiga)
         .levelUpLearnset = sSeigaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSeigaTeachableLearnset,
+        .teachableLearnset = sSeigaTeachableLearnset,
     },
 
     [SPECIES_CTOJIKO] =
@@ -426,7 +426,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CTojiko)
         .levelUpLearnset = sCTojikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCTojikoTeachableLearnset,
+        .teachableLearnset = sCTojikoTeachableLearnset,
     },
 
     [SPECIES_TOJIKO] =
@@ -487,7 +487,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Tojiko)
         .levelUpLearnset = sTojikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTojikoTeachableLearnset,
+        .teachableLearnset = sTojikoTeachableLearnset,
     },
 
     [SPECIES_CFUTO] =
@@ -549,7 +549,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CFuto)
         .levelUpLearnset = sCFutoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCFutoTeachableLearnset,
+        .teachableLearnset = sCFutoTeachableLearnset,
     },
 
     [SPECIES_FUTO] =
@@ -610,7 +610,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Futo)
         .levelUpLearnset = sFutoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sFutoTeachableLearnset,
+        .teachableLearnset = sFutoTeachableLearnset,
     },
 
     [SPECIES_CMIKO] =
@@ -672,7 +672,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CMiko)
         .levelUpLearnset = sCMikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMikoTeachableLearnset,
+        .teachableLearnset = sCMikoTeachableLearnset,
     },
     [SPECIES_MIKO] =
     {
@@ -732,7 +732,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Miko)
         .levelUpLearnset = sMikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMikoTeachableLearnset,
+        .teachableLearnset = sMikoTeachableLearnset,
     },
 
     [SPECIES_CMAMIZOU] =
@@ -794,7 +794,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CMamizou)
         .levelUpLearnset = sCMamizouLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMamizouTeachableLearnset,
+        .teachableLearnset = sCMamizouTeachableLearnset,
     },
 
     [SPECIES_MAMIZOU] =
@@ -855,5 +855,5 @@
         .iconPalIndex = 2,
         FOOTPRINT(Mamizou)
         .levelUpLearnset = sMamizouLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMamizouTeachableLearnset,
+        .teachableLearnset = sMamizouTeachableLearnset,
     },

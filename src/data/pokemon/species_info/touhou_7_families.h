@@ -57,7 +57,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CChen)
         .levelUpLearnset = sCChenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCChenTeachableLearnset,
     },
 
     [SPECIES_CHEN] =
@@ -118,7 +118,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(Chen)
         .levelUpLearnset = sChenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sChenTeachableLearnset,
     },
 
     [SPECIES_CLETTY] =
@@ -180,7 +180,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CLetty)
         .levelUpLearnset = sCLettyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCLettyTeachableLearnset,
     },
 
     [SPECIES_LETTY] =
@@ -241,7 +241,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Letty)
         .levelUpLearnset = sLettyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sLettyTeachableLearnset,
     },
 
     [SPECIES_DLETTY] =
@@ -302,7 +302,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(DLetty)
         .levelUpLearnset = sDLettyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDLettyTeachableLearnset,
+        .teachableLearnset = sDLettyTeachableLearnset,
     },
 
     [SPECIES_HLETTY] =
@@ -363,7 +363,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(HLetty)
         .levelUpLearnset = sHLettyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHLettyTeachableLearnset,
+        .teachableLearnset = sHLettyTeachableLearnset,
     },
 
     [SPECIES_ADLETTY] =
@@ -424,7 +424,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AdLetty)
         .levelUpLearnset = sAdLettyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAdLettyTeachableLearnset,
+        .teachableLearnset = sAdLettyTeachableLearnset,
     },
 
     [SPECIES_ACHEN] =
@@ -485,7 +485,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(AChen)
         .levelUpLearnset = sAChenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAChenTeachableLearnset,
+        .teachableLearnset = sAChenTeachableLearnset,
     },
 
     [SPECIES_TCHEN] =
@@ -545,7 +545,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(TChen)
         .levelUpLearnset = sTChenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTChenTeachableLearnset,
+        .teachableLearnset = sTChenTeachableLearnset,
     },
 
     [SPECIES_ADCHEN] =
@@ -606,7 +606,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(AdChen)
         .levelUpLearnset = sAdChenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAdChenTeachableLearnset,
+        .teachableLearnset = sAdChenTeachableLearnset,
     },
 
     [SPECIES_CALICE] =
@@ -667,7 +667,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CAlice)
         .levelUpLearnset = sCAliceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCAliceTeachableLearnset,
     },
 
     [SPECIES_ALICE] =
@@ -728,7 +728,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Alice)
         .levelUpLearnset = sAliceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sAliceTeachableLearnset,
     },
 
     [SPECIES_AALICE] =
@@ -788,7 +788,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AAlice)
         .levelUpLearnset = sAAliceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAAliceTeachableLearnset,
+        .teachableLearnset = sAAliceTeachableLearnset,
     },
 
     [SPECIES_TALICE] =
@@ -849,7 +849,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(TAlice)
         .levelUpLearnset = sTAliceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTAliceTeachableLearnset,
+        .teachableLearnset = sTAliceTeachableLearnset,
     },
 
     [SPECIES_ADALICE] =
@@ -910,7 +910,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AdAlice)
         .levelUpLearnset = sAdAliceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAdAliceTeachableLearnset,
+        .teachableLearnset = sAdAliceTeachableLearnset,
     },
 
     [SPECIES_DARKALICE] =
@@ -970,7 +970,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(DarkAlice)
         .levelUpLearnset = sDarkAliceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDarkAliceTeachableLearnset,
+        .teachableLearnset = sDarkAliceTeachableLearnset,
     },
 
     [SPECIES_SHANGHAI] =
@@ -1031,7 +1031,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Shanghai)
         .levelUpLearnset = sShanghaiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sShanghaiTeachableLearnset,
     },
 
     [SPECIES_HOURAI] =
@@ -1092,7 +1092,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Hourai)
         .levelUpLearnset = sHouraiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sHouraiTeachableLearnset,
     },
 
     [SPECIES_CLILYWHITE] =
@@ -1154,7 +1154,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CLilyWhite)
         .levelUpLearnset = sCLilyWhiteLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCLilyWhiteTeachableLearnset,
     },
 
     [SPECIES_LILYWHITE] =
@@ -1214,7 +1214,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(LilyWhite)
         .levelUpLearnset = sLilyWhiteLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sLilyWhiteTeachableLearnset,
     },
 
     [SPECIES_ALILYWHITE] =
@@ -1275,7 +1275,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(ALilyWhite)
         .levelUpLearnset = sALilyWhiteLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sALilyWhiteTeachableLearnset,
+        .teachableLearnset = sALilyWhiteTeachableLearnset,
     },
 
     [SPECIES_HLILYWHITE] =
@@ -1336,7 +1336,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(HLilyWhite)
         .levelUpLearnset = sHLilyWhiteLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHLilyWhiteTeachableLearnset,
+        .teachableLearnset = sHLilyWhiteTeachableLearnset,
     },
 
     [SPECIES_CLILYBLACK] =
@@ -1398,7 +1398,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CLilyBlack)
         .levelUpLearnset = sCLilyBlackLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCLilyBlackTeachableLearnset,
     },
 
     [SPECIES_LILYBLACK] =
@@ -1459,7 +1459,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(LilyBlack)
         .levelUpLearnset = sLilyBlackLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sLilyBlackTeachableLearnset,
     },
 
     [SPECIES_ALILYBLACK] =
@@ -1520,7 +1520,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(ALilyBlack)
         .levelUpLearnset = sALilyBlackLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sALilyBlackTeachableLearnset,
+        .teachableLearnset = sALilyBlackTeachableLearnset,
     },
 
     [SPECIES_SLILYBLACK] =
@@ -1581,7 +1581,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(SLilyBlack)
         .levelUpLearnset = sSLilyBlackLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSLilyBlackTeachableLearnset,
+        .teachableLearnset = sSLilyBlackTeachableLearnset,
     },
 
     [SPECIES_CLUNASA] =
@@ -1643,7 +1643,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CLunasa)
         .levelUpLearnset = sCLunasaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCLunasaTeachableLearnset,
     },
 
     [SPECIES_LUNASA] =
@@ -1703,7 +1703,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Lunasa)
         .levelUpLearnset = sLunasaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sLunasaTeachableLearnset,
     },
 
     [SPECIES_HLUNASA] =
@@ -1764,7 +1764,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(HLunasa)
         .levelUpLearnset = sHLunasaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHLunasaTeachableLearnset,
+        .teachableLearnset = sHLunasaTeachableLearnset,
     },
 
     [SPECIES_CMERLIN] =
@@ -1825,7 +1825,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CMerlin)
         .levelUpLearnset = sCMerlinLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCMerlinTeachableLearnset,
     },
 
     [SPECIES_MERLIN] =
@@ -1885,7 +1885,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Merlin)
         .levelUpLearnset = sMerlinLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sMerlinTeachableLearnset,
     },
 
     [SPECIES_HMERLIN] =
@@ -1945,7 +1945,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(HMerlin)
         .levelUpLearnset = sHMerlinLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHMerlinTeachableLearnset,
+        .teachableLearnset = sHMerlinTeachableLearnset,
     },
 
     [SPECIES_CLYRICA] =
@@ -2007,7 +2007,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CLyrica)
         .levelUpLearnset = sCLyricaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCLyricaTeachableLearnset,
     },
 
     [SPECIES_LYRICA] =
@@ -2068,7 +2068,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Lyrica)
         .levelUpLearnset = sLyricaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sLyricaTeachableLearnset,
     },
 
     [SPECIES_HLYRICA] =
@@ -2129,7 +2129,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(HLyrica)
         .levelUpLearnset = sHLyricaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHLyricaTeachableLearnset,
+        .teachableLearnset = sHLyricaTeachableLearnset,
     },
 
     [SPECIES_PRISMRIVER] =
@@ -2190,7 +2190,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Prismriver)
         .levelUpLearnset = sPrismriverLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sPrismriverTeachableLearnset,
+        .teachableLearnset = sPrismriverTeachableLearnset,
     },
 
     [SPECIES_CYOUMU] =
@@ -2252,7 +2252,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CYoumu)
         .levelUpLearnset = sCYoumuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCYoumuTeachableLearnset,
     },
 
     [SPECIES_YOUMU] =
@@ -2313,7 +2313,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Youmu)
         .levelUpLearnset = sYoumuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sYoumuTeachableLearnset,
     },
 
     [SPECIES_DYOUMU] =
@@ -2374,7 +2374,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(DYoumu)
         .levelUpLearnset = sDYoumuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDYoumuTeachableLearnset,
+        .teachableLearnset = sDYoumuTeachableLearnset,
     },
 
     [SPECIES_SYOUMU] =
@@ -2435,7 +2435,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(SYoumu)
         .levelUpLearnset = sSYoumuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSYoumuTeachableLearnset,
+        .teachableLearnset = sSYoumuTeachableLearnset,
     },
 
     [SPECIES_ADYOUMU] =
@@ -2496,7 +2496,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(AdYoumu)
         .levelUpLearnset = sAdYoumuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAdYoumuTeachableLearnset,
+        .teachableLearnset = sAdYoumuTeachableLearnset,
     },
 
     [SPECIES_CYUYUKO] =
@@ -2558,7 +2558,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CYuyuko)
         .levelUpLearnset = sCYuyukoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCYuyukoTeachableLearnset,
     },
 
     [SPECIES_YUYUKO] =
@@ -2619,7 +2619,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Yuyuko)
         .levelUpLearnset = sYuyukoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sYuyukoTeachableLearnset,
     },
 
     [SPECIES_AYUYUKO] =
@@ -2680,7 +2680,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(AYuyuko)
         .levelUpLearnset = sAYuyukoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAYuyukoTeachableLearnset,
+        .teachableLearnset = sAYuyukoTeachableLearnset,
     },
 
     [SPECIES_DYUYUKO] =
@@ -2741,7 +2741,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(DYuyuko)
         .levelUpLearnset = sDYuyukoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDYuyukoTeachableLearnset,
+        .teachableLearnset = sDYuyukoTeachableLearnset,
     },
 
     [SPECIES_ADYUYUKO] =
@@ -2802,7 +2802,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AdYuyuko)
         .levelUpLearnset = sAdYuyukoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAdYuyukoTeachableLearnset,
+        .teachableLearnset = sAdYuyukoTeachableLearnset,
     },
 
     [SPECIES_CRAN] =
@@ -2864,7 +2864,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CRan)
         .levelUpLearnset = sCRanLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCRanTeachableLearnset,
     },
 
     [SPECIES_RAN] =
@@ -2925,7 +2925,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Ran)
         .levelUpLearnset = sRanLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sRanTeachableLearnset,
     },
 
     [SPECIES_ARAN] =
@@ -2986,7 +2986,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(ARan)
         .levelUpLearnset = sARanLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sARanTeachableLearnset,
+        .teachableLearnset = sARanTeachableLearnset,
     },
 
     [SPECIES_HRAN] =
@@ -3047,7 +3047,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(HRan)
         .levelUpLearnset = sHRanLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHRanTeachableLearnset,
+        .teachableLearnset = sHRanTeachableLearnset,
     },
 
     [SPECIES_ADRAN] =
@@ -3107,7 +3107,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AdRan)
         .levelUpLearnset = sAdRanLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAdRanTeachableLearnset,
+        .teachableLearnset = sAdRanTeachableLearnset,
     },
 
     [SPECIES_CYUKARI] =
@@ -3169,7 +3169,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CYukari)
         .levelUpLearnset = sCYukariLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCYukariTeachableLearnset,
     },
 
     [SPECIES_YUKARI] =
@@ -3230,7 +3230,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Yukari)
         .levelUpLearnset = sYukariLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sYukariTeachableLearnset,
     },
 
     [SPECIES_DYUKARI] =
@@ -3290,7 +3290,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(DYukari)
         .levelUpLearnset = sDYukariLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDYukariTeachableLearnset,
+        .teachableLearnset = sDYukariTeachableLearnset,
     },
 
     [SPECIES_TYUKARI] =
@@ -3350,7 +3350,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(TYukari)
         .levelUpLearnset = sTYukariLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTYukariTeachableLearnset,
+        .teachableLearnset = sTYukariTeachableLearnset,
     },
 
     [SPECIES_ADYUKARI] =
@@ -3411,7 +3411,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AdYukari)
         .levelUpLearnset = sAdYukariLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAdYukariTeachableLearnset,
+        .teachableLearnset = sAdYukariTeachableLearnset,
     },
 
     [SPECIES_KEDAMA] =
@@ -3471,7 +3471,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Kedama)
         .levelUpLearnset = sKedamaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKedamaTeachableLearnset,
+        .teachableLearnset = sKedamaTeachableLearnset,
     },
 
     [SPECIES_CLAYLA] =
@@ -3533,7 +3533,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CLayla)
         .levelUpLearnset = sCLaylaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCLaylaTeachableLearnset,
+        .teachableLearnset = sCLaylaTeachableLearnset,
     },
 
     [SPECIES_LAYLA] =
@@ -3594,7 +3594,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Layla)
         .levelUpLearnset = sLaylaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sLaylaTeachableLearnset,
+        .teachableLearnset = sLaylaTeachableLearnset,
     },
 
     [SPECIES_DLAYLA] =
@@ -3655,7 +3655,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(DLayla)
         .levelUpLearnset = sDLaylaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDLaylaTeachableLearnset,
+        .teachableLearnset = sDLaylaTeachableLearnset,
     },
 
     [SPECIES_YOUKI] =
@@ -3716,7 +3716,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Youki)
         .levelUpLearnset = sYoukiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYoukiTeachableLearnset,
+        .teachableLearnset = sYoukiTeachableLearnset,
     },
 
     [SPECIES_AYAKASHI] =
@@ -3778,5 +3778,5 @@
         FOOTPRINT(Ayakashi)
         .isMythical = TRUE,
         .levelUpLearnset = sAyakashiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAyakashiTeachableLearnset,
+        .teachableLearnset = sAyakashiTeachableLearnset,
     }, 

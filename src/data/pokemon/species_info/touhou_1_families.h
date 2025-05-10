@@ -1,6 +1,6 @@
     [SPECIES_CREIMU98] =
     {
-        .speciesName = _("Reimu98{CHIBI}"),
+        .speciesName = _("Reimu{CHIBI}"),
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_REIMU98}),
         .baseHP        = 55,
         .baseAttack    = 80,
@@ -61,7 +61,7 @@
 
     [SPECIES_REIMU98] =
     {
-        .speciesName = _("Reimu98"),
+        .speciesName = _("Reimu"),
         .baseHP        = 80,
         .baseAttack    = 105,
         .baseDefense   = 80,

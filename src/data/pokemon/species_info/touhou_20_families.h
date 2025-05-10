@@ -55,8 +55,8 @@
         .iconSprite = gMonIcon_CUbame,
         .iconPalIndex = 2,
         FOOTPRINT(CUbame)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCUbameLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCUbameTeachableLearnset,
+        .levelUpLearnset = sCUbameLevelUpLearnset,
+        .teachableLearnset = sCUbameTeachableLearnset,
     },
 
     [SPECIES_UBAME] =
@@ -116,8 +116,8 @@
         .iconSprite = gMonIcon_Ubame,
         .iconPalIndex = 2,
         FOOTPRINT(Ubame)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sUbameLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sUbameTeachableLearnset,
+        .levelUpLearnset = sUbameLevelUpLearnset,
+        .teachableLearnset = sUbameTeachableLearnset,
     },
 
     [SPECIES_CCHIMI] =
@@ -177,8 +177,8 @@
         .iconSprite = gMonIcon_CChimi,
         .iconPalIndex = 2,
         FOOTPRINT(CChimi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCChimiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCChimiTeachableLearnset,
+        .levelUpLearnset = sCChimiLevelUpLearnset,
+        .teachableLearnset = sCChimiTeachableLearnset,
     },
 
     [SPECIES_CHIMI] =
@@ -238,8 +238,8 @@
         .iconSprite = gMonIcon_Chimi,
         .iconPalIndex = 2,
         FOOTPRINT(Chimi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sChimiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sChimiTeachableLearnset,
+        .levelUpLearnset = sChimiLevelUpLearnset,
+        .teachableLearnset = sChimiTeachableLearnset,
     },
 
     [SPECIES_CNAREKO] =
@@ -299,8 +299,8 @@
         .iconSprite = gMonIcon_CNareko,
         .iconPalIndex = 2,
         FOOTPRINT(CNareko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCNarekoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCNarekoTeachableLearnset,
+        .levelUpLearnset = sCNarekoLevelUpLearnset,
+        .teachableLearnset = sCNarekoTeachableLearnset,
     },
 
     [SPECIES_NAREKO] =
@@ -360,6 +360,6 @@
         .iconSprite = gMonIcon_Nareko,
         .iconPalIndex = 2,
         FOOTPRINT(Nareko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sNarekoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sNarekoTeachableLearnset,
+        .levelUpLearnset = sNarekoLevelUpLearnset,
+        .teachableLearnset = sNarekoTeachableLearnset,
     },

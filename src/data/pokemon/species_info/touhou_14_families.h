@@ -55,8 +55,8 @@
         .iconSprite = gMonIcon_CWakasagihime,
         .iconPalIndex = 0,
         FOOTPRINT(CWakasagihime)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCWakasagihimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCWakasagihimeTeachableLearnset,
+        .levelUpLearnset = sCWakasagihimeLevelUpLearnset,
+        .teachableLearnset = sCWakasagihimeTeachableLearnset,
     },
 
     [SPECIES_WAKASAGIHIME] =
@@ -116,8 +116,8 @@
         .iconSprite = gMonIcon_Wakasagihime,
         .iconPalIndex = 0,
         FOOTPRINT(Wakasagihime)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sWakasagihimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sWakasagihimeTeachableLearnset,
+        .levelUpLearnset = sWakasagihimeLevelUpLearnset,
+        .teachableLearnset = sWakasagihimeTeachableLearnset,
     },
 
     [SPECIES_CSEKIBANKI] =
@@ -177,8 +177,8 @@
         .iconSprite = gMonIcon_CSekibanki,
         .iconPalIndex = 1,
         FOOTPRINT(CSekibanki)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCSekibankiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSekibankiTeachableLearnset,
+        .levelUpLearnset = sCSekibankiLevelUpLearnset,
+        .teachableLearnset = sCSekibankiTeachableLearnset,
     },
 
     [SPECIES_SEKIBANKI] =
@@ -238,8 +238,8 @@
         .iconSprite = gMonIcon_Sekibanki,
         .iconPalIndex = 1,
         FOOTPRINT(Sekibanki)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sSekibankiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSekibankiTeachableLearnset,
+        .levelUpLearnset = sSekibankiLevelUpLearnset,
+        .teachableLearnset = sSekibankiTeachableLearnset,
     },
 
     [SPECIES_CKAGEROU] =
@@ -299,8 +299,8 @@
         .iconSprite = gMonIcon_CKagerou,
         .iconPalIndex = 1,
         FOOTPRINT(CKagerou)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCKagerouLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKagerouTeachableLearnset,
+        .levelUpLearnset = sCKagerouLevelUpLearnset,
+        .teachableLearnset = sCKagerouTeachableLearnset,
     },
 
     [SPECIES_KAGEROU] =
@@ -360,8 +360,8 @@
         .iconSprite = gMonIcon_Kagerou,
         .iconPalIndex = 1,
         FOOTPRINT(Kagerou)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sKagerouLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKagerouTeachableLearnset,
+        .levelUpLearnset = sKagerouLevelUpLearnset,
+        .teachableLearnset = sKagerouTeachableLearnset,
     },
 
     [SPECIES_CBENBEN] =
@@ -421,8 +421,8 @@
         .iconSprite = gMonIcon_CBenben,
         .iconPalIndex = 1,
         FOOTPRINT(CBenben)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCBenbenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCBenbenTeachableLearnset,
+        .levelUpLearnset = sCBenbenLevelUpLearnset,
+        .teachableLearnset = sCBenbenTeachableLearnset,
     },
 
     [SPECIES_BENBEN] =
@@ -482,8 +482,8 @@
         .iconSprite = gMonIcon_Benben,
         .iconPalIndex = 1,
         FOOTPRINT(Benben)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sBenbenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sBenbenTeachableLearnset,
+        .levelUpLearnset = sBenbenLevelUpLearnset,
+        .teachableLearnset = sBenbenTeachableLearnset,
     },
 
     [SPECIES_CYATSUHASHI] =
@@ -543,8 +543,8 @@
         .iconSprite = gMonIcon_CYatsuhashi,
         .iconPalIndex = 0,
         FOOTPRINT(CYatsuhashi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCYatsuhashiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCYatsuhashiTeachableLearnset,
+        .levelUpLearnset = sCYatsuhashiLevelUpLearnset,
+        .teachableLearnset = sCYatsuhashiTeachableLearnset,
     },
 
     [SPECIES_YATSUHASHI] =
@@ -604,8 +604,8 @@
         .iconSprite = gMonIcon_Yatsuhashi,
         .iconPalIndex = 0,
         FOOTPRINT(Yatsuhashi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sYatsuhashiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYatsuhashiTeachableLearnset,
+        .levelUpLearnset = sYatsuhashiLevelUpLearnset,
+        .teachableLearnset = sYatsuhashiTeachableLearnset,
     },
 
     [SPECIES_CSEIJA] =
@@ -665,8 +665,8 @@
         .iconSprite = gMonIcon_CSeija,
         .iconPalIndex = 0,
         FOOTPRINT(CSeija)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCSeijaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSeijaTeachableLearnset,
+        .levelUpLearnset = sCSeijaLevelUpLearnset,
+        .teachableLearnset = sCSeijaTeachableLearnset,
     },
 
     [SPECIES_SEIJA] =
@@ -726,8 +726,8 @@
         .iconSprite = gMonIcon_Seija,
         .iconPalIndex = 0,
         FOOTPRINT(Seija)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sSeijaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSeijaTeachableLearnset,
+        .levelUpLearnset = sSeijaLevelUpLearnset,
+        .teachableLearnset = sSeijaTeachableLearnset,
     },
 
     [SPECIES_CSHINMYOUMARU] =
@@ -787,8 +787,8 @@
         .iconSprite = gMonIcon_CShinmyoumaru,
         .iconPalIndex = 1,
         FOOTPRINT(CShinmyoumaru)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCShinmyoumaruLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCShinmyoumaruTeachableLearnset,
+        .levelUpLearnset = sCShinmyoumaruLevelUpLearnset,
+        .teachableLearnset = sCShinmyoumaruTeachableLearnset,
     },
 
     [SPECIES_SHINMYOUMARU] =
@@ -848,8 +848,8 @@
         .iconSprite = gMonIcon_Shinmyoumaru,
         .iconPalIndex = 1,
         FOOTPRINT(Shinmyoumaru)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sShinmyoumaruLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sShinmyoumaruTeachableLearnset,
+        .levelUpLearnset = sShinmyoumaruLevelUpLearnset,
+        .teachableLearnset = sShinmyoumaruTeachableLearnset,
     },
 
     [SPECIES_CRAIKO] =
@@ -909,8 +909,8 @@
         .iconSprite = gMonIcon_CRaiko,
         .iconPalIndex = 1,
         FOOTPRINT(CRaiko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCRaikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCRaikoTeachableLearnset,
+        .levelUpLearnset = sCRaikoLevelUpLearnset,
+        .teachableLearnset = sCRaikoTeachableLearnset,
     },
 
     [SPECIES_RAIKO] =
@@ -970,6 +970,6 @@
         .iconSprite = gMonIcon_Raiko,
         .iconPalIndex = 1,
         FOOTPRINT(Raiko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sRaikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sRaikoTeachableLearnset,
+        .levelUpLearnset = sRaikoLevelUpLearnset,
+        .teachableLearnset = sRaikoTeachableLearnset,
     },

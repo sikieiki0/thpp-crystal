@@ -1,6 +1,6 @@
     [SPECIES_CMARISA98] =
     {
-        .speciesName = _("Marisa98{CHIBI}"),
+        .speciesName = _("Marisa{CHIBI}"),
         .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_CMARISA98}),
         .baseHP        = 55,
         .baseAttack    = 50,
@@ -56,12 +56,12 @@
         .iconPalIndex = 1,
         FOOTPRINT(CMarisa98)
         .levelUpLearnset = sCMarisa98LevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMarisa98TeachableLearnset,
+        .teachableLearnset = sCMarisa98TeachableLearnset,
     },
 
     [SPECIES_MARISA98] =
     {
-        .speciesName = _("Marisa98"),
+        .speciesName = _("Marisa"),
         .baseHP        = 80,
         .baseAttack    = 75,
         .baseDefense   = 65,
@@ -117,7 +117,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Marisa98)
         .levelUpLearnset = sMarisa98LevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMarisa98TeachableLearnset,
+        .teachableLearnset = sMarisa98TeachableLearnset,
     },
 
     [SPECIES_GENJII] =
@@ -177,7 +177,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Genjii)
         .levelUpLearnset = sGenjiiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sGenjiiTeachableLearnset,
+        .teachableLearnset = sGenjiiTeachableLearnset,
     },
 
     [SPECIES_CRIKA] =
@@ -239,7 +239,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CRika)
         .levelUpLearnset = sCRikaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCRikaTeachableLearnset,
+        .teachableLearnset = sCRikaTeachableLearnset,
     },
 
     [SPECIES_RIKA] =
@@ -300,7 +300,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Rika)
         .levelUpLearnset = sRikaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sRikaTeachableLearnset,
+        .teachableLearnset = sRikaTeachableLearnset,
     },
 
     [SPECIES_CMEIRA] =
@@ -361,7 +361,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CMeira)
         .levelUpLearnset = sCMeiraLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMeiraTeachableLearnset,
+        .teachableLearnset = sCMeiraTeachableLearnset,
     },
 
     [SPECIES_MEIRA] =
@@ -422,7 +422,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Meira)
         .levelUpLearnset = sMeiraLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMeiraTeachableLearnset,
+        .teachableLearnset = sMeiraTeachableLearnset,
     },
 
     [SPECIES_MAGICSTONES] =
@@ -484,5 +484,5 @@
         FOOTPRINT(MagicStones)
         .isMythical = TRUE,
         .levelUpLearnset = sMagicStonesLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMagicStonesTeachableLearnset,
+        .teachableLearnset = sMagicStonesTeachableLearnset,
     },

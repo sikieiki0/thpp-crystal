@@ -57,7 +57,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CSeiran)
         .levelUpLearnset = sCSeiranLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSeiranTeachableLearnset,
+        .teachableLearnset = sCSeiranTeachableLearnset,
     },
 
     [SPECIES_SEIRAN] =
@@ -118,7 +118,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Seiran)
         .levelUpLearnset = sSeiranLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSeiranTeachableLearnset,
+        .teachableLearnset = sSeiranTeachableLearnset,
     },
 
     [SPECIES_CRINGO] =
@@ -178,8 +178,8 @@
         .iconSprite = gMonIcon_CRingo,
         .iconPalIndex = 1,
         FOOTPRINT(CRingo)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCRingoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCRingoTeachableLearnset,
+        .levelUpLearnset = sCRingoLevelUpLearnset,
+        .teachableLearnset = sCRingoTeachableLearnset,
     },
 
     [SPECIES_RINGO] =
@@ -239,8 +239,8 @@
         .iconSprite = gMonIcon_Ringo,
         .iconPalIndex = 1,
         FOOTPRINT(Ringo)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sRingoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sRingoTeachableLearnset,
+        .levelUpLearnset = sRingoLevelUpLearnset,
+        .teachableLearnset = sRingoTeachableLearnset,
     },
 
     [SPECIES_CDOREMY] =
@@ -300,8 +300,8 @@
         .iconSprite = gMonIcon_CDoremy,
         .iconPalIndex = 0,
         FOOTPRINT(CDoremy)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCDoremyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCDoremyTeachableLearnset,
+        .levelUpLearnset = sCDoremyLevelUpLearnset,
+        .teachableLearnset = sCDoremyTeachableLearnset,
     },
 
     [SPECIES_DOREMY] =
@@ -361,8 +361,8 @@
         .iconSprite = gMonIcon_Doremy,
         .iconPalIndex = 0,
         FOOTPRINT(Doremy)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sDoremyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDoremyTeachableLearnset,
+        .levelUpLearnset = sDoremyLevelUpLearnset,
+        .teachableLearnset = sDoremyTeachableLearnset,
     },
 
     [SPECIES_CSAGUME] =
@@ -422,8 +422,8 @@
         .iconSprite = gMonIcon_CSagume,
         .iconPalIndex = 0,
         FOOTPRINT(CSagume)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCSagumeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSagumeTeachableLearnset,
+        .levelUpLearnset = sCSagumeLevelUpLearnset,
+        .teachableLearnset = sCSagumeTeachableLearnset,
     },
 
     [SPECIES_SAGUME] =
@@ -483,8 +483,8 @@
         .iconSprite = gMonIcon_Sagume,
         .iconPalIndex = 0,
         FOOTPRINT(Sagume)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sSagumeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSagumeTeachableLearnset,
+        .levelUpLearnset = sSagumeLevelUpLearnset,
+        .teachableLearnset = sSagumeTeachableLearnset,
     },
 
     [SPECIES_CCLOWNPIECE] =
@@ -544,8 +544,8 @@
         .iconSprite = gMonIcon_CClownpiece,
         .iconPalIndex = 1,
         FOOTPRINT(CClownpiece)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCClownpieceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCClownpieceTeachableLearnset,
+        .levelUpLearnset = sCClownpieceLevelUpLearnset,
+        .teachableLearnset = sCClownpieceTeachableLearnset,
     },
 
     [SPECIES_CLOWNPIECE] =
@@ -605,8 +605,8 @@
         .iconSprite = gMonIcon_Clownpiece,
         .iconPalIndex = 1,
         FOOTPRINT(Clownpiece)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sClownpieceLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sClownpieceTeachableLearnset,
+        .levelUpLearnset = sClownpieceLevelUpLearnset,
+        .teachableLearnset = sClownpieceTeachableLearnset,
     },
 
     [SPECIES_CJUNKO] =
@@ -666,8 +666,8 @@
         .iconSprite = gMonIcon_CJunko,
         .iconPalIndex = 1,
         FOOTPRINT(CJunko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCJunkoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCJunkoTeachableLearnset,
+        .levelUpLearnset = sCJunkoLevelUpLearnset,
+        .teachableLearnset = sCJunkoTeachableLearnset,
     },
 
     [SPECIES_JUNKO] =
@@ -727,8 +727,8 @@
         .iconSprite = gMonIcon_Junko,
         .iconPalIndex = 1,
         FOOTPRINT(Junko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sJunkoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sJunkoTeachableLearnset,
+        .levelUpLearnset = sJunkoLevelUpLearnset,
+        .teachableLearnset = sJunkoTeachableLearnset,
     },
 
     [SPECIES_CHECATIA] =
@@ -788,8 +788,8 @@
         .iconSprite = gMonIcon_CHecatia,
         .iconPalIndex = 1,
         FOOTPRINT(CHecatia)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCHecatiaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCHecatiaTeachableLearnset,
+        .levelUpLearnset = sCHecatiaLevelUpLearnset,
+        .teachableLearnset = sCHecatiaTeachableLearnset,
     },
 
     [SPECIES_HECATIA] =
@@ -849,6 +849,6 @@
         .iconSprite = gMonIcon_Hecatia,
         .iconPalIndex = 1,
         FOOTPRINT(Hecatia)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sHecatiaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHecatiaTeachableLearnset,
+        .levelUpLearnset = sHecatiaLevelUpLearnset,
+        .teachableLearnset = sHecatiaTeachableLearnset,
     },

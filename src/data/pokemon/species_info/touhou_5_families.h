@@ -1,6 +1,6 @@
     [SPECIES_CALICE98] =
     {
-        .speciesName = _("Alice98{CHIBI}"),
+        .speciesName = _("Alice{CHIBI}"),
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_CALICE98}),
         .baseHP        = 30,
         .baseAttack    = 40,
@@ -57,12 +57,12 @@
         .iconPalIndex = 1,
         FOOTPRINT(CAlice98)
         .levelUpLearnset = sCAlice98LevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCAlice98TeachableLearnset,
+        .teachableLearnset = sCAlice98TeachableLearnset,
     },
 
     [SPECIES_ALICE98] =
     {
-        .speciesName = _("Alice98"),   // Alice is taken so JP name 
+        .speciesName = _("Alice"),   
         .baseHP        = 55,
         .baseAttack    = 65,
         .baseDefense   = 120,
@@ -118,7 +118,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Alice98)
         .levelUpLearnset = sAlice98LevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAlice98TeachableLearnset,
+        .teachableLearnset = sAlice98TeachableLearnset,
     },
 
     [SPECIES_CSARA] =
@@ -179,7 +179,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CSara)
         .levelUpLearnset = sCSaraLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSaraTeachableLearnset,
+        .teachableLearnset = sCSaraTeachableLearnset,
     },
 
     [SPECIES_SARA] =
@@ -239,7 +239,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Sara)
         .levelUpLearnset = sSaraLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSaraTeachableLearnset,
+        .teachableLearnset = sSaraTeachableLearnset,
     },
 
     [SPECIES_CLUIZE] =
@@ -301,7 +301,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CLuize)
         .levelUpLearnset = sCLuizeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCLuizeTeachableLearnset,
+        .teachableLearnset = sCLuizeTeachableLearnset,
     },
 
     [SPECIES_LUIZE] =
@@ -361,7 +361,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Luize)
         .levelUpLearnset = sLuizeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sLuizeTeachableLearnset,
+        .teachableLearnset = sLuizeTeachableLearnset,
     },
 
     [SPECIES_CYUKI] =
@@ -422,7 +422,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CYuki)
         .levelUpLearnset = sCYukiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCYukiTeachableLearnset,
+        .teachableLearnset = sCYukiTeachableLearnset,
     },
 
     [SPECIES_YUKI] =
@@ -482,7 +482,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Yuki)
         .levelUpLearnset = sYukiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYukiTeachableLearnset,
+        .teachableLearnset = sYukiTeachableLearnset,
     },
 
     [SPECIES_CMAI] =
@@ -542,7 +542,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CMai)
         .levelUpLearnset = sCMaiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMaiTeachableLearnset,
+        .teachableLearnset = sCMaiTeachableLearnset,
     },
 
     [SPECIES_MAI] =
@@ -603,7 +603,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Mai)
         .levelUpLearnset = sMaiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMaiTeachableLearnset,
+        .teachableLearnset = sMaiTeachableLearnset,
     },
 
     [SPECIES_CYUMEKO] =
@@ -664,7 +664,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CYumeko)
         .levelUpLearnset = sCYumekoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCYumekoTeachableLearnset,
+        .teachableLearnset = sCYumekoTeachableLearnset,
     },
 
     [SPECIES_YUMEKO] =
@@ -724,7 +724,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Yumeko)
         .levelUpLearnset = sYumekoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYumekoTeachableLearnset,
+        .teachableLearnset = sYumekoTeachableLearnset,
     },
 
     [SPECIES_CSHINKI] =
@@ -786,7 +786,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CShinki)
         .levelUpLearnset = sCShinkiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCShinkiTeachableLearnset,
+        .teachableLearnset = sCShinkiTeachableLearnset,
     },
 
     [SPECIES_SHINKI] =
@@ -846,5 +846,5 @@
         .iconPalIndex = 1,
         FOOTPRINT(Shinki)
         .levelUpLearnset = sShinkiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sShinkiTeachableLearnset,
+        .teachableLearnset = sShinkiTeachableLearnset,
     },

@@ -908,6 +908,13 @@ const u32 gMonShinyPalette_TChen[] = INCBIN_U32("graphics/boneka/chen/technic/sh
 const u8 gMonIcon_TChen[]          = INCBIN_U8 ("graphics/boneka/chen/technic/icon.4bpp");
 const u8 gMonFootprint_TChen[]     = INCBIN_U8 ("graphics/boneka/chen/footprint.1bpp");
 
+const u32 gMonFrontPic_AdChen[]     = INCBIN_U32("graphics/boneka/chen/advent/front.4bpp.lz");
+const u32 gMonBackPic_AdChen[]      = INCBIN_U32("graphics/boneka/chen/advent/back.4bpp.lz");
+const u32 gMonPalette_AdChen[]      = INCBIN_U32("graphics/boneka/chen/advent/normal.gbapal.lz");
+const u32 gMonShinyPalette_AdChen[] = INCBIN_U32("graphics/boneka/chen/advent/shiny.gbapal.lz");
+const u8 gMonIcon_AdChen[]          = INCBIN_U8 ("graphics/boneka/chen/advent/icon.4bpp");
+const u8 gMonFootprint_AdChen[]     = INCBIN_U8 ("graphics/boneka/chen/footprint.1bpp");
+
 const u32 gMonFrontPic_CAlice[]     = INCBIN_U32("graphics/boneka/alice/chibi/front.4bpp.lz");
 const u32 gMonBackPic_CAlice[]      = INCBIN_U32("graphics/boneka/alice/chibi/back.4bpp.lz");
 const u32 gMonPalette_CAlice[]      = INCBIN_U32("graphics/boneka/alice/chibi/normal.gbapal.lz");
@@ -1292,6 +1299,13 @@ const u32 gMonPalette_DWriggle[]      = INCBIN_U32("graphics/boneka/wriggle/defe
 const u32 gMonShinyPalette_DWriggle[] = INCBIN_U32("graphics/boneka/wriggle/defense/shiny.gbapal.lz");
 const u8 gMonIcon_DWriggle[]          = INCBIN_U8 ("graphics/boneka/wriggle/defense/icon.4bpp");
 const u8 gMonFootprint_DWriggle[]     = INCBIN_U8 ("graphics/boneka/wriggle/footprint.1bpp");
+
+const u32 gMonFrontPic_SWriggle[]     = INCBIN_U32("graphics/boneka/wriggle/speed/front.4bpp.lz");
+const u32 gMonBackPic_SWriggle[]      = INCBIN_U32("graphics/boneka/wriggle/speed/back.4bpp.lz");
+const u32 gMonPalette_SWriggle[]      = INCBIN_U32("graphics/boneka/wriggle/speed/normal.gbapal.lz");
+const u32 gMonShinyPalette_SWriggle[] = INCBIN_U32("graphics/boneka/wriggle/speed/shiny.gbapal.lz");
+const u8 gMonIcon_SWriggle[]          = INCBIN_U8 ("graphics/boneka/wriggle/speed/icon.4bpp");
+const u8 gMonFootprint_SWriggle[]     = INCBIN_U8 ("graphics/boneka/wriggle/footprint.1bpp");
 
 const u32 gMonFrontPic_CMystia[]     = INCBIN_U32("graphics/boneka/mystia/chibi/front.4bpp.lz");
 const u32 gMonBackPic_CMystia[]      = INCBIN_U32("graphics/boneka/mystia/chibi/back.4bpp.lz");
@@ -1927,8 +1941,8 @@ const u32 gMonFrontPic_STenma[]     = INCBIN_U32("graphics/boneka/tenma/speed/fr
 const u32 gMonBackPic_STenma[]      = INCBIN_U32("graphics/boneka/tenma/speed/back.4bpp.lz");
 const u32 gMonPalette_STenma[]      = INCBIN_U32("graphics/boneka/tenma/speed/normal.gbapal.lz");
 const u32 gMonShinyPalette_STenma[] = INCBIN_U32("graphics/boneka/tenma/speed/shiny.gbapal.lz");
-const u8 gMonIcon_TSenma[]          = INCBIN_U8 ("graphics/boneka/tenma/speed/icon.4bpp");
-const u8 gMonFootprint_TSenma[]     = INCBIN_U8 ("graphics/boneka/tenma/footprint.1bpp");
+const u8 gMonIcon_STenma[]          = INCBIN_U8 ("graphics/boneka/tenma/speed/icon.4bpp");
+const u8 gMonFootprint_STenma[]     = INCBIN_U8 ("graphics/boneka/tenma/footprint.1bpp");
 
 const u32 gMonFrontPic_CKisume[]     = INCBIN_U32("graphics/boneka/kisume/chibi/front.4bpp.lz");
 const u32 gMonBackPic_CKisume[]      = INCBIN_U32("graphics/boneka/kisume/chibi/back.4bpp.lz");

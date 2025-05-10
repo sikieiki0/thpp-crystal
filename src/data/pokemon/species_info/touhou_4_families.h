@@ -56,7 +56,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Fairy)
         .levelUpLearnset = sFairyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sFairyTeachableLearnset,
+        .teachableLearnset = sFairyTeachableLearnset,
     },
 
     [SPECIES_CORANGE] =
@@ -118,7 +118,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(COrange)
         .levelUpLearnset = sCOrangeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCOrangeTeachableLearnset,
+        .teachableLearnset = sCOrangeTeachableLearnset,
     },
 
     [SPECIES_ORANGE] =
@@ -179,7 +179,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(Orange)
         .levelUpLearnset = sOrangeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sOrangeTeachableLearnset,
+        .teachableLearnset = sOrangeTeachableLearnset,
     },
 
     [SPECIES_CKURUMI] =
@@ -240,7 +240,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CKurumi)
         .levelUpLearnset = sCKurumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKurumiTeachableLearnset,
+        .teachableLearnset = sCKurumiTeachableLearnset,
     },
 
     [SPECIES_KURUMI] =
@@ -301,7 +301,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Kurumi)
         .levelUpLearnset = sKurumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKurumiTeachableLearnset,
+        .teachableLearnset = sKurumiTeachableLearnset,
     },
 
     [SPECIES_CELLY] =
@@ -363,7 +363,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CElly)
         .levelUpLearnset = sCEllyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCEllyTeachableLearnset,
+        .teachableLearnset = sCEllyTeachableLearnset,
     },
 
     [SPECIES_ELLY] =
@@ -424,12 +424,12 @@
         .iconPalIndex = 1,
         FOOTPRINT(Elly)
         .levelUpLearnset = sEllyLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sEllyTeachableLearnset,
+        .teachableLearnset = sEllyTeachableLearnset,
     },
 
     [SPECIES_CYUUKA98] =
     {
-        .speciesName = _("Yuuka98{CHIBI}"),
+        .speciesName = _("Yuuka{CHIBI}"),
         .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_CYUUKA98}),
         .baseHP        = 65,
         .baseAttack    = 65,
@@ -486,12 +486,12 @@
         .iconPalIndex = 2,
         FOOTPRINT(CYuuka98)
         .levelUpLearnset = sCYuuka98LevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCYuuka98TeachableLearnset,
+        .teachableLearnset = sCYuuka98TeachableLearnset,
     },
 
     [SPECIES_YUUKA98] =
     {
-        .speciesName = _("Yuuka98"),
+        .speciesName = _("Yuuka"),
         .baseHP        = 90,
         .baseAttack    = 90,
         .baseDefense   = 90,
@@ -547,12 +547,12 @@
         .iconPalIndex = 2,
         FOOTPRINT(Yuuka98)
         .levelUpLearnset = sYuuka98LevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYuuka98TeachableLearnset,
+        .teachableLearnset = sYuuka98TeachableLearnset,
     },
 
     [SPECIES_AYUUKA98] =
     {
-        .speciesName = _("Yuuka98{ATTACK}"), //AYuuka98
+        .speciesName = _("Yuuka{ATTACK}"), //AYuuka98
         .baseHP        = 60,
         .baseAttack    = 125,
         .baseDefense   = 65,
@@ -608,7 +608,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(AYuuka98)
         .levelUpLearnset = sAYuuka98LevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAYuuka98TeachableLearnset,
+        .teachableLearnset = sAYuuka98TeachableLearnset,
     },
 
     [SPECIES_CMUGETSU] =
@@ -669,7 +669,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CMugetsu)
         .levelUpLearnset = sCMugetsuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMugetsuTeachableLearnset,
+        .teachableLearnset = sCMugetsuTeachableLearnset,
     },
 
     [SPECIES_MUGETSU] =
@@ -729,7 +729,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Mugetsu)
         .levelUpLearnset = sMugetsuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMugetsuTeachableLearnset,
+        .teachableLearnset = sMugetsuTeachableLearnset,
     },
 
     [SPECIES_CGENGETSU] =
@@ -791,7 +791,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CGengetsu)
         .levelUpLearnset = sCGengetsuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCGengetsuTeachableLearnset,
+        .teachableLearnset = sCGengetsuTeachableLearnset,
     },
 
     [SPECIES_GENGETSU] =
@@ -852,5 +852,5 @@
         .iconPalIndex = 1,
         FOOTPRINT(Gengetsu)
         .levelUpLearnset = sGengetsuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sGengetsuTeachableLearnset,
+        .teachableLearnset = sGengetsuTeachableLearnset,
     },

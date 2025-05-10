@@ -55,8 +55,8 @@
         .iconSprite = gMonIcon_CEika,
         .iconPalIndex = 2,
         FOOTPRINT(CEika)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCEikaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCEikaTeachableLearnset,
+        .levelUpLearnset = sCEikaLevelUpLearnset,
+        .teachableLearnset = sCEikaTeachableLearnset,
     },
 
     [SPECIES_EIKA] =
@@ -116,8 +116,8 @@
         .iconSprite = gMonIcon_Eika,
         .iconPalIndex = 2,
         FOOTPRINT(Eika)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sEikaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sEikaTeachableLearnset,
+        .levelUpLearnset = sEikaLevelUpLearnset,
+        .teachableLearnset = sEikaTeachableLearnset,
     },
 
     [SPECIES_CURUMI] =
@@ -177,8 +177,8 @@
         .iconSprite = gMonIcon_CUrumi,
         .iconPalIndex = 2,
         FOOTPRINT(CUrumi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCUrumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCUrumiTeachableLearnset,
+        .levelUpLearnset = sCUrumiLevelUpLearnset,
+        .teachableLearnset = sCUrumiTeachableLearnset,
     },
 
     [SPECIES_URUMI] =
@@ -238,8 +238,8 @@
         .iconSprite = gMonIcon_Urumi,
         .iconPalIndex = 2,
         FOOTPRINT(Urumi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sUrumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sUrumiTeachableLearnset,
+        .levelUpLearnset = sUrumiLevelUpLearnset,
+        .teachableLearnset = sUrumiTeachableLearnset,
     },
 
     [SPECIES_CKUTAKA] =
@@ -299,8 +299,8 @@
         .iconSprite = gMonIcon_CKutaka,
         .iconPalIndex = 1,
         FOOTPRINT(CKutaka)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCKutakaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKutakaTeachableLearnset,
+        .levelUpLearnset = sCKutakaLevelUpLearnset,
+        .teachableLearnset = sCKutakaTeachableLearnset,
     },
 
     [SPECIES_KUTAKA] =
@@ -360,8 +360,8 @@
         .iconSprite = gMonIcon_Kutaka,
         .iconPalIndex = 1,
         FOOTPRINT(Kutaka)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sKutakaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKutakaTeachableLearnset,
+        .levelUpLearnset = sKutakaLevelUpLearnset,
+        .teachableLearnset = sKutakaTeachableLearnset,
     },
 
     [SPECIES_CYACHIE] =
@@ -421,8 +421,8 @@
         .iconSprite = gMonIcon_CYachie,
         .iconPalIndex = 1,
         FOOTPRINT(CYachie)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCYachieLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCYachieTeachableLearnset,
+        .levelUpLearnset = sCYachieLevelUpLearnset,
+        .teachableLearnset = sCYachieTeachableLearnset,
     },
 
     [SPECIES_YACHIE] =
@@ -482,8 +482,8 @@
         .iconSprite = gMonIcon_Yachie,
         .iconPalIndex = 1,
         FOOTPRINT(Yachie)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sYachieLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sYachieTeachableLearnset,
+        .levelUpLearnset = sYachieLevelUpLearnset,
+        .teachableLearnset = sYachieTeachableLearnset,
     },
 
     [SPECIES_CMAYUMI] =
@@ -543,8 +543,8 @@
         .iconSprite = gMonIcon_CMayumi,
         .iconPalIndex = 2,
         FOOTPRINT(CMayumi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCMayumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMayumiTeachableLearnset,
+        .levelUpLearnset = sCMayumiLevelUpLearnset,
+        .teachableLearnset = sCMayumiTeachableLearnset,
     },
 
     [SPECIES_MAYUMI] =
@@ -604,8 +604,8 @@
         .iconSprite = gMonIcon_Mayumi,
         .iconPalIndex = 2,
         FOOTPRINT(Mayumi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sMayumiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMayumiTeachableLearnset,
+        .levelUpLearnset = sMayumiLevelUpLearnset,
+        .teachableLearnset = sMayumiTeachableLearnset,
     },
 
     [SPECIES_CKEIKI] =
@@ -665,8 +665,8 @@
         .iconSprite = gMonIcon_CKeiki,
         .iconPalIndex = 0,
         FOOTPRINT(CKeiki)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCKeikiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKeikiTeachableLearnset,
+        .levelUpLearnset = sCKeikiLevelUpLearnset,
+        .teachableLearnset = sCKeikiTeachableLearnset,
     },
 
     [SPECIES_KEIKI] =
@@ -726,8 +726,8 @@
         .iconSprite = gMonIcon_Keiki,
         .iconPalIndex = 0,
         FOOTPRINT(Keiki)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sKeikiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKeikiTeachableLearnset,
+        .levelUpLearnset = sKeikiLevelUpLearnset,
+        .teachableLearnset = sKeikiTeachableLearnset,
     },
 
     [SPECIES_CSAKI] =
@@ -787,8 +787,8 @@
         .iconSprite = gMonIcon_CSaki,
         .iconPalIndex = 1,
         FOOTPRINT(CSaki)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCSakiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSakiTeachableLearnset,
+        .levelUpLearnset = sCSakiLevelUpLearnset,
+        .teachableLearnset = sCSakiTeachableLearnset,
     },
 
     [SPECIES_SAKI] =
@@ -848,6 +848,6 @@
         .iconSprite = gMonIcon_Saki,
         .iconPalIndex = 1,
         FOOTPRINT(Saki)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sSakiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSakiTeachableLearnset,
+        .levelUpLearnset = sSakiLevelUpLearnset,
+        .teachableLearnset = sSakiTeachableLearnset,
     },

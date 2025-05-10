@@ -56,7 +56,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CTokiko)
         .levelUpLearnset = sCTokikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCTokikoTeachableLearnset,
     },
 
     [SPECIES_TOKIKO] =
@@ -117,7 +117,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Tokiko)
         .levelUpLearnset = sTokikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sTokikoTeachableLearnset,
     },
 
     //Perfect Memento in Strict Sense
@@ -179,7 +179,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Akyuu)
         .levelUpLearnset = sAkyuuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAkyuuTeachableLearnset,
+        .teachableLearnset = sAkyuuTeachableLearnset,
     },
 
     //Curiosities of Lotus Asia
@@ -241,7 +241,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CRinnosuke)
         .levelUpLearnset = sCRinnosukeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCRinnosukeTeachableLearnset,
+        .teachableLearnset = sCRinnosukeTeachableLearnset,
     },
 
     [SPECIES_RINNOSUKE] =
@@ -302,7 +302,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Rinnosuke)
         .levelUpLearnset = sRinnosukeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sRinnosukeTeachableLearnset,
+        .teachableLearnset = sRinnosukeTeachableLearnset,
     },
 
     [SPECIES_ATOKIKO] =
@@ -363,11 +363,11 @@
         .iconPalIndex = 1,
         FOOTPRINT(ATokiko)
         .levelUpLearnset = sATokikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sATokikoTeachableLearnset,
+        .teachableLearnset = sATokikoTeachableLearnset,
     },
 
     // Touhou Bougetsushou
-    [SPECIES_Gyokuto] =
+    [SPECIES_GYOKUTO] =
     {
         .speciesName = _("Gyokuto"),
         .baseHP        = 50,
@@ -425,7 +425,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Gyokuto)
         .levelUpLearnset = sGyokutoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sGyokutoTeachableLearnset,
+        .teachableLearnset = sGyokutoTeachableLearnset,
     },
 
     [SPECIES_CTOYOHIME] =
@@ -487,7 +487,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CToyohime)
         .levelUpLearnset = sCToyohimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCToyohimeTeachableLearnset,
+        .teachableLearnset = sCToyohimeTeachableLearnset,
     },
 
     [SPECIES_TOYOHIME] =
@@ -548,7 +548,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Toyohime)
         .levelUpLearnset = sToyohimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sToyohimeTeachableLearnset,
+        .teachableLearnset = sToyohimeTeachableLearnset,
     },
 
     [SPECIES_TTOYOHIME] =
@@ -609,7 +609,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(TToyohime)
         .levelUpLearnset = sTToyohimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTToyohimeTeachableLearnset,
+        .teachableLearnset = sTToyohimeTeachableLearnset,
     },
 
     [SPECIES_CYORIHIME] =
@@ -671,7 +671,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CYorihime)
         .levelUpLearnset = sCYorihimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCYorihimeTeachableLearnset,
     },
 
     [SPECIES_YORIHIME] =
@@ -732,7 +732,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Yorihime)
         .levelUpLearnset = sYorihimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sYorihimeTeachableLearnset,
     },
 
     [SPECIES_SYORIHIME] =
@@ -793,7 +793,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(SYorihime)
         .levelUpLearnset = sSYorihimeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSYorihimeTeachableLearnset,
+        .teachableLearnset = sSYorihimeTeachableLearnset,
     },
 
     // Wild and Horned Hermit
@@ -856,7 +856,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CKasen)
         .levelUpLearnset = sCKasenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKasenTeachableLearnset,
+        .teachableLearnset = sCKasenTeachableLearnset,
     },
 
     [SPECIES_KASEN] =
@@ -917,7 +917,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Kasen)
         .levelUpLearnset = sKasenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKasenTeachableLearnset,
+        .teachableLearnset = sKasenTeachableLearnset,
     },
 
     [SPECIES_CSENDAI] =
@@ -978,7 +978,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CSendai)
         .levelUpLearnset = sCSendaiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSendaiTeachableLearnset,
+        .teachableLearnset = sCSendaiTeachableLearnset,
     },
 
     [SPECIES_SENDAI] =
@@ -1039,7 +1039,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Sendai)
         .levelUpLearnset = sSendaiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSendaiTeachableLearnset,
+        .teachableLearnset = sSendaiTeachableLearnset,
     },
 
     [SPECIES_TSENDAI] =
@@ -1100,7 +1100,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(TSendai)
         .levelUpLearnset = sTSendaiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTSendaiTeachableLearnset,
+        .teachableLearnset = sTSendaiTeachableLearnset,
     },
 
     // Forbidden Scrollery
@@ -1162,7 +1162,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CKosuzu)
         .levelUpLearnset = sCKosuzuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKosuzuTeachableLearnset,
+        .teachableLearnset = sCKosuzuTeachableLearnset,
     },
 
     [SPECIES_KOSUZU] =
@@ -1223,7 +1223,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(Kosuzu)
         .levelUpLearnset = sKosuzuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKosuzuTeachableLearnset,
+        .teachableLearnset = sKosuzuTeachableLearnset,
     },
 
     //Lotus Eaters, Drunk and Sober
@@ -1284,8 +1284,8 @@
         .iconSprite = gMonIcon_CMiyoi,
         .iconPalIndex = 0,
         FOOTPRINT(CMiyoi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCMiyoiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMiyoiTeachableLearnset,
+        .levelUpLearnset = sCMiyoiLevelUpLearnset,
+        .teachableLearnset = sCMiyoiTeachableLearnset,
     },
 
     [SPECIES_MIYOI] =
@@ -1345,6 +1345,6 @@
         .iconSprite = gMonIcon_Miyoi,
         .iconPalIndex = 0,
         FOOTPRINT(Miyoi)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sMiyoiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMiyoiTeachableLearnset,
+        .levelUpLearnset = sMiyoiLevelUpLearnset,
+        .teachableLearnset = sMiyoiTeachableLearnset,
     },

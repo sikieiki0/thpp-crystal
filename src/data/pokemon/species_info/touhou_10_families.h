@@ -57,7 +57,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CShizuha)
         .levelUpLearnset = sCShizuhaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCShizuhaTeachableLearnset,
     },
 
     [SPECIES_SHIZUHA] =
@@ -118,7 +118,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(Shizuha)
         .levelUpLearnset = sShizuhaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sShizuhaTeachableLearnset,
     },
 
     [SPECIES_SSHIZUHA] =
@@ -179,7 +179,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(SShizuha)
         .levelUpLearnset = sSShizuhaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSShizuhaTeachableLearnset,
+        .teachableLearnset = sSShizuhaTeachableLearnset,
     },
 
     [SPECIES_HSHIZUHA] =
@@ -240,7 +240,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(HShizuha)
         .levelUpLearnset = sHShizuhaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHShizuhaTeachableLearnset,
+        .teachableLearnset = sHShizuhaTeachableLearnset,
     },
 
     [SPECIES_CMINORIKO] =
@@ -301,7 +301,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(CMinoriko)
         .levelUpLearnset = sCMinorikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCMinorikoTeachableLearnset,
     },
 
     [SPECIES_MINORIKO] =
@@ -362,7 +362,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(Minoriko)
         .levelUpLearnset = sMinorikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sMinorikoTeachableLearnset,
     },
 
     [SPECIES_AMINORIKO] =
@@ -423,7 +423,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(AMinoriko)
         .levelUpLearnset = sAMinorikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAMinorikoTeachableLearnset,
+        .teachableLearnset = sAMinorikoTeachableLearnset,
     },
 
     [SPECIES_DMINORIKO] =
@@ -484,7 +484,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(DMinoriko)
         .levelUpLearnset = sDMinorikoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDMinorikoTeachableLearnset,
+        .teachableLearnset = sDMinorikoTeachableLearnset,
     },
 
     [SPECIES_AKISISTERS] =
@@ -545,7 +545,7 @@
         .iconPalIndex = 2,
         FOOTPRINT(AkiSisters)
         .levelUpLearnset = sAkiSistersLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAkiSistersTeachableLearnset,
+        .teachableLearnset = sAkiSistersTeachableLearnset,
     },
 
     [SPECIES_CHINA] =
@@ -607,7 +607,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CHina)
         .levelUpLearnset = sCHinaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCHinaTeachableLearnset,
     },
 
     [SPECIES_HINA] =
@@ -668,7 +668,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Hina)
         .levelUpLearnset = sHinaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sHinaTeachableLearnset,
     },
 
     [SPECIES_AHINA] =
@@ -729,7 +729,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(AHina)
         .levelUpLearnset = sAHinaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAHinaTeachableLearnset,
+        .teachableLearnset = sAHinaTeachableLearnset,
     },
 
     [SPECIES_DHINA] =
@@ -790,7 +790,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(DHina)
         .levelUpLearnset = sDHinaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDHinaTeachableLearnset,
+        .teachableLearnset = sDHinaTeachableLearnset,
     },
 
     [SPECIES_CNITORI] =
@@ -852,7 +852,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CNitori)
         .levelUpLearnset = sCNitoriLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCNitoriTeachableLearnset,
     },
 
     [SPECIES_NITORI] =
@@ -913,7 +913,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Nitori)
         .levelUpLearnset = sNitoriLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sNitoriTeachableLearnset,
     },
 
     [SPECIES_ANITORI] =
@@ -974,7 +974,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(ANitori)
         .levelUpLearnset = sANitoriLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sANitoriTeachableLearnset,
+        .teachableLearnset = sANitoriTeachableLearnset,
     },
 
     [SPECIES_TNITORI] =
@@ -1034,7 +1034,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(TNitori)
         .levelUpLearnset = sTNitoriLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTNitoriTeachableLearnset,
+        .teachableLearnset = sTNitoriTeachableLearnset,
     },
 
     [SPECIES_CMOMIJI] =
@@ -1095,7 +1095,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CMomiji)
         .levelUpLearnset = sCMomijiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCMomijiTeachableLearnset,
     },
 
     [SPECIES_MOMIJI] =
@@ -1156,7 +1156,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Momiji)
         .levelUpLearnset = sMomijiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sMomijiTeachableLearnset,
     },
 
     [SPECIES_DMOMIJI] =
@@ -1217,7 +1217,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(DMomiji)
         .levelUpLearnset = sDMomijiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDMomijiTeachableLearnset,
+        .teachableLearnset = sDMomijiTeachableLearnset,
     },
 
     [SPECIES_CSANAE] =
@@ -1278,7 +1278,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(CSanae)
         .levelUpLearnset = sCSanaeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sCSanaeTeachableLearnset,
     },
 
     [SPECIES_SANAE] =
@@ -1339,7 +1339,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(Sanae)
         .levelUpLearnset = sSanaeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,
+        .teachableLearnset = sSanaeTeachableLearnset,
     },
 
     [SPECIES_ASANAE] =
@@ -1400,7 +1400,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(ASanae)
         .levelUpLearnset = sASanaeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sASanaeTeachableLearnset,
+        .teachableLearnset = sASanaeTeachableLearnset,
     },
 
     [SPECIES_TSANAE] =
@@ -1461,7 +1461,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(TSanae)
         .levelUpLearnset = sTSanaeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTSanaeTeachableLearnset,
+        .teachableLearnset = sTSanaeTeachableLearnset,
     },
 
     [SPECIES_SGSANAE] =
@@ -1522,7 +1522,7 @@
         .iconPalIndex = 0,
         FOOTPRINT(SGSanae)
         .levelUpLearnset = sSGSanaeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSGSanaeTeachableLearnset,
+        .teachableLearnset = sSGSanaeTeachableLearnset,
     },
 
     [SPECIES_CKANAKO] =
@@ -1584,7 +1584,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CKanako)
         .levelUpLearnset = sCKanakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCKanakoTeachableLearnset,
+        .teachableLearnset = sCKanakoTeachableLearnset,
     },
 
     [SPECIES_KANAKO] =
@@ -1645,7 +1645,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Kanako)
         .levelUpLearnset = sKanakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sKanakoTeachableLearnset,
+        .teachableLearnset = sKanakoTeachableLearnset,
     },
 
     [SPECIES_AKANAKO] =
@@ -1706,7 +1706,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(AKanako)
         .levelUpLearnset = sAKanakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sAKanakoTeachableLearnset,
+        .teachableLearnset = sAKanakoTeachableLearnset,
     },
 
     [SPECIES_DKANAKO] =
@@ -1767,7 +1767,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(DKanako)
         .levelUpLearnset = sDKanakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDKanakoTeachableLearnset,
+        .teachableLearnset = sDKanakoTeachableLearnset,
     },
 
     [SPECIES_CSUWAKO] =
@@ -1829,7 +1829,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CSuwako)
         .levelUpLearnset = sCSuwakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSuwakoTeachableLearnset,
+        .teachableLearnset = sCSuwakoTeachableLearnset,
     },
 
     [SPECIES_SUWAKO] =
@@ -1889,7 +1889,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Suwako)
         .levelUpLearnset = sSuwakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSuwakoTeachableLearnset,
+        .teachableLearnset = sSuwakoTeachableLearnset,
     },
 
     [SPECIES_ASUWAKO] =
@@ -1950,7 +1950,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(ASuwako)
         .levelUpLearnset = sASuwakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sASuwakoTeachableLearnset,
+        .teachableLearnset = sASuwakoTeachableLearnset,
     },
 
     [SPECIES_DSUWAKO] =
@@ -2011,7 +2011,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(DSuwako)
         .levelUpLearnset = sDSuwakoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sDSuwakoTeachableLearnset,
+        .teachableLearnset = sDSuwakoTeachableLearnset,
     },
 
     [SPECIES_CTENMA] =
@@ -2073,7 +2073,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(CTenma)
         .levelUpLearnset = sCTenmaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCTenmaTeachableLearnset,
+        .teachableLearnset = sCTenmaTeachableLearnset,
     },
 
     [SPECIES_TENMA] =
@@ -2134,7 +2134,7 @@
         .iconPalIndex = 1,
         FOOTPRINT(Tenma)
         .levelUpLearnset = sTenmaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTenmaTeachableLearnset,
+        .teachableLearnset = sTenmaTeachableLearnset,
     },
 
     [SPECIES_STENMA] =
@@ -2195,5 +2195,5 @@
         .iconPalIndex = 1,
         FOOTPRINT(STenma)
         .levelUpLearnset = sSTenmaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSTenmaTeachableLearnset,
+        .teachableLearnset = sSTenmaTeachableLearnset,
     },

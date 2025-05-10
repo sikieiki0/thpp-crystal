@@ -55,8 +55,8 @@
         .iconSprite = gMonIcon_CBiten,
         .iconPalIndex = 2,
         FOOTPRINT(CBiten)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCBitenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCBitenTeachableLearnset,
+        .levelUpLearnset = sCBitenLevelUpLearnset,
+        .teachableLearnset = sCBitenTeachableLearnset,
     },
 
     [SPECIES_BITEN] =
@@ -116,8 +116,8 @@
         .iconSprite = gMonIcon_Biten,
         .iconPalIndex = 2,
         FOOTPRINT(Biten)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sBitenLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sBitenTeachableLearnset,
+        .levelUpLearnset = sBitenLevelUpLearnset,
+        .teachableLearnset = sBitenTeachableLearnset,
     },
 
     [SPECIES_CENOKO] =
@@ -177,8 +177,8 @@
         .iconSprite = gMonIcon_CEnoko,
         .iconPalIndex = 2,
         FOOTPRINT(CEnoko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCEnokoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCEnokoTeachableLearnset,
+        .levelUpLearnset = sCEnokoLevelUpLearnset,
+        .teachableLearnset = sCEnokoTeachableLearnset,
     },
 
     [SPECIES_ENOKO] =
@@ -238,8 +238,8 @@
         .iconSprite = gMonIcon_Enoko,
         .iconPalIndex = 2,
         FOOTPRINT(Enoko)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sEnokoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sEnokoTeachableLearnset,
+        .levelUpLearnset = sEnokoLevelUpLearnset,
+        .teachableLearnset = sEnokoTeachableLearnset,
     },
 
     [SPECIES_CCHIYARI] =
@@ -299,8 +299,8 @@
         .iconSprite = gMonIcon_CChiyari,
         .iconPalIndex = 2,
         FOOTPRINT(CChiyari)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCChiyariLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCChiyariTeachableLearnset,
+        .levelUpLearnset = sCChiyariLevelUpLearnset,
+        .teachableLearnset = sCChiyariTeachableLearnset,
     },
 
     [SPECIES_CHIYARI] =
@@ -360,8 +360,8 @@
         .iconSprite = gMonIcon_Chiyari,
         .iconPalIndex = 2,
         FOOTPRINT(Chiyari)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sChiyariLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sChiyariTeachableLearnset,
+        .levelUpLearnset = sChiyariLevelUpLearnset,
+        .teachableLearnset = sChiyariTeachableLearnset,
     },
 
     [SPECIES_CHISAMI] =
@@ -421,8 +421,8 @@
         .iconSprite = gMonIcon_CHisami,
         .iconPalIndex = 2,
         FOOTPRINT(CHisami)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCHisamiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCHisamiTeachableLearnset,
+        .levelUpLearnset = sCHisamiLevelUpLearnset,
+        .teachableLearnset = sCHisamiTeachableLearnset,
     },
 
     [SPECIES_HISAMI] =
@@ -482,8 +482,8 @@
         .iconSprite = gMonIcon_Hisami,
         .iconPalIndex = 2,
         FOOTPRINT(Hisami)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sHisamiLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sHisamiTeachableLearnset,
+        .levelUpLearnset = sHisamiLevelUpLearnset,
+        .teachableLearnset = sHisamiTeachableLearnset,
     },
 
     [SPECIES_CZANMU] =
@@ -543,8 +543,8 @@
         .iconSprite = gMonIcon_CZanmu,
         .iconPalIndex = 2,
         FOOTPRINT(CZanmu)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCZanmuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCZanmuTeachableLearnset,
+        .levelUpLearnset = sCZanmuLevelUpLearnset,
+        .teachableLearnset = sCZanmuTeachableLearnset,
     },
 
     [SPECIES_ZANMU] =
@@ -604,6 +604,6 @@
         .iconSprite = gMonIcon_Zanmu,
         .iconPalIndex = 2,
         FOOTPRINT(Zanmu)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sZanmuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sZanmuTeachableLearnset,
+        .levelUpLearnset = sZanmuLevelUpLearnset,
+        .teachableLearnset = sZanmuTeachableLearnset,
     },

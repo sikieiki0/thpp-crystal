@@ -55,8 +55,8 @@
         .iconSprite = gMonIcon_CMike,
         .iconPalIndex = 2,
         FOOTPRINT(CMike)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCMikeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMikeTeachableLearnset,
+        .levelUpLearnset = sCMikeLevelUpLearnset,
+        .teachableLearnset = sCMikeTeachableLearnset,
     },
 
     [SPECIES_MIKE] =
@@ -116,8 +116,8 @@
         .iconSprite = gMonIcon_Mike,
         .iconPalIndex = 2,
         FOOTPRINT(Mike)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sMikeLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMikeTeachableLearnset,
+        .levelUpLearnset = sMikeLevelUpLearnset,
+        .teachableLearnset = sMikeTeachableLearnset,
     },
 
     [SPECIES_CTAKANE] =
@@ -177,8 +177,8 @@
         .iconSprite = gMonIcon_CTakane,
         .iconPalIndex = 0,
         FOOTPRINT(CTakane)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCTakaneLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCTakaneTeachableLearnset,
+        .levelUpLearnset = sCTakaneLevelUpLearnset,
+        .teachableLearnset = sCTakaneTeachableLearnset,
     },
 
     [SPECIES_TAKANE] =
@@ -238,8 +238,8 @@
         .iconSprite = gMonIcon_Takane,
         .iconPalIndex = 0,
         FOOTPRINT(Takane)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sTakaneLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTakaneTeachableLearnset,
+        .levelUpLearnset = sTakaneLevelUpLearnset,
+        .teachableLearnset = sTakaneTeachableLearnset,
     },
 
     [SPECIES_CSANNYO] =
@@ -299,8 +299,8 @@
         .iconSprite = gMonIcon_CSannyo,
         .iconPalIndex = 1,
         FOOTPRINT(CSannyo)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCSannyoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCSannyoTeachableLearnset,
+        .levelUpLearnset = sCSannyoLevelUpLearnset,
+        .teachableLearnset = sCSannyoTeachableLearnset,
     },
 
     [SPECIES_SANNYO] =
@@ -360,8 +360,8 @@
         .iconSprite = gMonIcon_Sannyo,
         .iconPalIndex = 1,
         FOOTPRINT(Sannyo)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sSannyoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sSannyoTeachableLearnset,
+        .levelUpLearnset = sSannyoLevelUpLearnset,
+        .teachableLearnset = sSannyoTeachableLearnset,
     },
 
     [SPECIES_CMISUMARU] =
@@ -421,8 +421,8 @@
         .iconSprite = gMonIcon_CMisumaru,
         .iconPalIndex = 1,
         FOOTPRINT(CMisumaru)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCMisumaruLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMisumaruTeachableLearnset,
+        .levelUpLearnset = sCMisumaruLevelUpLearnset,
+        .teachableLearnset = sCMisumaruTeachableLearnset,
     },
 
     [SPECIES_MISUMARU] =
@@ -482,8 +482,8 @@
         .iconSprite = gMonIcon_Misumaru,
         .iconPalIndex = 1,
         FOOTPRINT(Misumaru)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sMisumaruLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMisumaruTeachableLearnset,
+        .levelUpLearnset = sMisumaruLevelUpLearnset,
+        .teachableLearnset = sMisumaruTeachableLearnset,
     },
 
     [SPECIES_CTSUKASA] =
@@ -543,8 +543,8 @@
         .iconSprite = gMonIcon_CTsukasa,
         .iconPalIndex = 2,
         FOOTPRINT(CTsukasa)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCTsukasaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCTsukasaTeachableLearnset,
+        .levelUpLearnset = sCTsukasaLevelUpLearnset,
+        .teachableLearnset = sCTsukasaTeachableLearnset,
     },
 
     [SPECIES_TSUKASA] =
@@ -604,8 +604,8 @@
         .iconSprite = gMonIcon_Tsukasa,
         .iconPalIndex = 2,
         FOOTPRINT(Tsukasa)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sTsukasaLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sTsukasaTeachableLearnset,
+        .levelUpLearnset = sTsukasaLevelUpLearnset,
+        .teachableLearnset = sTsukasaTeachableLearnset,
     },
 
     [SPECIES_CMEGUMU] =
@@ -665,8 +665,8 @@
         .iconSprite = gMonIcon_CMegumu,
         .iconPalIndex = 1,
         FOOTPRINT(CMegumu)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCMegumuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMegumuTeachableLearnset,
+        .levelUpLearnset = sCMegumuLevelUpLearnset,
+        .teachableLearnset = sCMegumuTeachableLearnset,
     },
 
     [SPECIES_MEGUMU] =
@@ -726,8 +726,8 @@
         .iconSprite = gMonIcon_Megumu,
         .iconPalIndex = 1,
         FOOTPRINT(Megumu)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sMegumuLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMegumuTeachableLearnset,
+        .levelUpLearnset = sMegumuLevelUpLearnset,
+        .teachableLearnset = sMegumuTeachableLearnset,
     },
 
     [SPECIES_CCHIMATA] =
@@ -787,8 +787,8 @@
         .iconSprite = gMonIcon_CChimata,
         .iconPalIndex = 1,
         FOOTPRINT(CChimata)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCChimataLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCChimataTeachableLearnset,
+        .levelUpLearnset = sCChimataLevelUpLearnset,
+        .teachableLearnset = sCChimataTeachableLearnset,
     },
 
     [SPECIES_CHIMATA] =
@@ -848,8 +848,8 @@
         .iconSprite = gMonIcon_Chimata,
         .iconPalIndex = 1,
         FOOTPRINT(Chimata)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sChimataLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sChimataTeachableLearnset,
+        .levelUpLearnset = sChimataLevelUpLearnset,
+        .teachableLearnset = sChimataTeachableLearnset,
     },
 
     [SPECIES_CMOMOYO] =
@@ -909,8 +909,8 @@
         .iconSprite = gMonIcon_CMomoyo,
         .iconPalIndex = 1,
         FOOTPRINT(CMomoyo)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sCMomoyoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sCMomoyoTeachableLearnset,
+        .levelUpLearnset = sCMomoyoLevelUpLearnset,
+        .teachableLearnset = sCMomoyoTeachableLearnset,
     },
 
     [SPECIES_MOMOYO] =
@@ -970,6 +970,6 @@
         .iconSprite = gMonIcon_Momoyo,
         .iconPalIndex = 1,
         FOOTPRINT(Momoyo)
-        .levelUpLearnset = sNoneLevelUpLearnset,//sMomoyoLevelUpLearnset,
-        .teachableLearnset = sNoneTeachableLearnset,//sMomoyoTeachableLearnset,
+        .levelUpLearnset = sMomoyoLevelUpLearnset,
+        .teachableLearnset = sMomoyoTeachableLearnset,
     },
