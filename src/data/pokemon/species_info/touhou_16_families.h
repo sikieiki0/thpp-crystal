@@ -175,7 +175,7 @@
         .palette = gMonPalette_CNemuno,
         .shinyPalette = gMonShinyPalette_CNemuno,
         .iconSprite = gMonIcon_CNemuno,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(CNemuno)
         .levelUpLearnset = sCNemunoLevelUpLearnset,
         .teachableLearnset = sCNemunoTeachableLearnset,
@@ -236,7 +236,7 @@
         .palette = gMonPalette_Nemuno,
         .shinyPalette = gMonShinyPalette_Nemuno,
         .iconSprite = gMonIcon_Nemuno,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Nemuno)
         .levelUpLearnset = sNemunoLevelUpLearnset,
         .teachableLearnset = sNemunoTeachableLearnset,
@@ -297,7 +297,7 @@
         .palette = gMonPalette_CAunn,
         .shinyPalette = gMonShinyPalette_CAunn,
         .iconSprite = gMonIcon_CAunn,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(CAunn)
         .levelUpLearnset = sCAunnLevelUpLearnset,
         .teachableLearnset = sCAunnTeachableLearnset,
@@ -358,7 +358,7 @@
         .palette = gMonPalette_Aunn,
         .shinyPalette = gMonShinyPalette_Aunn,
         .iconSprite = gMonIcon_Aunn,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Aunn)
         .levelUpLearnset = sAunnLevelUpLearnset,
         .teachableLearnset = sAunnTeachableLearnset,
@@ -419,7 +419,7 @@
         .palette = gMonPalette_CNarumi,
         .shinyPalette = gMonShinyPalette_CNarumi,
         .iconSprite = gMonIcon_CNarumi,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(CNarumi)
         .levelUpLearnset = sCNarumiLevelUpLearnset,
         .teachableLearnset = sCNarumiTeachableLearnset,
@@ -480,7 +480,7 @@
         .palette = gMonPalette_Narumi,
         .shinyPalette = gMonShinyPalette_Narumi,
         .iconSprite = gMonIcon_Narumi,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Narumi)
         .levelUpLearnset = sNarumiLevelUpLearnset,
         .teachableLearnset = sNarumiTeachableLearnset,
@@ -541,7 +541,7 @@
         .palette = gMonPalette_CTeireida,
         .shinyPalette = gMonShinyPalette_CTeireida,
         .iconSprite = gMonIcon_CTeireida,
-        .iconPalIndex = 0,
+        .iconPalIndex = 2,
         FOOTPRINT(CTeireida)
         .levelUpLearnset = sCTeireidaLevelUpLearnset,
         .teachableLearnset = sCTeireidaTeachableLearnset,
@@ -602,7 +602,7 @@
         .palette = gMonPalette_Teireida,
         .shinyPalette = gMonShinyPalette_Teireida,
         .iconSprite = gMonIcon_Teireida,
-        .iconPalIndex = 0,
+        .iconPalIndex = 2,
         FOOTPRINT(Teireida)
         .levelUpLearnset = sTeireidaLevelUpLearnset,
         .teachableLearnset = sTeireidaTeachableLearnset,

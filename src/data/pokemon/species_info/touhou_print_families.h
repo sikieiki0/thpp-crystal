@@ -1282,7 +1282,7 @@
         .palette = gMonPalette_CMiyoi,
         .shinyPalette = gMonShinyPalette_CMiyoi,
         .iconSprite = gMonIcon_CMiyoi,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(CMiyoi)
         .levelUpLearnset = sCMiyoiLevelUpLearnset,
         .teachableLearnset = sCMiyoiTeachableLearnset,
@@ -1343,7 +1343,7 @@
         .palette = gMonPalette_Miyoi,
         .shinyPalette = gMonShinyPalette_Miyoi,
         .iconSprite = gMonIcon_Miyoi,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Miyoi)
         .levelUpLearnset = sMiyoiLevelUpLearnset,
         .teachableLearnset = sMiyoiTeachableLearnset,

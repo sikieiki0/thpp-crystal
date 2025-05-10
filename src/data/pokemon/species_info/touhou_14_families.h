@@ -541,7 +541,7 @@
         .palette = gMonPalette_CYatsuhashi,
         .shinyPalette = gMonShinyPalette_CYatsuhashi,
         .iconSprite = gMonIcon_CYatsuhashi,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(CYatsuhashi)
         .levelUpLearnset = sCYatsuhashiLevelUpLearnset,
         .teachableLearnset = sCYatsuhashiTeachableLearnset,
@@ -602,7 +602,7 @@
         .palette = gMonPalette_Yatsuhashi,
         .shinyPalette = gMonShinyPalette_Yatsuhashi,
         .iconSprite = gMonIcon_Yatsuhashi,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Yatsuhashi)
         .levelUpLearnset = sYatsuhashiLevelUpLearnset,
         .teachableLearnset = sYatsuhashiTeachableLearnset,
@@ -663,7 +663,7 @@
         .palette = gMonPalette_CSeija,
         .shinyPalette = gMonShinyPalette_CSeija,
         .iconSprite = gMonIcon_CSeija,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(CSeija)
         .levelUpLearnset = sCSeijaLevelUpLearnset,
         .teachableLearnset = sCSeijaTeachableLearnset,
@@ -724,7 +724,7 @@
         .palette = gMonPalette_Seija,
         .shinyPalette = gMonShinyPalette_Seija,
         .iconSprite = gMonIcon_Seija,
-        .iconPalIndex = 0,
+        .iconPalIndex = 2,
         FOOTPRINT(Seija)
         .levelUpLearnset = sSeijaLevelUpLearnset,
         .teachableLearnset = sSeijaTeachableLearnset,
@@ -907,7 +907,7 @@
         .palette = gMonPalette_CRaiko,
         .shinyPalette = gMonShinyPalette_CRaiko,
         .iconSprite = gMonIcon_CRaiko,
-        .iconPalIndex = 1,
+        .iconPalIndex = 2,
         FOOTPRINT(CRaiko)
         .levelUpLearnset = sCRaikoLevelUpLearnset,
         .teachableLearnset = sCRaikoTeachableLearnset,
@@ -968,7 +968,7 @@
         .palette = gMonPalette_Raiko,
         .shinyPalette = gMonShinyPalette_Raiko,
         .iconSprite = gMonIcon_Raiko,
-        .iconPalIndex = 1,
+        .iconPalIndex = 2,
         FOOTPRINT(Raiko)
         .levelUpLearnset = sRaikoLevelUpLearnset,
         .teachableLearnset = sRaikoTeachableLearnset,

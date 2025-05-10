@@ -176,7 +176,7 @@
         .palette = gMonPalette_CRingo,
         .shinyPalette = gMonShinyPalette_CRingo,
         .iconSprite = gMonIcon_CRingo,
-        .iconPalIndex = 1,
+        .iconPalIndex = 2,
         FOOTPRINT(CRingo)
         .levelUpLearnset = sCRingoLevelUpLearnset,
         .teachableLearnset = sCRingoTeachableLearnset,
@@ -237,7 +237,7 @@
         .palette = gMonPalette_Ringo,
         .shinyPalette = gMonShinyPalette_Ringo,
         .iconSprite = gMonIcon_Ringo,
-        .iconPalIndex = 1,
+        .iconPalIndex = 2,
         FOOTPRINT(Ringo)
         .levelUpLearnset = sRingoLevelUpLearnset,
         .teachableLearnset = sRingoTeachableLearnset,
@@ -420,7 +420,7 @@
         .palette = gMonPalette_CSagume,
         .shinyPalette = gMonShinyPalette_CSagume,
         .iconSprite = gMonIcon_CSagume,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(CSagume)
         .levelUpLearnset = sCSagumeLevelUpLearnset,
         .teachableLearnset = sCSagumeTeachableLearnset,
@@ -481,7 +481,7 @@
         .palette = gMonPalette_Sagume,
         .shinyPalette = gMonShinyPalette_Sagume,
         .iconSprite = gMonIcon_Sagume,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Sagume)
         .levelUpLearnset = sSagumeLevelUpLearnset,
         .teachableLearnset = sSagumeTeachableLearnset,

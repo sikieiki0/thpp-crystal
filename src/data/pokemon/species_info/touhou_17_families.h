@@ -53,7 +53,7 @@
         .palette = gMonPalette_CEika,
         .shinyPalette = gMonShinyPalette_CEika,
         .iconSprite = gMonIcon_CEika,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CEika)
         .levelUpLearnset = sCEikaLevelUpLearnset,
         .teachableLearnset = sCEikaTeachableLearnset,
@@ -114,7 +114,7 @@
         .palette = gMonPalette_Eika,
         .shinyPalette = gMonShinyPalette_Eika,
         .iconSprite = gMonIcon_Eika,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Eika)
         .levelUpLearnset = sEikaLevelUpLearnset,
         .teachableLearnset = sEikaTeachableLearnset,
@@ -541,7 +541,7 @@
         .palette = gMonPalette_CMayumi,
         .shinyPalette = gMonShinyPalette_CMayumi,
         .iconSprite = gMonIcon_CMayumi,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CMayumi)
         .levelUpLearnset = sCMayumiLevelUpLearnset,
         .teachableLearnset = sCMayumiTeachableLearnset,
@@ -602,7 +602,7 @@
         .palette = gMonPalette_Mayumi,
         .shinyPalette = gMonShinyPalette_Mayumi,
         .iconSprite = gMonIcon_Mayumi,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Mayumi)
         .levelUpLearnset = sMayumiLevelUpLearnset,
         .teachableLearnset = sMayumiTeachableLearnset,

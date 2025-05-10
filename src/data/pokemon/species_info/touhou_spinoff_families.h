@@ -1768,7 +1768,7 @@
         .palette = gMonPalette_GTensoku,
         .shinyPalette = gMonShinyPalette_GTensoku,
         .iconSprite = gMonIcon_GTensoku,
-        .iconPalIndex = 1,
+        .iconPalIndex = 2,
         FOOTPRINT(GTensoku)
         .isLegendary = TRUE,
         .levelUpLearnset = sGTensokuLevelUpLearnset,
@@ -2566,7 +2566,7 @@
         .palette = gMonPalette_CShion,
         .shinyPalette = gMonShinyPalette_CShion,
         .iconSprite = gMonIcon_CShion,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(CShion)
         .levelUpLearnset = sCShionLevelUpLearnset,
         .teachableLearnset = sCShionTeachableLearnset,
@@ -2627,7 +2627,7 @@
         .palette = gMonPalette_Shion,
         .shinyPalette = gMonShinyPalette_Shion,
         .iconSprite = gMonIcon_Shion,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Shion)
         .levelUpLearnset = sShionLevelUpLearnset,
         .teachableLearnset = sShionTeachableLearnset,
@@ -2688,7 +2688,7 @@
         .palette = gMonPalette_SShion,
         .shinyPalette = gMonShinyPalette_SShion,
         .iconSprite = gMonIcon_SShion,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(SShion)
         .levelUpLearnset = sSShionLevelUpLearnset,
         .teachableLearnset = sSShionTeachableLearnset,
@@ -2749,7 +2749,7 @@
         .palette = gMonPalette_Yorigamisisters,
         .shinyPalette = gMonShinyPalette_Yorigamisisters,
         .iconSprite = gMonIcon_Yorigamisisters,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Yorigamisisters)
         .levelUpLearnset = sYorigamisistersLevelUpLearnset,
         .teachableLearnset = sYorigamisistersTeachableLearnset,

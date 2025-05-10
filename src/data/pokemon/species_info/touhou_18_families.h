@@ -53,7 +53,7 @@
         .palette = gMonPalette_CMike,
         .shinyPalette = gMonShinyPalette_CMike,
         .iconSprite = gMonIcon_CMike,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CMike)
         .levelUpLearnset = sCMikeLevelUpLearnset,
         .teachableLearnset = sCMikeTeachableLearnset,
@@ -114,7 +114,7 @@
         .palette = gMonPalette_Mike,
         .shinyPalette = gMonShinyPalette_Mike,
         .iconSprite = gMonIcon_Mike,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Mike)
         .levelUpLearnset = sMikeLevelUpLearnset,
         .teachableLearnset = sMikeTeachableLearnset,

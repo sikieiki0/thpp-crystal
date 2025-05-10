@@ -53,7 +53,7 @@
         .palette = gMonPalette_CBiten,
         .shinyPalette = gMonShinyPalette_CBiten,
         .iconSprite = gMonIcon_CBiten,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(CBiten)
         .levelUpLearnset = sCBitenLevelUpLearnset,
         .teachableLearnset = sCBitenTeachableLearnset,
@@ -114,7 +114,7 @@
         .palette = gMonPalette_Biten,
         .shinyPalette = gMonShinyPalette_Biten,
         .iconSprite = gMonIcon_Biten,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Biten)
         .levelUpLearnset = sBitenLevelUpLearnset,
         .teachableLearnset = sBitenTeachableLearnset,
@@ -175,7 +175,7 @@
         .palette = gMonPalette_CEnoko,
         .shinyPalette = gMonShinyPalette_CEnoko,
         .iconSprite = gMonIcon_CEnoko,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CEnoko)
         .levelUpLearnset = sCEnokoLevelUpLearnset,
         .teachableLearnset = sCEnokoTeachableLearnset,
@@ -236,7 +236,7 @@
         .palette = gMonPalette_Enoko,
         .shinyPalette = gMonShinyPalette_Enoko,
         .iconSprite = gMonIcon_Enoko,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Enoko)
         .levelUpLearnset = sEnokoLevelUpLearnset,
         .teachableLearnset = sEnokoTeachableLearnset,
@@ -297,7 +297,7 @@
         .palette = gMonPalette_CChiyari,
         .shinyPalette = gMonShinyPalette_CChiyari,
         .iconSprite = gMonIcon_CChiyari,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(CChiyari)
         .levelUpLearnset = sCChiyariLevelUpLearnset,
         .teachableLearnset = sCChiyariTeachableLearnset,
@@ -358,7 +358,7 @@
         .palette = gMonPalette_Chiyari,
         .shinyPalette = gMonShinyPalette_Chiyari,
         .iconSprite = gMonIcon_Chiyari,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Chiyari)
         .levelUpLearnset = sChiyariLevelUpLearnset,
         .teachableLearnset = sChiyariTeachableLearnset,
@@ -419,7 +419,7 @@
         .palette = gMonPalette_CHisami,
         .shinyPalette = gMonShinyPalette_CHisami,
         .iconSprite = gMonIcon_CHisami,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(CHisami)
         .levelUpLearnset = sCHisamiLevelUpLearnset,
         .teachableLearnset = sCHisamiTeachableLearnset,
@@ -480,7 +480,7 @@
         .palette = gMonPalette_Hisami,
         .shinyPalette = gMonShinyPalette_Hisami,
         .iconSprite = gMonIcon_Hisami,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Hisami)
         .levelUpLearnset = sHisamiLevelUpLearnset,
         .teachableLearnset = sHisamiTeachableLearnset,
@@ -541,7 +541,7 @@
         .palette = gMonPalette_CZanmu,
         .shinyPalette = gMonShinyPalette_CZanmu,
         .iconSprite = gMonIcon_CZanmu,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CZanmu)
         .levelUpLearnset = sCZanmuLevelUpLearnset,
         .teachableLearnset = sCZanmuTeachableLearnset,
@@ -602,7 +602,7 @@
         .palette = gMonPalette_Zanmu,
         .shinyPalette = gMonShinyPalette_Zanmu,
         .iconSprite = gMonIcon_Zanmu,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Zanmu)
         .levelUpLearnset = sZanmuLevelUpLearnset,
         .teachableLearnset = sZanmuTeachableLearnset,

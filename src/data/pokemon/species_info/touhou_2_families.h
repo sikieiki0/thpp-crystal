@@ -236,7 +236,7 @@
         .palette = gMonPalette_CRika,
         .shinyPalette = gMonShinyPalette_CRika,
         .iconSprite = gMonIcon_CRika,
-        .iconPalIndex = 1,
+        .iconPalIndex = 2,
         FOOTPRINT(CRika)
         .levelUpLearnset = sCRikaLevelUpLearnset,
         .teachableLearnset = sCRikaTeachableLearnset,
