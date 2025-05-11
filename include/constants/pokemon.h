@@ -3,27 +3,38 @@
 
 // Pokémon types
 #define TYPE_NONE             0
-#define TYPE_NORMAL           1
+#define TYPE_DREAM            1
 #define TYPE_FIGHTING         2
 #define TYPE_FLYING           3
-#define TYPE_POISON           4
-#define TYPE_GROUND           5
-#define TYPE_ROCK             6
-#define TYPE_BUG              7
-#define TYPE_GHOST            8
+#define TYPE_MIASMA           4
+#define TYPE_EARTH            5
+#define TYPE_PRIMAL           6
+#define TYPE_SPIRIT           7
+#define TYPE_NETHER           8
 #define TYPE_STEEL            9
 #define TYPE_MYSTERY          10
 #define TYPE_FIRE             11
 #define TYPE_WATER            12
-#define TYPE_GRASS            13
+#define TYPE_NATURE           13
 #define TYPE_ELECTRIC         14
-#define TYPE_PSYCHIC          15
+#define TYPE_REASON           15
 #define TYPE_ICE              16
-#define TYPE_DRAGON           17
+#define TYPE_HOLY             17
 #define TYPE_DARK             18
-#define TYPE_FAIRY            19
+#define TYPE_ILLUSION         19
 #define TYPE_STELLAR          20
 #define NUMBER_OF_MON_TYPES   21
+// Puppet-Pokemon type redefines
+#define TYPE_NORMAL           TYPE_DREAM
+#define TYPE_POISON           TYPE_MIASMA
+#define TYPE_GROUND           TYPE_EARTH
+#define TYPE_ROCK             TYPE_PRIMAL
+#define TYPE_BUG              TYPE_SPIRIT
+#define TYPE_GHOST            TYPE_NETHER
+#define TYPE_GRASS            TYPE_NATURE
+#define TYPE_PSYCHIC          TYPE_REASON
+#define TYPE_DRAGON           TYPE_HOLY
+#define TYPE_FAIRY            TYPE_ILLUSION
 
 // Pokémon egg groups
 #define EGG_GROUP_NONE                0
@@ -241,6 +252,31 @@
 #define BODY_COLOR_GRAY     7
 #define BODY_COLOR_WHITE    8
 #define BODY_COLOR_PINK     9
+
+// Source game for Artbook search
+#define SOURCE_HRTP      0
+#define SOURCE_SOEW      1
+#define SOURCE_PODD      2
+#define SOURCE_LLS       3
+#define SOURCE_MS        4
+#define SOURCE_EOSD      5
+#define SOURCE_PCB       6
+#define SOURCE_IN        7
+#define SOURCE_POFV      8
+#define SOURCE_MOF       9
+#define SOURCE_SA       10
+#define SOURCE_UFO      11
+#define SOURCE_TD       12
+#define SOURCE_DDC      13
+#define SOURCE_LOLK     14
+#define SOURCE_HSIFS    15
+#define SOURCE_WBAWC    16
+#define SOURCE_UM       17
+#define SOURCE_UDOALG   18
+#define SOURCE_FW       19
+#define SOURCE_SPINOFF  20
+#define SOURCE_PRINT    21
+#define SOURCE_OTHER    22
 
 #define F_SUMMARY_SCREEN_FLIP_SPRITE 0x80
 
