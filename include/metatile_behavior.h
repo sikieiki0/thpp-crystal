@@ -148,6 +148,7 @@ bool8 MetatileBehavior_IsQuestionnaire(u8);
 bool8 MetatileBehavior_IsLongGrass_Duplicate(u8);
 bool8 MetatileBehavior_IsLongGrassSouthEdge(u8);
 bool8 MetatileBehavior_IsTrainerHillTimer(u8);
+bool8 MetatileBehavior_IsHeadbuttTree(u8);
 bool8 MetatileBehavior_IsDirectionalUpRightStairWarp(u8 metatileBehavior);
 bool8 MetatileBehavior_IsDirectionalUpLeftStairWarp(u8 metatileBehavior);
 bool8 MetatileBehavior_IsDirectionalDownRightStairWarp(u8 metatileBehavior);
@@ -165,5 +166,14 @@ bool8 MetatileBehavior_IsSidewaysStairsRightSideBottom(u8 metatileBehavior);
 bool8 MetatileBehavior_IsSidewaysStairsLeftSideBottom(u8 metatileBehavior);
 bool8 MetatileBehavior_IsSidewaysStairsRightSideAny(u8 metatileBehavior);
 bool8 MetatileBehavior_IsSidewaysStairsLeftSideAny(u8 metatileBehavior);
+bool8 MetatileBehavior_IsCabinet(u8 metatileBehavior);
+bool8 MetatileBehavior_IsKitchen(u8 metatileBehavior);
+bool8 MetatileBehavior_IsDresser(u8 metatileBehavior);
+bool8 MetatileBehavior_IsSnacks(u8 metatileBehavior);
+bool8 MetatileBehavior_IsFood(u8 metatileBehavior);
+bool8 MetatileBehavior_IsBlueprints(u8 metatileBehavior);
+bool8 MetatileBehavior_IsPainting(u8 metatileBehavior);
+bool8 MetatileBehavior_IsTelephone(u8 metatileBehavior);
+bool8 MetatileBehavior_IsComputer(u8 metatileBehavior);
 
 #endif // GUARD_METATILE_BEHAVIOR_H
