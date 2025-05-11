@@ -419,6 +419,25 @@ EventScript_FailSweetScent::
 Text_FailSweetScent:
 	.string "Looks like there's nothing here…$"
 
+@ Use headbutt from party menu
+EventScript_UseHeadbutt::
+	lockall
+	goto EventScript_HeadbuttTree
+
+EventScript_HeadbuttTree:
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	dofieldeffect FLDEFF_USE_HEADBUTT
+	special RockSmashWildEncounter
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NoHeadbuttMon
+	waitstate
+	releaseall
+	end
+
 @ Interact with a tree a Pokemon can use headbutt on
 EventScript_Headbutt::
 	lockall
@@ -445,8 +464,9 @@ EventScript_Headbutt::
 	releaseall
 	end
 
+
+
 EventScript_NoHeadbuttMon:
-	msgbox Text_NoHeadbuttMon, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -460,25 +480,6 @@ EventScript_CancelHeadbutt::
 	releaseall
 	end
 
-@ Use headbutt from party menu
-EventScript_UseHeadbutt::
-	lockall
-	goto EventScript_HeadbuttTree
-
-	EventScript_HeadbuttTree:
-	setvar VAR_0x8004, 1  @ vertical pan
-	setvar VAR_0x8005, 1  @ horizontal pan
-	setvar VAR_0x8006, 8  @ num shakes
-	setvar VAR_0x8007, 5  @ shake delay
-	special ShakeCamera
-	waitstate
-	dofieldeffect FLDEFF_USE_HEADBUTT
-	special RockSmashWildEncounter
-	goto_if_eq VAR_RESULT, FALSE, EventScript_NoHeadbuttMon
-	waitstate
-	releaseall
-	end
-
 Text_WantToHeadbutt:
 	.string "The tree is shaking!\n"
 	.string "Would you like to use {COLOR GREEN}Headbutt?$"
@@ -486,5 +487,3 @@ Text_WantToHeadbutt:
 Text_CantHeadbuttTree:
 	.string "None of your Puppets can use {COLOR GREEN}Headbutt.$"
 
-Text_NoHeadbuttMon:
-    .string "No Puppet fell out of the tree…$"
