@@ -1908,6 +1908,7 @@ static const struct SearchOptionText sDexSearchSourceOptions[] =
     [SOURCE_WBAWC  + 1]  = {gText_DexWBAWCDescription  , gText_DexSearchSourceWBAWC},
     [SOURCE_UM     + 1]  = {gText_DexUMDescription     , gText_DexSearchSourceUM},
     [SOURCE_UDOALG + 1]  = {gText_DexUDOALGDescription , gText_DexSearchSourceUDOALG},
+    [SOURCE_FW     + 1]  = {gText_DexFWDescription     , gText_DexSearchSourceFW},
     [SOURCE_SPINOFF+ 1]  = {gText_DexSpinoffDescription, gText_DexSearchSourceSPINOFF},
     [SOURCE_PRINT  + 1]  = {gText_DexPrintWDescription , gText_DexSearchSourcePRINT},
 	[SOURCE_OTHER  + 1]  = {gText_DexOtherDescription  , gText_DexSearchSourceOTHER},
