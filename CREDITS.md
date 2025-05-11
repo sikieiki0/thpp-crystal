@@ -1,4 +1,15 @@
-## Mega Evolution Overworld Sprite Credits:
-- [princess-phoenix](https://www.deviantart.com/princess-phoenix)
-- [larryturbo](https://www.deviantart.com/larryturbo)
-- [kidkatt](https://www.deviantart.com/kidkatt)
+## Touhou sprites, mechanics, music, skillsets, ideas,...
+- ZUN
+- へもぐろびんＡ１Ｃ
+- aichiyasanae
+- Zeta Sukuna
+- agsmgmaster64
+- doesnty
+- reimufate
+- ...
+
+to be completed eventually
+
+## Johto sprites, tiles, scripts, dialogue,...
+- Pokemon Shiny Gold Sigma
+- Pokemon Crystal Dust
