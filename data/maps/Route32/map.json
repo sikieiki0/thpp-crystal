@@ -1,0 +1,65 @@
+{
+  "id": "MAP_ROUTE32",
+  "name": "Route32",
+  "layout": "LAYOUT_ROUTE32",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ROUTE_32",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_KIKYOU_CITY",
+      "offset": -2,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_RUINS_OF_ALPH",
+      "offset": -28,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_YOSHINO_CITY",
+      "offset": 42,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 105,
+      "elevation": 0,
+      "dest_map": "MAP_UNION_CAVE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE32_GATE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 97,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE32_BONEKA_CENTER",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ],
+  "floor_number": 0
+}

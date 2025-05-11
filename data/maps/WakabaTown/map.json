@@ -1,0 +1,98 @@
+{
+  "id": "MAP_WAKABA_TOWN",
+  "name": "WakabaTown",
+  "layout": "LAYOUT_WAKABA_TOWN",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_WAKABA_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE29",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE27",
+      "offset": -2,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 20,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_WAKABA_TOWN_PLAYERS_HOUSE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_WAKABA_TOWN_ELMS_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_WAKABA_TOWN_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_WAKABA_TOWN_PROFESSOR_ELMS_LAB",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
+  ],
+  "floor_number": 0
+}

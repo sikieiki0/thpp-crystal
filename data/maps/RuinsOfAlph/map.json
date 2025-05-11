@@ -1,0 +1,111 @@
+{
+  "id": "MAP_RUINS_OF_ALPH",
+  "name": "RuinsOfAlph",
+  "layout": "LAYOUT_RUINS_OF_ALPH",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE32",
+      "offset": 28,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_GATE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE32_GATE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 22,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_NORTH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_UNDERGROUND",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 30,
+      "elevation": 0,
+      "dest_map": "MAP_UNION_CAVE_2F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 4,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_NORTH_WEST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_SOUTH_EAST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 44,
+      "elevation": 0,
+      "dest_map": "MAP_UNION_CAVE_2F",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_SOUTH_WEST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH_LABORATORY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 41,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ],
+  "floor_number": 0
+}

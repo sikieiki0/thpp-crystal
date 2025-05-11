@@ -69,7 +69,6 @@ ContestHall_EventScript_Contest::
 
 ContestHall_EventScript_SetContestObjects::
 	special LoadLinkContestPlayerPalettes
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
 	call ContestHall_EventScript_CreateAudience
 	end
 
@@ -410,28 +409,18 @@ ContestHall_EventScript_SetExitWarp::
 	return
 
 ContestHall_EventScript_SetExitWarpNormalContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
-	waitstate
 	end
 
 ContestHall_EventScript_SetExitWarpSuperContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
-	waitstate
 	end
 
 ContestHall_EventScript_SetExitWarpHyperContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
-	waitstate
 	end
 
 ContestHall_EventScript_SetExitWarpMasterContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
-	waitstate
 	end
 
 ContestHall_EventScript_SetExitWarpLinkContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 15, 4
-	waitstate
 	end
 
 LilycoveCity_ContestLobby_EventScript_SetPlayerGfx::

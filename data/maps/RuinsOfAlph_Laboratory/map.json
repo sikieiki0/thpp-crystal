@@ -1,0 +1,35 @@
+{
+  "id": "MAP_RUINS_OF_ALPH_LABORATORY",
+  "name": "RuinsOfAlph_Laboratory",
+  "layout": "LAYOUT_RUINS_OF_ALPH_LABORATORY",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_ALPH",
+      "dest_warp_id": "9"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

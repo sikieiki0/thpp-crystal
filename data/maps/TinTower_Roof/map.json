@@ -1,0 +1,35 @@
+{
+  "id": "MAP_TIN_TOWER_ROOF",
+  "name": "TinTower_Roof",
+  "layout": "LAYOUT_TIN_TOWER_ROOF",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_TIN_TOWER_9F",
+      "dest_warp_id": "6"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

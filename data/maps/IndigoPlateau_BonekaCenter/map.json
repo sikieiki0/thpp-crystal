@@ -1,0 +1,42 @@
+{
+  "id": "MAP_INDIGO_PLATEAU_BONEKA_CENTER",
+  "name": "IndigoPlateau_BonekaCenter",
+  "layout": "LAYOUT_INDIGO_PLATEAU_BONEKA_CENTER",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_INDIGO_PLATEAU",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_INDIGO_PLATEAU",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_BONEKA_LEAGUE_ROOM1",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "MAP_ROUTE43",
+  "name": "Route43",
+  "layout": "LAYOUT_ROUTE43",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ROUTE_43",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_CHOUJI_TOWN",
+      "offset": 1,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_LAKE_OF_RAGE",
+      "offset": -26,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 68,
+      "elevation": 0,
+      "dest_map": "MAP_CHOUJI_TOWN_LAKE_OF_RAGE_GATE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ],
+  "floor_number": 0
+}

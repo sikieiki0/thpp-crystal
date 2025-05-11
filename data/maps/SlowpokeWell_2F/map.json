@@ -1,0 +1,35 @@
+{
+  "id": "MAP_SLOWPOKE_WELL_2F",
+  "name": "SlowpokeWell_2F",
+  "layout": "LAYOUT_SLOWPOKE_WELL_2F",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_SLOWPOKE_WELL_1F",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

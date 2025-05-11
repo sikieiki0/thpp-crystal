@@ -1,0 +1,55 @@
+{
+  "id": "MAP_ROUTE35",
+  "name": "Route35",
+  "layout": "LAYOUT_ROUTE35",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ROUTE_35",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE36",
+      "offset": 20,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE35_GATE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_NATIONAL_PARK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE35_HOUSE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ],
+  "floor_number": 0
+}

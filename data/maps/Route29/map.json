@@ -1,0 +1,78 @@
+{
+  "id": "MAP_ROUTE29",
+  "name": "Route29",
+  "layout": "LAYOUT_ROUTE29",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ROUTE_29",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_WAKABA_TOWN",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE46",
+      "offset": 18,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_YOSHINO_CITY",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE30",
+      "offset": -62,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 32,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE29_GATE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 33,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE29_GATE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 63,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
+  ],
+  "floor_number": 0
+}
