@@ -3,7 +3,7 @@
   "name": "TrainerHill_Entrance",
   "layout": "LAYOUT_TRAINER_HILL_ENTRANCE",
   "music": "MUS_B_TOWER_RS",
-  "region_map_section": "MAPSEC_TRAINER_HILL",
+  "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -81,27 +81,6 @@
     }
   ],
   "warp_events": [
-    {
-      "x": 9,
-      "y": 16,
-      "elevation": 3,
-      "dest_map": "MAP_ROUTE111",
-      "dest_warp_id": "4"
-    },
-    {
-      "x": 10,
-      "y": 16,
-      "elevation": 3,
-      "dest_map": "MAP_ROUTE111",
-      "dest_warp_id": "4"
-    },
-    {
-      "x": 9,
-      "y": 1,
-      "elevation": 3,
-      "dest_map": "MAP_TRAINER_HILL_1F",
-      "dest_warp_id": "0"
-    }
   ],
   "coord_events": [
     {
