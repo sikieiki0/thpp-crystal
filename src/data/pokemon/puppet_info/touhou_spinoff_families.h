@@ -1,7 +1,7 @@
     //Touhou Sangetsusei
     [SPECIES_CLUNACHILD] =
     {
-        .speciesName = _("LunaChild{CHIBI}"),
+        .speciesName = _("Luna{CHIBI}"),
         .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_LUNACHILD}),
         .baseHP        = 45,
         .baseAttack    = 45,
@@ -67,7 +67,7 @@
 
     [SPECIES_LUNACHILD] =
     {
-        .speciesName = _("LunaChild"),
+        .speciesName = _("Luna"),
         .baseHP        = 65,
         .baseAttack    = 55,
         .baseDefense   = 65,
@@ -133,7 +133,7 @@
 
     [SPECIES_ALUNACHILD] =
     {
-        .speciesName = _("LunaChild{ATTACK}"),
+        .speciesName = _("Luna{ATTACK}"),
         .baseHP        = 70,
         .baseAttack    = 70,
         .baseDefense   = 80,
@@ -199,7 +199,7 @@
 
     [SPECIES_TLUNACHILD] =
     {
-        .speciesName = _("LunaChild{TECHNIC}"),
+        .speciesName = _("Luna{TECHNIC}"),
         .baseHP        = 75,
         .baseAttack    = 55,
         .baseDefense   = 70,
@@ -265,7 +265,7 @@
 
     [SPECIES_CSTARSAPPHIRE] =
     {
-        .speciesName = _("Starsapph{CHIBI}"),
+        .speciesName = _("Star{CHIBI}"),
         .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_STARSAPPHIRE}),
         .baseHP        = 65,
         .baseAttack    = 40,
@@ -332,7 +332,7 @@
 
     [SPECIES_STARSAPPHIRE] =
     {
-        .speciesName = _("StarSapphire"),
+        .speciesName = _("Star"),
         .baseHP        = 90,
         .baseAttack    = 50,
         .baseDefense   = 80,
@@ -398,7 +398,7 @@
 
     [SPECIES_ASTARSAPPHIRE] =
     {
-        .speciesName = _("Starsapph{ATTACK}"),
+        .speciesName = _("Star{ATTACK}"),
         .baseHP        = 90,
         .baseAttack    = 120,
         .baseDefense   = 80,
@@ -464,7 +464,7 @@
 
     [SPECIES_HSTARSAPPHIRE] =
     {
-        .speciesName = _("Starsapph{HELPER}"),
+        .speciesName = _("Star{HELPER}"),
         .baseHP        = 90,
         .baseAttack    = 50,
         .baseDefense   = 120,
@@ -530,7 +530,7 @@
 
     [SPECIES_CSUNNYMILK] =
     {
-        .speciesName = _("SunnyMilk{CHIBI}"),
+        .speciesName = _("Sunny{CHIBI}"),
         .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_SUNNYMILK}),
         .baseHP        = 45,
         .baseAttack    = 45,
@@ -596,7 +596,7 @@
 
     [SPECIES_SUNNYMILK] =
     {
-        .speciesName = _("SunnyMilk"),
+        .speciesName = _("Sunny"),
         .baseHP        = 70,
         .baseAttack    = 60,
         .baseDefense   = 70,
@@ -662,7 +662,7 @@
 
     [SPECIES_ASUNNYMILK] =
     {
-        .speciesName = _("SunnyMilk{ATTACK}"),
+        .speciesName = _("Sunny{ATTACK}"),
         .baseHP        = 60,
         .baseAttack    = 105,
         .baseDefense   = 50,
@@ -728,7 +728,7 @@
 
     [SPECIES_DSUNNYMILK] =
     {
-        .speciesName = _("SunnyMilk{DEFENSE}"),
+        .speciesName = _("Sunny{DEFENSE}"),
         .baseHP        = 70,
         .baseAttack    = 40,
         .baseDefense   = 70,
