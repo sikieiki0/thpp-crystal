@@ -180,7 +180,7 @@ BerryBlender_Text_LookGoodAtBlendingJoinUs:
 
 BerryBlender_Text_MakeDeliciousPokeblocks:
 	.string "I'm going to make delicious {POKEBLOCK}S\n"
-	.string "and make my POKéMON cuter.$"
+	.string "and make my Bonéka cuter.$"
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
 	.string "{POKEBLOCK}S will be made with your friends \n"
