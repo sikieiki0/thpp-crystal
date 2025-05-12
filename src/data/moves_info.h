@@ -3106,7 +3106,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Metronome"),
         .description = COMPOUND_STRING(
             "Waggles a finger to use any\n"
-            "Pokémon move at random."),
+            "Bonéka move at random."),
         .effect = EFFECT_METRONOME,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5115,7 +5115,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Perish Song"),
         .description = COMPOUND_STRING(
-            "Any Pokémon hearing this\n"
+            "Any Bonéka hearing this\n"
             "song faints in 3 turns."),
         .effect = EFFECT_PERISH_SONG,
         .power = 0,
@@ -6572,7 +6572,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Beat Up"),
         .description = COMPOUND_STRING(
-            "Summons party Pokémon to\n"
+            "Summons party Bonéka to\n"
             "join in the attack."),
         .effect = EFFECT_BEAT_UP,
         .power = B_UPDATED_MOVE_DATA >= GEN_5 ? 1 : 10,
@@ -7659,7 +7659,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Camouflage"),
         .description = COMPOUND_STRING(
-            "Alters the Pokémon's type\n"
+            "Alters the Bonéka's type\n"
             "depending on the location."),
         .effect = EFFECT_CAMOUFLAGE,
         .power = 0,
@@ -7789,7 +7789,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Teeter Dance"),
         .description = COMPOUND_STRING(
-            "Confuses all Pokémon on\n"
+            "Confuses all Bonéka on\n"
             "the scene."),
         .effect = EFFECT_CONFUSE,
         .power = 0,
@@ -11150,7 +11150,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Trick Room"),
         .description = COMPOUND_STRING(
-            "Slower Pokémon get to move\n"
+            "Slower Bonéka get to move\n"
             "first for 5 turns."),
         .effect = EFFECT_TRICK_ROOM,
         .power = 0,
@@ -14311,7 +14311,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Rototiller"),
         .description = COMPOUND_STRING(
             "Ups the Attack and Sp. Atk\n"
-            "of Grass-type Pokémon."),
+            "of Grass-type Bonéka."),
         .effect = EFFECT_ROTOTILLER,
         .power = 0,
         .type = TYPE_GROUND,
@@ -14485,7 +14485,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Parabolic Charge"),
         .description = COMPOUND_STRING(
-            "Damages adjacent Pokémon\n"
+            "Damages adjacent Bonéka\n"
             "and heals up by half of it."),
         .effect = EFFECT_ABSORB,
         .power = B_UPDATED_MOVE_DATA >= GEN_7 ? 65 : 50,
@@ -14704,7 +14704,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Flower Shield"),
         .description = COMPOUND_STRING(
             "Raises the Defense of\n"
-            "Grass-type Pokémon."),
+            "Grass-type Bonéka."),
         .effect = EFFECT_FLOWER_SHIELD,
         .power = 0,
         .type = TYPE_FAIRY,
@@ -15151,7 +15151,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Aromatic Mist"),
         .description = COMPOUND_STRING(
             "Raises the Sp. Def of a\n"
-            "partner Pokémon."),
+            "partner Bonéka."),
         .effect = EFFECT_AROMATIC_MIST,
         .power = 0,
         .type = TYPE_FAIRY,
@@ -16062,7 +16062,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Spotlight"),
         .description = COMPOUND_STRING(
             "Makes the foe attack the\n"
-            "spotlighted Pokémon."),
+            "spotlighted Bonéka."),
         .effect = EFFECT_FOLLOW_ME,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -17630,7 +17630,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Teatime"),
         .description = COMPOUND_STRING(
-            "All Pokémon have teatime\n"
+            "All Bonéka have teatime\n"
             "and eat their Berries."),
         .effect = EFFECT_TEATIME,
         .power = 0,
@@ -18610,7 +18610,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Corrosive Gas"),
         .description = COMPOUND_STRING(
             "Highly acidic gas melts items\n"
-            "held by surrounding Pokémon."),
+            "held by surrounding Bonéka."),
         .effect = EFFECT_CORROSIVE_GAS,
         .power = 0,
         .type = TYPE_POISON,
@@ -18656,7 +18656,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Flip Turn"),
         .description = COMPOUND_STRING(
             "Attacks and rushes back to\n"
-            "switch with a party Pokémon."),
+            "switch with a party Bonéka."),
         .effect = EFFECT_HIT_ESCAPE,
         .power = 60,
         .type = TYPE_WATER,
