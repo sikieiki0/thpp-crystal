@@ -265,7 +265,7 @@
 
     [SPECIES_AREIMU] =
     {
-        .speciesName = _("{ATTACK}Reimu"),
+        .speciesName = _("Reimu{ATTACK}"),
         .baseHP        = 110,
         .baseAttack    = 95,
         .baseDefense   = 90,
@@ -331,7 +331,7 @@
 
     [SPECIES_DREIMU] =
     {
-        .speciesName = _("{DEFENSE}Reimu"),
+        .speciesName = _("Reimu{DEFENSE}"),
         .baseHP        = 110,
         .baseAttack    = 95,
         .baseDefense   = 90,
@@ -727,7 +727,7 @@
 
     [SPECIES_EXMARISA] =
     {
-        .speciesName = _("Ex Marisa"),
+        .speciesName = _("Marisa Ex"),
         .baseHP        = 20,
         .baseAttack    = 160,
         .baseDefense   = 65,

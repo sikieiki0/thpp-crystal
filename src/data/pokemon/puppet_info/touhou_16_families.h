@@ -1,6 +1,6 @@
     [SPECIES_CETERNITYLARVA] =
     {
-        .speciesName = _("ELarva{CHIBI}"), ///// MISSING DATA
+        .speciesName = _("Eternity{CHIBI}"), ///// MISSING DATA
         .baseHP        = 100,
         .baseAttack    = 100,
         .baseDefense   = 100,
@@ -66,7 +66,7 @@
 
     [SPECIES_ETERNITYLARVA] =
     {
-        .speciesName = _("ELarva"), ///// MISSING DATA
+        .speciesName = _("Eternity"), ///// MISSING DATA
         .baseHP        = 100,
         .baseAttack    = 100,
         .baseDefense   = 100,
