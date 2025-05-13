@@ -98,7 +98,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] =
     {
-        .speciesName = _("??????????"),
+        .speciesName = _("2hu"),
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_NONE,
         .categoryName = _("Unknown"),
@@ -109,20 +109,20 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .pokemonOffset = 0,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_CircledQuestionMark,
+        .frontPic = gMonFrontPic_2hu,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
         .frontPicYOffset = 12,
         .frontAnimFrames = sAnims_TwoFramePlaceHolder,
         .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_CircledQuestionMark,
+        .backPic = gMonBackPic_2hu,
         .backPicSize = MON_COORDS_SIZE(40, 40),
         .backPicYOffset = 12,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_CircledQuestionMark,
-        .shinyPalette = gMonShinyPalette_CircledQuestionMark,
-        .iconSprite = gMonIcon_QuestionMark,
+        .palette = gMonPalette_2hu,
+        .shinyPalette = gMonShinyPalette_2hu,
+        .iconSprite = gMonIcon_2hu,
         .iconPalIndex = 0,
-        FOOTPRINT(QuestionMark)
+        FOOTPRINT(2hu)
     #if OW_POKEMON_OBJECT_EVENTS
         .overworldData = {
             .tileTag = TAG_NONE,

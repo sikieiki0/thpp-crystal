@@ -1,6 +1,6 @@
 // fallback
 const u8 gFallbackPokedexText[] = _(
-    "This is a newly discovered Pokémon.\n"
+    "This is a newly discovered Bonéka.\n"
     "It is currently under investigation.\n"
     "No detailed information is available\n"
     "at this time.");

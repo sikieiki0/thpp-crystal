@@ -22,6 +22,15 @@ const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
 
+const u32 gMonFrontPic_2hu[] = INCBIN_U32("graphics/puppets/2hu/unknown/front.4bpp.lz");
+const u32 gMonBackPic_2hu[] = INCBIN_U32("graphics/puppets/2hu/unknown/back.4bpp.lz");
+const u32 gMonPalette_2hu[] = INCBIN_U32("graphics/puppets/2hu/unknown/normal.gbapal.lz");
+const u32 gMonShinyPalette_2hu[] = INCBIN_U32("graphics/puppets/2hu/unknown/shiny.gbapal.lz");
+const u8 gMonIcon_2hu[] = INCBIN_U8("graphics/puppets/2hu/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_2hu[] = INCBIN_U8("graphics/puppets/2hu/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
 
 const u32 gMonFrontPic_CReimu98[]     = INCBIN_U32("graphics/puppets/reimu/chibi98/front.4bpp.lz");
 const u32 gMonBackPic_CReimu98[]      = INCBIN_U32("graphics/puppets/reimu/chibi98/back.4bpp.lz");
