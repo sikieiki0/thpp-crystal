@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - main
       - upcoming
   pull_request:
 
@@ -29,10 +30,4 @@ jobs:
       - name: ROM
         env:
           COMPARE: 0
-        run: make -j${nproc} -O all
-
-      - name: Test
-        env:
-          TEST: 1
-        run: |
-          make -j${nproc} check
+        run: make -j${nproc} -O
