@@ -7252,8 +7252,8 @@
     {
       "id": "LAYOUT_ROUTE47",
       "name": "Route47_Layout",
-      "width": 60,
-      "height": 40,
+      "width": 95,
+      "height": 64,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
@@ -7264,8 +7264,8 @@
     {
       "id": "LAYOUT_ROUTE48",
       "name": "Route48_Layout",
-      "width": 44,
-      "height": 40,
+      "width": 41,
+      "height": 33,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
