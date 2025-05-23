@@ -7113,7 +7113,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_DarkCave",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCave",
       "border_filepath": "data/layouts/WhirlIslands_1F1B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F1B/map.bin"
     },
@@ -7125,7 +7125,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_DarkCave",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCave",
       "border_filepath": "data/layouts/WhirlIslands_1F2B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F2B/map.bin"
     },
@@ -7137,7 +7137,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_DarkCave",
+      "secondary_tileset": "gTileset_Crystal_CeruleanCave",
       "border_filepath": "data/layouts/WhirlIslands_1F3B/border.bin",
       "blockdata_filepath": "data/layouts/WhirlIslands_1F3B/map.bin"
     },
@@ -7245,7 +7245,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Crystal_General",
-      "secondary_tileset": "gTileset_Crystal_DarkCave",
+      "secondary_tileset": "gTileset_Crystal_DiglettsCave",
       "border_filepath": "data/layouts/CliffEdgeGate/border.bin",
       "blockdata_filepath": "data/layouts/CliffEdgeGate/map.bin"
     },

@@ -11,6 +11,7 @@
   "allow_escaping": true,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 8,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
@@ -65,6 +66,5 @@
   ],
   "bg_events": [
 
-  ],
-  "floor_number": 8
+  ]
 }
