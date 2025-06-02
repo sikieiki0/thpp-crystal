@@ -138,7 +138,6 @@ static const u16 sRegionMap_SpecialPlaceLocations[][2] =
     {MAPSEC_UNDERWATER_128,             MAPSEC_ROUTE_128},
     {MAPSEC_UNDERWATER_SOOTOPOLIS,      MAPSEC_SOOTOPOLIS_CITY},
     {MAPSEC_UNDERWATER_SEAFLOOR_CAVERN, MAPSEC_ROUTE_128},
-    {MAPSEC_AQUA_HIDEOUT_OLD,           MAPSEC_LILYCOVE_CITY},
     {MAPSEC_UNDERWATER_SEALED_CHAMBER,  MAPSEC_ROUTE_134},
     {MAPSEC_PETALBURG_WOODS,            MAPSEC_ROUTE_104},
     {MAPSEC_JAGGED_PASS,                MAPSEC_ROUTE_112},
@@ -189,7 +188,6 @@ static const struct UCoords16 sMarineCaveLocationCoords[MARINE_CAVE_LOCATIONS] =
 
 static const u8 sMapSecAquaHideoutOld[] =
 {
-    MAPSEC_AQUA_HIDEOUT_OLD
 };
 
 static const struct OamData sRegionMapCursorOam =
@@ -1602,9 +1600,6 @@ u8 *GetMapNameGeneric(u8 *dest, u16 mapSecId)
 
 u8 *GetMapNameHandleAquaHideout(u8 *dest, u16 mapSecId)
 {
-    if (mapSecId == MAPSEC_AQUA_HIDEOUT_OLD)
-        return StringCopy(dest, gText_Hideout);
-    else
         return GetMapNameGeneric(dest, mapSecId);
 }
 

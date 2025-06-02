@@ -529,14 +529,6 @@
       "height": 1
     },
     {
-      "id": "MAPSEC_AQUA_HIDEOUT_OLD",
-      "name": "{AQUA} HIDEOUT",
-      "x": 19,
-      "y": 3,
-      "width": 1,
-      "height": 1
-    },
-    {
       "id": "MAPSEC_SHOAL_CAVE",
       "name": "SHOAL CAVE",
       "x": 24,
@@ -1256,22 +1248,6 @@
       "height": 1
     },
     {
-      "id": "MAPSEC_SEVII_ISLE_8",
-      "name": "SEVII ISLE 8",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "MAPSEC_SEVII_ISLE_9",
-      "name": "SEVII ISLE 9",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
       "id": "MAPSEC_RESORT_GORGEOUS",
       "name": "RESORT GORGEOUS",
       "x": 0,
@@ -1362,30 +1338,6 @@
     {
       "id": "MAPSEC_TANOBY_RUINS",
       "name": "TANOBY RUINS",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "MAPSEC_SEVII_ISLE_22",
-      "name": "SEVII ISLE 22",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "MAPSEC_SEVII_ISLE_23",
-      "name": "SEVII ISLE 23",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "MAPSEC_SEVII_ISLE_24",
-      "name": "SEVII ISLE 24",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1572,22 +1524,6 @@
       "name": "SPECIAL AREA",
       "x": 0,
       "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "MAPSEC_AQUA_HIDEOUT",
-      "name": "AQUA HIDEOUT",
-      "x": 19,
-      "y": 3,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "MAPSEC_MAGMA_HIDEOUT",
-      "name": "MAGMA HIDEOUT",
-      "x": 6,
-      "y": 3,
       "width": 1,
       "height": 1
     },
