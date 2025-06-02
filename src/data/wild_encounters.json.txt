@@ -44,15 +44,15 @@ const struct WildPokemon {{ encounter.base_label }}_WaterMons[] =
 
 const struct WildPokemonInfo {{ encounter.base_label }}_WaterMonsInfo = { {{encounter.water_mons.encounter_rate}}, {{ encounter.base_label }}_WaterMons };
 {% endif %}
-{% if existsIn(encounter, "tree_mons") %}
+{% if existsIn(encounter, "rock_smash_mons") %}
 const struct WildPokemon {{ encounter.base_label }}_RockSmashMons[] =
 {
-## for wild_mon in encounter.tree_mons.mons
+## for wild_mon in encounter.rock_smash_mons.mons
     { {{ wild_mon.min_level }}, {{ wild_mon.max_level }}, {{ wild_mon.species }} },
 ## endfor
 };
 
-const struct WildPokemonInfo {{ encounter.base_label }}_RockSmashMonsInfo = { {{encounter.tree_mons.encounter_rate}}, {{ encounter.base_label }}_RockSmashMons };
+const struct WildPokemonInfo {{ encounter.base_label }}_RockSmashMonsInfo = { {{encounter.rock_smash_mons.encounter_rate}}, {{ encounter.base_label }}_RockSmashMons };
 {% endif %}
 {% if existsIn(encounter, "fishing_mons") %}
 const struct WildPokemon {{ encounter.base_label }}_FishingMons[] =
@@ -85,7 +85,7 @@ const struct WildPokemonHeader {{ wild_encounter_group.label }}[] =
         .mapNum = {% if wild_encounter_group.for_maps %}MAP_NUM({{ encounter.map }}){% else %}{{ loop.index1 }}{% endif %},
         .landMonsInfo = {% if existsIn(encounter, "land_mons") %}&{{ encounter.base_label }}_LandMonsInfo{% else %}NULL{% endif %},
         .waterMonsInfo = {% if existsIn(encounter, "water_mons") %}&{{ encounter.base_label }}_WaterMonsInfo{% else %}NULL{% endif %},
-        .rockSmashMonsInfo = {% if existsIn(encounter, "tree_mons") %}&{{ encounter.base_label }}_RockSmashMonsInfo{% else %}NULL{% endif %},
+        .rockSmashMonsInfo = {% if existsIn(encounter, "rock_smash_mons") %}&{{ encounter.base_label }}_RockSmashMonsInfo{% else %}NULL{% endif %},
         .fishingMonsInfo = {% if existsIn(encounter, "fishing_mons") %}&{{ encounter.base_label }}_FishingMonsInfo{% else %}NULL{% endif %},
         .hiddenMonsInfo = {% if existsIn(encounter, "hidden_mons") %}&{{ encounter.base_label }}_HiddenMonsInfo{% else %}NULL{% endif %},
     },

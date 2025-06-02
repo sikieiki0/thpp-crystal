@@ -32,7 +32,7 @@
           ]
         },
         {
-          "type": "tree_mons",
+          "type": "rock_smash_mons",
           "encounter_rates": [
             60,
             30,
@@ -948,7 +948,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -1270,7 +1270,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -2496,7 +2496,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -7146,7 +7146,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 25,
             "mons": [
               {
@@ -7399,7 +7399,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -9736,7 +9736,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 25,
             "mons": [
               {
@@ -13384,7 +13384,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -13568,7 +13568,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -13791,7 +13791,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -13920,7 +13920,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -14104,7 +14104,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -14288,7 +14288,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -14442,7 +14442,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -14571,7 +14571,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -14755,7 +14755,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -14909,7 +14909,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -15008,7 +15008,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -15107,7 +15107,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -15206,7 +15206,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -15513,7 +15513,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -15697,7 +15697,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -15881,7 +15881,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -16189,7 +16189,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -17750,7 +17750,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -18242,7 +18242,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -20137,7 +20137,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -20256,7 +20256,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -20345,7 +20345,7 @@
         {
           "map": "MAP_HIWADA_TOWN",
           "base_label": "gHiwadaTown",
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -20409,7 +20409,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -20528,7 +20528,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {
@@ -20736,7 +20736,7 @@
               }
             ]
           },
-          "tree_mons": {
+          "rock_smash_mons": {
             "encounter_rate": 20,
             "mons": [
               {

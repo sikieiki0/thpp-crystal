@@ -56,4 +56,8 @@ bool8 FldEff_UseHeadbutt(void);
 bool8 SetUpFieldMove_Headbutt(void);
 
 
+// defog
+bool8 SetUpFieldMove_Defog(void);
+bool8 FldEff_Defog(void);
+
 #endif // GUARD_FLDEFF_H
