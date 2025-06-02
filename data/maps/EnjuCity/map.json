@@ -3,7 +3,7 @@
   "name": "EnjuCity",
   "layout": "LAYOUT_ENJU_CITY",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_ENJU_CITY",
+  "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",

@@ -743,7 +743,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
+      "height": 1
     },
     {
       "id": "MAPSEC_VERMILION_CITY",
@@ -783,7 +783,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
+      "height": 1
     },
     {
       "id": "MAPSEC_SAFFRON_CITY",
@@ -791,7 +791,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 5
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
@@ -800,7 +800,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 5
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
@@ -849,7 +849,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 7
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_6",
@@ -865,7 +865,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 3
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_8",
@@ -873,14 +873,6 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_36",
-      "name": "Route 36",
-      "x": 13,
-      "y": 6,
-      "width": 3,
       "height": 1
     },
     {
@@ -889,14 +881,6 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
-    },
-    {
-      "id": "MAPSEC_ROUTE_38",
-      "name": "Route 38",
-      "x": 9,
-      "y": 3,
-      "width": 5,
       "height": 1
     },
     {
@@ -905,30 +889,6 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
-    },
-    {
-      "id": "MAPSEC_ROUTE_40",
-      "name": "Route 40",
-      "x": 7,
-      "y": 6,
-      "width": 2,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_41",
-      "name": "Route 41",
-      "x": 5,
-      "y": 10,
-      "width": 2,
-      "height": 13
-    },
-    {
-      "id": "MAPSEC_ROUTE_42",
-      "name": "Route 42",
-      "x": 15,
-      "y": 3,
-      "width": 3,
       "height": 1
     },
     {
@@ -937,14 +897,6 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
-    },
-    {
-      "id": "MAPSEC_ROUTE_44",
-      "name": "Route 44",
-      "x": 19,
-      "y": 3,
-      "width": 3,
       "height": 1
     },
     {
@@ -953,7 +905,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 7
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_13",
@@ -961,7 +913,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_14",
@@ -969,14 +921,6 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
-    },
-    {
-      "id": "MAPSEC_ROUTE_32_BONEKACENTER",
-      "name": "Route 32 Boneka",
-      "x": 5,
-      "y": 6,
-      "width": 3,
       "height": 1
     },
     {
@@ -1001,7 +945,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 6
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_18",
@@ -1009,7 +953,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 6
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_19",
@@ -1017,14 +961,6 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 4
-    },
-    {
-      "id": "MAPSEC_ILEX_FOREST",
-      "name": "Ilex Forest",
-      "x": 12,
-      "y": 14,
-      "width": 2,
       "height": 1
     },
     {
@@ -1033,7 +969,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_21",
@@ -1041,14 +977,6 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
-    },
-    {
-      "id": "MAPSEC_RUINS_OF_ALPH",
-      "name": "Ruins of Alph",
-      "x": 12,
-      "y": 6,
-      "width": 5,
       "height": 1
     },
     {
@@ -1140,366 +1068,6 @@
       "y": 0,
       "width": 1,
       "height": 1
-    },
-    {
-      "id": "MAPSEC_EMBEDDED_TOWER",
-      "name": "Embedded Tower",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_SAFARI_ZONE",
-      "name": "Safari Zone",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_MASARA_TOWN",
-      "name": "Masara Town",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_TOKIWA_CITY",
-      "name": "Tokiwa City",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_NIBI_CITY",
-      "name": "Nibi City",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_HANADA_CITY",
-      "name": "Hanada City",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_CION_TOWN",
-      "name": "Cion Town",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_KUCHIBA_CITY",
-      "name": "Kuchiba City",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_TAMAMUSHI_CITY",
-      "name": "Tamamushi City",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_SEKICHIKU_CITY",
-      "name": "Sekikichu City",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_YAMABUKI_CITY",
-      "name": "Yamabuki City",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_GUREN_TOWN",
-      "name": "Guren Town",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_1",
-      "name": "Route 1",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_2",
-      "name": "Route 2",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_3",
-      "name": "Route 3",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_4",
-      "name": "Route 4",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_5",
-      "name": "Route 5",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_6",
-      "name": "Route 6",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_7",
-      "name": "Route 7",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_8",
-      "name": "Route 8",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_9",
-      "name": "Route 9",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_10",
-      "name": "Route 10",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_11",
-      "name": "Route 11",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_12",
-      "name": "Route 12",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_13",
-      "name": "Route 13",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_14",
-      "name": "Route 14",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_15",
-      "name": "Route 15",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_16",
-      "name": "Route 16",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_17",
-      "name": "Route 17",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_18",
-      "name": "Route 18",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_19",
-      "name": "Route 19",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_20",
-      "name": "Route 20",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_21",
-      "name": "Route 21",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_22",
-      "name": "Route 22",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_23_KANTO",
-      "name": "Route 23",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_24",
-      "name": "Route 24",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_25",
-      "name": "Route 25",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_4_POKECENTER",
-      "name": "Route 4 PokeCenter",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_ROUTE_10_POKECENTER",
-      "name": "Route 10 PokeCenter",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_VIRIDIAN_FOREST",
-      "name": "Viridian Forest",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_MT_MOON",
-      "name": "Mt Moon",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_S_S_ANNE",
-      "name": "S.S. Anne",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_UNDERGROUND_PATH",
-      "name": "Underground Path",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_UNDERGROUND_PATH_2",
-      "name": "Underground Path 2",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
-    },
-    {
-      "id": "MAPSEC_DIGLETTS_CAVE",
-      "name": "Digletts Cave",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
     },
     {
       "id": "MAPSEC_ROCKET_HIDEOUT",

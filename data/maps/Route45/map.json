@@ -3,7 +3,7 @@
   "name": "Route45",
   "layout": "LAYOUT_ROUTE45",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_ROUTE_45",
+  "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
