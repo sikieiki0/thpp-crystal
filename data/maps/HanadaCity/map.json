@@ -3,7 +3,7 @@
   "name": "HanadaCity",
   "layout": "LAYOUT_HANADA_CITY",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_HANADA_CITY",
+  "region_map_section": "MAPSEC_CERULEAN_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
@@ -11,7 +11,6 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -20,16 +19,9 @@
       "direction": "left"
     }
   ],
-  "object_events": [
-
-  ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "floor_number": 0
 }

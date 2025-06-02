@@ -11,11 +11,11 @@
   "allow_escaping": true,
   "allow_running": true,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
+      "local_id": "LOCALID_MAGMA_HIDEOUT_4F_GROUDON",
       "graphics_id": "OBJ_EVENT_GFX_GROUDON_FRONT",
       "x": 16,
       "y": 17,
@@ -29,6 +29,7 @@
       "flag": "FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON"
     },
     {
+      "local_id": "LOCALID_MAGMA_HIDEOUT_4F_GRUNT_1",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
       "x": 31,
       "y": 22,
@@ -42,6 +43,7 @@
       "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
     },
     {
+      "local_id": "LOCALID_MAGMA_HIDEOUT_4F_GRUNT_2",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
       "x": 30,
       "y": 13,
@@ -55,6 +57,7 @@
       "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
     },
     {
+      "local_id": "LOCALID_MAGMA_HIDEOUT_4F_GRUNT_3",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
       "x": 26,
       "y": 13,
@@ -68,6 +71,7 @@
       "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
     },
     {
+      "local_id": "LOCALID_MAGMA_HIDEOUT_4F_TABITHA",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
       "x": 22,
       "y": 4,
@@ -81,6 +85,7 @@
       "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
     },
     {
+      "local_id": "LOCALID_MAGMA_HIDEOUT_4F_MAXIE",
       "graphics_id": "OBJ_EVENT_GFX_MAXIE",
       "x": 16,
       "y": 21,
@@ -94,6 +99,7 @@
       "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
     },
     {
+      "local_id": "LOCALID_MAGMA_HIDEOUT_4F_GROUDON_SLEEPING",
       "graphics_id": "OBJ_EVENT_GFX_GROUDON_ASLEEP",
       "x": 16,
       "y": 17,
@@ -136,10 +142,7 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "floor_number": 0
 }

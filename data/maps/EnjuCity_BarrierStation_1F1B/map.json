@@ -3,7 +3,7 @@
   "name": "EnjuCity_BarrierStation_1F1B",
   "layout": "LAYOUT_ENJU_CITY_BARRIER_STATION_1F1B",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_ENJU_CITY",
+  "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
@@ -11,12 +11,9 @@
   "allow_escaping": false,
   "allow_running": false,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
-  "object_events": [
-
-  ],
+  "connections": null,
+  "object_events": [],
   "warp_events": [
     {
       "x": 5,
@@ -47,10 +44,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "floor_number": 0
 }

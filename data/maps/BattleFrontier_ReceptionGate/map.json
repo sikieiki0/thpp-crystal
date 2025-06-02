@@ -11,11 +11,11 @@
   "allow_escaping": false,
   "allow_running": false,
   "show_map_name": false,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
+      "local_id": "LOCALID_FRONTIER_RECEPTION_GREETER",
       "graphics_id": "OBJ_EVENT_GFX_TEALA",
       "x": 0,
       "y": 11,
@@ -29,6 +29,7 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_FRONTIER_RECEPTION_GUIDE",
       "graphics_id": "OBJ_EVENT_GFX_TEALA",
       "x": 8,
       "y": 11,
@@ -55,6 +56,7 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_FRONTIER_RECEPTION_SCOTT",
       "graphics_id": "OBJ_EVENT_GFX_SCOTT",
       "x": 4,
       "y": 5,
@@ -97,10 +99,7 @@
       "dest_warp_id": "9"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "floor_number": 0
 }

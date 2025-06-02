@@ -31,6 +31,7 @@
   ],
   "object_events": [
     {
+      "local_id": "LOCALID_SAFARI_EXIT_ATTENDANT",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 32,
       "y": 34,
@@ -109,13 +110,7 @@
       "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS"
     }
   ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
 }
