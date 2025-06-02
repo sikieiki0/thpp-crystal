@@ -13,7 +13,6 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_GYM",
   "connections": null,
-  "shared_scripts_map": "BattlePyramidSquare01",
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
@@ -109,5 +108,6 @@
   ],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "shared_scripts_map": "BattlePyramidSquare01"
 }

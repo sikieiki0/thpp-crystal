@@ -206,9 +206,7 @@
     "Route24",
     "Route25"
   ],
-  "gMapGroup_DungeonsKanto": [
-
-  ],
+  "gMapGroup_DungeonsKanto": [],
   "gMapGroup_IndoorRoutes": [
     "Route27_House",
     "Route29_Gate",

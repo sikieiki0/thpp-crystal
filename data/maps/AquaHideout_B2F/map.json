@@ -11,9 +11,8 @@
   "allow_escaping": false,
   "allow_running": false,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_AQUA",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "local_id": "LOCALID_AQUA_HIDEOUT_MATT",
@@ -188,7 +187,6 @@
       "script": "AquaHideout_B2F_EventScript_MattNoticePlayer"
     }
   ],
-  "bg_events": [
-
-  ]
+  "bg_events": [],
+  "floor_number": 0
 }

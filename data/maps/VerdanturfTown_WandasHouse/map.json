@@ -80,8 +80,7 @@
       "flag": "FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA"
     }
   ],
-  "warp_events": [
-  ],
+  "warp_events": [],
   "coord_events": [],
   "bg_events": []
 }

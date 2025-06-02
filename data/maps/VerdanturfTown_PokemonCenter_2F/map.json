@@ -67,8 +67,7 @@
       "flag": "FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN"
     }
   ],
-  "warp_events": [
-  ],
+  "warp_events": [],
   "coord_events": [],
   "bg_events": []
 }
