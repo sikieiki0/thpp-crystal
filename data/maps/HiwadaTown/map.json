@@ -3,7 +3,7 @@
   "name": "HiwadaTown",
   "layout": "LAYOUT_HIWADA_TOWN",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_AZALEA_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",

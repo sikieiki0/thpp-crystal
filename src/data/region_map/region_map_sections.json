@@ -697,7 +697,7 @@
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
-      "name": "PALLET TOWN",
+      "name": "Pallet Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -705,7 +705,7 @@
     },
     {
       "id": "MAPSEC_VIRIDIAN_CITY",
-      "name": "VIRIDIAN CITY",
+      "name": "Viridian City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -713,7 +713,7 @@
     },
     {
       "id": "MAPSEC_PEWTER_CITY",
-      "name": "PEWTER CITY",
+      "name": "Pewter City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -721,7 +721,7 @@
     },
     {
       "id": "MAPSEC_CERULEAN_CITY",
-      "name": "CERULEAN CITY",
+      "name": "Cerulean City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -729,7 +729,7 @@
     },
     {
       "id": "MAPSEC_LAVENDER_TOWN",
-      "name": "LAVENDER TOWN",
+      "name": "Lavender Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -737,7 +737,7 @@
     },
     {
       "id": "MAPSEC_VERMILION_CITY",
-      "name": "VERMILION CITY",
+      "name": "Vermilion City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -745,7 +745,7 @@
     },
     {
       "id": "MAPSEC_CELADON_CITY",
-      "name": "CELADON CITY",
+      "name": "Celadon City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -753,7 +753,7 @@
     },
     {
       "id": "MAPSEC_FUCHSIA_CITY",
-      "name": "FUCHSIA CITY",
+      "name": "Fuchsia City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -761,7 +761,7 @@
     },
     {
       "id": "MAPSEC_CINNABAR_ISLAND",
-      "name": "CINNABAR ISLAND",
+      "name": "Cinnabar Island",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -769,7 +769,7 @@
     },
     {
       "id": "MAPSEC_INDIGO_PLATEAU",
-      "name": "INDIGO PLATEAU",
+      "name": "Indigo Plateau",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -777,7 +777,95 @@
     },
     {
       "id": "MAPSEC_SAFFRON_CITY",
-      "name": "SAFFRON CITY",
+      "name": "Saffron City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_NEW_BARK_TOWN",
+      "name": "New Bark Town",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_CHERRYGROVE_CITY",
+      "name": "Cherrygrove City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_VIOLET_CITY",
+      "name": "VIolet City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_AZALEA_TOWN",
+      "name": "Azalea Town",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_GOLDENROD_CITY",
+      "name": "Goldenrod City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_ECRUTEAK_CITY",
+      "name": "Ecruteak City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_OLIVINE_CITY",
+      "name": "Olivine City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_CIANWOOD_CITY",
+      "name": "Cianwood City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_MAHAGONY_TOWN",
+      "name": "Mahagony Town",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BLACKTHORN_CITY",
+      "name": "Blackthorn City",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_MT_SILVER",
+      "name": "Mt. Silver",
       "x": 0,
       "y": 0,
       "width": 1,
