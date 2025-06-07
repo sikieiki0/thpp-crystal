@@ -132,10 +132,6 @@ static const u8 sRegionMapPlayerIcon_MayGfx[] = INCBIN_U8("graphics/pokenav/regi
 
 static const u16 sRegionMap_SpecialPlaceLocations[][2] =
 {
-    {MAPSEC_UNDERWATER_124,             MAPSEC_ROUTE_124},
-    {MAPSEC_UNDERWATER_126,             MAPSEC_ROUTE_126},
-    {MAPSEC_UNDERWATER_127,             MAPSEC_ROUTE_127},
-    {MAPSEC_UNDERWATER_128,             MAPSEC_ROUTE_128},
     {MAPSEC_UNDERWATER_SOOTOPOLIS,      MAPSEC_SOOTOPOLIS_CITY},
     {MAPSEC_UNDERWATER_SEAFLOOR_CAVERN, MAPSEC_ROUTE_128},
     {MAPSEC_UNDERWATER_SEALED_CHAMBER,  MAPSEC_ROUTE_134},
@@ -1075,20 +1071,6 @@ static void InitMapBasedOnPlayerLocation(void)
     case MAPSEC_ROUTE_114:
         if (y != 0)
             x = 0;
-        break;
-    case MAPSEC_ROUTE_126:
-    case MAPSEC_UNDERWATER_126:
-        x = 0;
-        if (gSaveBlock1Ptr->pos.x > 32)
-            x++;
-        if (gSaveBlock1Ptr->pos.x > 51)
-            x++;
-
-        y = 0;
-        if (gSaveBlock1Ptr->pos.y > 37)
-            y++;
-        if (gSaveBlock1Ptr->pos.y > 56)
-            y++;
         break;
     case MAPSEC_ROUTE_121:
         x = 0;

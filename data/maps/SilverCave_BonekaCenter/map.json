@@ -3,7 +3,7 @@
   "name": "SilverCave_BonekaCenter",
   "layout": "LAYOUT_BONEKA_CENTER",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_MT_SILVER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

@@ -3,7 +3,7 @@
   "name": "WakabaTown_PlayersHouse_1F",
   "layout": "WAKABA_TOWN_PLAYERS_HOUSE_1F",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_NEW_BARK_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

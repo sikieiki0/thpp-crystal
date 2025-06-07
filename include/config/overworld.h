@@ -7,10 +7,10 @@
 
 // Other settings
 #define OW_POISON_DAMAGE                GEN_LATEST // In Gen4, Pokémon no longer faint from Poison in the overworld. In Gen5+, they no longer take damage at all.
-#define OW_DOUBLE_APPROACH_WITH_ONE_MON GEN_LATEST // If enabled, you can be spotted by two trainers at the same time even if you only have one eligible Pokémon in your party.
-#define OW_HIDE_REPEAT_MAP_POPUP        GEN_LATEST // If enabled, map popups will not appear if entering a map with the same Map Section Id as the last.
-#define OW_FRLG_WHITEOUT                GEN_LATEST // If enabled, shows an additional whiteout message and post whiteout event script with healing NPC.
-#define OW_DEFOG_FIELD_MOVE             GEN_LATEST // If enabled, Defog can be used as a Field Move as seen in DPPt.
+#define OW_DOUBLE_APPROACH_WITH_ONE_MON       TRUE // If enabled, you can be spotted by two trainers at the same time even if you only have one eligible Pokémon in your party.
+#define OW_HIDE_REPEAT_MAP_POPUP              TRUE // If enabled, map popups will not appear if entering a map with the same Map Section Id as the last.
+#define OW_FRLG_WHITEOUT                      TRUE // If enabled, shows an additional whiteout message and post whiteout event script with healing NPC.
+#define OW_DEFOG_FIELD_MOVE                   TRUE // If enabled, Defog can be used as a Field Move as seen in DPPt.
 
 // Item Obtain Description Box
 #define OW_ITEM_DESCRIPTIONS_OFF        0   // never show descriptions

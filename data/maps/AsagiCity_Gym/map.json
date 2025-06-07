@@ -3,7 +3,7 @@
   "name": "AsagiCity_Gym",
   "layout": "LAYOUT_ASAGI_CITY_GYM",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_OLIVINE_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

@@ -3,7 +3,7 @@
   "name": "KoganeCity_Hideout_1F1B",
   "layout": "LAYOUT_KOGANE_CITY_HIDEOUT_1F1B",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_GOLDENROD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
