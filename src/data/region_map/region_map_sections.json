@@ -665,7 +665,7 @@
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
-      "name": "Pallet Town",
+      "name": "Masara Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -673,7 +673,7 @@
     },
     {
       "id": "MAPSEC_VIRIDIAN_CITY",
-      "name": "Viridian City",
+      "name": "Tokiwa City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -681,7 +681,7 @@
     },
     {
       "id": "MAPSEC_PEWTER_CITY",
-      "name": "Pewter City",
+      "name": "Nibi City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -689,7 +689,7 @@
     },
     {
       "id": "MAPSEC_CERULEAN_CITY",
-      "name": "Cerulean City",
+      "name": "Hanada City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -697,7 +697,7 @@
     },
     {
       "id": "MAPSEC_LAVENDER_TOWN",
-      "name": "Lavender Town",
+      "name": "Cion Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -705,7 +705,7 @@
     },
     {
       "id": "MAPSEC_VERMILION_CITY",
-      "name": "Vermilion City",
+      "name": "Kuchiba City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -713,7 +713,7 @@
     },
     {
       "id": "MAPSEC_CELADON_CITY",
-      "name": "Celadon City",
+      "name": "Tamamushi City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -721,7 +721,7 @@
     },
     {
       "id": "MAPSEC_FUCHSIA_CITY",
-      "name": "Fuchsia City",
+      "name": "Sekichiku City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -729,7 +729,7 @@
     },
     {
       "id": "MAPSEC_CINNABAR_ISLAND",
-      "name": "Cinnabar Island",
+      "name": "Guren Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -745,7 +745,7 @@
     },
     {
       "id": "MAPSEC_SAFFRON_CITY",
-      "name": "Saffron City",
+      "name": "Yamabuki City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -753,7 +753,7 @@
     },
     {
       "id": "MAPSEC_NEW_BARK_TOWN",
-      "name": "New Bark Town",
+      "name": "Wakaba Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -761,7 +761,7 @@
     },
     {
       "id": "MAPSEC_CHERRYGROVE_CITY",
-      "name": "Cherrygrove City",
+      "name": "Yoshino City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -769,7 +769,7 @@
     },
     {
       "id": "MAPSEC_VIOLET_CITY",
-      "name": "VIolet City",
+      "name": "Kikyou City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -777,7 +777,7 @@
     },
     {
       "id": "MAPSEC_AZALEA_TOWN",
-      "name": "Azalea Town",
+      "name": "Hiwada Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -785,7 +785,7 @@
     },
     {
       "id": "MAPSEC_GOLDENROD_CITY",
-      "name": "Goldenrod City",
+      "name": "Kogane City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -793,7 +793,7 @@
     },
     {
       "id": "MAPSEC_ECRUTEAK_CITY",
-      "name": "Ecruteak City",
+      "name": "Enju City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -801,7 +801,7 @@
     },
     {
       "id": "MAPSEC_OLIVINE_CITY",
-      "name": "Olivine City",
+      "name": "Asagi City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -809,15 +809,15 @@
     },
     {
       "id": "MAPSEC_CIANWOOD_CITY",
-      "name": "Cianwood City",
+      "name": "Tanba City",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "id": "MAPSEC_MAHAGONY_TOWN",
-      "name": "Mahagony Town",
+      "id": "MAPSEC_MAHOGANY_TOWN",
+      "name": "Chouji Town",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -825,7 +825,7 @@
     },
     {
       "id": "MAPSEC_BLACKTHORN_CITY",
-      "name": "Blackthorn City",
+      "name": "Fusube City",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -833,7 +833,7 @@
     },
     {
       "id": "MAPSEC_MT_SILVER",
-      "name": "Mt. Silver",
+      "name": "Mt. Shirogane",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1321,7 +1321,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "Pokémon Mansion",
+      "name": "Bonéka Mansion",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1337,7 +1337,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "Pokémon League",
+      "name": "Bonéka League",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1361,7 +1361,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "Pokémon Tower",
+      "name": "Bonéka Tower",
       "x": 0,
       "y": 0,
       "width": 1,
