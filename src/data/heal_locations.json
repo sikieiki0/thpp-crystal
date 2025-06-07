@@ -131,6 +131,210 @@
       "map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
       "x": 3,
       "y": 52
+    },
+    {
+      "id": "HEAL_LOCATION_ASAGI_CITY",
+      "map": "MAP_ASAGI_CITY",
+      "x": 20,
+      "y": 27
+    },
+    {
+      "id": "HEAL_LOCATION_BATTLE_FRONTIER",
+      "map": "MAP_BATTLE_FRONTIER",
+      "x": 8,
+      "y": 12
+    },
+    {
+      "id": "HEAL_LOCATION_CHOUJI_TOWN",
+      "map": "MAP_CHOUJI_TOWN",
+      "x": 25,
+      "y": 23
+    },
+    {
+      "id": "HEAL_LOCATION_ENJU_CITY",
+      "map": "MAP_ENJU_CITY",
+      "x": 29,
+      "y": 31
+    },
+    {
+      "id": "HEAL_LOCATION_FUSUBE_CITY",
+      "map": "MAP_FUSUBE_CITY",
+      "x": 24,
+      "y": 34
+    },
+    {
+      "id": "HEAL_LOCATION_HIWADA_TOWN",
+      "map": "MAP_HIWADA_TOWN",
+      "x": 23,
+      "y": 9
+    },
+    {
+      "id": "HEAL_LOCATION_INDIGO_PLATEAU",
+      "map": "MAP_INDIGO_PLATEAU",
+      "x": 11,
+      "y": 7
+    },
+    {
+      "id": "HEAL_LOCATION_KIKYOU_CITY",
+      "map": "MAP_KIKYOU_CITY",
+      "x": 43,
+      "y": 32
+    },
+    {
+      "id": "HEAL_LOCATION_KOGANE_CITY",
+      "map": "MAP_KOGANE_CITY",
+      "x": 27,
+      "y": 39
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE32",
+      "map": "MAP_ROUTE32",
+      "x": 17,
+      "y": 98
+    },
+    {
+      "id": "HEAL_LOCATION_SILVER_CAVE",
+      "map": "MAP_SILVER_CAVE",
+      "x": 22,
+      "y": 19
+    },
+    {
+      "id": "HEAL_LOCATION_TANBA_CITY",
+      "map": "MAP_TANBA_CITY",
+      "x": 38,
+      "y": 48
+    },
+    {
+      "id": "HEAL_LOCATION_WAKABA_TOWN",
+      "map": "MAP_WAKABA_TOWN",
+      "x": 20,
+      "y": 6
+    },
+    {
+      "id": "HEAL_LOCATION_YOSHINO_CITY",
+      "map": "MAP_YOSHINO_CITY",
+      "x": 41,
+      "y": 5
+    },
+    {
+      "id": "HEAL_LOCATION_CION_TOWN",
+      "map": "MAP_CION_TOWN",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "id": "HEAL_LOCATION_FIVE_ISLAND",
+      "map": "MAP_FIVE_ISLAND",
+      "x": 18,
+      "y": 7
+    },
+    {
+      "id": "HEAL_LOCATION_FOUR_ISLAND",
+      "map": "MAP_FOUR_ISLAND",
+      "x": 18,
+      "y": 21
+    },
+    {
+      "id": "HEAL_LOCATION_GUREN_TOWN",
+      "map": "MAP_GUREN_TOWN",
+      "x": 14,
+      "y": 12
+    },
+    {
+      "id": "HEAL_LOCATION_HANADA_CITY",
+      "map": "MAP_HANADA_CITY",
+      "x": 22,
+      "y": 20
+    },
+    {
+      "id": "HEAL_LOCATION_KUCHIBA_CITY",
+      "map": "MAP_KUCHIBA_CITY",
+      "x": 15,
+      "y": 7
+    },
+    {
+      "id": "HEAL_LOCATION_MASARA_TOWN",
+      "map": "MAP_MASARA_TOWN",
+      "x": 6,
+      "y": 8
+    },
+    {
+      "id": "HEAL_LOCATION_NIBI_CITY",
+      "map": "MAP_NIBI_CITY",
+      "x": 17,
+      "y": 26
+    },
+    {
+      "id": "HEAL_LOCATION_ONE_ISLAND",
+      "map": "MAP_ONE_ISLAND",
+      "x": 14,
+      "y": 6
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE10",
+      "map": "MAP_ROUTE10",
+      "x": 13,
+      "y": 21
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE23",
+      "map": "MAP_ROUTE23",
+      "x": 10,
+      "y": 35
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE4",
+      "map": "MAP_ROUTE4",
+      "x": 12,
+      "y": 6
+    },
+    {
+      "id": "HEAL_LOCATION_SEKICHIKU_CITY",
+      "map": "MAP_SEKICHIKU_CITY",
+      "x": 25,
+      "y": 32
+    },
+    {
+      "id": "HEAL_LOCATION_SEVEN_ISLAND",
+      "map": "MAP_SEVEN_ISLAND",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "id": "HEAL_LOCATION_SIX_ISLAND",
+      "map": "MAP_SIX_ISLAND",
+      "x": 11,
+      "y": 12
+    },
+    {
+      "id": "HEAL_LOCATION_TAMAMUSHI_CITY",
+      "map": "MAP_TAMAMUSHI_CITY",
+      "x": 48,
+      "y": 12
+    },
+    {
+      "id": "HEAL_LOCATION_THREE_ISLAND",
+      "map": "MAP_THREE_ISLAND",
+      "x": 14,
+      "y": 28
+    },
+    {
+      "id": "HEAL_LOCATION_TOKIWA_CITY",
+      "map": "MAP_TOKIWA_CITY",
+      "x": 26,
+      "y": 27
+    },
+    {
+      "id": "HEAL_LOCATION_TWO_ISLAND",
+      "map": "MAP_TWO_ISLAND",
+      "x": 21,
+      "y": 8
+    },
+    {
+      "id": "HEAL_LOCATION_YAMABUKI_CITY",
+      "map": "MAP_YAMABUKI_CITY",
+      "x": 24,
+      "y": 39
     }
   ]
 }
