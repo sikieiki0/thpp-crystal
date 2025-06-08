@@ -1049,6 +1049,10 @@ gText_LegendaryFlewAway::
 	.include "data/text/questionnaire.inc"
 	.include "data/text/abnormal_weather.inc"
 
+Common_Text_LookCloserAtMap:
+	.string "{PLAYER} took a closer look at the\n"
+	.string "Johto region map.$"
+
 EventScript_SelectWithoutRegisteredItem::
 	msgbox gText_SelectWithoutRegisteredItem, MSGBOX_SIGN
 	end

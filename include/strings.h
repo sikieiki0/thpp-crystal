@@ -144,6 +144,8 @@ extern const u8 gText_Cushion[];
 extern const u8 gText_Decorate[];
 extern const u8 gText_PutAway[];
 extern const u8 gText_Toss2[];
+extern const u8 gText_Kanto[];
+extern const u8 gText_Johto[];
 extern const u8 gText_Hoenn[];
 extern const u8 gText_Ferry[];
 extern const u8 gText_SecretBase[];
