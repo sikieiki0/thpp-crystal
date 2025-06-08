@@ -53,6 +53,12 @@ enum {
     TAG_FLY_ICON,
 };
 
+enum {
+    LAYER_MAP,
+    LAYER_DUNGEON,
+    LAYER_COUNT
+};
+
 // Window IDs for the fly map
 enum {
     WIN_MAPSEC_NAME,
@@ -945,7 +951,7 @@ static u16 GetMapSecIdAt(u16 x, u16 y)
     }
     y -= MAPCURSOR_Y_MIN;
     x -= MAPCURSOR_X_MIN;
-    return sRegionMap_MapSectionLayout[y][x];
+    return sRegionMap_MapSectionLayout[LAYER_MAP][y][x];
 }
 
 static void InitMapBasedOnPlayerLocation(void)
