@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    if: github.actor != 'allcontributors[bot]'
     runs-on: ubuntu-latest
     env:
       GAME_VERSION: EMERALD
@@ -30,4 +31,18 @@ jobs:
       - name: ROM
         env:
           COMPARE: 0
-        run: make -j${nproc} -O
+        run: make -j${nproc} -O all
+
+      - name: Test
+        env:
+          TEST: 1
+        run: |
+          make -j${nproc} check
+  allcontributors:
+    if: github.actor == 'allcontributors[bot]'
+    runs-on: ubuntu-latest
+    needs: []
+    steps:
+      - name: Automatically pass for allcontributors
+        run: echo "CI automatically passes for allcontributors" && exit 0
+
