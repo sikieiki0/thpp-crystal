@@ -738,8 +738,8 @@
     {
       "id": "MAPSEC_INDIGO_PLATEAU",
       "name": "Indigo Plateau",
-      "x": 0,
-      "y": 0,
+      "x": 27,
+      "y": 2,
       "width": 1,
       "height": 1
     },
@@ -754,80 +754,80 @@
     {
       "id": "MAPSEC_NEW_BARK_TOWN",
       "name": "Wakaba Town",
-      "x": 0,
-      "y": 0,
+      "x": 23,
+      "y": 12,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_CHERRYGROVE_CITY",
       "name": "Yoshino City",
-      "x": 0,
-      "y": 0,
+      "x": 19,
+      "y": 12,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_VIOLET_CITY",
       "name": "Kikyou City",
-      "x": 0,
-      "y": 0,
+      "x": 16,
+      "y": 6,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_AZALEA_TOWN",
       "name": "Hiwada Town",
-      "x": 0,
-      "y": 0,
+      "x": 14,
+      "y": 14,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_GOLDENROD_CITY",
       "name": "Kogane City",
-      "x": 0,
-      "y": 0,
+      "x": 12,
+      "y": 9,
       "width": 1,
       "height": 2
     },
     {
       "id": "MAPSEC_ECRUTEAK_CITY",
       "name": "Enju City",
-      "x": 0,
-      "y": 0,
+      "x": 14,
+      "y": 3,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_OLIVINE_CITY",
       "name": "Asagi City",
-      "x": 0,
-      "y": 0,
+      "x": 8,
+      "y": 5,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_CIANWOOD_CITY",
       "name": "Tanba City",
-      "x": 0,
-      "y": 0,
+      "x": 4,
+      "y": 10,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_MAHOGANY_TOWN",
       "name": "Chouji Town",
-      "x": 0,
-      "y": 0,
+      "x": 18,
+      "y": 3,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_BLACKTHORN_CITY",
       "name": "Fusube City",
-      "x": 0,
-      "y": 0,
+      "x": 22,
+      "y": 3,
       "width": 1,
       "height": 1
     },
@@ -1042,10 +1042,10 @@
     {
       "id": "MAPSEC_ROUTE_23",
       "name": "Route 23",
-      "x": 0,
-      "y": 0,
+      "x": 27,
+      "y": 3,
       "width": 1,
-      "height": 1
+      "height": 5
     },
     {
       "id": "MAPSEC_ROUTE_24",
@@ -1066,186 +1066,186 @@
     {
       "id": "MAPSEC_ROUTE_26",
       "name": "Route 26",
-      "x": 0,
-      "y": 0,
+      "x": 27,
+      "y": 8,
       "width": 1,
-      "height": 1
+      "height": 4
     },
     {
       "id": "MAPSEC_ROUTE_27",
       "name": "Route 27",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 24,
+      "y": 12,
+      "width": 4,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_28",
       "name": "Route 28",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 25,
+      "y": 7,
+      "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_29",
       "name": "Route 29",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 20,
+      "y": 12,
+      "width": 3,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_30",
       "name": "Route 30",
-      "x": 0,
-      "y": 0,
+      "x": 19,
+      "y": 7,
       "width": 1,
-      "height": 1
+      "height": 5
     },
     {
       "id": "MAPSEC_ROUTE_31",
       "name": "Route 31",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 17,
+      "y": 6,
+      "width": 3,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_32",
       "name": "Route 32",
-      "x": 0,
-      "y": 0,
+      "x": 16,
+      "y": 7,
       "width": 1,
-      "height": 1
+      "height": 7
     },
     {
       "id": "MAPSEC_ROUTE_33",
       "name": "Route 33",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 15,
+      "y": 14,
+      "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_34",
       "name": "Route 34",
-      "x": 0,
-      "y": 0,
+      "x": 12,
+      "y": 11,
       "width": 1,
-      "height": 1
+      "height": 4
     },
     {
       "id": "MAPSEC_ROUTE_35",
       "name": "Route 35",
-      "x": 0,
-      "y": 0,
+      "x": 12,
+      "y": 7,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_36",
       "name": "Route 36",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 12,
+      "y": 6,
+      "width": 4,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_37",
       "name": "Route 37",
-      "x": 0,
-      "y": 0,
+      "x": 14,
+      "y": 4,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_38",
       "name": "Route 38",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 9,
+      "y": 3,
+      "width": 5,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_39",
       "name": "Route 39",
-      "x": 0,
-      "y": 0,
+      "x": 8,
+      "y": 3,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_40",
       "name": "Route 40",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "x": 7,
+      "y": 6,
+      "width": 2,
+      "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_41",
       "name": "Route 41",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "x": 5,
+      "y": 9,
+      "width": 4,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_42",
       "name": "Route 42",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 15,
+      "y": 3,
+      "width": 3,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_43",
       "name": "Route 43",
-      "x": 0,
-      "y": 0,
+      "x": 18,
+      "y": 1,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_44",
       "name": "Route 44",
-      "x": 0,
-      "y": 0,
-      "width": 1,
+      "x": 19,
+      "y": 3,
+      "width": 3,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_45",
       "name": "Route 45",
-      "x": 0,
-      "y": 0,
+      "x": 22,
+      "y": 4,
       "width": 1,
-      "height": 1
+      "height": 7
     },
     {
       "id": "MAPSEC_ROUTE_46",
       "name": "Route 46",
-      "x": 0,
-      "y": 0,
+      "x": 21,
+      "y": 10,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_47",
       "name": "Route 47",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "x": 1,
+      "y": 10,
+      "width": 3,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_48",
       "name": "Route 48",
-      "x": 0,
-      "y": 0,
+      "x": 1,
+      "y": 8,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_VIRIDIAN_FOREST",
@@ -1778,8 +1778,8 @@
     {
       "id": "MAPSEC_ILEX_FOREST",
       "name": "Ilex Forest",
-      "x": 0,
-      "y": 0,
+      "x": 13,
+      "y": 14,
       "width": 1,
       "height": 1
     },
@@ -1858,7 +1858,7 @@
     {
       "id": "MAPSEC_LAKE_OF_RAGE",
       "name": "Lake of Rage",
-      "x": 0,
+      "x": 18,
       "y": 0,
       "width": 1,
       "height": 1
