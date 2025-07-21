@@ -1,3 +1,20 @@
+# About `thpp: crystal`
+
+<img width="240" height="160" alt="thpp-250721-161412" src="https://github.com/user-attachments/assets/41904088-d872-4194-85b5-268052beace8" />
+
+**`Touhou Puppet Play: Crystal`** is a work-in-progress project that ports the Johto region and storyline to a Generation III-style engine, with all Pokémon-related content replaced by characters and elements from the Touhou Project.  
+All outdoor Johto maps have been inserted using FireRed-style tiles as a baseline.  
+All Pokémon species have been replaced with Touhou puppets, referred to as Bonéka.  
+However, scripting and battle functionality have not yet been implemented, so this is not a playable ROM hack at this stage.  
+This project is currently focused on foundational work such as maps, graphics, and data structures, with gameplay systems to follow in later stages.  
+
+# About `Touhoumon`
+
+<img width="240" height="160" alt="thpp" src="https://github.com/user-attachments/assets/144aef33-3f4a-43ec-8874-0fcd0b548e53" />
+
+Touhoumon, also known as Touhou Puppet Play (東方人形劇, Touhou Ningyougeki), is a series of Pokémon ROM hacks that replace Pokémon with characters from the Touhou Project series.  
+Instead of catching and battling Pokémon, you collect and train puppet-like versions of Touhou characters (originally referred to as Fragments in early games).  
+
 # About `pokeemerald-expansion`
 
 ![Gif that shows debugging functionality that is unique to pokeemerald-expansion such as rerolling Trainer Id, Cheat Start, PC from Debug Menu, Debug PC Fill, Pokemon Sprite Visualizer, Debug Warp to Map, and Battle Debug Menu](https://github.com/user-attachments/assets/cf9dfbee-4c6b-4bca-8e0a-07f116ef891c) ![Gif that shows overworld functionality that is unique to pokeemerald-expansion such as indoor running, BW2 style map popups, overworld followers, DNA Splicers, Gen 1 style fishing, OW Item descriptions, Quick Run from Battle, Use Last Ball, Wild Double Battles, and Catch from EXP](https://github.com/user-attachments/assets/383af243-0904-4d41-bced-721492fbc48e) ![Gif that shows off a number of modern Pokemon battle mechanics happening in the pokeemerald-expansion engine: 2 vs 1 battles, modern Pokemon, items, moves, abilities, fully customizable opponents and partners, Trainer Slides, and generational gimmicks](https://github.com/user-attachments/assets/50c576bc-415e-4d66-a38f-ad712f3316be)
