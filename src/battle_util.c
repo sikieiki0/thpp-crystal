@@ -3505,11 +3505,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 u32 diagonalBattler = BATTLE_OPPOSITE(battler);
                 if (IsDoubleBattle())
                     diagonalBattler = BATTLE_PARTNER(diagonalBattler);
-
-                // Imposter only activates when the battler first switches in
-                if (gDisableStructs[battler].isFirstTurn == 2
-                    && !gDisableStructs[battler].overwrittenAbility
-                    && IsBattlerAlive(diagonalBattler)
+                if (IsBattlerAlive(diagonalBattler)
                     && !(gBattleMons[diagonalBattler].status2 & (STATUS2_TRANSFORMED | STATUS2_SUBSTITUTE))
                     && !(gBattleMons[battler].status2 & STATUS2_TRANSFORMED)
                     && gBattleStruct->illusion[diagonalBattler].state != ILLUSION_ON
@@ -6409,13 +6405,16 @@ static u8 ItemEffectMoveEnd(u32 battler, enum ItemHoldEffect holdEffect)
             effect = StatRaiseBerry(battler, gLastUsedItem, STAT_SPDEF, ITEMEFFECT_NONE);
         break;
     case HOLD_EFFECT_ENIGMA_BERRY: // consume and heal if hit by super effective move
-        effect = TrySetEnigmaBerry(battler);
+        if (B_BERRIES_INSTANT >= GEN_4)
+            effect = TrySetEnigmaBerry(battler);
         break;
     case HOLD_EFFECT_KEE_BERRY:  // consume and boost defense if used physical move
-        effect = DamagedStatBoostBerryEffect(battler, STAT_DEF, DAMAGE_CATEGORY_PHYSICAL);
+        if (B_BERRIES_INSTANT >= GEN_4)
+            effect = DamagedStatBoostBerryEffect(battler, STAT_DEF, DAMAGE_CATEGORY_PHYSICAL);
         break;
     case HOLD_EFFECT_MARANGA_BERRY:  // consume and boost sp. defense if used special move
-        effect = DamagedStatBoostBerryEffect(battler, STAT_SPDEF, DAMAGE_CATEGORY_SPECIAL);
+        if (B_BERRIES_INSTANT >= GEN_4)
+            effect = DamagedStatBoostBerryEffect(battler, STAT_SPDEF, DAMAGE_CATEGORY_SPECIAL);
         break;
     case HOLD_EFFECT_RANDOM_STAT_UP:
         if (B_BERRIES_INSTANT >= GEN_4)
@@ -9582,13 +9581,8 @@ bool32 IsFutureSightAttackerInParty(u32 battlerAtk, u32 battlerDef, u32 move)
         return FALSE;
 
     struct Pokemon *party = GetBattlerParty(battlerAtk);
-    if (IsDoubleBattle())
-    {
-        return &party[gWishFutureKnock.futureSightPartyIndex[battlerDef]] != &party[gBattlerPartyIndexes[battlerAtk]]
-            && &party[gWishFutureKnock.futureSightPartyIndex[battlerDef]] != &party[gBattlerPartyIndexes[BATTLE_PARTNER(battlerAtk)]];
-    }
-
-    return &party[gWishFutureKnock.futureSightPartyIndex[battlerDef]] != &party[gBattlerPartyIndexes[battlerAtk]];
+    return &party[gWishFutureKnock.futureSightPartyIndex[battlerDef]] != &party[gBattlerPartyIndexes[battlerAtk]]
+        && &party[gWishFutureKnock.futureSightPartyIndex[battlerDef]] != &party[BATTLE_PARTNER(gBattlerPartyIndexes[battlerAtk])];
 }
 
 s32 CalculateMoveDamage(struct DamageCalculationData *damageCalcData, u32 fixedBasePower)

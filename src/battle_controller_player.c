@@ -2330,8 +2330,7 @@ static void PlayerHandleOneReturnValue_Duplicate(u32 battler)
 
 static void PlayerHandleIntroTrainerBallThrow(u32 battler)
 {
-    const u32 paletteIndex = PlayerGetTrainerBackPicId();
-    const u16 *trainerPal = gTrainerBacksprites[paletteIndex].palette.data;
+    const u16 *trainerPal = gTrainerBacksprites[gSaveBlock2Ptr->playerGender].palette.data;
     BtlController_HandleIntroTrainerBallThrow(battler, 0xD6F8, trainerPal, 31, Intro_TryShinyAnimShowHealthbox);
 }
 

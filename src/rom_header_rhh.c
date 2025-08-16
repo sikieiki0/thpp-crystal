@@ -28,7 +28,7 @@ struct RHHRomHeader
 };
 
 __attribute__((section(".text.consts")))
-USED static const struct RHHRomHeader sRHHRomHeader =
+static const struct RHHRomHeader sRHHRomHeader =
 {
     .rhh_magic = { 'R', 'H', 'H', 'E', 'X', 'P' },
     .expansionVersionMajor = EXPANSION_VERSION_MAJOR,
