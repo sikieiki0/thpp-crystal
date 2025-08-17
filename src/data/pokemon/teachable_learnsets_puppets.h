@@ -1762,6 +1762,30 @@ static const u16 sNarekoTeachableLearnset[] = {
     MOVE_POUND
 };
 
+static const u16 sCAsamaTeachableLearnset[] = {
+    MOVE_POUND
+};
+
+static const u16 sAsamaTeachableLearnset[] = {
+    MOVE_POUND
+};
+
+static const u16 sCAriyaTeachableLearnset[] = {
+    MOVE_POUND
+};
+
+static const u16 sAriyaTeachableLearnset[] = {
+    MOVE_POUND
+};
+
+static const u16 sCNinaTeachableLearnset[] = {
+    MOVE_POUND
+};
+
+static const u16 sNinaTeachableLearnset[] = {
+    MOVE_POUND
+};
+
 static const u16 sToriTeachableLearnset[] = {
     MOVE_POUND
 };

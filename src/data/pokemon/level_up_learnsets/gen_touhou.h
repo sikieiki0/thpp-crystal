@@ -2206,6 +2206,36 @@ static const struct LevelUpMove sNarekoLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+static const struct LevelUpMove sCAsamaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sAsamaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sCAriyaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sAriyaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sCNinaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sNinaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_END
+};
+
 static const struct LevelUpMove sToriLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_POUND),
     LEVEL_UP_END

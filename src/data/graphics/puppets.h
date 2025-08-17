@@ -3112,6 +3112,48 @@ const u16 gMonShinyPalette_Nareko[] = INCBIN_U16("graphics/puppets/nareko/evolve
 const u8 gMonIcon_Nareko[]          = INCBIN_U8 ("graphics/puppets/nareko/evolved/icon.4bpp");
 const u8 gMonFootprint_Nareko[]     = INCBIN_U8 ("graphics/puppets/nareko/footprint.1bpp");
 
+const u32 gMonFrontPic_CAsama[]     = INCBIN_U32("graphics/puppets/asama/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CAsama[]      = INCBIN_U32("graphics/puppets/asama/chibi/back.4bpp.lz");
+const u16 gMonPalette_CAsama[]      = INCBIN_U16("graphics/puppets/asama/chibi/normal.gbapal");
+const u16 gMonShinyPalette_CAsama[] = INCBIN_U16("graphics/puppets/asama/chibi/shiny.gbapal");
+const u8 gMonIcon_CAsama[]          = INCBIN_U8 ("graphics/puppets/asama/chibi/icon.4bpp");
+const u8 gMonFootprint_CAsama[]     = INCBIN_U8 ("graphics/puppets/asama/footprint.1bpp");
+
+const u32 gMonFrontPic_Asama[]     = INCBIN_U32("graphics/puppets/asama/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Asama[]      = INCBIN_U32("graphics/puppets/asama/evolved/back.4bpp.lz");
+const u16 gMonPalette_Asama[]      = INCBIN_U16("graphics/puppets/asama/evolved/normal.gbapal");
+const u16 gMonShinyPalette_Asama[] = INCBIN_U16("graphics/puppets/asama/evolved/shiny.gbapal");
+const u8 gMonIcon_Asama[]          = INCBIN_U8 ("graphics/puppets/asama/evolved/icon.4bpp");
+const u8 gMonFootprint_Asama[]     = INCBIN_U8 ("graphics/puppets/asama/footprint.1bpp");
+
+const u32 gMonFrontPic_CAriya[]     = INCBIN_U32("graphics/puppets/ariya/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CAriya[]      = INCBIN_U32("graphics/puppets/ariya/chibi/back.4bpp.lz");
+const u16 gMonPalette_CAriya[]      = INCBIN_U16("graphics/puppets/ariya/chibi/normal.gbapal");
+const u16 gMonShinyPalette_CAriya[] = INCBIN_U16("graphics/puppets/ariya/chibi/shiny.gbapal");
+const u8 gMonIcon_CAriya[]          = INCBIN_U8 ("graphics/puppets/ariya/chibi/icon.4bpp");
+const u8 gMonFootprint_CAriya[]     = INCBIN_U8 ("graphics/puppets/ariya/footprint.1bpp");
+
+const u32 gMonFrontPic_Ariya[]     = INCBIN_U32("graphics/puppets/ariya/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Ariya[]      = INCBIN_U32("graphics/puppets/ariya/evolved/back.4bpp.lz");
+const u16 gMonPalette_Ariya[]      = INCBIN_U16("graphics/puppets/ariya/evolved/normal.gbapal");
+const u16 gMonShinyPalette_Ariya[] = INCBIN_U16("graphics/puppets/ariya/evolved/shiny.gbapal");
+const u8 gMonIcon_Ariya[]          = INCBIN_U8 ("graphics/puppets/ariya/evolved/icon.4bpp");
+const u8 gMonFootprint_Ariya[]     = INCBIN_U8 ("graphics/puppets/ariya/footprint.1bpp");
+
+const u32 gMonFrontPic_CNina[]     = INCBIN_U32("graphics/puppets/nina/chibi/front.4bpp.lz");
+const u32 gMonBackPic_CNina[]      = INCBIN_U32("graphics/puppets/nina/chibi/back.4bpp.lz");
+const u16 gMonPalette_CNina[]      = INCBIN_U16("graphics/puppets/nina/chibi/normal.gbapal");
+const u16 gMonShinyPalette_CNina[] = INCBIN_U16("graphics/puppets/nina/chibi/shiny.gbapal");
+const u8 gMonIcon_CNina[]          = INCBIN_U8 ("graphics/puppets/nina/chibi/icon.4bpp");
+const u8 gMonFootprint_CNina[]     = INCBIN_U8 ("graphics/puppets/nina/footprint.1bpp");
+
+const u32 gMonFrontPic_Nina[]     = INCBIN_U32("graphics/puppets/nina/evolved/front.4bpp.lz");
+const u32 gMonBackPic_Nina[]      = INCBIN_U32("graphics/puppets/nina/evolved/back.4bpp.lz");
+const u16 gMonPalette_Nina[]      = INCBIN_U16("graphics/puppets/nina/evolved/normal.gbapal");
+const u16 gMonShinyPalette_Nina[] = INCBIN_U16("graphics/puppets/nina/evolved/shiny.gbapal");
+const u8 gMonIcon_Nina[]          = INCBIN_U8 ("graphics/puppets/nina/evolved/icon.4bpp");
+const u8 gMonFootprint_Nina[]     = INCBIN_U8 ("graphics/puppets/nina/footprint.1bpp");
+
 const u32 gMonFrontPic_Tori[]     = INCBIN_U32("graphics/puppets/tori/evolved/front.4bpp.lz");
 const u32 gMonBackPic_Tori[]      = INCBIN_U32("graphics/puppets/tori/evolved/back.4bpp.lz");
 const u16 gMonPalette_Tori[]      = INCBIN_U16("graphics/puppets/tori/evolved/normal.gbapal");
