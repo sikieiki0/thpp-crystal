@@ -16,8 +16,8 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 12,
-      "y": 22,
+      "x": 5,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_HIWADA_TOWN",
       "dest_warp_id": "5"
