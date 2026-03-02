@@ -160,6 +160,15 @@ EMOJI_DIZZYEGG = F7
 TALL_PLUS   = FC 0C FB
 '$'         = FF
 
+@ Puppet Evolutions
+CHIBI       = BD
+ATTACK      = BB
+DEFENSE     = BE
+SPEED       = CD
+TECHNIC     = CE
+HELPER      = C2
+EVOLVED     = BF
+
 @ Hiragana
 'あ' = 01
 'い' = 02

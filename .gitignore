@@ -49,7 +49,6 @@ include/constants/heal_locations.h
 include/constants/script_commands.h
 tools/trainerproc/trainerproc
 src/data/battle_partners.h
-src/data/pokemon/teachable_learnsets.h
 src/data/trainers.h
 src/data/trainers_frlg.h
 src/data/debug_trainers.h
