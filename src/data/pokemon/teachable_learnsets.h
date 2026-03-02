@@ -123,8 +123,6 @@
 // - MOVE_TERA_BLAST                                         //
 // ********************************************************* //
 
-#include "teachable_learnsets_puppets.h"
-
 static const u16 sNoneTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
