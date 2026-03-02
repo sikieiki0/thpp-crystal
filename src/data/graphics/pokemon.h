@@ -18,6 +18,8 @@ const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/ico
 #endif //P_FOOTPRINTS
 const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_mark/overworld.4bpp");
 
+#include "puppets.h"
+
 #if P_FAMILY_BULBASAUR
 #if !P_GBA_STYLE_SPECIES_GFX
     const u32 gMonFrontPic_Bulbasaur[] = INCBIN_U32("graphics/pokemon/bulbasaur/anim_front.4bpp.smol");
