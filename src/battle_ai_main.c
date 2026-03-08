@@ -877,7 +877,7 @@ static u32 ChooseMoveOrAction_Doubles(enum BattlerId battler)
 
     for (enum BattlerId battlerIndex = 0; battlerIndex < MAX_BATTLERS_COUNT; battlerIndex++)
     {
-        if (battlerIndex == battler || gBattleMons[battlerIndex].hp == 0)
+        if (gBattleMons[battlerIndex].hp == 0)
         {
             actionOrMoveIndex[battlerIndex] = 0xFF;
             bestMovePointsForTarget[battlerIndex] = -1;
@@ -987,12 +987,14 @@ static u32 ChooseMoveOrAction_Doubles(enum BattlerId battler)
 
 static inline bool32 ShouldConsiderMoveForBattler(enum BattlerId battlerAi, enum BattlerId battlerDef, enum Move move)
 {
+    enum MoveTarget target = AI_GetBattlerMoveTargetType(battlerAi, move);
     if (battlerAi == BATTLE_PARTNER(battlerDef))
     {
-        enum MoveTarget target = AI_GetBattlerMoveTargetType(battlerAi, move);
         if (target == TARGET_BOTH || target == TARGET_OPPONENTS_FIELD)
             return FALSE;
     }
+    if (!IsBattlerAlly(battlerAi, battlerDef) && target == TARGET_USER_OR_ALLY)
+        return FALSE;
     return TRUE;
 }
 
@@ -3299,12 +3301,17 @@ static s32 AI_DoubleBattle(enum BattlerId battlerAtk, enum BattlerId battlerDef,
         if (gBattleMons[battlerAtkPartner].volatiles.dragonCheer
          || gBattleMons[battlerAtkPartner].volatiles.focusEnergy
          || !HasDamagingMove(battlerAtkPartner))
+        {
             ADJUST_SCORE(-5);
-        else if (atkPartnerHoldEffect == HOLD_EFFECT_SCOPE_LENS
-              || IS_BATTLER_OF_TYPE(battlerAtkPartner, TYPE_DRAGON)
-              || GetMoveCriticalHitStage(aiData->partnerMove) > 0
-              || HasMoveWithCriticalHitChance(battlerAtkPartner))
+        }
+        else if (!partnerProtecting
+         && (atkPartnerHoldEffect == HOLD_EFFECT_SCOPE_LENS
+          || IS_BATTLER_OF_TYPE(battlerAtkPartner, TYPE_DRAGON)
+          || GetMoveCriticalHitStage(aiData->partnerMove) > 0
+          || HasMoveWithCriticalHitChance(battlerAtkPartner)))
+        {
             ADJUST_SCORE(GOOD_EFFECT);
+        }
         break;
     case EFFECT_COACHING:
         if (!hasPartner
@@ -3446,7 +3453,9 @@ static s32 AI_DoubleBattle(enum BattlerId battlerAtk, enum BattlerId battlerDef,
             switch (atkPartnerHoldEffect)
             {
             case HOLD_EFFECT_WEAKNESS_POLICY:
-                if (aiData->effectiveness[battlerAtk][battlerAtkPartner][gAiThinkingStruct->movesetIndex] >= UQ_4_12(2.0) && isFriendlyFireOK)
+                if (!partnerProtecting
+                 && aiData->effectiveness[battlerAtk][battlerAtkPartner][gAiThinkingStruct->movesetIndex] >= UQ_4_12(2.0)
+                 && isFriendlyFireOK)
                 {
                     ADJUST_SCORE(GOOD_EFFECT);
                 }
@@ -3884,6 +3893,12 @@ static s32 AI_DoubleBattle(enum BattlerId battlerAtk, enum BattlerId battlerDef,
                     ADJUST_AND_RETURN_SCORE(GOOD_EFFECT);
 
                 ADJUST_SCORE(WORST_EFFECT);
+                break;
+            }
+            case EFFECT_ACUPRESSURE:
+            {
+                ADJUST_SCORE(IncreaseStatUpScore(battlerAtkPartner, BATTLE_OPPOSITE(battlerAtkPartner), STAT_CHANGE_ATK_2));
+                ADJUST_SCORE(IncreaseStatUpScore(battlerAtkPartner, BATTLE_OPPOSITE(battlerAtkPartner), STAT_CHANGE_SPATK_2));
                 break;
             }
             default:
@@ -4497,6 +4512,7 @@ static s32 AI_CalcMoveEffectScore(enum BattlerId battlerAtk, enum BattlerId batt
     case EFFECT_BIDE:
         if (aiData->hpPercents[battlerAtk] < 90)
             ADJUST_SCORE(-2); // Should be either removed or turned into increasing score
+        break;
     // treat as offense booster
     case EFFECT_ACUPRESSURE:
         ADJUST_SCORE(IncreaseStatUpScore(battlerAtk, battlerDef, STAT_CHANGE_ATK_2));
