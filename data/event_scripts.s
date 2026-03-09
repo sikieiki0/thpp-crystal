@@ -1736,3 +1736,261 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/dexnav.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/DarkCave_1F_Gsc/scripts.inc"
+	.include "data/maps/DarkCave_1F_Gsc/text.inc"
+
+	.include "data/maps/DarkCave_2F_Gsc/scripts.inc"
+	.include "data/maps/DarkCave_2F_Gsc/text.inc"
+
+	.include "data/maps/UnionCave_3F_Gsc/scripts.inc"
+	.include "data/maps/UnionCave_3F_Gsc/text.inc"
+
+	.include "data/maps/WhirlIslands_1F1B_Gsc/scripts.inc"
+	.include "data/maps/WhirlIslands_1F1B_Gsc/text.inc"
+
+	.include "data/maps/CliffEdgeGate_Gsc/scripts.inc"
+	.include "data/maps/CliffEdgeGate_Gsc/text.inc"
+
+	.include "data/maps/MtMortar_1F2B_Gsc/scripts.inc"
+	.include "data/maps/MtMortar_1F2B_Gsc/text.inc"
+
+	.include "data/maps/TinTower_2F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_2F_Gsc/text.inc"
+
+	.include "data/maps/IcePath_1F_Gsc/scripts.inc"
+	.include "data/maps/IcePath_1F_Gsc/text.inc"
+
+	.include "data/maps/TinTower_1F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_1F_Gsc/text.inc"
+
+	.include "data/maps/MtSilverCave_1F_Gsc/scripts.inc"
+	.include "data/maps/MtSilverCave_1F_Gsc/text.inc"
+
+	.include "data/maps/SlowpokeWell_1F_Gsc/scripts.inc"
+	.include "data/maps/SlowpokeWell_1F_Gsc/text.inc"
+
+	.include "data/maps/TinTower_Roof_Gsc/scripts.inc"
+	.include "data/maps/TinTower_Roof_Gsc/text.inc"
+
+	.include "data/maps/NationalPark_Gsc/scripts.inc"
+	.include "data/maps/NationalPark_Gsc/text.inc"
+
+	.include "data/maps/TinTower_3F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_3F_Gsc/text.inc"
+
+	.include "data/maps/DragonsDen_Shrine_Gsc/scripts.inc"
+	.include "data/maps/DragonsDen_Shrine_Gsc/text.inc"
+
+	.include "data/maps/MtMortar_1F1B_Gsc/scripts.inc"
+	.include "data/maps/MtMortar_1F1B_Gsc/text.inc"
+
+	.include "data/maps/TinTower_8F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_8F_Gsc/text.inc"
+
+	.include "data/maps/IcePath_2F_Gsc/scripts.inc"
+	.include "data/maps/IcePath_2F_Gsc/text.inc"
+
+	.include "data/maps/IcePath_3F_Gsc/scripts.inc"
+	.include "data/maps/IcePath_3F_Gsc/text.inc"
+
+	.include "data/maps/MtMortar_2F_Gsc/scripts.inc"
+	.include "data/maps/MtMortar_2F_Gsc/text.inc"
+
+	.include "data/maps/MtSilverCave_3F_Gsc/scripts.inc"
+	.include "data/maps/MtSilverCave_3F_Gsc/text.inc"
+
+	.include "data/maps/TohjoFalls_Gsc/scripts.inc"
+	.include "data/maps/TohjoFalls_Gsc/text.inc"
+
+	.include "data/maps/BrassTower_1F_Gsc/scripts.inc"
+	.include "data/maps/BrassTower_1F_Gsc/text.inc"
+
+	.include "data/maps/SlowpokeWell_2F_Gsc/scripts.inc"
+	.include "data/maps/SlowpokeWell_2F_Gsc/text.inc"
+
+	.include "data/maps/DragonsDen_2F_Gsc/scripts.inc"
+	.include "data/maps/DragonsDen_2F_Gsc/text.inc"
+
+	.include "data/maps/IcePath_5F_Gsc/scripts.inc"
+	.include "data/maps/IcePath_5F_Gsc/text.inc"
+
+	.include "data/maps/TinTower_6F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_6F_Gsc/text.inc"
+
+	.include "data/maps/MtMortar_3F_Gsc/scripts.inc"
+	.include "data/maps/MtMortar_3F_Gsc/text.inc"
+
+	.include "data/maps/BrassTower_2F_Gsc/scripts.inc"
+	.include "data/maps/BrassTower_2F_Gsc/text.inc"
+
+	.include "data/maps/MtSilverCave_UpperMountainside_Gsc/scripts.inc"
+	.include "data/maps/MtSilverCave_UpperMountainside_Gsc/text.inc"
+
+	.include "data/maps/MtSilverCave_Summit_Gsc/scripts.inc"
+	.include "data/maps/MtSilverCave_Summit_Gsc/text.inc"
+
+	.include "data/maps/DragonsDen_1F_Gsc/scripts.inc"
+	.include "data/maps/DragonsDen_1F_Gsc/text.inc"
+
+	.include "data/maps/WhirlIslands_1F2B_Gsc/scripts.inc"
+	.include "data/maps/WhirlIslands_1F2B_Gsc/text.inc"
+
+	.include "data/maps/UnionCave_1F_Gsc/scripts.inc"
+	.include "data/maps/UnionCave_1F_Gsc/text.inc"
+
+	.include "data/maps/SinjohRuins_Gsc/scripts.inc"
+	.include "data/maps/SinjohRuins_Gsc/text.inc"
+
+	.include "data/maps/LakeOfRage_House1_Gsc/scripts.inc"
+	.include "data/maps/LakeOfRage_House1_Gsc/text.inc"
+
+	.include "data/maps/EmbeddedTower_Gsc/scripts.inc"
+	.include "data/maps/EmbeddedTower_Gsc/text.inc"
+
+	.include "data/maps/TinTower_9F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_9F_Gsc/text.inc"
+
+	.include "data/maps/WhirlIslands_1F3B_Gsc/scripts.inc"
+	.include "data/maps/WhirlIslands_1F3B_Gsc/text.inc"
+
+	.include "data/maps/SinjohRuins_House_Gsc/scripts.inc"
+	.include "data/maps/SinjohRuins_House_Gsc/text.inc"
+
+	.include "data/maps/BellchimeTrail_Gsc/scripts.inc"
+	.include "data/maps/BellchimeTrail_Gsc/text.inc"
+
+	.include "data/maps/TinTower_4F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_4F_Gsc/text.inc"
+
+	.include "data/maps/LakeOfRage_House2_Gsc/scripts.inc"
+	.include "data/maps/LakeOfRage_House2_Gsc/text.inc"
+
+	.include "data/maps/TinTower_7F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_7F_Gsc/text.inc"
+
+	.include "data/maps/UnionCave_2F_Gsc/scripts.inc"
+	.include "data/maps/UnionCave_2F_Gsc/text.inc"
+
+	.include "data/maps/LakeOfRage_Gsc/scripts.inc"
+	.include "data/maps/LakeOfRage_Gsc/text.inc"
+
+	.include "data/maps/IlexForest_Gsc/scripts.inc"
+	.include "data/maps/IlexForest_Gsc/text.inc"
+
+	.include "data/maps/MtSilverCave_LowerMountainside_Gsc/scripts.inc"
+	.include "data/maps/MtSilverCave_LowerMountainside_Gsc/text.inc"
+
+	.include "data/maps/TinTower_5F_Gsc/scripts.inc"
+	.include "data/maps/TinTower_5F_Gsc/text.inc"
+
+	.include "data/maps/SinjohRuins_MystriStage_Gsc/scripts.inc"
+	.include "data/maps/SinjohRuins_MystriStage_Gsc/text.inc"
+
+	.include "data/maps/MtSilverCave_2F_Gsc/scripts.inc"
+	.include "data/maps/MtSilverCave_2F_Gsc/text.inc"
+
+	.include "data/maps/IcePath_4F_Gsc/scripts.inc"
+	.include "data/maps/IcePath_4F_Gsc/text.inc"
+
+	.include "data/maps/MtSilver_Gsc/scripts.inc"
+	.include "data/maps/MtSilver_Gsc/text.inc"
+
+	.include "data/maps/OlivineCity_Gsc/scripts.inc"
+	.include "data/maps/OlivineCity_Gsc/text.inc"
+
+	.include "data/maps/NewBarkTown_Gsc/scripts.inc"
+	.include "data/maps/NewBarkTown_Gsc/text.inc"
+
+	.include "data/maps/MahoganyTown_Gsc/scripts.inc"
+	.include "data/maps/MahoganyTown_Gsc/text.inc"
+
+	.include "data/maps/CianwoodCity_Gsc/scripts.inc"
+	.include "data/maps/CianwoodCity_Gsc/text.inc"
+
+	.include "data/maps/CherrygroveCity_Gsc/scripts.inc"
+	.include "data/maps/CherrygroveCity_Gsc/text.inc"
+
+	.include "data/maps/VioletCity_Gsc/scripts.inc"
+	.include "data/maps/VioletCity_Gsc/text.inc"
+
+	.include "data/maps/BlackthornCity_Gsc/scripts.inc"
+	.include "data/maps/BlackthornCity_Gsc/text.inc"
+
+	.include "data/maps/AzaleaTown_Gsc/scripts.inc"
+	.include "data/maps/AzaleaTown_Gsc/text.inc"
+
+	.include "data/maps/EcruteakCity_Gsc/scripts.inc"
+	.include "data/maps/EcruteakCity_Gsc/text.inc"
+
+	.include "data/maps/GoldenrodCity_Gsc/scripts.inc"
+	.include "data/maps/GoldenrodCity_Gsc/text.inc"
+
+	.include "data/maps/Route33_Gsc/scripts.inc"
+	.include "data/maps/Route33_Gsc/text.inc"
+
+	.include "data/maps/Route48_Gsc/scripts.inc"
+	.include "data/maps/Route48_Gsc/text.inc"
+
+	.include "data/maps/Route42_Gsc/scripts.inc"
+	.include "data/maps/Route42_Gsc/text.inc"
+
+	.include "data/maps/Route43_Gsc/scripts.inc"
+	.include "data/maps/Route43_Gsc/text.inc"
+
+	.include "data/maps/Route32_Gsc/scripts.inc"
+	.include "data/maps/Route32_Gsc/text.inc"
+
+	.include "data/maps/Route38_Gsc/scripts.inc"
+	.include "data/maps/Route38_Gsc/text.inc"
+
+	.include "data/maps/Route34_Gsc/scripts.inc"
+	.include "data/maps/Route34_Gsc/text.inc"
+
+	.include "data/maps/Route29_Gsc/scripts.inc"
+	.include "data/maps/Route29_Gsc/text.inc"
+
+	.include "data/maps/Route44_Gsc/scripts.inc"
+	.include "data/maps/Route44_Gsc/text.inc"
+
+	.include "data/maps/Route26_Gsc/scripts.inc"
+	.include "data/maps/Route26_Gsc/text.inc"
+
+	.include "data/maps/Route35_Gsc/scripts.inc"
+	.include "data/maps/Route35_Gsc/text.inc"
+
+	.include "data/maps/Route37_Gsc/scripts.inc"
+	.include "data/maps/Route37_Gsc/text.inc"
+
+	.include "data/maps/Route47_Gsc/scripts.inc"
+	.include "data/maps/Route47_Gsc/text.inc"
+
+	.include "data/maps/Route45_Gsc/scripts.inc"
+	.include "data/maps/Route45_Gsc/text.inc"
+
+	.include "data/maps/Route27_Gsc/scripts.inc"
+	.include "data/maps/Route27_Gsc/text.inc"
+
+	.include "data/maps/Route30_Gsc/scripts.inc"
+	.include "data/maps/Route30_Gsc/text.inc"
+
+	.include "data/maps/Route46_Gsc/scripts.inc"
+	.include "data/maps/Route46_Gsc/text.inc"
+
+	.include "data/maps/Route41_Gsc/scripts.inc"
+	.include "data/maps/Route41_Gsc/text.inc"
+
+	.include "data/maps/Route40_Gsc/scripts.inc"
+	.include "data/maps/Route40_Gsc/text.inc"
+
+	.include "data/maps/Route31_Gsc/scripts.inc"
+	.include "data/maps/Route31_Gsc/text.inc"
+
+	.include "data/maps/Route36_Gsc/scripts.inc"
+	.include "data/maps/Route36_Gsc/text.inc"
+
+	.include "data/maps/Route39_Gsc/scripts.inc"
+	.include "data/maps/Route39_Gsc/text.inc"
+
+	.include "data/maps/Route28_Gsc/scripts.inc"
+	.include "data/maps/Route28_Gsc/text.inc"
