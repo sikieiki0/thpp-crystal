@@ -10216,7 +10216,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/VioletCity_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/VioletCity_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_NEW_BARK_TOWN",
@@ -10228,7 +10229,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/NewBarkTown_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/NewBarkTown_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/NewBarkTown_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_CHERRYGROVE_CITY",
@@ -10240,10 +10242,11 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/CherrygroveCity_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/CherrygroveCity_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
-      "id": "LAYOUT_AZALEA_TOWN_GSC",
+      "id": "LAYOUT_AZALEA_TOWN",
       "name": "AzaleaTown_Gsc_Layout",
       "width": 20,
       "height": 20,
@@ -10252,7 +10255,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_NavelRock_Frlg",
       "border_filepath": "data/layouts/AzaleaTown_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/AzaleaTown_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_GOLDENROD_CITY",
@@ -10264,7 +10268,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SaffronCity",
       "border_filepath": "data/layouts/GoldenrodCity_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/GoldenrodCity_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ECRUTEAK_CITY",
@@ -10276,7 +10281,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/EcruteakCity_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/EcruteakCity_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_OLIVINE_CITY",
@@ -10288,7 +10294,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_CinnabarIsland",
       "border_filepath": "data/layouts/OlivineCity_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/OlivineCity_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_CIANWOOD_CITY",
@@ -10300,7 +10307,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_CinnabarIsland",
       "border_filepath": "data/layouts/CianwoodCity_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/CianwoodCity_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/CianwoodCity_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_BLACKTHORN_CITY",
@@ -10312,7 +10320,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SeviiIslands45",
       "border_filepath": "data/layouts/BlackthornCity_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/BlackthornCity_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_MAHOGANY_TOWN",
@@ -10324,7 +10333,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SaffronCity",
       "border_filepath": "data/layouts/MahoganyTown_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/MahoganyTown_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/MahoganyTown_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_MT_SILVER",
@@ -10336,7 +10346,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_ViridianCity",
       "border_filepath": "data/layouts/MtSilver_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/MtSilver_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/MtSilver_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE26",
@@ -10348,7 +10359,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_IndigoPlateau",
       "border_filepath": "data/layouts/Route26_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route26_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route26_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE27",
@@ -10360,7 +10372,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/Route27_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route27_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route27_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE29",
@@ -10372,10 +10385,11 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/Route29_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route29_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route29_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
-      "id": "LAYOUT_ROUTE28_GSC",
+      "id": "LAYOUT_ROUTE28",
       "name": "Route28_Gsc_Layout",
       "width": 24,
       "height": 80,
@@ -10384,7 +10398,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_ViridianCity",
       "border_filepath": "data/layouts/Route28_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route28_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route28_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE30",
@@ -10396,10 +10411,11 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/Route30_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route30_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route30_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
-      "id": "LAYOUT_ROUTE31_GSC",
+      "id": "LAYOUT_ROUTE31",
       "name": "Route31_Gsc_Layout",
       "width": 84,
       "height": 20,
@@ -10408,7 +10424,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/Route31_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route31_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route31_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE32",
@@ -10420,7 +10437,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SeviiIslands123",
       "border_filepath": "data/layouts/Route32_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route32_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route32_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE34",
@@ -10432,7 +10450,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SaffronCity",
       "border_filepath": "data/layouts/Route34_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route34_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route34_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE33",
@@ -10444,7 +10463,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_NavelRock_Frlg",
       "border_filepath": "data/layouts/Route33_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route33_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route33_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE35",
@@ -10456,7 +10476,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_CeruleanCity",
       "border_filepath": "data/layouts/Route35_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route35_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route35_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE38",
@@ -10468,7 +10489,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PewterCity",
       "border_filepath": "data/layouts/Route38_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route38_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route38_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE39",
@@ -10480,7 +10502,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SeviiIslands45",
       "border_filepath": "data/layouts/Route39_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route39_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route39_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE37",
@@ -10492,7 +10515,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/Route37_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route37_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route37_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE36",
@@ -10504,7 +10528,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_CeruleanCity",
       "border_filepath": "data/layouts/Route36_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route36_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route36_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE40",
@@ -10516,7 +10541,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_CinnabarIsland",
       "border_filepath": "data/layouts/Route40_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route40_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route40_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE41",
@@ -10528,7 +10554,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_CinnabarIsland",
       "border_filepath": "data/layouts/Route41_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route41_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route41_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE42",
@@ -10540,7 +10567,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VermilionCity",
       "border_filepath": "data/layouts/Route42_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route42_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route42_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE44",
@@ -10552,7 +10580,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SeafoamIslands",
       "border_filepath": "data/layouts/Route44_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route44_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route44_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE43",
@@ -10564,7 +10593,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SeviiIslands123",
       "border_filepath": "data/layouts/Route43_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route43_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route43_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE46",
@@ -10576,7 +10606,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/Route46_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route46_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route46_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE45",
@@ -10588,7 +10619,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_SeviiIslands67",
       "border_filepath": "data/layouts/Route45_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route45_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route45_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE47",
@@ -10600,10 +10632,11 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_VermilionCity",
       "border_filepath": "data/layouts/Route47_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route47_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route47_Gsc/map.bin",
+      "layout_version": "frlg"
     },
     {
-      "id": "LAYOUT_ROUTE48_GSC",
+      "id": "LAYOUT_ROUTE48",
       "name": "Route48_Gsc_Layout",
       "width": 108,
       "height": 20,
@@ -10612,7 +10645,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_FuchsiaCity",
       "border_filepath": "data/layouts/Route48_Gsc/border.bin",
-      "blockdata_filepath": "data/layouts/Route48_Gsc/map.bin"
+      "blockdata_filepath": "data/layouts/Route48_Gsc/map.bin",
+      "layout_version": "frlg"
     }
   ]
 }

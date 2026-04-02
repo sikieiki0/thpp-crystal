@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE28_GSC",
   "name": "Route28_Gsc",
-  "layout": "LAYOUT_ROUTE28_GSC",
+  "layout": "LAYOUT_ROUTE28",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
@@ -17,5 +17,6 @@
   "object_events": [],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_KANTO"
 }
