@@ -3,7 +3,6 @@
   "name": "Route22_NorthEntrance_Frlg",
   "layout": "LAYOUT_ROUTE22_NORTH_ENTRANCE",
   "music": "MUS_RG_VIRIDIAN_FOREST",
-  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_ROUTE_22",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -19,7 +18,7 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
-      "x": 8,
+      "x": 12,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -33,38 +32,52 @@
   ],
   "warp_events": [
     {
-      "x": 7,
+      "x": 11,
       "y": 1,
       "elevation": 3,
       "dest_map": "MAP_ROUTE23",
       "dest_warp_id": "2"
     },
     {
-      "x": 6,
-      "y": 10,
+      "x": 20,
+      "y": 6,
       "elevation": 3,
       "dest_map": "MAP_ROUTE22",
       "dest_warp_id": "0"
     },
     {
-      "x": 7,
-      "y": 10,
+      "x": 21,
+      "y": 6,
       "elevation": 3,
       "dest_map": "MAP_ROUTE22",
       "dest_warp_id": "0"
     },
     {
-      "x": 8,
-      "y": 10,
+      "x": 22,
+      "y": 6,
       "elevation": 3,
       "dest_map": "MAP_ROUTE22",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE26_GSC",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE28_GSC",
       "dest_warp_id": "0"
     }
   ],
   "coord_events": [
     {
       "type": "trigger",
-      "x": 7,
+      "x": 11,
       "y": 2,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_ROUTE23",
@@ -72,5 +85,6 @@
       "script": "Route22_NorthEntrance_EventScript_BoulderBadgeGuardTrigger"
     }
   ],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_KANTO"
 }

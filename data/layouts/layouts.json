@@ -708,8 +708,8 @@
       "name": "LittlerootTown_BrendansHouse_2F_Layout",
       "width": 9,
       "height": 8,
-      "border_width": 0,
-      "border_height": 0,
+      "border_width": 2,
+      "border_height": 2,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/border.bin",
@@ -8103,7 +8103,7 @@
     {
       "id": "LAYOUT_ROUTE22_NORTH_ENTRANCE",
       "name": "Route22_NorthEntrance_Layout",
-      "width": 15,
+      "width": 23,
       "height": 12,
       "border_width": 2,
       "border_height": 2,
@@ -10370,7 +10370,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General_Frlg",
-      "secondary_tileset": "gTileset_ViridianCity",
+      "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/Route27_Gsc/border.bin",
       "blockdata_filepath": "data/layouts/Route27_Gsc/map.bin",
       "layout_version": "frlg"
