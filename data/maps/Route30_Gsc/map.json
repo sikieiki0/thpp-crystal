@@ -18,6 +18,11 @@
       "map": "MAP_CHERRYGROVE_CITY_GSC",
       "offset": -14,
       "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE31_GSC",
+      "offset": -18,
+      "direction": "up"
     }
   ],
   "object_events": [],
