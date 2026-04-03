@@ -1737,3 +1737,105 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/dexnav.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/VioletCity_Gsc/scripts.inc"
+	.include "data/maps/VioletCity_Gsc/text.inc"
+
+	.include "data/maps/NewBarkTown_Gsc/scripts.inc"
+	.include "data/maps/NewBarkTown_Gsc/text.inc"
+
+	.include "data/maps/CherrygroveCity_Gsc/scripts.inc"
+	.include "data/maps/CherrygroveCity_Gsc/text.inc"
+
+	.include "data/maps/AzaleaTown_Gsc/scripts.inc"
+	.include "data/maps/AzaleaTown_Gsc/text.inc"
+
+	.include "data/maps/GoldenrodCity_Gsc/scripts.inc"
+	.include "data/maps/GoldenrodCity_Gsc/text.inc"
+
+	.include "data/maps/EcruteakCity_Gsc/scripts.inc"
+	.include "data/maps/EcruteakCity_Gsc/text.inc"
+
+	.include "data/maps/OlivineCity_Gsc/scripts.inc"
+	.include "data/maps/OlivineCity_Gsc/text.inc"
+
+	.include "data/maps/CianwoodCity_Gsc/scripts.inc"
+	.include "data/maps/CianwoodCity_Gsc/text.inc"
+
+	.include "data/maps/MahoganyTown_Gsc/scripts.inc"
+	.include "data/maps/MahoganyTown_Gsc/text.inc"
+
+	.include "data/maps/BlackthornCity_Gsc/scripts.inc"
+	.include "data/maps/BlackthornCity_Gsc/text.inc"
+
+	.include "data/maps/MtSilver_Gsc/scripts.inc"
+	.include "data/maps/MtSilver_Gsc/text.inc"
+
+	.include "data/maps/Route27_Gsc/scripts.inc"
+	.include "data/maps/Route27_Gsc/text.inc"
+
+	.include "data/maps/Route26_Gsc/scripts.inc"
+	.include "data/maps/Route26_Gsc/text.inc"
+
+	.include "data/maps/Route29_Gsc/scripts.inc"
+	.include "data/maps/Route29_Gsc/text.inc"
+
+	.include "data/maps/Route28_Gsc/scripts.inc"
+	.include "data/maps/Route28_Gsc/text.inc"
+
+	.include "data/maps/Route30_Gsc/scripts.inc"
+	.include "data/maps/Route30_Gsc/text.inc"
+
+	.include "data/maps/Route31_Gsc/scripts.inc"
+	.include "data/maps/Route31_Gsc/text.inc"
+
+	.include "data/maps/Route34_Gsc/scripts.inc"
+	.include "data/maps/Route34_Gsc/text.inc"
+
+	.include "data/maps/Route32_Gsc/scripts.inc"
+	.include "data/maps/Route32_Gsc/text.inc"
+
+	.include "data/maps/Route33_Gsc/scripts.inc"
+	.include "data/maps/Route33_Gsc/text.inc"
+
+	.include "data/maps/Route35_Gsc/scripts.inc"
+	.include "data/maps/Route35_Gsc/text.inc"
+
+	.include "data/maps/Route39_Gsc/scripts.inc"
+	.include "data/maps/Route39_Gsc/text.inc"
+
+	.include "data/maps/Route37_Gsc/scripts.inc"
+	.include "data/maps/Route37_Gsc/text.inc"
+
+	.include "data/maps/Route38_Gsc/scripts.inc"
+	.include "data/maps/Route38_Gsc/text.inc"
+
+	.include "data/maps/Route36_Gsc/scripts.inc"
+	.include "data/maps/Route36_Gsc/text.inc"
+
+	.include "data/maps/Route40_Gsc/scripts.inc"
+	.include "data/maps/Route40_Gsc/text.inc"
+
+	.include "data/maps/Route41_Gsc/scripts.inc"
+	.include "data/maps/Route41_Gsc/text.inc"
+
+	.include "data/maps/Route42_Gsc/scripts.inc"
+	.include "data/maps/Route42_Gsc/text.inc"
+
+	.include "data/maps/Route43_Gsc/scripts.inc"
+	.include "data/maps/Route43_Gsc/text.inc"
+
+	.include "data/maps/Route44_Gsc/scripts.inc"
+	.include "data/maps/Route44_Gsc/text.inc"
+
+	.include "data/maps/Route46_Gsc/scripts.inc"
+	.include "data/maps/Route46_Gsc/text.inc"
+
+	.include "data/maps/Route45_Gsc/scripts.inc"
+	.include "data/maps/Route45_Gsc/text.inc"
+
+	.include "data/maps/Route47_Gsc/scripts.inc"
+	.include "data/maps/Route47_Gsc/text.inc"
+
+	.include "data/maps/Route48_Gsc/scripts.inc"
+	.include "data/maps/Route48_Gsc/text.inc"
