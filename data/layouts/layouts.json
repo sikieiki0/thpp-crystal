@@ -10339,8 +10339,8 @@
     {
       "id": "LAYOUT_MT_SILVER",
       "name": "MtSilver_Gsc_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 66,
+      "height": 32,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General_Frlg",
@@ -10404,8 +10404,8 @@
     {
       "id": "LAYOUT_ROUTE30",
       "name": "Route30_Gsc_Layout",
-      "width": 84,
-      "height": 20,
+      "width": 38,
+      "height": 62,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General_Frlg",
