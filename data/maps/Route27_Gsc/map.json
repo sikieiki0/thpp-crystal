@@ -13,7 +13,18 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": [
+    {
+      "map": "MAP_ROUTE26_GSC",
+      "offset": -130,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_NEW_BARK_TOWN_GSC",
+      "offset": 2,
+      "direction": "left"
+    }
+  ],
   "object_events": [],
   "warp_events": [],
   "coord_events": [],

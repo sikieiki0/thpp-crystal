@@ -10365,12 +10365,12 @@
     {
       "id": "LAYOUT_ROUTE27",
       "name": "Route27_Gsc_Layout",
-      "width": 24,
-      "height": 80,
+      "width": 110,
+      "height": 34,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General_Frlg",
-      "secondary_tileset": "gTileset_PalletTown",
+      "secondary_tileset": "gTileset_ViridianCity",
       "border_filepath": "data/layouts/Route27_Gsc/border.bin",
       "blockdata_filepath": "data/layouts/Route27_Gsc/map.bin",
       "layout_version": "frlg"
