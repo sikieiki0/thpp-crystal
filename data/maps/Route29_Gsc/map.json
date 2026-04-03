@@ -18,6 +18,11 @@
       "map": "MAP_NEW_BARK_TOWN_GSC",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_CHERRYGROVE_CITY_GSC",
+      "offset": 0,
+      "direction": "left"
     }
   ],
   "object_events": [],
