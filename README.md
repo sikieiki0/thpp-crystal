@@ -1,3 +1,4 @@
+```DISCLAIMER: This project is no longer under development.```
 # About `thpp: crystal`
 
 <img width="240" height="160" alt="thpp-250721-161412" src="https://github.com/user-attachments/assets/41904088-d872-4194-85b5-268052beace8" />
